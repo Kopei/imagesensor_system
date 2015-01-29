@@ -1,0 +1,16 @@
+@P:  Worst Slack : -0.090
+@P:  Sdram_cmd|Sysclk - Estimated Frequency : 99.1 MHz
+@P:  Sdram_cmd|Sysclk - Requested Frequency : 100.0 MHz
+@P:  Sdram_cmd|Sysclk - Estimated Period : 10.090
+@P:  Sdram_cmd|Sysclk - Requested Period : 10.000
+@P:  Sdram_cmd|Sysclk - Slack : -0.090
+@P:  Worst Slack(min analysis) : NA
+@P:  Sdram_cmd|Sysclk - Estimated Frequency(min analysis) : 99.1 MHz
+@P:  Sdram_cmd|Sysclk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  Sdram_cmd|Sysclk - Estimated Period(min analysis) : 10.090
+@P:  Sdram_cmd|Sysclk - Requested Period(min analysis) : 10.000
+@P:  Sdram_cmd|Sysclk - Slack(min analysis) : -0.090
+@P:  Total Area : 383.0
+@P:  Total Area : 28.0
+@P:  Total Area : 383.0
+@P:  CPU Time : 0h:00m:00s

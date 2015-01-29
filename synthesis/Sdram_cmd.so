@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>Sdram_cmd</design>
+	<target_edif>E:\Actelprj\smart_top\synthesis\Sdram_cmd.edn</target_edif>
+</SynplifyOutput>

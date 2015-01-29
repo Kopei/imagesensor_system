@@ -1,0 +1,18 @@
+@P:  Worst Slack : -5.077
+@P:  FK_Test|SysClk - Estimated Frequency : 49.6 MHz
+@P:  FK_Test|SysClk - Requested Frequency : 100.0 MHz
+@P:  FK_Test|SysClk - Estimated Period : 20.154
+@P:  FK_Test|SysClk - Requested Period : 10.000
+@P:  FK_Test|SysClk - Slack : -5.077
+@P:  Worst Slack(min analysis) : NA
+@P:  FK_Test|SysClk - Estimated Frequency(min analysis) : 49.6 MHz
+@P:  FK_Test|SysClk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  FK_Test|SysClk - Estimated Period(min analysis) : 20.154
+@P:  FK_Test|SysClk - Requested Period(min analysis) : 10.000
+@P:  FK_Test|SysClk - Slack(min analysis) : -5.077
+@P:  Total Area : 1288.0
+@P:  Total Area : 123.0
+@P:  Total Area : 102.0
+@P:  Total Area : 230.0
+@P:  Total Area : 1288.0
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,15 @@
+@P:  Worst Slack : 3.400
+@P:  ParaUpdata|SysClk - Estimated Frequency : 151.5 MHz
+@P:  ParaUpdata|SysClk - Requested Frequency : 100.0 MHz
+@P:  ParaUpdata|SysClk - Estimated Period : 6.600
+@P:  ParaUpdata|SysClk - Requested Period : 10.000
+@P:  ParaUpdata|SysClk - Slack : 3.400
+@P:  Worst Slack(min analysis) : NA
+@P:  ParaUpdata|SysClk - Estimated Frequency(min analysis) : 151.5 MHz
+@P:  ParaUpdata|SysClk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  ParaUpdata|SysClk - Estimated Period(min analysis) : 6.600
+@P:  ParaUpdata|SysClk - Requested Period(min analysis) : 10.000
+@P:  ParaUpdata|SysClk - Slack(min analysis) : 3.400
+@P:  Total Area : 207.0
+@P:  Total Area : 207.0
+@P:  CPU Time : 0h:00m:00s

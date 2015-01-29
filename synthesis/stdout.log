@@ -1,0 +1,23 @@
+
+Starting:    F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\mbin\synplify.exe
+Install:     F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+Date:        Mon Jan 26 14:06:52 2015
+Version:     E-2010.09A-1
+
+Arguments:   -product synplify_pro smart_top_syn.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Feature: actel_oem
+
+
+
+"maxfan_hard3" is unrecognized option for current device
+
+exit status=0
+
+
+License checkin: synplifypro_actel
+

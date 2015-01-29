@@ -1,0 +1,382 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: LENOVO-PC
+
+#Implementation: synthesis
+
+#Wed Jun 18 16:07:07 2014
+
+$ Start of Compile
+#Wed Jun 18 16:07:07 2014
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":7:7:7:14|Top entity is set to Uart_ctl.
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":7:7:7:14|Synthesizing work.uart_ctl.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":51:14:51:15|Using onehot encoding for type rx_state (rx_idle="100000")
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":53:14:53:15|Using onehot encoding for type tx_state (tx_idle="1000000")
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":153:3:153:16|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":242:5:242:18|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:16|OTHERS clause is not synthesized 
+Post processing for work.uart_ctl.behavioral
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":270:2:270:5|Latch generated from process for signal TxData(7 downto 0), probably caused by a missing assignment in an if or case stmt
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":270:2:270:5|Latch generated from process for signal Answer_ok, probably caused by a missing assignment in an if or case stmt
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":270:2:270:5|Latch generated from process for signal WEn, probably caused by a missing assignment in an if or case stmt
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":258:2:258:3|Trying to extract state machine for register Pr_State
+Extracted state machine for register Pr_State
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":97:2:97:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 18 16:07:07 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":161:2:161:3|Found counter in view:work.Uart_ctl(behavioral) inst ParaCnt[7:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":79:2:79:3|Found counter in view:work.Uart_ctl(behavioral) inst OvertimeCnt[9:0]
+Encoding state machine work.Uart_ctl(behavioral)-PrState[0:5]
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine work.Uart_ctl(behavioral)-Pr_State[0:6]
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+@N: MF238 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":69:15:69:25|Found 10 bit incrementor, 'un4_baudcnt_1[9:0]'
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":270:2:270:5|Removing sequential instance TxData[6],  because it is equivalent to instance TxData[5]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":270:2:270:5|Removing sequential instance TxData[5],  because it is equivalent to instance TxData[3]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":270:2:270:5|Removing sequential instance TxData[3],  because it is equivalent to instance TxData[2]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":270:2:270:5|Removing sequential instance TxData[2],  because it is equivalent to instance TxData[1]
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 57MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+PrState[5] / Q                 33                            
+SysRst_n_pad / Y               86 : 86 asynchronous set/reset
+BaudPulse / Q                  31                            
+=============================================================
+
+@N: FP130 |Promoting Net SysRst_n_c on CLKBUF  SysRst_n_pad 
+@N: FP130 |Promoting Net SysClk_c on CLKBUF  SysClk_pad 
+@N: FP130 |Promoting Net Pr_State[0] on CLKINT  Pr_State_inferred_clock[0] 
+Replicating Sequential Instance BaudPulse, fanout 31 segments 2
+Replicating Sequential Instance PrState[5], fanout 33 segments 2
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+
+Added 0 Buffers
+Added 2 Cells via replication
+	Added 2 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Writing Analyst data base E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\synthesis\Uart_ctl.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+@W: MT420 |Found inferred clock Uart_ctl|SysClk with period 10.00ns. A user-defined clock should be declared on object "p:SysClk"
+
+@W: MT420 |Found inferred clock Uart_ctl|Pr_State_inferred_clock[0] with period 10.00ns. A user-defined clock should be declared on object "n:Pr_State[0]"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jun 18 16:06:28 2014
+#
+
+
+Top view:               Uart_ctl
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.420
+
+                                        Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                          Frequency     Frequency     Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------
+Uart_ctl|Pr_State_inferred_clock[0]     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+Uart_ctl|SysClk                         100.0 MHz     104.4 MHz     10.000        9.580         0.420     inferred     Inferred_clkgroup_1
+==========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------
+Starting         Ending                               |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------
+Uart_ctl|SysClk  Uart_ctl|Pr_State_inferred_clock[0]  |  No paths    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+Uart_ctl|SysClk  Uart_ctl|SysClk                      |  10.000      0.420  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: Uart_ctl|SysClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                                    Arrival          
+Instance           Reference           Type         Pin     Net                Time        Slack
+                   Clock                                                                        
+------------------------------------------------------------------------------------------------
+OvertimeCnt[0]     Uart_ctl|SysClk     DFN1C0       Q       OvertimeCnt[0]     0.550       0.420
+OvertimeCnt[1]     Uart_ctl|SysClk     DFN1C0       Q       OvertimeCnt[1]     0.550       0.818
+OvertimeCnt[2]     Uart_ctl|SysClk     DFN1C0       Q       OvertimeCnt[2]     0.434       1.538
+OvertimeCnt[3]     Uart_ctl|SysClk     DFN1C0       Q       OvertimeCnt[3]     0.550       1.666
+OvertimeCnt[4]     Uart_ctl|SysClk     DFN1C0       Q       OvertimeCnt[4]     0.434       2.059
+BaudPulse_0        Uart_ctl|SysClk     DFN1C0       Q       BaudPulse_c_0      0.550       2.181
+OvertimeCnt[5]     Uart_ctl|SysClk     DFN1C0       Q       OvertimeCnt[5]     0.434       2.681
+PrState[5]         Uart_ctl|SysClk     DFN1E1P0     Q       PrState[5]         0.550       3.011
+PrState[1]         Uart_ctl|SysClk     DFN1E1C0     Q       PrState[1]         0.550       3.274
+PrState[3]         Uart_ctl|SysClk     DFN1E1C0     Q       PrState[3]         0.550       3.301
+================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                    Required          
+Instance           Reference           Type         Pin     Net                Time         Slack
+                   Clock                                                                         
+-------------------------------------------------------------------------------------------------
+PrState[0]         Uart_ctl|SysClk     DFN1E1C0     D       PrState_RNO[0]     9.598        0.420
+PrState[2]         Uart_ctl|SysClk     DFN1E1C0     D       PrState_RNO[2]     9.598        0.498
+PrState[3]         Uart_ctl|SysClk     DFN1E1C0     D       N_627              9.598        0.498
+PrState[4]         Uart_ctl|SysClk     DFN1E1C0     D       N_626_i_0          9.598        0.677
+PrState[1]         Uart_ctl|SysClk     DFN1E1C0     D       PrState_RNO[1]     9.598        0.871
+PrState[5]         Uart_ctl|SysClk     DFN1E1P0     D       N_625_i_0          9.572        1.064
+PrState_0[5]       Uart_ctl|SysClk     DFN1E1P0     D       N_625_i_0          9.572        1.064
+OEn                Uart_ctl|SysClk     DFN1E1P0     D       OEn_1              9.650        1.736
+OvertimeCnt[9]     Uart_ctl|SysClk     DFN1C0       D       OvertimeCnt_e9     9.572        1.948
+P_AddrA_sig[2]     Uart_ctl|SysClk     DFN1C0       D       N_9                9.598        2.181
+=================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      9.178
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.420
+
+    Number of logic level(s):                7
+    Starting point:                          OvertimeCnt[0] / Q
+    Ending point:                            PrState[0] / D
+    The start point is clocked by            Uart_ctl|SysClk [rising] on pin CLK
+    The end   point is clocked by            Uart_ctl|SysClk [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+OvertimeCnt[0]             DFN1C0       Q        Out     0.550     0.550       -         
+OvertimeCnt[0]             Net          -        -       0.602     -           3         
+OvertimeCnt_RNIPG62[1]     NOR2B        B        In      -         1.153       -         
+OvertimeCnt_RNIPG62[1]     NOR2B        Y        Out     0.469     1.621       -         
+N_164                      Net          -        -       0.288     -           2         
+OvertimeCnt_RNI7V93[2]     NOR2B        B        In      -         1.909       -         
+OvertimeCnt_RNI7V93[2]     NOR2B        Y        Out     0.469     2.378       -         
+N_165                      Net          -        -       0.884     -           4         
+OvertimeCnt_RNIN2L6[5]     OR3C         A        In      -         3.262       -         
+OvertimeCnt_RNIN2L6[5]     OR3C         Y        Out     0.346     3.608       -         
+N_169                      Net          -        -       0.602     -           3         
+OvertimeCnt_RNIS3T8[7]     OR3B         C        In      -         4.210       -         
+OvertimeCnt_RNIS3T8[7]     OR3B         Y        Out     0.509     4.719       -         
+N_171                      Net          -        -       0.955     -           5         
+OvertimeCnt_RNI5L5B[9]     OR3A         B        In      -         5.675       -         
+OvertimeCnt_RNI5L5B[9]     OR3A         Y        Out     0.479     6.154       -         
+N_186                      Net          -        -       0.955     -           5         
+RxRdy_pad_RNIEUPE          NOR2         B        In      -         7.109       -         
+RxRdy_pad_RNIEUPE          NOR2         Y        Out     0.384     7.493       -         
+N_311                      Net          -        -       0.884     -           4         
+PrState_RNO[0]             NOR3         C        In      -         8.377       -         
+PrState_RNO[0]             NOR3         Y        Out     0.561     8.938       -         
+PrState_RNO[0]             Net          -        -       0.240     -           1         
+PrState[0]                 DFN1E1C0     D        In      -         9.178       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 9.580 is 4.169(43.5%) logic and 5.411(56.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA484_-2
+Report for cell Uart_ctl.behavioral
+  Core Cell usage:
+              cell count     area count*area
+              AND2     2      1.0        2.0
+              AND3     8      1.0        8.0
+               AO1     2      1.0        2.0
+              AO1A     2      1.0        2.0
+              AO1B     3      1.0        3.0
+              AO1C     5      1.0        5.0
+              AO1D    13      1.0       13.0
+              AOI1     3      1.0        3.0
+              AX1E     3      1.0        3.0
+             AXOI4     1      1.0        1.0
+            CLKINT     1      0.0        0.0
+               GND     1      0.0        0.0
+               MX2     7      1.0        7.0
+              NOR2    24      1.0       24.0
+             NOR2A    26      1.0       26.0
+             NOR2B    23      1.0       23.0
+              NOR3    13      1.0       13.0
+             NOR3A     7      1.0        7.0
+             NOR3B     8      1.0        8.0
+             NOR3C    14      1.0       14.0
+               OA1     2      1.0        2.0
+              OA1A     1      1.0        1.0
+              OA1B     2      1.0        2.0
+              OA1C     4      1.0        4.0
+              OAI1     2      1.0        2.0
+               OR2     5      1.0        5.0
+              OR2A     6      1.0        6.0
+              OR2B     7      1.0        7.0
+               OR3     5      1.0        5.0
+              OR3A     4      1.0        4.0
+              OR3B     5      1.0        5.0
+              OR3C     8      1.0        8.0
+               VCC     1      0.0        0.0
+              XA1A     2      1.0        2.0
+              XA1B     5      1.0        5.0
+              XA1C     1      1.0        1.0
+             XNOR2     8      1.0        8.0
+              XOR2    12      1.0       12.0
+
+
+            DFN1C0    31      1.0       31.0
+          DFN1E0C0    43      1.0       43.0
+          DFN1E1C0    10      1.0       10.0
+          DFN1E1P0     3      1.0        3.0
+            DFN1P0     1      1.0        1.0
+              DLN0     5      1.0        5.0
+          DLN1P1C1     1      2.0        2.0
+                   -----          ----------
+             TOTAL   340               338.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    11
+            OUTBUF    38
+                   -----
+             TOTAL    51
+
+
+Core Cells         : 338 of 24576 (1%)
+IO Cells           : 51
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 18 16:06:28 2014
+
+###########################################################]

@@ -1,0 +1,294 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\cmos_ctl.vhd":177:2:177:3|Found counter in view:work.CMOS_Ctl(behavioral) inst ACCcnt[4:0]
+@N: MO106 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\cmos_ctl.vhd":57:3:57:6|Found ROM, 'InitTime_23[17:4]', 22 words by 14 bits 
+Encoding state machine work.CMOS_Ctl(behavioral)-PrState[0:8]
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+@W: MO161 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\cmos_ctl.vhd":51:1:51:2|Register bit InitTime[1] is always 0, optimizing ...
+@W: MO161 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\cmos_ctl.vhd":51:1:51:2|Register bit InitTime[0] is always 0, optimizing ...
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                 
+-------------------------------------------------------------
+SysRst_n_pad / Y               69 : 69 asynchronous set/reset
+ParaUpdt / Q                   49                            
+=============================================================
+
+@N: FP130 |Promoting Net SysRst_n_c on CLKBUF  SysRst_n_pad 
+@N: FP130 |Promoting Net SysClk_c on CLKBUF  SysClk_pad 
+Replicating Sequential Instance ParaUpdt, fanout 49 segments 3
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+
+Added 0 Buffers
+Added 2 Cells via replication
+	Added 2 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Writing Analyst data base E:\Actelprj\backup\smart_top20140227_1058_1\synthesis\CMOS_Ctl.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+@W: MT420 |Found inferred clock CMOS_Ctl|SysClk with period 10.00ns. A user-defined clock should be declared on object "p:SysClk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Apr 10 17:14:41 2014
+#
+
+
+Top view:               CMOS_Ctl
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 5.357
+
+                    Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock      Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+CMOS_Ctl|SysClk     100.0 MHz     215.4 MHz     10.000        4.643         5.357     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------
+CMOS_Ctl|SysClk  CMOS_Ctl|SysClk  |  10.000      5.357  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: CMOS_Ctl|SysClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                                Arrival          
+Instance       Reference           Type         Pin     Net            Time        Slack
+               Clock                                                                    
+----------------------------------------------------------------------------------------
+ACCcnt[2]      CMOS_Ctl|SysClk     DFN1E0C0     Q       ACCcnt[2]      0.550       5.357
+ACCcnt[0]      CMOS_Ctl|SysClk     DFN1E0C0     Q       ACCcnt[0]      0.550       5.377
+ACCcnt[1]      CMOS_Ctl|SysClk     DFN1E0C0     Q       ACCcnt[1]      0.550       5.463
+PrState[1]     CMOS_Ctl|SysClk     DFN1C0       Q       N_36           0.550       5.684
+PrState[6]     CMOS_Ctl|SysClk     DFN1C0       Q       PrState[6]     0.550       6.349
+PrState[5]     CMOS_Ctl|SysClk     DFN1C0       Q       PrState[5]     0.550       6.396
+ACCcnt[3]      CMOS_Ctl|SysClk     DFN1E0C0     Q       ACCcnt[3]      0.550       6.419
+PrState[4]     CMOS_Ctl|SysClk     DFN1C0       Q       PrState[4]     0.550       6.699
+ACCcnt[4]      CMOS_Ctl|SysClk     DFN1E0C0     Q       ACCcnt[4]      0.550       6.838
+PrState[2]     CMOS_Ctl|SysClk     DFN1C0       Q       PrState[2]     0.550       7.189
+========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+               Starting                                                   Required          
+Instance       Reference           Type         Pin     Net               Time         Slack
+               Clock                                                                        
+--------------------------------------------------------------------------------------------
+PrState[5]     CMOS_Ctl|SysClk     DFN1C0       D       PrState_ns[3]     9.572        5.357
+ACCcnt[4]      CMOS_Ctl|SysClk     DFN1E0C0     D       N_11              9.572        5.377
+PrState[1]     CMOS_Ctl|SysClk     DFN1C0       D       PrState_ns[7]     9.598        5.470
+ACCcnt[3]      CMOS_Ctl|SysClk     DFN1E0C0     D       N_9               9.572        6.001
+ACCcnt[0]      CMOS_Ctl|SysClk     DFN1E0C0     E       N_344             9.676        6.441
+ACCcnt[1]      CMOS_Ctl|SysClk     DFN1E0C0     E       N_344             9.676        6.441
+ACCcnt[2]      CMOS_Ctl|SysClk     DFN1E0C0     E       N_344             9.676        6.441
+ACCcnt[3]      CMOS_Ctl|SysClk     DFN1E0C0     E       N_344             9.676        6.441
+ACCcnt[4]      CMOS_Ctl|SysClk     DFN1E0C0     E       N_344             9.676        6.441
+ACCcnt[2]      CMOS_Ctl|SysClk     DFN1E0C0     D       N_7               9.572        6.673
+============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.572
+
+    - Propagation time:                      4.214
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     5.357
+
+    Number of logic level(s):                4
+    Starting point:                          ACCcnt[2] / Q
+    Ending point:                            PrState[5] / D
+    The start point is clocked by            CMOS_Ctl|SysClk [rising] on pin CLK
+    The end   point is clocked by            CMOS_Ctl|SysClk [rising] on pin CLK
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                       Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+ACCcnt[2]                  DFN1E0C0     Q        Out     0.550     0.550       -         
+ACCcnt[2]                  Net          -        -       0.602     -           3         
+Accnum_pad_RNIH7ME[2]      XNOR2        B        In      -         1.153       -         
+Accnum_pad_RNIH7ME[2]      XNOR2        Y        Out     0.700     1.852       -         
+N_372_i                    Net          -        -       0.240     -           1         
+Accnum_pad_RNI4FCT[3]      XA1A         C        In      -         2.092       -         
+Accnum_pad_RNI4FCT[3]      XA1A         Y        Out     0.481     2.574       -         
+acccnt_NE_1                Net          -        -       0.240     -           1         
+Accnum_pad_RNIL5F92[0]     OR3C         C        In      -         2.814       -         
+Accnum_pad_RNIL5F92[0]     OR3C         Y        Out     0.497     3.311       -         
+acccnt_li                  Net          -        -       0.288     -           2         
+PrState_RNO[5]             AO1B         A        In      -         3.599       -         
+PrState_RNO[5]             AO1B         Y        Out     0.375     3.974       -         
+PrState_ns[3]              Net          -        -       0.240     -           1         
+PrState[5]                 DFN1C0       D        In      -         4.214       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 4.643 is 3.032(65.3%) logic and 1.611(34.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA484_-2
+Report for cell CMOS_Ctl.behavioral
+  Core Cell usage:
+              cell count     area count*area
+               AO1     4      1.0        4.0
+              AO16     1      1.0        1.0
+              AO1A     4      1.0        4.0
+              AO1B     2      1.0        2.0
+              AO1C     3      1.0        3.0
+              AO1D     1      1.0        1.0
+              AOI1     4      1.0        4.0
+             AOI1B     5      1.0        5.0
+               GND     1      0.0        0.0
+              MX2B     1      1.0        1.0
+              NOR2     6      1.0        6.0
+             NOR2A     7      1.0        7.0
+             NOR2B    10      1.0       10.0
+              NOR3     4      1.0        4.0
+             NOR3A     2      1.0        2.0
+             NOR3B     2      1.0        2.0
+             NOR3C     6      1.0        6.0
+               OA1     2      1.0        2.0
+              OA1A     1      1.0        1.0
+              OA1C     1      1.0        1.0
+               OR2    11      1.0       11.0
+              OR2A     8      1.0        8.0
+              OR2B     6      1.0        6.0
+               OR3     1      1.0        1.0
+              OR3A     1      1.0        1.0
+              OR3B     2      1.0        2.0
+              OR3C     3      1.0        3.0
+               VCC     1      0.0        0.0
+              XA1A     2      1.0        2.0
+              XA1B     4      1.0        4.0
+             XNOR2     4      1.0        4.0
+              XO1A     1      1.0        1.0
+              XOR2     1      1.0        1.0
+
+
+            DFN1C0    16      1.0       16.0
+          DFN1E0C0     5      1.0        5.0
+          DFN1E1C0    40      1.0       40.0
+          DFN1E1P0     8      1.0        8.0
+            DFN1P0     2      1.0        2.0
+                   -----          ----------
+             TOTAL   183               181.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    48
+            OUTBUF    57
+                   -----
+             TOTAL   107
+
+
+Core Cells         : 181 of 24576 (1%)
+IO Cells           : 107
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 10 17:14:41 2014
+
+###########################################################]

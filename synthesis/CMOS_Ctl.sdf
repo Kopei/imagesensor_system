@@ -1,0 +1,230 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "CMOS_Ctl")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 023R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "CMOS_Ctl")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT ACCcnt\[2\]/CLK  ACCcnt\[2\]/Q  Accnum_pad_RNIH7ME\[2\]/B  Accnum_pad_RNIH7ME\[2\]/Y  Accnum_pad_RNI4FCT\[3\]/C  Accnum_pad_RNI4FCT\[3\]/Y  Accnum_pad_RNIL5F92\[0\]/C  Accnum_pad_RNIL5F92\[0\]/Y  PrState_RNO\[5\]/A  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[0\]/CLK  ACCcnt\[0\]/Q  ACCcnt_RNIHJPF\[1\]/B  ACCcnt_RNIHJPF\[1\]/Y  ACCcnt_RNIBDMN\[2\]/A  ACCcnt_RNIBDMN\[2\]/Y  ACCcnt_RNO_0\[4\]/A  ACCcnt_RNO_0\[4\]/Y  ACCcnt_RNO\[4\]/B  ACCcnt_RNO\[4\]/Y  ACCcnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[2\]/CLK  ACCcnt\[2\]/Q  Accnum_pad_RNIH7ME\[2\]/B  Accnum_pad_RNIH7ME\[2\]/Y  Accnum_pad_RNI4FCT\[3\]/C  Accnum_pad_RNI4FCT\[3\]/Y  Accnum_pad_RNIL5F92\[0\]/C  Accnum_pad_RNIL5F92\[0\]/Y  PrState_RNO\[1\]/A  PrState_RNO\[1\]/Y  PrState\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[1\]/CLK  ACCcnt\[1\]/Q  Accnum_pad_RNIF7ME\[1\]/B  Accnum_pad_RNIF7ME\[1\]/Y  Accnum_pad_RNI4FCT\[4\]/C  Accnum_pad_RNI4FCT\[4\]/Y  Accnum_pad_RNIL5F92\[0\]/A  Accnum_pad_RNIL5F92\[0\]/Y  PrState_RNO\[5\]/A  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  PrState_RNO_3\[5\]/A  PrState_RNO_3\[5\]/Y  PrState_RNO_0\[5\]/C  PrState_RNO_0\[5\]/Y  PrState_RNO\[5\]/C  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[1\]/CLK  ACCcnt\[1\]/Q  ACCcnt_RNIHJPF\[1\]/A  ACCcnt_RNIHJPF\[1\]/Y  ACCcnt_RNIBDMN\[2\]/A  ACCcnt_RNIBDMN\[2\]/Y  ACCcnt_RNO_0\[4\]/A  ACCcnt_RNO_0\[4\]/Y  ACCcnt_RNO\[4\]/B  ACCcnt_RNO\[4\]/Y  ACCcnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[0\]/CLK  ACCcnt\[0\]/Q  Accnum_pad_RNID7ME\[0\]/B  Accnum_pad_RNID7ME\[0\]/Y  Accnum_pad_RNIL5F92\[0\]/B  Accnum_pad_RNIL5F92\[0\]/Y  PrState_RNO\[5\]/A  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[0\]/CLK  ACCcnt\[0\]/Q  ACCcnt_RNIHJPF\[1\]/B  ACCcnt_RNIHJPF\[1\]/Y  ACCcnt_RNIBDMN\[2\]/A  ACCcnt_RNIBDMN\[2\]/Y  ACCcnt_RNO\[3\]/B  ACCcnt_RNO\[3\]/Y  ACCcnt\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[2\]/CLK  ACCcnt\[2\]/Q  ACCcnt_RNIBDMN\[2\]/B  ACCcnt_RNIBDMN\[2\]/Y  ACCcnt_RNO_0\[4\]/A  ACCcnt_RNO_0\[4\]/Y  ACCcnt_RNO\[4\]/B  ACCcnt_RNO\[4\]/Y  ACCcnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[6\]/CLK  PrState\[6\]/Q  PrState_RNO_1\[5\]/B  PrState_RNO_1\[5\]/Y  PrState_RNO_0\[5\]/A  PrState_RNO_0\[5\]/Y  PrState_RNO\[5\]/C  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[5\]/CLK  PrState\[5\]/Q  PrState_RNO_2\[5\]/A  PrState_RNO_2\[5\]/Y  PrState_RNO_0\[5\]/B  PrState_RNO_0\[5\]/Y  PrState_RNO\[5\]/C  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[3\]/CLK  ACCcnt\[3\]/Q  Accnum_pad_RNI4FCT\[3\]/A  Accnum_pad_RNI4FCT\[3\]/Y  Accnum_pad_RNIL5F92\[0\]/C  Accnum_pad_RNIL5F92\[0\]/Y  PrState_RNO\[5\]/A  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  PrState_RNIP2J3\[2\]/B  PrState_RNIP2J3\[2\]/Y  ACCcnt\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  PrState_RNIP2J3\[2\]/B  PrState_RNIP2J3\[2\]/Y  ACCcnt\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  PrState_RNIP2J3\[2\]/B  PrState_RNIP2J3\[2\]/Y  ACCcnt\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  PrState_RNIP2J3\[2\]/B  PrState_RNIP2J3\[2\]/Y  ACCcnt\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  PrState_RNIP2J3\[2\]/B  PrState_RNIP2J3\[2\]/Y  ACCcnt\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  PrState_RNO_0\[1\]/A  PrState_RNO_0\[1\]/Y  PrState_RNO\[1\]/C  PrState_RNO\[1\]/Y  PrState\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[0\]/CLK  ACCcnt\[0\]/Q  ACCcnt_RNIHJPF\[1\]/B  ACCcnt_RNIHJPF\[1\]/Y  ACCcnt_RNO\[2\]/B  ACCcnt_RNO\[2\]/Y  ACCcnt\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[4\]/CLK  PrState\[4\]/Q  PrState_RNO_0\[3\]/B  PrState_RNO_0\[3\]/Y  PrState_RNO\[3\]/C  PrState_RNO\[3\]/Y  PrState\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[4\]/CLK  PrState\[4\]/Q  PrState_RNO_0\[4\]/A  PrState_RNO_0\[4\]/Y  PrState_RNO\[4\]/C  PrState_RNO\[4\]/Y  PrState\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[4\]/CLK  ACCcnt\[4\]/Q  Accnum_pad_RNI4FCT\[4\]/A  Accnum_pad_RNI4FCT\[4\]/Y  Accnum_pad_RNIL5F92\[0\]/A  Accnum_pad_RNIL5F92\[0\]/Y  PrState_RNO\[5\]/A  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[3\]/CLK  ACCcnt\[3\]/Q  ACCcnt_RNO_0\[4\]/B  ACCcnt_RNO_0\[4\]/Y  ACCcnt_RNO\[4\]/B  ACCcnt_RNO\[4\]/Y  ACCcnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  ACCcnt_RNO\[0\]/A  ACCcnt_RNO\[0\]/Y  ACCcnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[2\]/CLK  PrState\[2\]/Q  PrState_RNIP2J3\[2\]/A  PrState_RNIP2J3\[2\]/Y  ACCcnt\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  ACCcnt_RNO\[4\]/C  ACCcnt_RNO\[4\]/Y  ACCcnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  ACCcnt_RNO\[3\]/C  ACCcnt_RNO\[3\]/Y  ACCcnt\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  ACCcnt_RNO\[2\]/C  ACCcnt_RNO\[2\]/Y  ACCcnt\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  ACCcnt_RNO\[1\]/C  ACCcnt_RNO\[1\]/Y  ACCcnt\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[0\]/CLK  ACCcnt\[0\]/Q  ACCcnt_RNO\[1\]/A  ACCcnt_RNO\[1\]/Y  ACCcnt\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[24\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[17\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[23\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[22\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[21\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[20\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[19\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[18\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[17\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[16\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[15\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[14\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[13\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[12\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[11\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[10\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_1/CLK  ParaUpdt_1/Q  SPI_Din\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[16\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[15\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[14\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[13\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[12\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[11\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[10\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[9\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[8\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[7\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[6\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[5\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  InitTime\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[31\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[30\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[29\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[28\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[27\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[26\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[25\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[9\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[8\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[7\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[6\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[5\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ParaUpdt/CLK  ParaUpdt/Q  SPI_Din\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT PrState\[4\]/CLK  PrState\[4\]/Q  Y_X_WaveEn_2_0_i_a2/B  Y_X_WaveEn_2_0_i_a2/Y  Y_X_WaveEn/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[0\]/CLK  PrState\[0\]/Q  PrState_RNO\[6\]/C  PrState_RNO\[6\]/Y  PrState\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[7\]/CLK  PrState\[7\]/Q  PrState_RNO\[0\]/B  PrState_RNO\[0\]/Y  PrState\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[0\]/CLK  ACCcnt\[0\]/Q  ACCcnt_RNO\[0\]/B  ACCcnt_RNO\[0\]/Y  ACCcnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[7\]/CLK  PrState\[7\]/Q  PrState_RNO\[7\]/B  PrState_RNO\[7\]/Y  PrState\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[4\]/CLK  PrState\[4\]/Q  SDramEn_RNO/A  SDramEn_RNO/Y  SDramEn/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[7\]/CLK  PrState\[7\]/Q  Y_X_WaveEn_2_0_i_a2/A  Y_X_WaveEn_2_0_i_a2/Y  Y_X_WaveEn/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[2\]/CLK  ACCcnt\[2\]/Q  ACCcnt_RNO\[2\]/A  ACCcnt_RNO\[2\]/Y  ACCcnt\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[3\]/CLK  ACCcnt\[3\]/Q  ACCcnt_RNO\[3\]/A  ACCcnt_RNO\[3\]/Y  ACCcnt\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[3\]/CLK  PrState\[3\]/Q  SDramEn_RNO/B  SDramEn_RNO/Y  SDramEn/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[3\]/CLK  PrState\[3\]/Q  PrState_RNO\[2\]/B  PrState_RNO\[2\]/Y  PrState\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[1\]/CLK  ACCcnt\[1\]/Q  ACCcnt_RNO\[1\]/B  ACCcnt_RNO\[1\]/Y  ACCcnt\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[6\]/CLK  PrState\[6\]/Q  PrState_RNO\[6\]/B  PrState_RNO\[6\]/Y  PrState\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[2\]/CLK  PrState\[2\]/Q  PrState_RNO\[1\]/B  PrState_RNO\[1\]/Y  PrState\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[2\]/CLK  PrState\[2\]/Q  PrState_RNO\[5\]/B  PrState_RNO\[5\]/Y  PrState\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[3\]/CLK  PrState\[3\]/Q  PrState_RNO\[3\]/B  PrState_RNO\[3\]/Y  PrState\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[1\]/CLK  PrState\[1\]/Q  LVDSen/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[5\]/CLK  PrState\[5\]/Q  PrState_RNO\[4\]/A  PrState_RNO\[4\]/Y  PrState\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ACCcnt\[4\]/CLK  ACCcnt\[4\]/Q  ACCcnt_RNO\[4\]/A  ACCcnt_RNO\[4\]/Y  ACCcnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[8\]/CLK  PrState\[8\]/Q  PrState_RNO\[7\]/C  PrState_RNO\[7\]/Y  PrState\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[0\]/CLK  PrState\[0\]/Q  ParaUpdt/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[0\]/CLK  PrState\[0\]/Q  ParaUpdt_0/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[0\]/CLK  PrState\[0\]/Q  ParaUpdt_1/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[7\]/CLK  PrState\[7\]/Q  ImageOrQl/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[6\]/CLK  PrState\[6\]/Q  SPI_En/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT PrState\[5\]/CLK  PrState\[5\]/Q  PAT_En/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ParaUpdt_0/CLK  ParaUpdt_0/Q  ParaUpdata_pad/D  ParaUpdata_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

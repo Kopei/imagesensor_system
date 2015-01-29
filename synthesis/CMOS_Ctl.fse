@@ -1,0 +1,22 @@
+
+fsm_encoding {111221121} onehot
+
+fsm_state_encoding {111221121} ctl_idle {000000001}
+
+fsm_state_encoding {111221121} ctl_quitlatch {000000010}
+
+fsm_state_encoding {111221121} ctl_spi_set {000000100}
+
+fsm_state_encoding {111221121} ctl_init {000001000}
+
+fsm_state_encoding {111221121} ctl_readout {000010000}
+
+fsm_state_encoding {111221121} ctl_sdram {000100000}
+
+fsm_state_encoding {111221121} ctl_judgeaccnum {001000000}
+
+fsm_state_encoding {111221121} ctl_lvds {010000000}
+
+fsm_state_encoding {111221121} ctl_paraset {100000000}
+
+fsm_registers {111221121} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]}  {PrState[5]}  {PrState[6]}  {PrState[7]}  {PrState[8]} 

@@ -1,0 +1,535 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: LENOVO-PC
+
+#Implementation: synthesis
+
+#Mon Apr 14 16:25:07 2014
+
+$ Start of Compile
+#Mon Apr 14 16:25:07 2014
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":7:7:7:13|Top entity is set to FrameMk.
+VHDL syntax check successful!
+File E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd changed - recompiling
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":7:7:7:13|Synthesizing work.framemk.behav 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":31:11:31:12|Using onehot encoding for type state (fk_idle="10000000")
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":394:3:394:16|OTHERS clause is not synthesized 
+@W: CD609 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":435:17:435:35|Index value 0 to 10 could be out of prefix range 0 to 9 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":482:4:482:17|OTHERS clause is not synthesized 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\8b10_enc.vhd":51:7:51:15|Synthesizing work.enc_8b10b.behavioral 
+Post processing for work.enc_8b10b.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":8:7:8:14|Synthesizing work.bytedata.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2884:10:2884:15|Synthesizing proasic3.ram4k9.syn_black_box 
+Post processing for proasic3.ram4k9.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1383:10:1383:15|Synthesizing proasic3.dfn1c0.syn_black_box 
+Post processing for proasic3.dfn1c0.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":14:10:14:13|Synthesizing proasic3.and2.syn_black_box 
+Post processing for proasic3.and2.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2817:10:2817:13|Synthesizing proasic3.xor2.syn_black_box 
+Post processing for proasic3.xor2.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2782:10:2782:14|Synthesizing proasic3.xnor2.syn_black_box 
+Post processing for proasic3.xnor2.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":137:10:137:12|Synthesizing proasic3.ao1.syn_black_box 
+Post processing for proasic3.ao1.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2032:10:2032:14|Synthesizing proasic3.nand2.syn_black_box 
+Post processing for proasic3.nand2.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":38:10:38:13|Synthesizing proasic3.and3.syn_black_box 
+Post processing for proasic3.and3.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1467:10:1467:17|Synthesizing proasic3.dfn1e1c0.syn_black_box 
+Post processing for proasic3.dfn1e1c0.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1511:10:1511:15|Synthesizing proasic3.dfn1p0.syn_black_box 
+Post processing for proasic3.dfn1p0.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":22:10:22:14|Synthesizing proasic3.and2a.syn_black_box 
+Post processing for proasic3.and2a.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1929:10:1929:12|Synthesizing proasic3.inv.syn_black_box 
+Post processing for proasic3.inv.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+Post processing for work.bytedata.def_arch
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1317:4:1317:10|Pruning instance AND2_28 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1314:4:1314:10|Pruning instance XOR2_71 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1293:4:1293:10|Pruning instance XOR2_42 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1288:4:1288:10|Pruning instance AND2_37 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1277:4:1277:10|Pruning instance XOR2_70 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1271:4:1271:21|Pruning instance DFN1C0_WGRY_4_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1266:4:1266:10|Pruning instance AND2_21 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1260:4:1260:21|Pruning instance DFN1C0_RGRY_0_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1207:4:1207:10|Pruning instance XOR2_15 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1201:4:1201:10|Pruning instance XOR2_28 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1190:4:1190:10|Pruning instance XOR2_17 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1167:4:1167:10|Pruning instance XOR2_54 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1159:4:1159:10|Pruning instance XOR2_39 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1156:4:1156:21|Pruning instance DFN1C0_RGRY_3_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1144:4:1144:21|Pruning instance DFN1C0_WGRY_8_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1139:4:1139:10|Pruning instance AND2_42 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1134:4:1134:10|Pruning instance AND2_40 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1126:4:1126:22|Pruning instance DFN1C0_RGRY_10_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1121:4:1121:10|Pruning instance XOR2_26 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1037:4:1037:22|Pruning instance DFN1C0_WGRY_12_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1023:4:1023:22|Pruning instance DFN1C0_RGRY_12_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1018:4:1018:9|Pruning instance AND2_0 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":1001:4:1001:21|Pruning instance DFN1C0_WGRY_1_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":992:4:992:10|Pruning instance XOR2_35 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":983:4:983:10|Pruning instance XOR2_44 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":968:4:968:21|Pruning instance DFN1C0_RGRY_7_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":965:4:965:22|Pruning instance DFN1C0_WGRY_10_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":957:4:957:10|Pruning instance XOR2_37 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":955:4:955:10|Pruning instance AND2_36 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":952:4:952:21|Pruning instance DFN1C0_RGRY_5_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":949:4:949:9|Pruning instance XOR2_2 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":937:4:937:21|Pruning instance DFN1C0_WGRY_2_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":917:4:917:21|Pruning instance DFN1C0_RGRY_6_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":913:4:913:10|Pruning instance AND2_39 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":911:4:911:15|Pruning instance DFN1C0_DVLDX - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":905:4:905:10|Pruning instance XOR2_43 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":887:4:887:10|Pruning instance XOR2_32 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":879:4:879:10|Pruning instance AND2_63 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":876:4:876:10|Pruning instance XOR2_67 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":868:4:868:10|Pruning instance AND2_34 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":865:4:865:9|Pruning instance AO1_22 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":859:4:859:10|Pruning instance XOR2_25 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":838:4:838:10|Pruning instance XOR2_56 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":786:4:786:21|Pruning instance DFN1C0_RGRY_4_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":752:4:752:10|Pruning instance AND2_55 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":734:4:734:21|Pruning instance DFN1C0_WGRY_9_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":732:4:732:10|Pruning instance AND2_16 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":718:4:718:10|Pruning instance AND2_47 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":716:4:716:10|Pruning instance AND2_64 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":711:4:711:10|Pruning instance AND2_51 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":705:4:705:10|Pruning instance XOR2_13 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":682:4:682:9|Pruning instance XOR2_5 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":679:4:679:21|Pruning instance DFN1C0_RGRY_8_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":670:4:670:10|Pruning instance AND2_23 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":620:4:620:21|Pruning instance DFN1C0_WGRY_0_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":608:4:608:10|Pruning instance XOR2_46 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":576:4:576:10|Pruning instance XOR2_31 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":565:4:565:10|Pruning instance AND2_29 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":559:4:559:22|Pruning instance DFN1C0_WGRY_11_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":552:4:552:10|Pruning instance AND2_38 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":537:4:537:21|Pruning instance DFN1C0_WGRY_3_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":534:4:534:21|Pruning instance DFN1C0_RGRY_1_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":525:4:525:22|Pruning instance DFN1C0_RGRY_11_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":522:4:522:10|Pruning instance XOR2_18 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":499:4:499:10|Pruning instance XOR2_55 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":475:4:475:10|Pruning instance XOR2_33 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":473:4:473:10|Pruning instance AND2_62 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":470:4:470:21|Pruning instance DFN1C0_RGRY_2_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":467:4:467:10|Pruning instance XOR2_57 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":462:4:462:10|Pruning instance AND2_60 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":421:4:421:10|Pruning instance XOR2_64 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":385:4:385:10|Pruning instance XOR2_21 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":382:4:382:10|Pruning instance AND2_57 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":371:4:371:21|Pruning instance DFN1C0_WGRY_7_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":356:4:356:10|Pruning instance XOR2_52 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":353:4:353:21|Pruning instance DFN1C0_WGRY_5_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":311:4:311:9|Pruning instance AND2_7 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":281:4:281:10|Pruning instance XOR2_45 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":273:4:273:10|Pruning instance AND2_18 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":270:4:270:21|Pruning instance DFN1C0_WGRY_6_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":240:4:240:9|Pruning instance AO1_31 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":194:4:194:21|Pruning instance DFN1C0_RGRY_9_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":192:4:192:10|Pruning instance AND2_22 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":187:4:187:10|Pruning instance AND2_11 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\ByteData\ByteData.vhd":179:4:179:10|Pruning instance AND2_20 - not in use ... 
+Post processing for work.framemk.behav
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":402:2:402:3|Optimizing register bit rowcnt(11) to a constant 0
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":402:2:402:3|Pruning Register bit 11 of rowcnt(11 downto 0)  
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\FrameMk.vhd":347:2:347:3|Trying to extract state machine for register Prstate
+Extracted state machine for register Prstate
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 14 16:25:07 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\framemk.vhd":402:2:402:3|Found counter in view:work.FrameMk(behav) inst FrameCnt[8:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\framemk.vhd":402:2:402:3|Found counter in view:work.FrameMk(behav) inst PKGCnt[15:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\framemk.vhd":402:2:402:3|Found counter in view:work.FrameMk(behav) inst rowcnt[10:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\framemk.vhd":294:2:294:3|Found counter in view:work.FrameMk(behav) inst ByteSel[2:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\framemk.vhd":402:2:402:3|Found counter in view:work.FrameMk(behav) inst DelayCnt[3:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\framemk.vhd":402:2:402:3|Found counter in view:work.FrameMk(behav) inst DataClkCnt[11:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\framemk.vhd":492:2:492:3|Found counter in view:work.FrameMk(behav) inst StepCnt[3:0]
+Encoding state machine work.FrameMk(behav)-Prstate[0:7]
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+@N: MF238 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\framemk.vhd":324:17:324:29|Found 4 bit incrementor, 'un2_clkdivcnt[3:0]'
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingle(behavioral) inst CycCnt[11:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingle(behavioral) inst Phase2Cnt[3:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingle(behavioral) inst DelayCnt[6:0]
+Encoding state machine work.WaveGenSingle(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 63MB peak: 64MB)
+
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance REGEN.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 64MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 64MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 62MB peak: 64MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 62MB peak: 64MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 61MB peak: 64MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 62MB peak: 64MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name      Fanout, notes                   
+----------------------------------------------------------------
+ClkEn / Q                       75                              
+SysRst_n_pad / Y                214 : 213 asynchronous set/reset
+LVDS_en_pad / Y                 93                              
+CRC_Reg_14_2_i_o2[17] / Y       32                              
+CRC_Reg_14_2_i_a2_3[17] / Y     34                              
+CRC_Reg_14_2_i_a2_2[17] / Y     41                              
+N_269_i_0_o2 / Y                29                              
+================================================================
+
+@N: FP130 |Promoting Net SysRst_n_c on CLKBUF  SysRst_n_pad 
+@N: FP130 |Promoting Net SysClk_c on CLKBUF  SysClk_pad 
+@N: FP130 |Promoting Net LVDS_en_c on CLKINT  I_314 
+@N: FP130 |Promoting Net ClkEn on CLKINT  I_315 
+@N: FP130 |Promoting Net ParaUpdata_c on CLKBUF  ParaUpdata_pad 
+Replicating Combinational Instance N_269_i_0_o2, fanout 29 segments 2
+Replicating Combinational Instance CRC_Reg_14_2_i_a2_2[17], fanout 41 segments 2
+Replicating Combinational Instance CRC_Reg_14_2_i_a2_3[17], fanout 34 segments 2
+Replicating Combinational Instance CRC_Reg_14_2_i_o2[17], fanout 32 segments 2
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 68MB peak: 70MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 68MB peak: 70MB)
+
+
+Added 0 Buffers
+Added 4 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 4 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 68MB peak: 70MB)
+
+Writing Analyst data base E:\Actelprj\backup\smart_top20140227_1058_1\synthesis\FrameMk.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 67MB peak: 70MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 68MB peak: 70MB)
+
+@W: MT420 |Found inferred clock FrameMk|SysClk with period 1000.00ns. A user-defined clock should be declared on object "p:SysClk"
+
+@W: MT420 |Found inferred clock FrameMk|ParaUpdata with period 1000.00ns. A user-defined clock should be declared on object "p:ParaUpdata"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Apr 14 16:25:09 2014
+#
+
+
+Top view:               FrameMk
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 487.583
+
+                       Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock         Frequency     Frequency     Period        Period        Slack       Type         Group              
+---------------------------------------------------------------------------------------------------------------------------
+FrameMk|ParaUpdata     1.0 MHz       NA            1000.000      NA            NA          inferred     Inferred_clkgroup_1
+FrameMk|SysClk         1.0 MHz       40.3 MHz      1000.000      24.834        487.583     inferred     Inferred_clkgroup_0
+===========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise     |    fall  to  fall     |    rise  to  fall     |    fall  to  rise   
+----------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending          |  constraint  slack    |  constraint  slack    |  constraint  slack    |  constraint  slack  
+----------------------------------------------------------------------------------------------------------------------------------
+FrameMk|SysClk      FrameMk|SysClk  |  1000.000    986.678  |  1000.000    994.074  |  500.000     487.583  |  500.000     493.169
+FrameMk|ParaUpdata  FrameMk|SysClk  |  Diff grp    -        |  No paths    -        |  No paths    -        |  No paths    -      
+==================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: FrameMk|SysClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                  Arrival            
+Instance          Reference          Type         Pin     Net               Time        Slack  
+                  Clock                                                                        
+-----------------------------------------------------------------------------------------------
+CRC_ResultAva     FrameMk|SysClk     DFN1E1C0     Q       CRC_ResultAva     0.550       487.583
+CRC_Reg[32]       FrameMk|SysClk     DFN1C0       Q       CRC_Reg[32]       0.434       488.282
+CRC_Reg[33]       FrameMk|SysClk     DFN1C0       Q       CRC_Reg[33]       0.434       488.463
+Din_Delay4[0]     FrameMk|SysClk     DFN1E1C0     Q       Din_Delay4[0]     0.434       488.658
+Din_Delay4[1]     FrameMk|SysClk     DFN1E1C0     Q       Din_Delay4[1]     0.550       488.829
+CRC_Reg[34]       FrameMk|SysClk     DFN1C0       Q       CRC_Reg[34]       0.550       489.201
+Din_Delay4[2]     FrameMk|SysClk     DFN1E1P0     Q       Din_Delay4[2]     0.550       489.558
+CRC_Reg[35]       FrameMk|SysClk     DFN1C0       Q       CRC_Reg[35]       0.550       489.775
+Din_Delay4[3]     FrameMk|SysClk     DFN1E1P0     Q       Din_Delay4[3]     0.550       490.132
+CRC_Reg[36]       FrameMk|SysClk     DFN1C0       Q       CRC_Reg[36]       0.434       492.050
+===============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                         Required            
+Instance            Reference          Type         Pin     Net      Time         Slack  
+                    Clock                                                                
+-----------------------------------------------------------------------------------------
+Com_8b10b.EO        FrameMk|SysClk     DFN0E1C0     D       EO_1     499.468      487.583
+Com_8b10b.AO        FrameMk|SysClk     DFN0E1C0     D       AO_1     499.468      487.918
+Com_8b10b.BO        FrameMk|SysClk     DFN0E1C0     D       BO_1     499.468      487.918
+Com_8b10b.CO        FrameMk|SysClk     DFN0E1C0     D       CO_1     499.468      487.918
+Com_8b10b.DO        FrameMk|SysClk     DFN0E1C0     D       DO_1     499.468      487.918
+Com_8b10b.IO        FrameMk|SysClk     DFN0E1C0     D       IO_1     499.468      487.918
+Com_8b10b.S         FrameMk|SysClk     DFN1C0       D       S_2      499.598      493.169
+Com_8b10b.LPDL6     FrameMk|SysClk     DFN1C0       D       PDL6     499.572      493.741
+Com_8b10b.HO        FrameMk|SysClk     DFN1E1C0     D       HO_1     499.598      494.625
+Com_8b10b.FO        FrameMk|SysClk     DFN1E1C0     D       FO_1     499.598      494.960
+=========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            0.532
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         499.468
+
+    - Propagation time:                      11.885
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     487.583
+
+    Number of logic level(s):                9
+    Starting point:                          CRC_ResultAva / Q
+    Ending point:                            Com_8b10b.EO / D
+    The start point is clocked by            FrameMk|SysClk [rising] on pin CLK
+    The end   point is clocked by            FrameMk|SysClk [falling] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+CRC_ResultAva                DFN1E1C0     Q        Out     0.550     0.550       -         
+CRC_ResultAva                Net          -        -       1.327     -           11        
+Din_Delay4_RNIT0E8[0]        MX2C         S        In      -         1.877       -         
+Din_Delay4_RNIT0E8[0]        MX2C         Y        Out     0.296     2.173       -         
+Com_8b10b.AI_i_1             Net          -        -       1.224     -           8         
+Com_8b10b.un1_l04            NOR2A        A        In      -         3.397       -         
+Com_8b10b.un1_l04            NOR2A        Y        Out     0.469     3.865       -         
+un1_l04                      Net          -        -       0.955     -           5         
+Com_8b10b.un21_l13           NOR2A        A        In      -         4.821       -         
+Com_8b10b.un21_l13           NOR2A        Y        Out     0.469     5.289       -         
+un21_l13_i                   Net          -        -       0.240     -           1         
+Com_8b10b.un2_l31[0]         MX2C         A        In      -         5.529       -         
+Com_8b10b.un2_l31[0]         MX2C         Y        Out     0.432     5.961       -         
+un2_l31[0]                   Net          -        -       0.240     -           1         
+Com_8b10b.L22                OR3C         B        In      -         6.202       -         
+Com_8b10b.L22                OR3C         Y        Out     0.466     6.667       -         
+L22                          Net          -        -       0.884     -           4         
+Com_8b10b.un1_pd1s6          OR3          C        In      -         7.551       -         
+Com_8b10b.un1_pd1s6          OR3          Y        Out     0.561     8.112       -         
+un1_pd1s6                    Net          -        -       0.240     -           1         
+Com_8b10b.un3_pd1s6[0]       MX2C         B        In      -         8.352       -         
+Com_8b10b.un3_pd1s6[0]       MX2C         Y        Out     0.427     8.779       -         
+un3_pd1s6[0]                 Net          -        -       0.602     -           3         
+Com_8b10b.LPDL4_RNITBTTG     MX2          A        In      -         9.381       -         
+Com_8b10b.LPDL4_RNITBTTG     MX2          Y        Out     0.424     9.806       -         
+COMPLS6                      Net          -        -       1.140     -           7         
+Com_8b10b.EO_RNO             XNOR2        B        In      -         10.945      -         
+Com_8b10b.EO_RNO             XNOR2        Y        Out     0.700     11.645      -         
+EO_1                         Net          -        -       0.240     -           1         
+Com_8b10b.EO                 DFN0E1C0     D        In      -         11.885      -         
+===========================================================================================
+Total path delay (propagation time + setup) of 12.417 is 5.325(42.9%) logic and 7.092(57.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA484_-2
+Report for cell FrameMk.behav
+  Core Cell usage:
+              cell count     area count*area
+              AND2    44      1.0       44.0
+             AND2A     1      1.0        1.0
+              AND3    11      1.0       11.0
+               AO1    44      1.0       44.0
+              AO13     1      1.0        1.0
+              AO15     1      1.0        1.0
+              AO1A     9      1.0        9.0
+              AO1B     8      1.0        8.0
+              AO1C     8      1.0        8.0
+              AO1D    23      1.0       23.0
+              AOI1     6      1.0        6.0
+             AOI1B    19      1.0       19.0
+               AX1     3      1.0        3.0
+              AX1C    16      1.0       16.0
+              AX1D     1      1.0        1.0
+              AX1E    10      1.0       10.0
+             AXOI4     1      1.0        1.0
+             AXOI5     1      1.0        1.0
+            CLKINT     2      0.0        0.0
+               GND     4      0.0        0.0
+               INV     3      1.0        3.0
+               MX2    18      1.0       18.0
+              MX2A     3      1.0        3.0
+              MX2B     2      1.0        2.0
+              MX2C    16      1.0       16.0
+             NAND2     2      1.0        2.0
+              NOR2    49      1.0       49.0
+             NOR2A    34      1.0       34.0
+             NOR2B    36      1.0       36.0
+              NOR3    26      1.0       26.0
+             NOR3A    16      1.0       16.0
+             NOR3B    13      1.0       13.0
+             NOR3C    72      1.0       72.0
+               OA1    39      1.0       39.0
+              OA1A    16      1.0       16.0
+              OA1B    20      1.0       20.0
+              OAI1    36      1.0       36.0
+               OR2    88      1.0       88.0
+              OR2A    45      1.0       45.0
+              OR2B    45      1.0       45.0
+               OR3    46      1.0       46.0
+              OR3A    31      1.0       31.0
+              OR3B    11      1.0       11.0
+              OR3C    25      1.0       25.0
+               VCC     4      0.0        0.0
+               XA1     5      1.0        5.0
+              XA1A     4      1.0        4.0
+              XA1B     7      1.0        7.0
+              XA1C    17      1.0       17.0
+              XAI1     3      1.0        3.0
+             XNOR2    34      1.0       34.0
+              XO1A     1      1.0        1.0
+              XOR2    91      1.0       91.0
+
+
+              DFN0     5      1.0        5.0
+            DFN0C0     1      1.0        1.0
+          DFN0E1C0     6      1.0        6.0
+              DFN1     1      1.0        1.0
+            DFN1C0   144      1.0      144.0
+          DFN1E0C0    33      1.0       33.0
+          DFN1E1C0    44      1.0       44.0
+          DFN1E1P0    30      1.0       30.0
+            DFN1P0     5      1.0        5.0
+              DLN1    24      1.0       24.0
+            RAM4K9     8      0.0        0.0
+                   -----          ----------
+             TOTAL  1372              1354.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     3
+             INBUF    98
+            OUTBUF     2
+                   -----
+             TOTAL   103
+
+
+Core Cells         : 1354 of 24576 (6%)
+IO Cells           : 103
+
+  RAM/ROM Usage Summary
+Block Rams : 8 of 32 (25%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 14 16:25:09 2014
+
+###########################################################]

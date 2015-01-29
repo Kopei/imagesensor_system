@@ -1,0 +1,542 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: NCP-PC
+
+#Implementation: synthesis
+
+#Fri Jan 31 13:50:24 2014
+
+$ Start of Compile
+#Fri Jan 31 13:50:24 2014
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":7:7:7:17|Top entity is set to Main_ctl4SD.
+VHDL syntax check successful!
+@N: CD630 :"D:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":7:7:7:17|Synthesizing work.main_ctl4sd.behavioral 
+@W: CD604 :"D:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":110:4:110:17|OTHERS clause is not synthesized 
+@W: CD604 :"D:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":122:4:122:17|OTHERS clause is not synthesized 
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+Post processing for work.main_ctl4sd.behavioral
+@W: CL169 :"D:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":79:1:79:2|Pruning Register rowcnt_reg(10 downto 0)  
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 31 13:50:24 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ9(behavioral) inst CycCnt[11:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ9(behavioral) inst DelayCnt[4:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ9(behavioral) inst Phase2Cnt[4:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ9(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ9(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ8(behavioral) inst CycCnt[9:0]
+Encoding state machine work.WaveGenSingleZ8(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ7(behavioral) inst CycCnt[9:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ7(behavioral) inst DelayCnt[3:0]
+Encoding state machine work.WaveGenSingleZ7(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ6(behavioral) inst CycCnt[9:0]
+Encoding state machine work.WaveGenSingleZ6(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ5(behavioral) inst CycCnt[9:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ5(behavioral) inst DelayCnt[3:0]
+Encoding state machine work.WaveGenSingleZ5(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ4(behavioral) inst DelayCnt[2:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ4(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ4(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ3(behavioral) inst CycCnt[11:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ3(behavioral) inst Phase1Cnt[11:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ3(behavioral) inst Phase2Cnt[15:0]
+Encoding state machine work.WaveGenSingleZ3(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ2(behavioral) inst CycCnt[9:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ2(behavioral) inst Phase2Cnt[2:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ2(behavioral) inst DelayCnt[4:0]
+Encoding state machine work.WaveGenSingleZ2(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst CycCnt[9:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst Phase2Cnt[2:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst DelayCnt[4:0]
+Encoding state machine work.WaveGenSingleZ1(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst DelayCnt[4:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ0(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 58MB)
+
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance byteRdEnGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance lvds_fifoRdGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance lvdsFifoRowRdOutEnGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance latchGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Data2fifoENGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Data2accEnGen.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Data2accEnGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance fifo_wrGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance fifo_rdGen.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance fifo_rdGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance FifoRowRdOutGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN132 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Data2accEnGen.PrState[4],  because it is equivalent to instance latchGen.PrState[4]
+@W: BN132 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance fifo_rdGen.PrState[4],  because it is equivalent to instance latchGen.PrState[4]
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 59MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 60MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 60MB peak: 60MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 60MB peak: 60MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 60MB peak: 61MB)
+
+Finished preparing to map (Time elapsed 0h:00m:01s; Memory used current: 64MB peak: 65MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                   
+---------------------------------------------------------------
+FifoRowRdOutGen.WFO / Q        96                              
+notfirstFrame / Q              72                              
+latchGen.PrState[4] / Q        27                              
+sysrst_n_pad / Y               636 : 636 asynchronous set/reset
+SDramEn_pad / Y                155                             
+LVDS_data_0_sqmuxa / Y         72                              
+Data2Fifo_0_sqmuxa / Y         72                              
+latch4acc_0_sqmuxa / Y         72                              
+===============================================================
+
+@N: FP130 |Promoting Net sysrst_n_c on CLKBUF  sysrst_n_pad 
+@N: FP130 |Promoting Net Sysclk_c on CLKBUF  Sysclk_pad 
+@N: FP130 |Promoting Net SDramEn_c on CLKINT  I_758 
+@N: FP130 |Promoting Net FifoRowRdOut on CLKINT  I_759 
+@N: FP130 |Promoting Net notfirstFrame on CLKINT  I_760 
+@N: FP130 |Promoting Net LVDS_data_0_sqmuxa on CLKINT  I_761 
+Replicating Combinational Instance latch4acc_0_sqmuxa, fanout 72 segments 3
+Replicating Combinational Instance Data2Fifo_0_sqmuxa, fanout 72 segments 3
+Replicating Sequential Instance latchGen.PrState[4], fanout 27 segments 2
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 64MB peak: 65MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 64MB peak: 65MB)
+
+
+Added 0 Buffers
+Added 5 Cells via replication
+	Added 1 Sequential Cells via replication
+	Added 4 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 64MB peak: 65MB)
+
+Writing Analyst data base D:\Actelprj\smart_top\synthesis\Main_ctl4SD.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 63MB peak: 65MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:02s; Memory used current: 63MB peak: 65MB)
+
+@W: MT420 |Found inferred clock Main_ctl4SD|Sysclk with period 10.00ns. A user-defined clock should be declared on object "p:Sysclk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 31 13:50:28 2014
+#
+
+
+Top view:               Main_ctl4SD
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.656
+
+                       Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock         Frequency     Frequency     Period        Period        Slack     Type         Group              
+-------------------------------------------------------------------------------------------------------------------------
+Main_ctl4SD|Sysclk     100.0 MHz     107.0 MHz     10.000        9.344         0.656     inferred     Inferred_clkgroup_0
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------
+Starting            Ending              |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------
+Main_ctl4SD|Sysclk  Main_ctl4SD|Sysclk  |  10.000      0.656  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: Main_ctl4SD|Sysclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                       Starting                                                     Arrival          
+Instance                               Reference              Type         Pin     Net              Time        Slack
+                                       Clock                                                                         
+---------------------------------------------------------------------------------------------------------------------
+lvdsFifoRowRdOutEnGen.Phase2Cnt[8]     Main_ctl4SD|Sysclk     DFN1C0       Q       Phase2Cnt[8]     0.550       0.656
+lvdsFifoRowRdOutEnGen.Phase2Cnt[9]     Main_ctl4SD|Sysclk     DFN1C0       Q       Phase2Cnt[9]     0.550       0.812
+lvdsFifoRowRdOutEnGen.Phase1Cnt[1]     Main_ctl4SD|Sysclk     DFN1C0       Q       Phase1Cnt[1]     0.550       1.183
+data2lvdsENGen.CycCnt[0]               Main_ctl4SD|Sysclk     DFN1E1C0     Q       CycCnt[0]        0.434       1.207
+lvdsFifoRowRdOutEnGen.Phase1Cnt[0]     Main_ctl4SD|Sysclk     DFN1C0       Q       Phase1Cnt[0]     0.434       1.213
+FifoRowRdOutGen.Phase1Cnt[1]           Main_ctl4SD|Sysclk     DFN1C0       Q       Phase1Cnt[1]     0.550       1.216
+FifoRowRdOutGen.Phase1Cnt[0]           Main_ctl4SD|Sysclk     DFN1C0       Q       Phase1Cnt[0]     0.434       1.246
+data2lvdsENGen.CycCnt[1]               Main_ctl4SD|Sysclk     DFN1E1C0     Q       CycCnt[1]        0.434       1.414
+lvdsFifoRowRdOutEnGen.Phase1Cnt[2]     Main_ctl4SD|Sysclk     DFN1C0       Q       Phase1Cnt[2]     0.550       1.439
+FifoRowRdOutGen.Phase1Cnt[2]           Main_ctl4SD|Sysclk     DFN1C0       Q       Phase1Cnt[2]     0.550       1.471
+=====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                        Starting                                                    Required          
+Instance                                Reference              Type       Pin     Net               Time         Slack
+                                        Clock                                                                         
+----------------------------------------------------------------------------------------------------------------------
+lvdsFifoRowRdOutEnGen.Phase2Cnt[15]     Main_ctl4SD|Sysclk     DFN1C0     D       N_128             9.572        0.656
+lvdsFifoRowRdOutEnGen.Phase1Cnt[10]     Main_ctl4SD|Sysclk     DFN1C0     D       Phase1Cnt_n10     9.598        1.183
+lvdsFifoRowRdOutEnGen.Phase1Cnt[11]     Main_ctl4SD|Sysclk     DFN1C0     D       Phase1Cnt_n11     9.598        1.183
+data2lvdsENGen.PrState[2]               Main_ctl4SD|Sysclk     DFN1C0     D       PrState_ns[2]     9.572        1.207
+FifoRowRdOutGen.Phase1Cnt[10]           Main_ctl4SD|Sysclk     DFN1C0     D       Phase1Cnt_n10     9.598        1.216
+lvds_fifoRdGen.PrState[2]               Main_ctl4SD|Sysclk     DFN1C0     D       PrState_ns[2]     9.598        1.501
+lvdsFifoRowRdOutEnGen.Phase2Cnt[9]      Main_ctl4SD|Sysclk     DFN1C0     D       Phase2Cnt_n9      9.572        1.539
+lvdsFifoRowRdOutEnGen.Phase2Cnt[10]     Main_ctl4SD|Sysclk     DFN1C0     D       Phase2Cnt_n10     9.572        1.539
+lvdsFifoRowRdOutEnGen.Phase2Cnt[11]     Main_ctl4SD|Sysclk     DFN1C0     D       N_120             9.572        1.539
+lvdsFifoRowRdOutEnGen.Phase2Cnt[12]     Main_ctl4SD|Sysclk     DFN1C0     D       N_122             9.572        1.539
+======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.572
+
+    - Propagation time:                      8.915
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.656
+
+    Number of logic level(s):                8
+    Starting point:                          lvdsFifoRowRdOutEnGen.Phase2Cnt[8] / Q
+    Ending point:                            lvdsFifoRowRdOutEnGen.Phase2Cnt[15] / D
+    The start point is clocked by            Main_ctl4SD|Sysclk [rising] on pin CLK
+    The end   point is clocked by            Main_ctl4SD|Sysclk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+lvdsFifoRowRdOutEnGen.Phase2Cnt[8]              DFN1C0     Q        Out     0.550     0.550       -         
+Phase2Cnt[8]                                    Net        -        -       0.955     -           5         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNI5A6F[9]      NOR2B      B        In      -         1.506       -         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNI5A6F[9]      NOR2B      Y        Out     0.469     1.974       -         
+N_145                                           Net        -        -       0.602     -           3         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNIKONG[10]     OR2B       B        In      -         2.576       -         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNIKONG[10]     OR2B       Y        Out     0.469     3.045       -         
+N_405                                           Net        -        -       0.602     -           3         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNI479I[11]     NOR2A      B        In      -         3.647       -         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNI479I[11]     NOR2A      Y        Out     0.288     3.935       -         
+N_409                                           Net        -        -       0.602     -           3         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNILLQJ[12]     NOR2B      B        In      -         4.538       -         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNILLQJ[12]     NOR2B      Y        Out     0.469     5.006       -         
+N_412                                           Net        -        -       0.602     -           3         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNI74CL[13]     NOR2B      B        In      -         5.608       -         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNI74CL[13]     NOR2B      Y        Out     0.469     6.077       -         
+N_415                                           Net        -        -       0.602     -           3         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNIQITM[14]     OR2B       B        In      -         6.679       -         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNIQITM[14]     OR2B       Y        Out     0.469     7.148       -         
+N_162                                           Net        -        -       0.288     -           2         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNO_2[15]       OR3        C        In      -         7.436       -         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNO_2[15]       OR3        Y        Out     0.510     7.946       -         
+N_258                                           Net        -        -       0.240     -           1         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNO[15]         AO1B       C        In      -         8.186       -         
+lvdsFifoRowRdOutEnGen.Phase2Cnt_RNO[15]         AO1B       Y        Out     0.489     8.675       -         
+N_128                                           Net        -        -       0.240     -           1         
+lvdsFifoRowRdOutEnGen.Phase2Cnt[15]             DFN1C0     D        In      -         8.915       -         
+============================================================================================================
+Total path delay (propagation time + setup) of 9.344 is 4.609(49.3%) logic and 4.735(50.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell Main_ctl4SD.behavioral
+  Core Cell usage:
+              cell count     area count*area
+               AO1     5      1.0        5.0
+              AO1A     2      1.0        2.0
+              AO1B    24      1.0       24.0
+              AO1C     6      1.0        6.0
+              AO1D     4      1.0        4.0
+              AOI1    21      1.0       21.0
+             AOI1B     4      1.0        4.0
+              AX1C     2      1.0        2.0
+              AX1E     3      1.0        3.0
+            CLKINT     4      0.0        0.0
+               GND    11      0.0        0.0
+               INV     3      1.0        3.0
+               MX2   144      1.0      144.0
+              NOR2    37      1.0       37.0
+             NOR2A    53      1.0       53.0
+             NOR2B   102      1.0      102.0
+              NOR3    24      1.0       24.0
+             NOR3A    24      1.0       24.0
+             NOR3B    22      1.0       22.0
+             NOR3C   121      1.0      121.0
+               OA1     7      1.0        7.0
+              OA1A     7      1.0        7.0
+              OA1B     9      1.0        9.0
+              OA1C    10      1.0       10.0
+              OAI1     7      1.0        7.0
+               OR2    24      1.0       24.0
+              OR2A    28      1.0       28.0
+              OR2B    39      1.0       39.0
+               OR3    10      1.0       10.0
+              OR3A     7      1.0        7.0
+              OR3B     4      1.0        4.0
+              OR3C    18      1.0       18.0
+               VCC    11      0.0        0.0
+               XA1    44      1.0       44.0
+              XA1A    20      1.0       20.0
+              XA1B    49      1.0       49.0
+              XA1C    13      1.0       13.0
+             XAI1A     3      1.0        3.0
+
+
+            DFN1C0   179      1.0      179.0
+          DFN1E0C0     1      1.0        1.0
+          DFN1E1C0   444      1.0      444.0
+            DFN1P0    13      1.0       13.0
+                   -----          ----------
+             TOTAL  1563              1537.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF   147
+            OUTBUF   220
+                   -----
+             TOTAL   369
+
+
+Core Cells         : 1537 of 24576 (6%)
+IO Cells           : 369
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:03s realtime, 0h:00m:02s cputime
+# Fri Jan 31 13:50:29 2014
+
+###########################################################]

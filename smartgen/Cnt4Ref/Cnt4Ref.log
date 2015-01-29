@@ -1,0 +1,58 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Wed Feb 05 15:05:47 2014
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : Cnt4Ref
+Family                          : ProASIC3
+Output Format                   : VHDL
+Type                            : Linear
+Variation                       : Compact
+Async Clear                     : Active High
+Async Preset                    : None
+Sync Load                       : None
+Count Enable                    : Active High
+Clock                           : Rising
+Terminal Count                  : None
+Updown                          : None
+Width                           : 6
+Direction                       : Up
+
+*************
+Fanin Control
+*************
+
+Signal      Buffering   Max Load   Signal Width
+------      ---------   --------   ------------
+Aclr          None                      1
+Clock         None                      1
+
+**************
+Compile Report
+**************
+
+Warning:  CMP503: Remapped 4 enable flip-flop(s) to a 2-tile implementation
+          because the CLR/PRE pin on the enable flip-flop is not being driven
+          by a global net.
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:     20  Total:  24576   (0.08%)
+    IO (W/ clocks)             Used:      0  Total:    300   (0.00%)
+    Differential IO            Used:      0  Total:     74   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     32   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to D:/Actelprj/smart_top/smartgen\Cnt4Ref\Cnt4Ref.vhd.
+
+ ** Log Ended:   Wed Feb 05 15:05:48 2014
+

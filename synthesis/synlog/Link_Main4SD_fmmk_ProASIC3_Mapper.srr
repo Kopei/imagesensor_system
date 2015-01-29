@@ -1,0 +1,479 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+@N:"e:\actelprj\smart_top\hdl\fk_test.vhd":441:2:441:3|Found counter in view:work.FK_Test(behav) inst StepCnt[3:0]
+@N:"e:\actelprj\smart_top\hdl\fk_test.vhd":263:2:263:3|Found counter in view:work.FK_Test(behav) inst ByteSel[2:0]
+@N:"e:\actelprj\smart_top\hdl\fk_test.vhd":371:2:371:3|Found counter in view:work.FK_Test(behav) inst DelayCnt[3:0]
+@N:"e:\actelprj\smart_top\hdl\fk_test.vhd":371:2:371:3|Found counter in view:work.FK_Test(behav) inst DataClkCnt[11:0]
+Encoding state machine work.FK_Test(behav)-Prstate[0:7]
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+@N: MF238 :"e:\actelprj\smart_top\hdl\fk_test.vhd":293:17:293:29|Found 4 bit incrementor, 'un2_clkdivcnt[3:0]'
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst CycCnt[11:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst Phase2Cnt[3:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst DelayCnt[6:0]
+Encoding state machine work.WaveGenSingleZ0(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ10(behavioral) inst CycCnt[11:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ10(behavioral) inst DelayCnt[4:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ10(behavioral) inst Phase2Cnt[4:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ10(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ10(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ9(behavioral) inst CycCnt[9:0]
+Encoding state machine work.WaveGenSingleZ9(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ8(behavioral) inst CycCnt[9:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ8(behavioral) inst DelayCnt[3:0]
+Encoding state machine work.WaveGenSingleZ8(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ7(behavioral) inst CycCnt[9:0]
+Encoding state machine work.WaveGenSingleZ7(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ6(behavioral) inst CycCnt[9:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ6(behavioral) inst DelayCnt[3:0]
+Encoding state machine work.WaveGenSingleZ6(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ5(behavioral) inst DelayCnt[2:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ5(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ5(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ4(behavioral) inst CycCnt[11:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ4(behavioral) inst Phase1Cnt[11:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ4(behavioral) inst Phase2Cnt[15:0]
+Encoding state machine work.WaveGenSingleZ4(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ3(behavioral) inst CycCnt[9:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ3(behavioral) inst Phase2Cnt[2:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ3(behavioral) inst DelayCnt[4:0]
+Encoding state machine work.WaveGenSingleZ3(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ2(behavioral) inst CycCnt[9:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ2(behavioral) inst Phase2Cnt[2:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ2(behavioral) inst DelayCnt[4:0]
+Encoding state machine work.WaveGenSingleZ2(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst DelayCnt[4:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ1(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.byteRdEnGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.data2lvdsENGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.lvds_fifoRdGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.lvdsFifoRowRdOutEnGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.latchGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.Data2fifoENGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance U2.Data2accEnGen.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.Data2accEnGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.fifo_wrGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance U2.fifo_rdGen.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.fifo_rdGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U2.FifoRowRdOutGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance U1.REGEN.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance U2.Data2accEnGen.PrState[4],  because it is equivalent to instance U2.latchGen.PrState[4]
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance U2.fifo_rdGen.PrState[4],  because it is equivalent to instance U2.latchGen.PrState[4]
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 66MB peak: 68MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 67MB peak: 69MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 67MB peak: 69MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 67MB peak: 69MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 67MB peak: 69MB)
+
+Finished preparing to map (Time elapsed 0h:00m:02s; Memory used current: 74MB peak: 74MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name           Fanout, notes                   
+---------------------------------------------------------------------
+U2.FifoRowRdOutGen.WFO / Q           96                              
+U2.notfirstFrame / Q                 72                              
+U2.Data2Fifo_0_sqmuxa / Y            72                              
+U2.latchGen.PrState[4] / Q           27                              
+U1.ByteSel[2] / Q                    30                              
+U1.ClkEn / Q                         77                              
+U1.DelayCnt[0] / Q                   30                              
+U1.DelayCnt[1] / Q                   28                              
+U1.CRC_Reg_14_2_i_0_o2[15] / Y       32                              
+U1.StepCntlde_0_0_0_a2 / Y           42                              
+U1.CRC_Reg_14_2_i_0_a2_1[15] / Y     34                              
+sysrst_n_pad / Y                     813 : 812 asynchronous set/reset
+SDramEn_pad / Y                      155                             
+LVDS_en_pad / Y                      99                              
+U2.LVDS_data_0_sqmuxa / Y            72                              
+U2.latch4acc_0_sqmuxa / Y            72                              
+=====================================================================
+
+@N: FP130 |Promoting Net sysrst_n_c on CLKBUF  sysrst_n_pad 
+@N: FP130 |Promoting Net Sysclk_c on CLKBUF  Sysclk_pad 
+@N: FP130 |Promoting Net SDramEn_c on CLKINT  I_322 
+@N: FP130 |Promoting Net LVDS_en_c on CLKINT  I_323 
+@N: FP130 |Promoting Net U2.FifoRowRdOut on CLKINT  I_324 
+@N: FP130 |Promoting Net U1.ClkEn on CLKINT  I_325 
+Replicating Combinational Instance U2.latch4acc_0_sqmuxa, fanout 72 segments 3
+Replicating Combinational Instance U2.LVDS_data_0_sqmuxa, fanout 72 segments 3
+Replicating Combinational Instance U1.CRC_Reg_14_2_i_0_a2_1[15], fanout 34 segments 2
+Replicating Combinational Instance U1.StepCntlde_0_0_0_a2, fanout 42 segments 2
+Replicating Combinational Instance U1.CRC_Reg_14_2_i_0_o2[15], fanout 32 segments 2
+Replicating Sequential Instance U1.DelayCnt[1], fanout 28 segments 2
+Replicating Sequential Instance U1.DelayCnt[0], fanout 30 segments 2
+Replicating Sequential Instance U1.ByteSel[2], fanout 30 segments 2
+Replicating Sequential Instance U2.latchGen.PrState[4], fanout 27 segments 2
+Replicating Combinational Instance U2.Data2Fifo_0_sqmuxa, fanout 72 segments 3
+Replicating Sequential Instance U2.notfirstFrame, fanout 72 segments 3
+Finished technology mapping (Time elapsed 0h:00m:02s; Memory used current: 75MB peak: 77MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:02s; Memory used current: 75MB peak: 77MB)
+
+
+Added 0 Buffers
+Added 15 Cells via replication
+	Added 6 Sequential Cells via replication
+	Added 9 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:02s; Memory used current: 75MB peak: 77MB)
+
+Writing Analyst data base E:\Actelprj\smart_top\synthesis\Link_Main4SD_fmmk.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:02s; Memory used current: 72MB peak: 77MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:02s; Memory used current: 73MB peak: 77MB)
+
+@W: MT420 |Found inferred clock Link_Main4SD_fmmk|Sysclk with period 1000.00ns. A user-defined clock should be declared on object "p:Sysclk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Feb 18 10:09:03 2014
+#
+
+
+Top view:               Link_Main4SD_fmmk
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    1.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 488.216
+
+                             Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock               Frequency     Frequency     Period        Period        Slack       Type         Group              
+---------------------------------------------------------------------------------------------------------------------------------
+Link_Main4SD_fmmk|Sysclk     1.0 MHz       42.4 MHz      1000.000      23.568        488.216     inferred     Inferred_clkgroup_0
+=================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                              |    rise  to  rise     |    fall  to  fall     |    rise  to  fall     |    fall  to  rise   
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                  Ending                    |  constraint  slack    |  constraint  slack    |  constraint  slack    |  constraint  slack  
+--------------------------------------------------------------------------------------------------------------------------------------------------
+Link_Main4SD_fmmk|Sysclk  Link_Main4SD_fmmk|Sysclk  |  1000.000    986.670  |  1000.000    994.119  |  500.000     488.216  |  500.000     493.215
+==================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: Link_Main4SD_fmmk|Sysclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                     Starting                                                            Arrival            
+Instance             Reference                    Type         Pin     Net               Time        Slack  
+                     Clock                                                                                  
+------------------------------------------------------------------------------------------------------------
+U1.CRC_ResultAva     Link_Main4SD_fmmk|Sysclk     DFN1E1C0     Q       CRC_ResultAva     0.550       488.216
+U1.CRC_Reg[34]       Link_Main4SD_fmmk|Sysclk     DFN1C0       Q       CRC_Reg[34]       0.550       488.809
+U1.CRC_Reg[33]       Link_Main4SD_fmmk|Sysclk     DFN1C0       Q       CRC_Reg[33]       0.550       488.837
+U1.CRC_Reg[32]       Link_Main4SD_fmmk|Sysclk     DFN1C0       Q       CRC_Reg[32]       0.550       489.000
+U1.Din_Delay4[2]     Link_Main4SD_fmmk|Sysclk     DFN1E1P0     Q       Din_Delay4[2]     0.550       489.166
+U1.Din_Delay4[1]     Link_Main4SD_fmmk|Sysclk     DFN1E1C0     Q       Din_Delay4[1]     0.550       489.194
+U1.Din_Delay4[0]     Link_Main4SD_fmmk|Sysclk     DFN1E1C0     Q       Din_Delay4[0]     0.550       489.357
+U1.CRC_Reg[35]       Link_Main4SD_fmmk|Sysclk     DFN1C0       Q       CRC_Reg[35]       0.550       489.611
+U1.Din_Delay4[3]     Link_Main4SD_fmmk|Sysclk     DFN1E1P0     Q       Din_Delay4[3]     0.550       489.968
+U1.CRC_Reg[36]       Link_Main4SD_fmmk|Sysclk     DFN1C0       Q       CRC_Reg[36]       0.550       491.475
+============================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                       Starting                                                   Required            
+Instance               Reference                    Type         Pin     Net      Time         Slack  
+                       Clock                                                                          
+------------------------------------------------------------------------------------------------------
+U1.Com_8b10b.AO        Link_Main4SD_fmmk|Sysclk     DFN0E1C0     D       AO_1     499.468      488.216
+U1.Com_8b10b.EO        Link_Main4SD_fmmk|Sysclk     DFN0E1C0     D       EO_1     499.468      488.216
+U1.Com_8b10b.BO        Link_Main4SD_fmmk|Sysclk     DFN0E1C0     D       BO_1     499.468      488.551
+U1.Com_8b10b.CO        Link_Main4SD_fmmk|Sysclk     DFN0E1C0     D       CO_1     499.468      488.551
+U1.Com_8b10b.DO        Link_Main4SD_fmmk|Sysclk     DFN0E1C0     D       DO_1     499.468      488.551
+U1.Com_8b10b.IO        Link_Main4SD_fmmk|Sysclk     DFN0E1C0     D       IO_1     499.468      488.551
+U1.Com_8b10b.S         Link_Main4SD_fmmk|Sysclk     DFN1C0       D       S_2      499.598      493.215
+U1.Com_8b10b.LPDL6     Link_Main4SD_fmmk|Sysclk     DFN1C0       D       PDL6     499.572      493.787
+U1.Com_8b10b.HO        Link_Main4SD_fmmk|Sysclk     DFN1E1C0     D       HO_1     499.598      494.625
+U1.Com_8b10b.FO        Link_Main4SD_fmmk|Sysclk     DFN1E1C0     D       FO_1     499.598      494.960
+======================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      500.000
+    - Setup time:                            0.532
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         499.468
+
+    - Propagation time:                      11.252
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     488.216
+
+    Number of logic level(s):                9
+    Starting point:                          U1.CRC_ResultAva / Q
+    Ending point:                            U1.Com_8b10b.AO / D
+    The start point is clocked by            Link_Main4SD_fmmk|Sysclk [rising] on pin CLK
+    The end   point is clocked by            Link_Main4SD_fmmk|Sysclk [falling] on pin CLK
+
+Instance / Net                               Pin      Pin               Arrival     No. of    
+Name                            Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------
+U1.CRC_ResultAva                DFN1E1C0     Q        Out     0.550     0.550       -         
+CRC_ResultAva                   Net          -        -       1.327     -           11        
+U1.Din_Delay4_RNIB93F[2]        MX2          S        In      -         1.877       -         
+U1.Din_Delay4_RNIB93F[2]        MX2          Y        Out     0.296     2.173       -         
+N_776                           Net          -        -       1.140     -           7         
+U1.Com_8b10b.un3_l04            NOR3         C        In      -         3.312       -         
+U1.Com_8b10b.un3_l04            NOR3         Y        Out     0.561     3.873       -         
+un3_l04                         Net          -        -       0.602     -           3         
+U1.Com_8b10b.un1_l13[0]         MX2          B        In      -         4.475       -         
+U1.Com_8b10b.un1_l13[0]         MX2          Y        Out     0.437     4.913       -         
+un1_l13[0]                      Net          -        -       0.240     -           1         
+U1.Com_8b10b.L13                OR2          A        In      -         5.153       -         
+U1.Com_8b10b.L13                OR2          Y        Out     0.271     5.424       -         
+L13                             Net          -        -       0.602     -           3         
+U1.Com_8b10b.un3_nd1s6_0        OR2A         B        In      -         6.026       -         
+U1.Com_8b10b.un3_nd1s6_0        OR2A         Y        Out     0.384     6.411       -         
+un3_nd1s6_0                     Net          -        -       0.240     -           1         
+U1.Com_8b10b.K4_RNIP52TC        OA1B         B        In      -         6.651       -         
+U1.Com_8b10b.K4_RNIP52TC        OA1B         Y        Out     0.735     7.385       -         
+ND1S6_1                         Net          -        -       0.602     -           3         
+U1.Com_8b10b.K4_RNI1REPE        OAI1         C        In      -         7.988       -         
+U1.Com_8b10b.K4_RNI1REPE        OAI1         Y        Out     0.489     8.477       -         
+ND1S6                           Net          -        -       0.240     -           1         
+U1.Com_8b10b.LPDL4_RNIO2J1T     MX2A         B        In      -         8.717       -         
+U1.Com_8b10b.LPDL4_RNIO2J1T     MX2A         Y        Out     0.456     9.172       -         
+COMPLS6                         Net          -        -       1.140     -           7         
+U1.Com_8b10b.AO_RNO             XOR2         B        In      -         10.312      -         
+U1.Com_8b10b.AO_RNO             XOR2         Y        Out     0.700     11.012      -         
+AO_1                            Net          -        -       0.240     -           1         
+U1.Com_8b10b.AO                 DFN0E1C0     D        In      -         11.252      -         
+==============================================================================================
+Total path delay (propagation time + setup) of 11.784 is 5.411(45.9%) logic and 6.373(54.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell Link_Main4SD_fmmk.arch
+  Core Cell usage:
+              cell count     area count*area
+              AND2    44      1.0       44.0
+             AND2A     1      1.0        1.0
+              AND3    11      1.0       11.0
+               AO1    40      1.0       40.0
+              AO13     1      1.0        1.0
+              AO1A     8      1.0        8.0
+              AO1B    23      1.0       23.0
+              AO1C    36      1.0       36.0
+              AO1D    24      1.0       24.0
+              AOI1    22      1.0       22.0
+             AOI1B    46      1.0       46.0
+              AX1A     2      1.0        2.0
+              AX1C     2      1.0        2.0
+              AX1D     1      1.0        1.0
+              AX1E    17      1.0       17.0
+             AXOI4     1      1.0        1.0
+             AXOI5     1      1.0        1.0
+            CLKINT     4      0.0        0.0
+               GND    16      0.0        0.0
+               INV     6      1.0        6.0
+               MX2   187      1.0      187.0
+              MX2A     7      1.0        7.0
+              MX2C    34      1.0       34.0
+             NAND2     4      1.0        4.0
+              NOR2    77      1.0       77.0
+             NOR2A    90      1.0       90.0
+             NOR2B   138      1.0      138.0
+              NOR3    39      1.0       39.0
+             NOR3A    35      1.0       35.0
+             NOR3B    22      1.0       22.0
+             NOR3C   119      1.0      119.0
+               OA1    25      1.0       25.0
+              OA1A    22      1.0       22.0
+              OA1B    33      1.0       33.0
+              OA1C    11      1.0       11.0
+              OAI1    35      1.0       35.0
+               OR2    52      1.0       52.0
+              OR2A    86      1.0       86.0
+              OR2B    84      1.0       84.0
+               OR3    17      1.0       17.0
+              OR3A    31      1.0       31.0
+              OR3B    34      1.0       34.0
+              OR3C    47      1.0       47.0
+               VCC    16      0.0        0.0
+               XA1    64      1.0       64.0
+              XA1A    36      1.0       36.0
+              XA1B    57      1.0       57.0
+              XA1C    26      1.0       26.0
+              XAI1     1      1.0        1.0
+             XNOR2    26      1.0       26.0
+              XO1A     1      1.0        1.0
+              XOR2    78      1.0       78.0
+
+
+              DFN0     5      1.0        5.0
+            DFN0C0     1      1.0        1.0
+          DFN0E1C0     6      1.0        6.0
+              DFN1     1      1.0        1.0
+            DFN1C0   319      1.0      319.0
+          DFN1E0C0     3      1.0        3.0
+          DFN1E1C0   491      1.0      491.0
+          DFN1E1P0    31      1.0       31.0
+            DFN1P0    17      1.0       17.0
+            RAM4K9     8      0.0        0.0
+                   -----          ----------
+             TOTAL  2722              2678.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF   227
+            OUTBUF   148
+                   -----
+             TOTAL   377
+
+
+Core Cells         : 2678 of 24576 (11%)
+IO Cells           : 377
+
+  RAM/ROM Usage Summary
+Block Rams : 8 of 32 (25%)
+
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Tue Feb 18 10:09:03 2014
+
+###########################################################]

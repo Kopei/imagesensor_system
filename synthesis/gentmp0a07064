@@ -1,0 +1,25 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use work.genpackage.all;
+entity top is
+ port (
+  S : out std_logic_vector(3 downto 0);
+  A : in std_logic_vector(3 downto 0) );
+end entity top;
+architecture gen of top is
+  component INC
+    generic (
+	n : integer    );
+ port (
+  S : out std_logic_vector;
+  A : in std_logic_vector );
+  end component;
+begin
+I1: INC
+  generic map (
+
+  n => 4  )
+ port map (
+  S => S,
+  A => A );
+end architecture gen;

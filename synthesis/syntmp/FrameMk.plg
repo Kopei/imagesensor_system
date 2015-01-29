@@ -1,0 +1,28 @@
+@P:  Worst Slack : 487.583
+@P:  FrameMk|ParaUpdata - Estimated Frequency : NA
+@P:  FrameMk|ParaUpdata - Requested Frequency : 1.0 MHz
+@P:  FrameMk|ParaUpdata - Estimated Period : NA
+@P:  FrameMk|ParaUpdata - Requested Period : 1000.000
+@P:  FrameMk|ParaUpdata - Slack : NA
+@P:  FrameMk|SysClk - Estimated Frequency : 40.3 MHz
+@P:  FrameMk|SysClk - Requested Frequency : 1.0 MHz
+@P:  FrameMk|SysClk - Estimated Period : 24.834
+@P:  FrameMk|SysClk - Requested Period : 1000.000
+@P:  FrameMk|SysClk - Slack : 487.583
+@P:  Worst Slack(min analysis) : NA
+@P:  FrameMk|ParaUpdata - Estimated Frequency(min analysis) : NA
+@P:  FrameMk|ParaUpdata - Requested Frequency(min analysis) : 1.0 MHz
+@P:  FrameMk|ParaUpdata - Estimated Period(min analysis) : NA
+@P:  FrameMk|ParaUpdata - Requested Period(min analysis) : 1000.000
+@P:  FrameMk|ParaUpdata - Slack(min analysis) : NA
+@P:  FrameMk|SysClk - Estimated Frequency(min analysis) : 40.3 MHz
+@P:  FrameMk|SysClk - Requested Frequency(min analysis) : 1.0 MHz
+@P:  FrameMk|SysClk - Estimated Period(min analysis) : 24.834
+@P:  FrameMk|SysClk - Requested Period(min analysis) : 1000.000
+@P:  FrameMk|SysClk - Slack(min analysis) : 487.583
+@P:  Total Area : 1354.0
+@P:  Total Area : 83.0
+@P:  Total Area : 107.0
+@P:  Total Area : 230.0
+@P:  Total Area : 1354.0
+@P:  CPU Time : 0h:00m:01s

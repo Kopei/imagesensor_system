@@ -1,0 +1,1667 @@
+KEY LIBERO "9.1"
+KEY CAPTURE "9.1.0.18"
+KEY DEFAULT_IMPORT_LOC "E:\Actelprj\backup\smart_top20140227_1058\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "a2aba402-2e24-4d9a-9840-0ba4a56b217d"
+KEY HDLTechnology "VHDL"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "M1IS8X8M2"
+KEY VendorTechnology_Package "fg484"
+KEY ProjectLocation "I:\Proj_GEO"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "smart_top::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREUART_LIB
+ENDLIST
+LIST LIBRARY_COREUART_LIB
+ALIAS=COREUART_LIB
+COMPILE_OPTION=COMPILE
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="640"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREUART\5.2.2\COREUART.cxf"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1407997806"
+SIZE="1117"
+PARENT="<project>\component\work\Top_uart\Top_uart.cxf"
+PARENT="<project>\component\work\smart_top\smart_top.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="13504"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREUART\5.2.2\COREUART.cxf"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="17606"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREUART\5.2.2\COREUART.cxf"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="24120"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREUART\5.2.2\COREUART.cxf"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\mti\scripts\wave_vhdl.do,do"
+STATE="utd"
+TIME="1407997806"
+SIZE="651"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd,hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="4646"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\components.vhd,hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="935"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd,hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="10850"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\fifo_256x8_pa3.vhd,hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="5788"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd,hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="8515"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd,hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="5256"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="23571"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf"
+MODULE_UNDER_TEST="testbnch"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\COREUART_0\smart_top_COREUART_0_COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1407997806"
+SIZE="2916"
+PARENT="<project>\component\work\smart_top\smart_top.cxf"
+ENDFILE
+VALUE "<project>\component\work\smart_top\smart_top.cxf,actgen_cxf"
+STATE="utd"
+TIME="1407997806"
+SIZE="9185"
+ENDFILE
+VALUE "<project>\component\work\smart_top\smart_top.vhd,hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="114379"
+PARENT="<project>\component\work\smart_top\smart_top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\smart_top\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1407997806"
+SIZE="4092"
+PARENT="<project>\component\work\smart_top\smart_top.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\top_sdram\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1393244416"
+SIZE="3242"
+PARENT="<project>\component\work\top_sdram\top_sdram.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\top_sdram\top_sdram.cxf,actgen_cxf"
+STATE="utd"
+TIME="1393244416"
+SIZE="5717"
+ENDFILE
+VALUE "<project>\component\work\top_sdram\top_sdram.vhd,hdl"
+STATE="utd"
+TIME="1393244416"
+SIZE="15112"
+PARENT="<project>\component\work\top_sdram\top_sdram.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\mti\scripts\wave_vhdl.do,do"
+STATE="utd"
+TIME="1403143026"
+SIZE="651"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd,hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="4643"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\components.vhd,hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="932"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd,hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="10838"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\fifo_256x8.vhd,hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="7086"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd,hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="8512"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd,hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="5253"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="23568"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf"
+MODULE_UNDER_TEST="testbnch"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\COREUART_0\Top_uart_COREUART_0_COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1403143026"
+SIZE="2911"
+PARENT="<project>\component\work\Top_uart\Top_uart.cxf"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="2273"
+PARENT="<project>\component\work\Top_uart\Top_uart.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\Top_uart.cxf,actgen_cxf"
+STATE="utd"
+TIME="1403143026"
+SIZE="3524"
+ENDFILE
+VALUE "<project>\component\work\Top_uart\Top_uart.vhd,hdl"
+STATE="utd"
+TIME="1403143026"
+SIZE="7716"
+PARENT="<project>\component\work\Top_uart\Top_uart.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\hdl\8b10_enc.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="9082"
+ENDFILE
+VALUE "<project>\hdl\ACC_ctl.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="608"
+ENDFILE
+VALUE "<project>\hdl\acc_top.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="4357"
+ENDFILE
+VALUE "<project>\hdl\ADC_Mux.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="966"
+ENDFILE
+VALUE "<project>\hdl\ADC_MuxTmp.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="1288"
+ENDFILE
+VALUE "<project>\hdl\adc_muxtmp_test.vhd,hdl"
+STATE="utd"
+TIME="1395639528"
+SIZE="2547"
+ENDFILE
+VALUE "<project>\hdl\AddPll_Cmos_DrvX.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="5482"
+ENDFILE
+VALUE "<project>\hdl\CMOS_Ctl.vhd,hdl"
+STATE="utd"
+TIME="1412732566"
+SIZE="7074"
+ENDFILE
+VALUE "<project>\hdl\CMOS_CtlTb.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="2137"
+ENDFILE
+VALUE "<project>\hdl\CMOS_DrvX.vhd,hdl"
+STATE="utd"
+TIME="1401761576"
+SIZE="10034"
+ENDFILE
+VALUE "<project>\hdl\CMOS_FSM.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="578"
+ENDFILE
+VALUE "<project>\hdl\Counter_ref.vhd,hdl"
+STATE="utd"
+TIME="1391584216"
+SIZE="1195"
+ENDFILE
+VALUE "<project>\hdl\FK_Test.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="18055"
+ENDFILE
+VALUE "<project>\hdl\FrameMk.vhd,hdl"
+STATE="utd"
+TIME="1397463856"
+SIZE="20165"
+ENDFILE
+VALUE "<project>\hdl\LGLQD_440.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="4478"
+ENDFILE
+VALUE "<project>\hdl\Link_Main4SD&fmmk.vhd,hdl"
+STATE="utd"
+TIME="1391749538"
+SIZE="4083"
+ENDFILE
+VALUE "<project>\hdl\LVDS_FrameMake.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="23207"
+ENDFILE
+VALUE "<project>\hdl\Main_ctl4SD.vhd,hdl"
+STATE="utd"
+TIME="1399889354"
+SIZE="11895"
+ENDFILE
+VALUE "<project>\hdl\ParaUpdata.vhd,hdl"
+STATE="utd"
+TIME="1397462522"
+SIZE="4691"
+ENDFILE
+VALUE "<project>\hdl\PixelArrayTiming.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="3776"
+ENDFILE
+VALUE "<project>\hdl\PixelArrayTimingTb.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="3168"
+ENDFILE
+VALUE "<project>\hdl\pll_test1.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="1590"
+ENDFILE
+VALUE "<project>\hdl\SDram_cmd.vhd,hdl"
+STATE="utd"
+TIME="1393395276"
+SIZE="9814"
+ENDFILE
+VALUE "<project>\hdl\Sdram_ctl.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="4063"
+ENDFILE
+VALUE "<project>\hdl\Sdram_ctl_v2.vhd,hdl"
+STATE="utd"
+TIME="1391582254"
+SIZE="4353"
+ENDFILE
+VALUE "<project>\hdl\SDram_data.vhd,hdl"
+STATE="utd"
+TIME="1393230250"
+SIZE="3610"
+ENDFILE
+VALUE "<project>\hdl\Sdram_ini.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="3937"
+ENDFILE
+VALUE "<project>\hdl\SDram_rd.vhd,hdl"
+STATE="utd"
+TIME="1393245518"
+SIZE="2484"
+ENDFILE
+VALUE "<project>\hdl\Sdram_rd_noact.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="1614"
+ENDFILE
+VALUE "<project>\hdl\SDRAM_Ref.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="2806"
+ENDFILE
+VALUE "<project>\hdl\Sdram_top.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="7095"
+ENDFILE
+VALUE "<project>\hdl\SDram_work.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="2052"
+ENDFILE
+VALUE "<project>\hdl\SDRAM_wr.vhd,hdl"
+STATE="utd"
+TIME="1393237066"
+SIZE="2401"
+ENDFILE
+VALUE "<project>\hdl\sdram_wr_v2.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="1308"
+ENDFILE
+VALUE "<project>\hdl\SPI_Set.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="4316"
+ENDFILE
+VALUE "<project>\hdl\SPI_SetTb.vhd,hdl"
+STATE="utd"
+TIME="1391145566"
+SIZE="3441"
+ENDFILE
+VALUE "<project>\hdl\Sram_ctl.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="10135"
+ENDFILE
+VALUE "<project>\hdl\SRAM_CtlTb.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="4506"
+ENDFILE
+VALUE "<project>\hdl\Tb_sdram_cmd.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="3259"
+ENDFILE
+VALUE "<project>\hdl\Tb_sdram_rd.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="1278"
+ENDFILE
+VALUE "<project>\hdl\Tb_top.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="3973"
+ENDFILE
+VALUE "<project>\hdl\test.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="446"
+ENDFILE
+VALUE "<project>\hdl\TopAdd_PLL.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="4454"
+ENDFILE
+VALUE "<project>\hdl\toptop.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="7496"
+ENDFILE
+VALUE "<project>\hdl\toptop_v2.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="4805"
+ENDFILE
+VALUE "<project>\hdl\Top_UART_v2.vhd,hdl"
+STATE="utd"
+TIME="1397108702"
+SIZE="18"
+ENDFILE
+VALUE "<project>\hdl\Uart_ctl.vhd,hdl"
+STATE="utd"
+TIME="1403156980"
+SIZE="11356"
+ENDFILE
+VALUE "<project>\hdl\WaveGenSingle.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="4149"
+ENDFILE
+VALUE "<project>\hdl\WaveGenSinglewithCycNumSel.vhd,hdl"
+STATE="utd"
+TIME="1391145568"
+SIZE="4596"
+ENDFILE
+VALUE "<project>\hdl\Y_X_Addressing.vhd,hdl"
+STATE="utd"
+TIME="1399537606"
+SIZE="12140"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1403157010"
+SIZE="1819"
+ENDFILE
+VALUE "<project>\smartgen\adcclk_3P9\adcclk_3P9.cxf,actgen_cxf"
+STATE="utd"
+TIME="1407997734"
+SIZE="1183"
+ENDFILE
+VALUE "<project>\smartgen\adcclk_3P9\adcclk_3P9.gen,gen"
+STATE="utd"
+TIME="1407997734"
+SIZE="482"
+PARENT="<project>\smartgen\adcclk_3P9\adcclk_3P9.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\adcclk_3P9\adcclk_3P9.log,log"
+STATE="utd"
+TIME="1407997734"
+SIZE="1412"
+PARENT="<project>\smartgen\adcclk_3P9\adcclk_3P9.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\adcclk_3P9\adcclk_3P9.vhd,hdl"
+STATE="utd"
+TIME="1407997734"
+SIZE="1652"
+PARENT="<project>\smartgen\adcclk_3P9\adcclk_3P9.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\adcen_dly\adcen_dly.cxf,actgen_cxf"
+STATE="utd"
+TIME="1392791636"
+SIZE="1179"
+ENDFILE
+VALUE "<project>\smartgen\adcen_dly\adcen_dly.gen,gen"
+STATE="utd"
+TIME="1392791636"
+SIZE="379"
+PARENT="<project>\smartgen\adcen_dly\adcen_dly.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\adcen_dly\adcen_dly.log,log"
+STATE="utd"
+TIME="1392791636"
+SIZE="1300"
+PARENT="<project>\smartgen\adcen_dly\adcen_dly.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\adcen_dly\adcen_dly.vhd,hdl"
+STATE="utd"
+TIME="1392791636"
+SIZE="1546"
+PARENT="<project>\smartgen\adcen_dly\adcen_dly.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\ByteData\ByteData.cxf,actgen_cxf"
+STATE="utd"
+TIME="1392631078"
+SIZE="2135"
+ENDFILE
+VALUE "<project>\smartgen\ByteData\ByteData.gen,gen"
+STATE="utd"
+TIME="1392631078"
+SIZE="913"
+PARENT="<project>\smartgen\ByteData\ByteData.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\ByteData\ByteData.log,log"
+STATE="utd"
+TIME="1392631078"
+SIZE="3552"
+PARENT="<project>\smartgen\ByteData\ByteData.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\ByteData\ByteData.vhd,hdl"
+STATE="utd"
+TIME="1392631078"
+SIZE="58612"
+PARENT="<project>\smartgen\ByteData\ByteData.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Cnt4Ref\Cnt4Ref.cxf,actgen_cxf"
+STATE="utd"
+TIME="1391583950"
+SIZE="1485"
+ENDFILE
+VALUE "<project>\smartgen\Cnt4Ref\Cnt4Ref.gen,gen"
+STATE="utd"
+TIME="1391583948"
+SIZE="639"
+PARENT="<project>\smartgen\Cnt4Ref\Cnt4Ref.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Cnt4Ref\Cnt4Ref.log,log"
+STATE="utd"
+TIME="1391583950"
+SIZE="1998"
+PARENT="<project>\smartgen\Cnt4Ref\Cnt4Ref.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Cnt4Ref\Cnt4Ref.vhd,hdl"
+STATE="utd"
+TIME="1391583950"
+SIZE="4540"
+PARENT="<project>\smartgen\Cnt4Ref\Cnt4Ref.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\DRY4Test\DRY4Test.cxf,actgen_cxf"
+STATE="utd"
+TIME="1392457284"
+SIZE="1175"
+ENDFILE
+VALUE "<project>\smartgen\DRY4Test\DRY4Test.gen,gen"
+STATE="utd"
+TIME="1392457284"
+SIZE="378"
+PARENT="<project>\smartgen\DRY4Test\DRY4Test.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\DRY4Test\DRY4Test.log,log"
+STATE="utd"
+TIME="1392457284"
+SIZE="1296"
+PARENT="<project>\smartgen\DRY4Test\DRY4Test.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\DRY4Test\DRY4Test.vhd,hdl"
+STATE="utd"
+TIME="1392457284"
+SIZE="1713"
+PARENT="<project>\smartgen\DRY4Test\DRY4Test.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Fifo_rd\Fifo_rd.cxf,actgen_cxf"
+STATE="utd"
+TIME="1391145856"
+SIZE="2286"
+ENDFILE
+VALUE "<project>\smartgen\Fifo_rd\Fifo_rd.gen,gen"
+STATE="utd"
+TIME="1391145854"
+SIZE="921"
+PARENT="<project>\smartgen\Fifo_rd\Fifo_rd.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Fifo_rd\Fifo_rd.log,log"
+STATE="utd"
+TIME="1391145856"
+SIZE="3546"
+PARENT="<project>\smartgen\Fifo_rd\Fifo_rd.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Fifo_rd\Fifo_rd.vhd,hdl"
+STATE="utd"
+TIME="1391145856"
+SIZE="41034"
+PARENT="<project>\smartgen\Fifo_rd\Fifo_rd.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\My_adder0\My_adder0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1391145904"
+SIZE="1490"
+ENDFILE
+VALUE "<project>\smartgen\My_adder0\My_adder0.gen,gen"
+STATE="utd"
+TIME="1391145902"
+SIZE="406"
+PARENT="<project>\smartgen\My_adder0\My_adder0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\My_adder0\My_adder0.log,log"
+STATE="utd"
+TIME="1391145904"
+SIZE="1623"
+PARENT="<project>\smartgen\My_adder0\My_adder0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\My_adder0\My_adder0.vhd,hdl"
+STATE="utd"
+TIME="1391145904"
+SIZE="5932"
+PARENT="<project>\smartgen\My_adder0\My_adder0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\My_adder0\My_adder0_behave.vhd,other_hdl"
+STATE="utd"
+TIME="1391145904"
+SIZE="920"
+PARENT="<project>\smartgen\My_adder0\My_adder0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\my_pll\my_pll.cxf,actgen_cxf"
+STATE="utd"
+TIME="1393330496"
+SIZE="1773"
+ENDFILE
+VALUE "<project>\smartgen\my_pll\my_pll.gen,gen"
+STATE="utd"
+TIME="1393330496"
+SIZE="703"
+PARENT="<project>\smartgen\my_pll\my_pll.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\my_pll\my_pll.log,log"
+STATE="utd"
+TIME="1393330496"
+SIZE="2987"
+PARENT="<project>\smartgen\my_pll\my_pll.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\my_pll\my_pll.vhd,hdl"
+STATE="utd"
+TIME="1393330496"
+SIZE="4675"
+PARENT="<project>\smartgen\my_pll\my_pll.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\sampleEn_dly\sampleEn_dly.cxf,actgen_cxf"
+STATE="utd"
+TIME="1392791642"
+SIZE="1191"
+ENDFILE
+VALUE "<project>\smartgen\sampleEn_dly\sampleEn_dly.gen,gen"
+STATE="utd"
+TIME="1392791642"
+SIZE="382"
+PARENT="<project>\smartgen\sampleEn_dly\sampleEn_dly.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\sampleEn_dly\sampleEn_dly.log,log"
+STATE="utd"
+TIME="1392791642"
+SIZE="1310"
+PARENT="<project>\smartgen\sampleEn_dly\sampleEn_dly.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\sampleEn_dly\sampleEn_dly.vhd,hdl"
+STATE="utd"
+TIME="1392791642"
+SIZE="1558"
+PARENT="<project>\smartgen\sampleEn_dly\sampleEn_dly.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Uart_ram\Uart_ram.cxf,actgen_cxf"
+STATE="utd"
+TIME="1397109096"
+SIZE="2625"
+ENDFILE
+VALUE "<project>\smartgen\Uart_ram\Uart_ram.gen,gen"
+STATE="utd"
+TIME="1397109094"
+SIZE="698"
+PARENT="<project>\smartgen\Uart_ram\Uart_ram.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Uart_ram\Uart_ram.log,log"
+STATE="utd"
+TIME="1397109094"
+SIZE="3066"
+PARENT="<project>\smartgen\Uart_ram\Uart_ram.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Uart_ram\Uart_ram.vhd,hdl"
+STATE="utd"
+TIME="1397109094"
+SIZE="4535"
+PARENT="<project>\smartgen\Uart_ram\Uart_ram.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\smartgen\Uart_ram\Uart_ram_R0C0.mem,sim"
+STATE="utd"
+TIME="1397109094"
+SIZE="88"
+PARENT="<project>\smartgen\Uart_ram\Uart_ram.cxf"
+ENDFILE
+VALUE "<project>\stimulus\SRAM_CtlTb.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="4506"
+ENDFILE
+VALUE "<project>\stimulus\tb_acc_top.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="3713"
+ENDFILE
+VALUE "<project>\stimulus\tb_adc_mux.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="1907"
+ENDFILE
+VALUE "<project>\stimulus\tb_adc_mux_tmp.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="1925"
+ENDFILE
+VALUE "<project>\stimulus\TB_addpll_cmos_drvx.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="5077"
+ENDFILE
+VALUE "<project>\stimulus\TB_cmos_drvx.vhd,tb_hdl"
+STATE="utd"
+TIME="1399511226"
+SIZE="4959"
+ENDFILE
+VALUE "<project>\stimulus\tb_fk_test.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="3381"
+ENDFILE
+VALUE "<project>\stimulus\TB_FrameMK.vhd,tb_hdl"
+STATE="utd"
+TIME="1392622392"
+SIZE="3682"
+ENDFILE
+VALUE "<project>\stimulus\TB_LGLQD_440.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="791"
+ENDFILE
+VALUE "<project>\stimulus\TB_link_main4sd_fmmk.vhd,tb_hdl"
+STATE="utd"
+TIME="1391160984"
+SIZE="5288"
+ENDFILE
+VALUE "<project>\stimulus\TB_main_ctl4SD.vhd,tb_hdl"
+STATE="utd"
+TIME="1392953098"
+SIZE="4427"
+ENDFILE
+VALUE "<project>\stimulus\TB_my_add3.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="798"
+ENDFILE
+VALUE "<project>\stimulus\TB_PLL.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="1091"
+ENDFILE
+VALUE "<project>\stimulus\Tb_sdram_cmd.vhd,tb_hdl"
+STATE="utd"
+TIME="1391766804"
+SIZE="3995"
+ENDFILE
+VALUE "<project>\stimulus\TB_SDram_ctl.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="4168"
+ENDFILE
+VALUE "<project>\stimulus\TB_SDram_ctl_v2.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="4174"
+ENDFILE
+VALUE "<project>\stimulus\TB_Sdram_ini.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="1200"
+ENDFILE
+VALUE "<project>\stimulus\Tb_sdram_rd.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="1503"
+ENDFILE
+VALUE "<project>\stimulus\TB_sdram_ref.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="1467"
+ENDFILE
+VALUE "<project>\stimulus\TB_sdram_top.vhd,tb_hdl"
+STATE="utd"
+TIME="1399539708"
+SIZE="4060"
+ENDFILE
+VALUE "<project>\stimulus\TB_SDram_wr.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="1286"
+ENDFILE
+VALUE "<project>\stimulus\TB_sdram_wr_v2.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="1301"
+ENDFILE
+VALUE "<project>\stimulus\TB_Smart_top.vhd,tb_hdl"
+STATE="utd"
+TIME="1399539816"
+SIZE="4745"
+ENDFILE
+VALUE "<project>\stimulus\TB_Sram_ctl.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="4205"
+ENDFILE
+VALUE "<project>\stimulus\Tb_top.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="3973"
+ENDFILE
+VALUE "<project>\stimulus\TB_toptop.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="4016"
+ENDFILE
+VALUE "<project>\stimulus\tb_toptop_v2.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="4193"
+ENDFILE
+VALUE "<project>\stimulus\Tb_top_sdram.vhd,tb_hdl"
+STATE="utd"
+TIME="1393245010"
+SIZE="4711"
+ENDFILE
+VALUE "<project>\stimulus\Tb_top_uart.vhd,tb_hdl"
+STATE="utd"
+TIME="1403077528"
+SIZE="2570"
+ENDFILE
+VALUE "<project>\stimulus\TB_Uart_ctl.vhd,tb_hdl"
+STATE="utd"
+TIME="1403075262"
+SIZE="3188"
+ENDFILE
+VALUE "<project>\stimulus\Testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="3722"
+ENDFILE
+VALUE "<project>\stimulus\WaveGenSingleTb.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="2178"
+ENDFILE
+VALUE "<project>\stimulus\Y_X_AddressingTb.vhd,tb_hdl"
+STATE="utd"
+TIME="1391157832"
+SIZE="4302"
+ENDFILE
+VALUE "<project>\synthesis\adc_muxtmp_test.edn,syn_edn"
+STATE="ood"
+TIME="1393121602"
+SIZE="35564"
+ENDFILE
+VALUE "<project>\synthesis\adc_muxtmp_test_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1393121602"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\CMOS_Ctl.edn,syn_edn"
+STATE="ood"
+TIME="1397121282"
+SIZE="134443"
+ENDFILE
+VALUE "<project>\synthesis\CMOS_Ctl_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1397121282"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\CMOS_DrvX.edn,syn_edn"
+STATE="ood"
+TIME="1399537782"
+SIZE="516555"
+ENDFILE
+VALUE "<project>\synthesis\CMOS_DrvX_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1399537782"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\FK_Test.edn,syn_edn"
+STATE="ood"
+TIME="1391157796"
+SIZE="661001"
+ENDFILE
+VALUE "<project>\synthesis\FK_Test_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1391157796"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\FrameMk.edn,syn_edn"
+STATE="ood"
+TIME="1397463910"
+SIZE="663950"
+ENDFILE
+VALUE "<project>\synthesis\FrameMk.vhd,syn_hdl"
+STATE="ood"
+TIME="1392634242"
+SIZE="230270"
+ENDFILE
+VALUE "<project>\synthesis\FrameMk_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1397463910"
+SIZE="460"
+ENDFILE
+VALUE "<project>\synthesis\Link_Main4SD_fmmk.edn,syn_edn"
+STATE="ood"
+TIME="1392689344"
+SIZE="1456610"
+ENDFILE
+VALUE "<project>\synthesis\Link_Main4SD_fmmk_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1392689344"
+SIZE="383"
+ENDFILE
+VALUE "<project>\synthesis\Main_ctl4SD.edn,syn_edn"
+STATE="ood"
+TIME="1393205118"
+SIZE="759707"
+ENDFILE
+VALUE "<project>\synthesis\Main_ctl4SD.vhd,syn_hdl"
+STATE="ood"
+TIME="1392953106"
+SIZE="317877"
+ENDFILE
+VALUE "<project>\synthesis\Main_ctl4SD_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1393205118"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\ParaUpdata.edn,syn_edn"
+STATE="ood"
+TIME="1397462288"
+SIZE="128520"
+ENDFILE
+VALUE "<project>\synthesis\ParaUpdata_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1397462288"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\Sdram_cmd.edn,syn_edn"
+STATE="ood"
+TIME="1391766446"
+SIZE="200972"
+ENDFILE
+VALUE "<project>\synthesis\Sdram_cmd_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1391766446"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\SDram_rd.edn,syn_edn"
+STATE="ood"
+TIME="1393243586"
+SIZE="25417"
+ENDFILE
+VALUE "<project>\synthesis\SDram_rd_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1393243586"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\smart_top.edn,syn_edn"
+STATE="utd"
+TIME="1412732586"
+SIZE="3248603"
+ENDFILE
+VALUE "<project>\synthesis\smart_top.vhd,syn_hdl"
+STATE="ood"
+TIME="1392634676"
+SIZE="1333451"
+ENDFILE
+VALUE "<project>\synthesis\smart_top_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1412732586"
+SIZE="310"
+ENDFILE
+VALUE "<project>\synthesis\top_sdram.edn,syn_edn"
+STATE="ood"
+TIME="1393244438"
+SIZE="501701"
+ENDFILE
+VALUE "<project>\synthesis\top_sdram_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1393244438"
+SIZE="379"
+ENDFILE
+VALUE "<project>\synthesis\Top_uart.edn,syn_edn"
+STATE="utd"
+TIME="1403157008"
+SIZE="281778"
+ENDFILE
+VALUE "<project>\synthesis\Top_uart_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1403157008"
+SIZE="376"
+ENDFILE
+VALUE "<project>\synthesis\Uart_ctl.edn,syn_edn"
+STATE="ood"
+TIME="1403078790"
+SIZE="172966"
+ENDFILE
+VALUE "<project>\synthesis\Uart_ctl_sdc.sdc,syn_sdc"
+STATE="ood"
+TIME="1403078790"
+SIZE="379"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "CMOS_DrvX::work"
+FILE "<project>\hdl\CMOS_DrvX.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TB_cmos_drvx.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "FK_Test::work"
+FILE "<project>\hdl\FK_Test.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\tb_fk_test.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "FrameMk::work"
+FILE "<project>\hdl\FrameMk.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TB_FrameMK.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Link_Main4SD_fmmk::work"
+FILE "<project>\hdl\Link_Main4SD&fmmk.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TB_link_main4sd_fmmk.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Main_ctl4SD::work"
+FILE "<project>\hdl\Main_ctl4SD.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TB_main_ctl4SD.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Sdram_cmd::work"
+FILE "<project>\hdl\SDram_cmd.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Tb_sdram_cmd.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "smart_top::work"
+FILE "<project>\component\work\smart_top\smart_top.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\smart_top\testbench.vhd,tb_hdl"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TB_Smart_top.vhd,tb_hdl"
+VALUE "<project>\component\work\smart_top\testbench.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\smart_top.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "top_sdram::work"
+FILE "<project>\component\work\top_sdram\top_sdram.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\top_sdram\testbench.vhd,tb_hdl"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\work\top_sdram\testbench.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Top_uart::work"
+FILE "<project>\component\work\Top_uart\Top_uart.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\component\work\Top_uart\testbench.vhd,tb_hdl"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Tb_top_uart.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Top_uart.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Uart_ctl::work"
+FILE "<project>\hdl\Uart_ctl.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\TB_Uart_ctl.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Uart_ram::work"
+FILE "<project>\smartgen\Uart_ram\Uart_ram.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\smartgen\Uart_ram\Uart_ram_R0C0.mem,sim"
+ENDLIST
+ENDLIST
+LIST "smart_top_COREUART_0_COREUART::COREUART_LIB"
+FILE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+VALUE "<project>\component\work\smart_top\COREUART_0\mti\scripts\wave_vhdl.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "Top_uart_COREUART_0_COREUART::COREUART_LIB"
+FILE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+VALUE "<project>\component\work\Top_uart\COREUART_0\mti\scripts\wave_vhdl.do,do"
+ENDLIST
+LIST AssociatedStimulus
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST Sdram_cmd
+VALUE "<project>\stimulus\Tb_sdram_cmd.vhd,tb_hdl"
+ENDLIST
+LIST Main_ctl4SD
+VALUE "<project>\stimulus\TB_main_ctl4SD.vhd,tb_hdl"
+ENDLIST
+LIST CMOS_DrvX
+VALUE "<project>\stimulus\TB_cmos_drvx.vhd,tb_hdl"
+ENDLIST
+LIST Top_uart
+VALUE "<project>\stimulus\Tb_top_uart.vhd,tb_hdl"
+ENDLIST
+LIST Uart_ctl
+VALUE "<project>\stimulus\TB_Uart_ctl.vhd,tb_hdl"
+ENDLIST
+LIST Top_uart_COREUART_0_COREUART
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+ENDLIST
+LIST top_sdram
+VALUE "<project>\component\work\top_sdram\testbench.vhd,tb_hdl"
+ENDLIST
+LIST smart_top
+VALUE "<project>\stimulus\TB_Smart_top.vhd,tb_hdl"
+VALUE "<project>\component\work\smart_top\testbench.vhd,tb_hdl"
+ENDLIST
+LIST FrameMk
+VALUE "<project>\stimulus\TB_FrameMK.vhd,tb_hdl"
+ENDLIST
+LIST smart_top_COREUART_0_COREUART
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+ENDLIST
+LIST Link_Main4SD_fmmk
+VALUE "<project>\stimulus\TB_link_main4sd_fmmk.vhd,tb_hdl"
+ENDLIST
+LIST FK_Test
+VALUE "<project>\stimulus\tb_fk_test.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+LIST Top_uart
+VALUE "<project>\component\work\Top_uart\testbench.vhd,tb_hdl"
+ENDLIST
+LIST Top_uart_COREUART_0_COREUART
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+VALUE "<project>\component\work\Top_uart\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+VALUE "<project>\component\work\Top_uart\COREUART_0\mti\scripts\wave_vhdl.do,do"
+ENDLIST
+LIST top_sdram
+VALUE "<project>\component\work\top_sdram\testbench.vhd,tb_hdl"
+ENDLIST
+LIST smart_top
+VALUE "<project>\component\work\smart_top\testbench.vhd,tb_hdl"
+ENDLIST
+LIST Uart_ram
+VALUE "<project>\smartgen\Uart_ram\Uart_ram_R0C0.mem,sim"
+ENDLIST
+LIST smart_top_COREUART_0_COREUART
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.2.2\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+VALUE "<project>\component\work\smart_top\COREUART_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+VALUE "<project>\component\work\smart_top\COREUART_0\mti\scripts\wave_vhdl.do,do"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=100 ms
+Resolution=1ps
+VsimOpt=
+EntityName=Tb_top_uart
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=F:/Actel/Libero_v9.1/Designer/lib/modelsim/precompiled/vhdl/proasic3
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="F:\Actel\Libero_v9.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="F:\Actel\Libero_v9.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "CMOS_DrvX::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "FK_Test::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "FrameMk::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Link_Main4SD_fmmk::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Main_ctl4SD::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Sdram_cmd::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "smart_top::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\smart_top.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "top_sdram::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Top_uart::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSTIMULUS=StateSuccess
+ideSYNTHESIS(<project>\synthesis\Top_uart.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Uart_ctl::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "smart_top_COREUART_0_COREUART::COREUART_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "Top_uart_COREUART_0_COREUART::COREUART_LIB"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+DESIGNFLOW:
+SD:smart_top::work
+ACTIVE_VIEW:0
+ENDLIST

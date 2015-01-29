@@ -1,0 +1,167 @@
+@N: CD630 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":7:7:7:17|Synthesizing work.main_ctl4sd.behavioral 
+@W: CD604 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":117:5:117:18|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":134:4:134:17|OTHERS clause is not synthesized 
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+Post processing for work.main_ctl4sd.behavioral
+@A:"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Feedback mux created for signal test_data. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 71 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 70 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 69 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 68 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 67 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 66 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 65 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 64 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 63 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 62 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 61 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 60 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 59 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 58 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 57 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 56 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 55 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 54 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 53 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 52 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 51 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 50 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 49 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 48 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 47 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 46 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 45 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 44 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 43 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 42 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 41 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 40 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 39 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 38 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 37 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 36 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 35 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 34 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 33 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 32 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 31 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 30 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 29 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 28 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 27 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 26 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 25 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 24 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 23 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 22 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 21 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 20 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 19 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 18 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 17 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 16 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 15 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 14 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 13 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 12 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 11 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 10 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 9 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 8 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 7 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 6 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 5 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 4 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 3 of LVDS_data(71 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 2 of LVDS_data(71 downto 0)  
+@W: CL190 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Optimizing register bit LVDS_data(1) to a constant 0
+@W: CL260 :"E:\Actelprj\smart_top\hdl\Main_ctl4SD.vhd":81:1:81:2|Pruning Register bit 1 of LVDS_data(1 downto 0)  

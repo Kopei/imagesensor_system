@@ -1,0 +1,124 @@
+# Reading F:/Actel/Libero_v9.1/Model/tcl/vsim/pref.tcl 
+# do run.do 
+# INFO: Simulation library presynth already exists 
+# Modifying modelsim.ini
+# Modifying modelsim.ini
+# INFO: Simulation library COREUART_LIB already exists 
+# Modifying modelsim.ini
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity top_uart_coreuart_0_clock_gen
+# -- Compiling architecture cuarti of top_uart_coreuart_0_clock_gen
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity top_uart_coreuart_0_tx_async
+# -- Compiling architecture cuarti1 of top_uart_coreuart_0_tx_async
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity top_uart_coreuart_0_rx_async
+# -- Compiling architecture cuarti1 of top_uart_coreuart_0_rx_async
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity top_uart_coreuart_0_fifo_256x8
+# -- Compiling architecture cuarti1 of top_uart_coreuart_0_fifo_256x8
+# -- Compiling entity top_uart_coreuart_0_fifo_ctrl_256
+# -- Compiling architecture cuarti1 of top_uart_coreuart_0_fifo_ctrl_256
+# -- Compiling entity top_uart_coreuart_0_ram16x8
+# -- Compiling architecture cuarti1 of top_uart_coreuart_0_ram16x8
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity top_uart_coreuart_0_coreuart
+# -- Compiling architecture cuarti1 of top_uart_coreuart_0_coreuart
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity uart_ctl
+# -- Compiling architecture behavioral of uart_ctl
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity top_uart
+# -- Compiling architecture def_arch of top_uart
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading entity uart_ctl
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling package smart_top_coreuart_0_components
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling package top_uart_coreuart_0_components
+# Model Technology ModelSim ACTEL vcom 6.6d Compiler 2010.11 Nov  2 2010
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Compiling entity tb_top_uart
+# -- Compiling architecture behavioral of tb_top_uart
+# vsim -L proasic3 -L presynth -L COREUART_LIB -t 1ps presynth.Tb_top_uart 
+# //  ModelSim ACTEL 6.6d Nov  2 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading presynth.tb_top_uart(behavioral)
+# Loading presynth.top_uart(def_arch)
+# Loading std.textio(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading proasic3.vtables
+# Loading proasic3.vcc(vital_act)
+# Loading presynth.uart_ctl(behavioral)
+# Loading proasic3.gnd(vital_act)
+# Loading coreuart_lib.top_uart_coreuart_0_coreuart(cuarti1)
+# Loading coreuart_lib.top_uart_coreuart_0_clock_gen(cuarti)
+# Loading coreuart_lib.top_uart_coreuart_0_tx_async(cuarti1)
+# Loading coreuart_lib.top_uart_coreuart_0_rx_async(cuarti1)
+# Updating msgviewer database...
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_uart/u1/uart_ctl_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_uart/u1/uart_ctl_0
+add wave -r sim:/tb_top_uart/u1/*
+# Break key hit 
+# Simulation stop requested.
+# Updating msgviewer database...
+# Simulation Breakpoint: Simulation stop requested.
+# MACRO ./run.do PAUSED at line 31
+restart
+run
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top_uart/u1/uart_ctl_0
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 2  Instance: /tb_top_uart/u1/uart_ctl_0
+# Updating msgviewer database...

@@ -1,0 +1,34 @@
+
+fsm_encoding {1972972} onehot
+
+fsm_state_encoding {1972972} rx_idle {000001}
+
+fsm_state_encoding {1972972} rx_start {000010}
+
+fsm_state_encoding {1972972} rx_len1 {000100}
+
+fsm_state_encoding {1972972} rx_len2 {001000}
+
+fsm_state_encoding {1972972} rx_chpar {010000}
+
+fsm_state_encoding {1972972} rx_check {100000}
+
+fsm_registers {1972972} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]}  {PrState[5]} 
+
+fsm_encoding {125822581} onehot
+
+fsm_state_encoding {125822581} tx_idle {0000001}
+
+fsm_state_encoding {125822581} tx_start {0000010}
+
+fsm_state_encoding {125822581} tx_word0 {0000100}
+
+fsm_state_encoding {125822581} tx_word1 {0001000}
+
+fsm_state_encoding {125822581} tx_word2 {0010000}
+
+fsm_state_encoding {125822581} tx_word3 {0100000}
+
+fsm_state_encoding {125822581} tx_ok {1000000}
+
+fsm_registers {125822581} {Pr_State[0]}  {Pr_State[1]}  {Pr_State[2]}  {Pr_State[3]}  {Pr_State[4]}  {Pr_State[5]}  {Pr_State[6]} 

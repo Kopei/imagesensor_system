@@ -1,0 +1,39 @@
+@N: CD630 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":7:7:7:15|Synthesizing work.sdram_cmd.behavioral 
+@W: CD604 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":172:3:172:16|OTHERS clause is not synthesized 
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+Post processing for work.sdram_cmd.behavioral
+@A:"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Feedback mux created for signal Rfifo_weEN. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@W: CL111 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|All reachable assignments to SD_BA(0) assign '0', register removed by optimization
+@W: CL111 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|All reachable assignments to SD_BA(1) assign '0', register removed by optimization
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit ba(0) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit ba(1) to a constant 0
+@W: CL169 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register ba(1 downto 0)  
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(0) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(1) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(2) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(0) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(1) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(2) to a constant 0
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of cs_n(1 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 0 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 0 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 7 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 6 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 5 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 4 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 3 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of dqm(7 downto 0)  

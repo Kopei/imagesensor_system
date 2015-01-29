@@ -1,0 +1,84 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "SDram_rd")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 023R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "SDram_rd")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT pr_state\[3\]/CLK  pr_state\[3\]/Q  pr_state_RNION3A\[5\]/B  pr_state_RNION3A\[5\]/Y  rd_state_RNO\[2\]/C  rd_state_RNO\[2\]/Y  rd_state\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[3\]/CLK  pr_state\[3\]/Q  pr_state_RNION3A\[5\]/B  pr_state_RNION3A\[5\]/Y  pr_state_RNO\[3\]/B  pr_state_RNO\[3\]/Y  pr_state\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[0\]/CLK  pr_state\[0\]/Q  pr_state_RNO_1\[6\]/A  pr_state_RNO_1\[6\]/Y  pr_state_RNO\[6\]/C  pr_state_RNO\[6\]/Y  pr_state\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  temp_n1_0_i_o3/B  temp_n1_0_i_o3/Y  rd_ok_RNO/C  rd_ok_RNO/Y  rd_ok/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[7\]/CLK  pr_state\[7\]/Q  pr_state_RNIG4RA\[7\]/A  pr_state_RNIG4RA\[7\]/Y  pr_state_RNO\[2\]/C  pr_state_RNO\[2\]/Y  pr_state\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  temp_n1_0_i_o3/B  temp_n1_0_i_o3/Y  temp_n2_0_i/A  temp_n2_0_i/Y  temp\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[3\]/CLK  pr_state\[3\]/Q  rd_state_RNO\[0\]/C  rd_state_RNO\[0\]/Y  rd_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[3\]/CLK  pr_state\[3\]/Q  temp_n2_0_i/C  temp_n2_0_i/Y  temp\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[3\]/CLK  pr_state\[3\]/Q  temp_n1_0_i/C  temp_n1_0_i/Y  temp\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[2\]/CLK  pr_state\[2\]/Q  pr_state_RNIMN3A\[2\]/B  pr_state_RNIMN3A\[2\]/Y  rd_state_RNO\[0\]/B  rd_state_RNO\[0\]/Y  rd_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[3\]/CLK  pr_state\[3\]/Q  temp_n0_0_0_a3/A  temp_n0_0_0_a3/Y  temp\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[7\]/CLK  pr_state\[7\]/Q  pr_state_RNIG4RA\[7\]/A  pr_state_RNIG4RA\[7\]/Y  pr_state_RNO\[1\]/B  pr_state_RNO\[1\]/Y  pr_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[7\]/CLK  pr_state\[7\]/Q  pr_state_RNIG4RA\[7\]/A  pr_state_RNIG4RA\[7\]/Y  pr_state_RNO\[6\]/A  pr_state_RNO\[6\]/Y  pr_state\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[4\]/CLK  pr_state\[4\]/Q  pr_state_RNIMN3A\[2\]/A  pr_state_RNIMN3A\[2\]/Y  rd_state_RNO\[0\]/B  rd_state_RNO\[0\]/Y  rd_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[2\]/CLK  pr_state\[2\]/Q  pr_state_RNIMN3A\[2\]/B  pr_state_RNIMN3A\[2\]/Y  pr_state_RNO\[5\]/B  pr_state_RNO\[5\]/Y  pr_state\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[5\]/CLK  pr_state\[5\]/Q  pr_state_RNION3A\[5\]/A  pr_state_RNION3A\[5\]/Y  rd_state_RNO\[2\]/C  rd_state_RNO\[2\]/Y  rd_state\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[0\]/CLK  pr_state\[0\]/Q  rd_state_RNO\[1\]/C  rd_state_RNO\[1\]/Y  rd_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_n1_0_i_o3/A  temp_n1_0_i_o3/Y  rd_ok_RNO/C  rd_ok_RNO/Y  rd_ok/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[3\]/CLK  pr_state\[3\]/Q  rd_ok_RNO/A  rd_ok_RNO/Y  rd_ok/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[6\]/CLK  pr_state\[6\]/Q  rd_state_RNO_0\[1\]/B  rd_state_RNO_0\[1\]/Y  rd_state_RNO\[1\]/A  rd_state_RNO\[1\]/Y  rd_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[4\]/CLK  pr_state\[4\]/Q  rd_state_RNO_0\[1\]/A  rd_state_RNO_0\[1\]/Y  rd_state_RNO\[1\]/A  rd_state_RNO\[1\]/Y  rd_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[0\]/CLK  pr_state\[0\]/Q  rd_state_RNO\[2\]/A  rd_state_RNO\[2\]/Y  rd_state\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[0\]/CLK  pr_state\[0\]/Q  rd_state_RNO\[0\]/A  rd_state_RNO\[0\]/Y  rd_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[1\]/CLK  pr_state\[1\]/Q  rd_state_RNO\[2\]/B  rd_state_RNO\[2\]/Y  rd_state\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[1\]/CLK  pr_state\[1\]/Q  rd_state_RNO\[1\]/B  rd_state_RNO\[1\]/Y  rd_state\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  temp_n2_0_i/B  temp_n2_0_i/Y  temp\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT temp\[1\]/CLK  temp\[1\]/Q  temp_n1_0_i/B  temp_n1_0_i/Y  temp\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[1\]/CLK  pr_state\[1\]/Q  pr_state_RNO\[0\]/A  pr_state_RNO\[0\]/Y  pr_state\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  temp_n1_0_i/A  temp_n1_0_i/Y  temp\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT temp\[0\]/CLK  temp\[0\]/Q  temp_n0_0_0_a3/B  temp_n0_0_0_a3/Y  temp\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT temp\[2\]/CLK  temp\[2\]/Q  rd_ok_RNO/B  rd_ok_RNO/Y  rd_ok/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT pr_state\[6\]/CLK  pr_state\[6\]/Q  pr_state_RNO\[4\]/A  pr_state_RNO\[4\]/Y  pr_state\[4\]/D  	(9.6:9.6:9.6) )
+
+  )
+)
+)

@@ -1,0 +1,56 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "adc_muxtmp_test")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 023R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "adc_muxtmp_test")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT ChSel\[0\]/CLK  ChSel\[0\]/Q  ChSel_RNIBBA1\[1\]/B  ChSel_RNIBBA1\[1\]/Y  data_test_2_I_1/B  data_test_2_I_1/Y  data_test_2_I_10/B  data_test_2_I_10/Y  data_test\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ChSel\[1\]/CLK  ChSel\[1\]/Q  ChSel_RNIBBA1\[1\]/A  ChSel_RNIBBA1\[1\]/Y  data_test_2_I_1/B  data_test_2_I_1/Y  data_test_2_I_10/B  data_test_2_I_10/Y  data_test\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ChSel\[0\]/CLK  ChSel\[0\]/Q  ChSel_RNIBBA1\[1\]/B  ChSel_RNIBBA1\[1\]/Y  data_test_2_I_8/B  data_test_2_I_8/Y  data_test\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_test\[0\]/CLK  data_test\[0\]/Q  data_test_2_I_1/A  data_test_2_I_1/Y  data_test_2_I_10/B  data_test_2_I_10/Y  data_test\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ChSel\[0\]/CLK  ChSel\[0\]/Q  ChSel_RNIBBA1_0\[1\]/B  ChSel_RNIBBA1_0\[1\]/Y  DataOut_1\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ChSel\[0\]/CLK  ChSel\[0\]/Q  ChSel_RNIBBA1_0\[1\]/B  ChSel_RNIBBA1_0\[1\]/Y  DataOut_1\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ChSel\[0\]/CLK  ChSel\[0\]/Q  ChSel_RNIBBA1_0\[1\]/B  ChSel_RNIBBA1_0\[1\]/Y  DataOut_1\[15\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ChSel\[0\]/CLK  ChSel\[0\]/Q  ChSel_RNIBBA1_0\[1\]/B  ChSel_RNIBBA1_0\[1\]/Y  DataOut_1\[14\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ChSel\[1\]/CLK  ChSel\[1\]/Q  ChSel_RNIBBA1_0\[1\]/A  ChSel_RNIBBA1_0\[1\]/Y  DataOut_1\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT ChSel\[1\]/CLK  ChSel\[1\]/Q  ChSel_RNO\[1\]/B  ChSel_RNO\[1\]/Y  ChSel\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_test\[0\]/CLK  data_test\[0\]/Q  data_test_2_I_8/A  data_test_2_I_8/Y  data_test\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ChSel\[0\]/CLK  ChSel\[0\]/Q  ChSel_RNO\[1\]/A  ChSel_RNO\[1\]/Y  ChSel\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT ChSel\[0\]/CLK  ChSel\[0\]/Q  ChSel_RNO\[0\]/B  ChSel_RNO\[0\]/Y  ChSel\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_test\[1\]/CLK  data_test\[1\]/Q  data_test_2_I_10/A  data_test_2_I_10/Y  data_test\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_test\[0\]/CLK  data_test\[0\]/Q  DataOut_1\[14\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_test\[0\]/CLK  data_test\[0\]/Q  DataOut_1\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_test\[1\]/CLK  data_test\[1\]/Q  DataOut_1\[15\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT data_test\[1\]/CLK  data_test\[1\]/Q  DataOut_1\[1\]/D  	(9.6:9.6:9.6) )
+
+  )
+)
+)

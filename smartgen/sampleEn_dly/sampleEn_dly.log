@@ -1,0 +1,41 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Wed Feb 19 14:34:01 2014
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : sampleEn_dly
+Family                          : ProASIC3
+Output Format                   : VHDL
+Type                            : Delayed Clock
+Delay Index                     : 18
+CLKA Source                     : Hardwired I/O
+
+Total Clock Delay = 4.135 ns.
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      0  Total:  24576   (0.00%)
+    IO (W/ clocks)             Used:      0  Total:    300   (0.00%)
+    Differential IO            Used:      0  Total:     74   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      1  Total:     18   (5.56%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     32   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to
+E:/Actelprj/smart_top/smartgen\sampleEn_dly\sampleEn_dly.vhd.
+
+ ** Log Ended:   Wed Feb 19 14:34:01 2014
+

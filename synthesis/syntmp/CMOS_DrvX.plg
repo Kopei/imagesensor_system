@@ -1,0 +1,30 @@
+@P:  Worst Slack : -0.065
+@P:  CMOS_DrvX|SysClk - Estimated Frequency : 99.4 MHz
+@P:  CMOS_DrvX|SysClk - Requested Frequency : 100.0 MHz
+@P:  CMOS_DrvX|SysClk - Estimated Period : 10.065
+@P:  CMOS_DrvX|SysClk - Requested Period : 10.000
+@P:  CMOS_DrvX|SysClk - Slack : -0.065
+@P:  Worst Slack(min analysis) : NA
+@P:  CMOS_DrvX|SysClk - Estimated Frequency(min analysis) : 99.4 MHz
+@P:  CMOS_DrvX|SysClk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  CMOS_DrvX|SysClk - Estimated Period(min analysis) : 10.065
+@P:  CMOS_DrvX|SysClk - Requested Period(min analysis) : 10.000
+@P:  CMOS_DrvX|SysClk - Slack(min analysis) : -0.065
+@P:  Total Area : 994.0
+@P:  Total Area : 227.0
+@P:  Total Area : 128.0
+@P:  Total Area : 454.0
+@P:  Total Area : 77.0
+@P:  Total Area : 84.0
+@P:  Total Area : 69.0
+@P:  Total Area : 35.0
+@P:  Total Area : 36.0
+@P:  Total Area : 23.0
+@P:  Total Area : 23.0
+@P:  Total Area : 20.0
+@P:  Total Area : 34.0
+@P:  Total Area : 1.0
+@P:  Total Area : 1.0
+@P:  Total Area : 185.0
+@P:  Total Area : 994.0
+@P:  CPU Time : 0h:00m:01s

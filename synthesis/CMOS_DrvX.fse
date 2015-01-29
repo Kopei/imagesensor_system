@@ -1,0 +1,172 @@
+
+fsm_encoding {111221121} onehot
+
+fsm_state_encoding {111221121} ctl_idle {000000001}
+
+fsm_state_encoding {111221121} ctl_quitlatch {000000010}
+
+fsm_state_encoding {111221121} ctl_spi_set {000000100}
+
+fsm_state_encoding {111221121} ctl_init {000001000}
+
+fsm_state_encoding {111221121} ctl_readout {000010000}
+
+fsm_state_encoding {111221121} ctl_sdram {000100000}
+
+fsm_state_encoding {111221121} ctl_judgeaccnum {001000000}
+
+fsm_state_encoding {111221121} ctl_lvds {010000000}
+
+fsm_state_encoding {111221121} ctl_paraset {100000000}
+
+fsm_registers {111221121} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]}  {PrState[5]}  {PrState[6]}  {PrState[7]}  {PrState[8]} 
+
+fsm_encoding {12150215011} onehot
+
+fsm_state_encoding {12150215011} yxa_idle {00001}
+
+fsm_state_encoding {12150215011} yxa_rowreadout {00010}
+
+fsm_state_encoding {12150215011} yxa_wait {00100}
+
+fsm_state_encoding {12150215011} yxa_judge {01000}
+
+fsm_state_encoding {12150215011} yxa_ok {10000}
+
+fsm_registers {12150215011} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {10742742} onehot
+
+fsm_state_encoding {10742742} wgs_idle {00001}
+
+fsm_state_encoding {10742742} wgs_delay {00010}
+
+fsm_state_encoding {10742742} wgs_phase1 {00100}
+
+fsm_state_encoding {10742742} wgs_phase2 {01000}
+
+fsm_state_encoding {10742742} wgs_ok {10000}
+
+fsm_registers {10742742} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {10742743} onehot
+
+fsm_state_encoding {10742743} wgs_idle {00001}
+
+fsm_state_encoding {10742743} wgs_delay {00010}
+
+fsm_state_encoding {10742743} wgs_phase1 {00100}
+
+fsm_state_encoding {10742743} wgs_phase2 {01000}
+
+fsm_state_encoding {10742743} wgs_ok {10000}
+
+fsm_registers {10742743} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {10742744} onehot
+
+fsm_state_encoding {10742744} wgs_idle {00001}
+
+fsm_state_encoding {10742744} wgs_delay {00010}
+
+fsm_state_encoding {10742744} wgs_phase1 {00100}
+
+fsm_state_encoding {10742744} wgs_phase2 {01000}
+
+fsm_state_encoding {10742744} wgs_ok {10000}
+
+fsm_registers {10742744} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {10742745} onehot
+
+fsm_state_encoding {10742745} wgs_idle {00001}
+
+fsm_state_encoding {10742745} wgs_delay {00010}
+
+fsm_state_encoding {10742745} wgs_phase1 {00100}
+
+fsm_state_encoding {10742745} wgs_phase2 {01000}
+
+fsm_state_encoding {10742745} wgs_ok {10000}
+
+fsm_registers {10742745} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {10742746} onehot
+
+fsm_state_encoding {10742746} wgs_idle {00001}
+
+fsm_state_encoding {10742746} wgs_delay {00010}
+
+fsm_state_encoding {10742746} wgs_phase1 {00100}
+
+fsm_state_encoding {10742746} wgs_phase2 {01000}
+
+fsm_state_encoding {10742746} wgs_ok {10000}
+
+fsm_registers {10742746} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {10742747} onehot
+
+fsm_state_encoding {10742747} wgs_idle {00001}
+
+fsm_state_encoding {10742747} wgs_delay {00010}
+
+fsm_state_encoding {10742747} wgs_phase1 {00100}
+
+fsm_state_encoding {10742747} wgs_phase2 {01000}
+
+fsm_state_encoding {10742747} wgs_ok {10000}
+
+fsm_registers {10742747} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {11762768} onehot
+
+fsm_state_encoding {11762768} wgs_idle {00001}
+
+fsm_state_encoding {11762768} wgs_delay {00010}
+
+fsm_state_encoding {11762768} wgs_phase1 {00100}
+
+fsm_state_encoding {11762768} wgs_phase2 {01000}
+
+fsm_state_encoding {11762768} wgs_ok {10000}
+
+fsm_registers {11762768} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {10742749} onehot
+
+fsm_state_encoding {10742749} wgs_idle {00001}
+
+fsm_state_encoding {10742749} wgs_delay {00010}
+
+fsm_state_encoding {10742749} wgs_phase1 {00100}
+
+fsm_state_encoding {10742749} wgs_phase2 {01000}
+
+fsm_state_encoding {10742749} wgs_ok {10000}
+
+fsm_registers {10742749} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {107427410} onehot
+
+fsm_state_encoding {107427410} wgs_idle {00001}
+
+fsm_state_encoding {107427410} wgs_delay {00010}
+
+fsm_state_encoding {107427410} wgs_phase1 {00100}
+
+fsm_state_encoding {107427410} wgs_phase2 {01000}
+
+fsm_state_encoding {107427410} wgs_ok {10000}
+
+fsm_registers {107427410} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {55525512} sequential
+
+fsm_state_encoding {55525512} fsm_idle {00}
+
+fsm_state_encoding {55525512} fsm_shiftout {01}
+
+fsm_state_encoding {55525512} fsm_ok {10}
+
+fsm_registers {55525512} {PrState[1]}  {PrState[0]} 

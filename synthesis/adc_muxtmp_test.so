@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>adc_muxtmp_test</design>
+	<target_edif>E:\Actelprj\smart_top\synthesis\adc_muxtmp_test.edn</target_edif>
+</SynplifyOutput>

@@ -1,0 +1,14 @@
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\CMOS_Ctl.vhd":6:7:6:14|Synthesizing work.cmos_ctl.behavioral 
+Post processing for work.cmos_ctl.behavioral
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\CMOS_Ctl.vhd":112:2:112:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 9 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000

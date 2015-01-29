@@ -1,0 +1,161 @@
+----------------------------------------------------------------------
+Report for cell FK_Test.behav
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         5       1.0        5.0
+                               AND3         1       1.0        1.0
+                                AO1         7       1.0        7.0
+                               AO1A         1       1.0        1.0
+                               AO1B         7       1.0        7.0
+                               AO1C         4       1.0        4.0
+                               AO1D        10       1.0       10.0
+                               AOI1        12       1.0       12.0
+                              AOI1B        12       1.0       12.0
+                               AX1C         1       1.0        1.0
+                               AX1E         4       1.0        4.0
+                              AXOI3         1       1.0        1.0
+                              AXOI5         2       1.0        2.0
+                           ByteData         1     230.0      230.0
+                             CLKBUF         2       0.0        0.0
+                             CLKINT         4       0.0        0.0
+                             DFN1C0        97       1.0       97.0
+                           DFN1E1C0        20       1.0       20.0
+                           DFN1E1P0        30       1.0       30.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF       154       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2        38       1.0       38.0
+                               MX2A         1       1.0        1.0
+                               MX2C        29       1.0       29.0
+                              NAND2         2       1.0        2.0
+                               NOR2        50       1.0       50.0
+                              NOR2A        13       1.0       13.0
+                              NOR2B        24       1.0       24.0
+                               NOR3        43       1.0       43.0
+                              NOR3A        11       1.0       11.0
+                              NOR3B        40       1.0       40.0
+                              NOR3C        46       1.0       46.0
+                                OA1        23       1.0       23.0
+                               OA1A        29       1.0       29.0
+                               OA1B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1        33       1.0       33.0
+                                OR2        63       1.0       63.0
+                               OR2A        55       1.0       55.0
+                               OR2B        28       1.0       28.0
+                                OR3        14       1.0       14.0
+                               OR3A        23       1.0       23.0
+                               OR3B        16       1.0       16.0
+                               OR3C        14       1.0       14.0
+                             OUTBUF         2       0.0        0.0
+                                VCC         1       0.0        0.0
+                      WaveGenSingle         1     102.0      102.0
+                               XA1B         1       1.0        1.0
+                               XA1C        14       1.0       14.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         3       1.0        3.0
+                          enc_8b10b         1     123.0      123.0
+                            
+                         TOTAL           1000               1288.0
+----------------------------------------------------------------------
+Report for cell enc_8b10b.netlist
+     Instance path:  Com_8b10b
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         2       1.0        2.0
+                               AO13         1       1.0        1.0
+                               AO1A         1       1.0        1.0
+                               AO1B         5       1.0        5.0
+                               AO1D         1       1.0        1.0
+                              AOI1B         3       1.0        3.0
+                               AX1C         2       1.0        2.0
+                               AX1D         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                               DFN0         5       1.0        5.0
+                             DFN0C0         1       1.0        1.0
+                           DFN0E1C0         6       1.0        6.0
+                               DFN1         1       1.0        1.0
+                             DFN1C0         2       1.0        2.0
+                           DFN1E1C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                MX2         8       1.0        8.0
+                               MX2A         2       1.0        2.0
+                               MX2B         1       1.0        1.0
+                               MX2C         5       1.0        5.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                               OAI1         2       1.0        2.0
+                                OR2         3       1.0        3.0
+                               OR2A         9       1.0        9.0
+                               OR2B         3       1.0        3.0
+                                OR3         2       1.0        2.0
+                               OR3A         6       1.0        6.0
+                               OR3B         9       1.0        9.0
+                               OR3C         6       1.0        6.0
+                                VCC         1       0.0        0.0
+                              XNOR2         1       1.0        1.0
+                              XNOR3         3       1.0        3.0
+                               XO1A         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                               XOR3         2       1.0        2.0
+                            
+                         TOTAL            125                123.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingle.netlist
+     Instance path:  REGEN
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         2       1.0        2.0
+                               AO1D         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         2       1.0        2.0
+                             DFN1C0        17       1.0       17.0
+                           DFN1E1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         9       1.0        9.0
+                              NOR2B        19       1.0       19.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         2       1.0        2.0
+                              NOR3C         2       1.0        2.0
+                                OA1         2       1.0        2.0
+                               OR2A         3       1.0        3.0
+                               OR2B         2       1.0        2.0
+                                OR3         1       1.0        1.0
+                               OR3A         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         9       1.0        9.0
+                               XA1B         6       1.0        6.0
+                               XA1C         4       1.0        4.0
+                            
+                         TOTAL            104                102.0
+----------------------------------------------------------------------
+Report for cell ByteData.netlist
+     Instance path:  GenFIFO_Byte
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        44       1.0       44.0
+                              AND2A         1       1.0        1.0
+                               AND3        10       1.0       10.0
+                                AO1        36       1.0       36.0
+                             DFN1C0        28       1.0       28.0
+                           DFN1E1C0         8       1.0        8.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                              NAND2         2       1.0        2.0
+                             RAM4K9         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                              XNOR2        25       1.0       25.0
+                               XOR2        73       1.0       73.0
+                            
+                         TOTAL            240                230.0

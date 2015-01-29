@@ -1,0 +1,17 @@
+#add_file options
+add_file -vhdl "I:/Proj_GEO/hdl/adc_muxtmp_test.vhd"
+set_option -top_module work.adc_muxtmp_test
+
+#device options
+set_option -technology ProASIC3
+set_option -part M1A3P1000
+
+#compilation/mapping options
+set_option -symbolic_fsm_compiler true
+
+#compilation/mapping options
+set_option -frequency 100.000
+
+#simulation options
+impl -active "synthesis"
+project -result_file "I:/Proj_GEO/synthesis/adc_muxtmp_test.edn"

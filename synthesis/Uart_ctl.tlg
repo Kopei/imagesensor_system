@@ -1,0 +1,29 @@
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":7:7:7:14|Synthesizing work.uart_ctl.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":51:14:51:15|Using onehot encoding for type rx_state (rx_idle="100000")
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":53:14:53:15|Using onehot encoding for type tx_state (tx_idle="1000000")
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":153:3:153:16|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":242:5:242:18|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:16|OTHERS clause is not synthesized 
+Post processing for work.uart_ctl.behavioral
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":270:2:270:5|Latch generated from process for signal TxData(7 downto 0), probably caused by a missing assignment in an if or case stmt
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":270:2:270:5|Latch generated from process for signal Answer_ok, probably caused by a missing assignment in an if or case stmt
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":270:2:270:5|Latch generated from process for signal WEn, probably caused by a missing assignment in an if or case stmt
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":258:2:258:3|Trying to extract state machine for register Pr_State
+Extracted state machine for register Pr_State
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":97:2:97:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000

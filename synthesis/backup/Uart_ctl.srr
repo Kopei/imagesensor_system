@@ -1,0 +1,26 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: LENOVO-PC
+
+#Implementation: synthesis
+
+#Wed Jun 18 13:40:08 2014
+
+$ Start of Compile
+#Wed Jun 18 13:40:08 2014
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":7:7:7:14|Top entity is set to Uart_ctl.
+@E: CD200 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":173:3:173:14|Misspelled variable, signal or procedure name?
+1 error parsing file E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd
+@END
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 18 13:40:08 2014
+
+###########################################################]

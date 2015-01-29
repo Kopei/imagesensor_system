@@ -1,0 +1,533 @@
+----------------------------------------------------------------------
+Report for cell Link_Main4SD_fmmk.arch
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         2       0.0        0.0
+                             CLKINT         2       0.0        0.0
+                            FK_Test         1    1194.0     1194.0
+                                GND         1       0.0        0.0
+                              INBUF       227       0.0        0.0
+                        Main_ctl4SD         1    1484.0     1484.0
+                             OUTBUF       148       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL            383               2678.0
+----------------------------------------------------------------------
+Report for cell Main_ctl4SD.netlist
+     Instance path:  U2
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C0         6       1.0        6.0
+                           DFN1E0C0         3       1.0        3.0
+                           DFN1E1C0       360       1.0      360.0
+                                GND         1       0.0        0.0
+                                MX2       144       1.0      144.0
+                              NOR2A         2       1.0        2.0
+                              NOR3C        72       1.0       72.0
+                               OA1C         1       1.0        1.0
+                                OR2         3       1.0        3.0
+                               OR2A         4       1.0        4.0
+                               OR2B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                    WaveGenSingleZ1         1      78.0       78.0
+                   WaveGenSingleZ10         1     135.0      135.0
+                    WaveGenSingleZ2         1      85.0       85.0
+                    WaveGenSingleZ3         1      83.0       83.0
+                    WaveGenSingleZ4         1     179.0      179.0
+                    WaveGenSingleZ5         1      67.0       67.0
+                    WaveGenSingleZ6         1      78.0       78.0
+                    WaveGenSingleZ7         1      58.0       58.0
+                    WaveGenSingleZ8         1      69.0       69.0
+                    WaveGenSingleZ9         1      53.0       53.0
+                                XA1         2       1.0        2.0
+                            
+                         TOTAL            611               1484.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ1.netlist
+     Instance path:  U2.byteRdEnGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1C0        24       1.0       24.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         8       1.0        8.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         4       1.0        4.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1        10       1.0       10.0
+                               XA1A         5       1.0        5.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             80                 78.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ2.netlist
+     Instance path:  U2.data2lvdsENGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AO1B         3       1.0        3.0
+                               AO1D         1       1.0        1.0
+                               AOI1         2       1.0        2.0
+                              AOI1B         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        14       1.0       14.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         4       1.0        4.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B        12       1.0       12.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                               OA1B         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                                OR3         2       1.0        2.0
+                               OR3A         2       1.0        2.0
+                               OR3B         2       1.0        2.0
+                               OR3C         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         4       1.0        4.0
+                               XA1B         5       1.0        5.0
+                               XA1C         2       1.0        2.0
+                            
+                         TOTAL             87                 85.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ3.netlist
+     Instance path:  U2.lvds_fifoRdGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         2       1.0        2.0
+                               AO1C         1       1.0        1.0
+                               AOI1         2       1.0        2.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        13       1.0       13.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         1       1.0        1.0
+                               OR2B         5       1.0        5.0
+                                OR3         1       1.0        1.0
+                               OR3A         2       1.0        2.0
+                               OR3B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XA1B         6       1.0        6.0
+                               XA1C         2       1.0        2.0
+                               XAI1         1       1.0        1.0
+                            
+                         TOTAL             85                 83.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ4.netlist
+     Instance path:  U2.lvdsFifoRowRdOutEnGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1C         9       1.0        9.0
+                               AO1D         1       1.0        1.0
+                             DFN1C0        34       1.0       34.0
+                           DFN1E1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2         1       1.0        1.0
+                               MX2A         1       1.0        1.0
+                               NOR2         6       1.0        6.0
+                              NOR2A         8       1.0        8.0
+                              NOR2B        26       1.0       26.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         8       1.0        8.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1B         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OAI1         5       1.0        5.0
+                                OR2         3       1.0        3.0
+                               OR2A         9       1.0        9.0
+                               OR2B        12       1.0       12.0
+                                OR3         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1        11       1.0       11.0
+                               XA1A         6       1.0        6.0
+                               XA1B         6       1.0        6.0
+                               XA1C         3       1.0        3.0
+                            
+                         TOTAL            181                179.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ5.netlist
+     Instance path:  U2.latchGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         2       1.0        2.0
+                               AO1C         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        22       1.0       22.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         4       1.0        4.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                               OR2B         3       1.0        3.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         6       1.0        6.0
+                               XA1A         5       1.0        5.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             69                 67.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ6.netlist
+     Instance path:  U2.Data2fifoENGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         2       1.0        2.0
+                               AO1C         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         2       1.0        2.0
+                             DFN1C0        12       1.0       12.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B        10       1.0       10.0
+                               NOR3         2       1.0        2.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         2       1.0        2.0
+                                OA1         2       1.0        2.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR2B         3       1.0        3.0
+                                OR3         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         5       1.0        5.0
+                               XA1B         5       1.0        5.0
+                               XA1C         2       1.0        2.0
+                            
+                         TOTAL             80                 78.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ7.netlist
+     Instance path:  U2.Data2accEnGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1C         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                             DFN1C0         9       1.0        9.0
+                           DFN1E1C0        10       1.0       10.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         8       1.0        8.0
+                              NOR3C         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OA1B         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                                OR2         3       1.0        3.0
+                               OR2A         3       1.0        3.0
+                               OR2B         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1B         6       1.0        6.0
+                               XA1C         3       1.0        3.0
+                            
+                         TOTAL             60                 58.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ8.netlist
+     Instance path:  U2.fifo_wrGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        12       1.0       12.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1B         3       1.0        3.0
+                               OAI1         3       1.0        3.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         4       1.0        4.0
+                                OR3         1       1.0        1.0
+                               OR3A         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XA1A         1       1.0        1.0
+                               XA1B         4       1.0        4.0
+                               XA1C         4       1.0        4.0
+                            
+                         TOTAL             71                 69.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ9.netlist
+     Instance path:  U2.fifo_rdGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1C0         6       1.0        6.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         4       1.0        4.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2B         3       1.0        3.0
+                               OR3A         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XA1B         6       1.0        6.0
+                               XA1C         2       1.0        2.0
+                            
+                         TOTAL             55                 53.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ10.netlist
+     Instance path:  U2.FifoRowRdOutGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AOI1         2       1.0        2.0
+                               AX1E         1       1.0        1.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0        27       1.0       27.0
+                           DFN1E1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NAND2         2       1.0        2.0
+                               NOR2         7       1.0        7.0
+                              NOR2A         7       1.0        7.0
+                              NOR2B        11       1.0       11.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         5       1.0        5.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         3       1.0        3.0
+                               OA1B         1       1.0        1.0
+                               OA1C         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         7       1.0        7.0
+                               OR2B         5       1.0        5.0
+                                OR3         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1        10       1.0       10.0
+                               XA1A         5       1.0        5.0
+                               XA1B         6       1.0        6.0
+                               XA1C         4       1.0        4.0
+                            
+                         TOTAL            138                135.0
+----------------------------------------------------------------------
+Report for cell FK_Test.netlist
+     Instance path:  U1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND3         1       1.0        1.0
+                                AO1         2       1.0        2.0
+                               AO1A         3       1.0        3.0
+                               AO1B         7       1.0        7.0
+                               AO1C        22       1.0       22.0
+                               AO1D        19       1.0       19.0
+                               AOI1        11       1.0       11.0
+                              AOI1B        39       1.0       39.0
+                               AX1A         1       1.0        1.0
+                               AX1E         7       1.0        7.0
+                              AXOI4         1       1.0        1.0
+                              AXOI5         1       1.0        1.0
+                           ByteData         1     230.0      230.0
+                             CLKINT         1       0.0        0.0
+                             DFN1C0        93       1.0       93.0
+                           DFN1E1C0        23       1.0       23.0
+                           DFN1E1P0        31       1.0       31.0
+                             DFN1P0         3       1.0        3.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2        37       1.0       37.0
+                               MX2A         1       1.0        1.0
+                               MX2C        32       1.0       32.0
+                               NOR2        41       1.0       41.0
+                              NOR2A        24       1.0       24.0
+                              NOR2B        27       1.0       27.0
+                               NOR3        25       1.0       25.0
+                              NOR3A        11       1.0       11.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C        33       1.0       33.0
+                                OA1        17       1.0       17.0
+                               OA1A        18       1.0       18.0
+                               OA1B        21       1.0       21.0
+                               OA1C         2       1.0        2.0
+                               OAI1        20       1.0       20.0
+                                OR2        30       1.0       30.0
+                               OR2A        45       1.0       45.0
+                               OR2B        34       1.0       34.0
+                                OR3         8       1.0        8.0
+                               OR3A        19       1.0       19.0
+                               OR3B        24       1.0       24.0
+                               OR3C        26       1.0       26.0
+                                VCC         1       0.0        0.0
+                    WaveGenSingleZ0         1      99.0       99.0
+                               XA1A        14       1.0       14.0
+                               XA1B         4       1.0        4.0
+                               XOR2         3       1.0        3.0
+                          enc_8b10b         1      81.0       81.0
+                            
+                         TOTAL            790               1194.0
+----------------------------------------------------------------------
+Report for cell enc_8b10b.netlist
+     Instance path:  U1.Com_8b10b
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO13         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               AX1A         1       1.0        1.0
+                               AX1C         2       1.0        2.0
+                               AX1D         1       1.0        1.0
+                               AX1E         4       1.0        4.0
+                               DFN0         5       1.0        5.0
+                             DFN0C0         1       1.0        1.0
+                           DFN0E1C0         6       1.0        6.0
+                               DFN1         1       1.0        1.0
+                             DFN1C0         2       1.0        2.0
+                           DFN1E1C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                MX2         5       1.0        5.0
+                               MX2A         5       1.0        5.0
+                               MX2C         2       1.0        2.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         3       1.0        3.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OAI1         2       1.0        2.0
+                                OR2         2       1.0        2.0
+                               OR2A         5       1.0        5.0
+                               OR2B         4       1.0        4.0
+                               OR3C         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1B         1       1.0        1.0
+                              XNOR2         1       1.0        1.0
+                               XO1A         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL             83                 81.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ0.netlist
+     Instance path:  U1.REGEN
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         2       1.0        2.0
+                               AO1B         2       1.0        2.0
+                               AOI1         2       1.0        2.0
+                              AOI1B         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        17       1.0       17.0
+                           DFN1E1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B        16       1.0       16.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                               OR2B         2       1.0        2.0
+                               OR3A         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         7       1.0        7.0
+                               XA1B         6       1.0        6.0
+                               XA1C         4       1.0        4.0
+                            
+                         TOTAL            101                 99.0
+----------------------------------------------------------------------
+Report for cell ByteData.netlist
+     Instance path:  U1.GenFIFO_Byte
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        44       1.0       44.0
+                              AND2A         1       1.0        1.0
+                               AND3        10       1.0       10.0
+                                AO1        36       1.0       36.0
+                             DFN1C0        28       1.0       28.0
+                           DFN1E1C0         8       1.0        8.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                              NAND2         2       1.0        2.0
+                             RAM4K9         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                              XNOR2        25       1.0       25.0
+                               XOR2        73       1.0       73.0
+                            
+                         TOTAL            240                230.0

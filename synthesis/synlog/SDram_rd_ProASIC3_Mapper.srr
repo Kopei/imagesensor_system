@@ -1,0 +1,248 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\actelprj\smart_top\hdl\sdram_rd.vhd":71:1:71:2|Found counter in view:work.SDram_rd(behavioral) inst temp[2:0]
+Encoding state machine work.SDram_rd(behavioral)-pr_state[0:7]
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N: FP130 |Promoting Net Sysclk_c on CLKBUF  Sysclk_pad 
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base E:\Actelprj\smart_top\synthesis\SDram_rd.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@W: MT420 |Found inferred clock SDram_rd|Sysclk with period 10.00ns. A user-defined clock should be declared on object "p:Sysclk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Feb 24 20:06:25 2014
+#
+
+
+Top view:               SDram_rd
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 6.386
+
+                    Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock      Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+SDram_rd|Sysclk     100.0 MHz     276.7 MHz     10.000        3.614         6.386     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------
+Starting         Ending           |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------
+SDram_rd|Sysclk  SDram_rd|Sysclk  |  10.000      6.387  |  No paths    -      |  No paths    -      |  No paths    -    
+========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: SDram_rd|Sysclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                               Arrival          
+Instance        Reference           Type       Pin     Net             Time        Slack
+                Clock                                                                   
+----------------------------------------------------------------------------------------
+pr_state[3]     SDram_rd|Sysclk     DFN1C0     Q       pr_state[3]     0.550       6.386
+pr_state[0]     SDram_rd|Sysclk     DFN1C0     Q       pr_state[0]     0.550       6.784
+temp[0]         SDram_rd|Sysclk     DFN1C0     Q       temp[0]         0.550       6.943
+pr_state[7]     SDram_rd|Sysclk     DFN1P0     Q       pr_state[7]     0.550       7.076
+pr_state[2]     SDram_rd|Sysclk     DFN1C0     Q       pr_state[2]     0.550       7.237
+pr_state[4]     SDram_rd|Sysclk     DFN1C0     Q       pr_state[4]     0.550       7.293
+pr_state[5]     SDram_rd|Sysclk     DFN1C0     Q       pr_state[5]     0.550       7.313
+temp[1]         SDram_rd|Sysclk     DFN1C0     Q       temp[1]         0.550       7.342
+pr_state[6]     SDram_rd|Sysclk     DFN1C0     Q       pr_state[6]     0.550       7.406
+pr_state[1]     SDram_rd|Sysclk     DFN1C0     Q       pr_state[1]     0.550       7.646
+========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                   Required          
+Instance        Reference           Type       Pin     Net                 Time         Slack
+                Clock                                                                        
+---------------------------------------------------------------------------------------------
+rd_state[2]     SDram_rd|Sysclk     DFN1C0     D       rd_state_RNO[2]     9.572        6.386
+pr_state[3]     SDram_rd|Sysclk     DFN1C0     D       pr_state_RNO[3]     9.572        6.479
+pr_state[6]     SDram_rd|Sysclk     DFN1C0     D       pr_state_ns[1]      9.572        6.784
+rd_ok           SDram_rd|Sysclk     DFN1C0     D       rd_ok_0_sqmuxa      9.572        6.943
+pr_state[2]     SDram_rd|Sysclk     DFN1C0     D       pr_state_ns[5]      9.572        7.076
+temp[2]         SDram_rd|Sysclk     DFN1C0     D       N_8                 9.598        7.089
+rd_state[0]     SDram_rd|Sysclk     DFN1C0     D       rd_state_RNO[0]     9.572        7.157
+temp[1]         SDram_rd|Sysclk     DFN1C0     D       N_6                 9.572        7.186
+temp[0]         SDram_rd|Sysclk     DFN1C0     D       temp_n0             9.572        7.250
+pr_state[1]     SDram_rd|Sysclk     DFN1C0     D       pr_state_RNO[1]     9.572        7.267
+=============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.572
+
+    - Propagation time:                      3.185
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     6.386
+
+    Number of logic level(s):                2
+    Starting point:                          pr_state[3] / Q
+    Ending point:                            rd_state[2] / D
+    The start point is clocked by            SDram_rd|Sysclk [rising] on pin CLK
+    The end   point is clocked by            SDram_rd|Sysclk [rising] on pin CLK
+
+Instance / Net                     Pin      Pin               Arrival     No. of    
+Name                    Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------
+pr_state[3]             DFN1C0     Q        Out     0.550     0.550       -         
+pr_state[3]             Net        -        -       1.063     -           6         
+pr_state_RNION3A[5]     OR2        B        In      -         1.613       -         
+pr_state_RNION3A[5]     OR2        Y        Out     0.483     2.096       -         
+N_100                   Net        -        -       0.288     -           2         
+rd_state_RNO[2]         OR3        C        In      -         2.384       -         
+rd_state_RNO[2]         OR3        Y        Out     0.561     2.945       -         
+rd_state_RNO[2]         Net        -        -       0.240     -           1         
+rd_state[2]             DFN1C0     D        In      -         3.185       -         
+====================================================================================
+Total path delay (propagation time + setup) of 3.614 is 2.022(56.0%) logic and 1.591(44.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell SDram_rd.behavioral
+  Core Cell usage:
+              cell count     area count*area
+               GND     1      0.0        0.0
+               INV     1      1.0        1.0
+             NOR2A     2      1.0        2.0
+             NOR2B     5      1.0        5.0
+             NOR3A     1      1.0        1.0
+             NOR3C     1      1.0        1.0
+              OAI1     1      1.0        1.0
+               OR2     4      1.0        4.0
+              OR2B     2      1.0        2.0
+               OR3     3      1.0        3.0
+               VCC     1      0.0        0.0
+               XA1     2      1.0        2.0
+
+
+            DFN1C0    14      1.0       14.0
+            DFN1P0     1      1.0        1.0
+                   -----          ----------
+             TOTAL    39                37.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     4
+            OUTBUF     4
+                   -----
+             TOTAL     9
+
+
+Core Cells         : 37 of 24576 (0%)
+IO Cells           : 9
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 24 20:06:25 2014
+
+###########################################################]

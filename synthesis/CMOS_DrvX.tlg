@@ -1,0 +1,148 @@
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\CMOS_DrvX.vhd":30:7:30:15|Synthesizing work.cmos_drvx.behavioral 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\PixelArrayTiming.vhd":30:7:30:22|Synthesizing work.pixelarraytiming.behavioral 
+Post processing for work.pixelarraytiming.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\SPI_Set.vhd":6:7:6:13|Synthesizing work.spi_set.behavioral 
+Post processing for work.spi_set.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\Y_X_Addressing.vhd":30:7:30:20|Synthesizing work.y_x_addressing.behavioral 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":30:7:30:32|Synthesizing work.wavegensinglewithcycnumsel.behavioral 
+Post processing for work.wavegensinglewithcycnumsel.behavioral
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(0) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(1) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(2) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(3) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(4) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(5) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(6) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(7) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(8) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(9) to a constant 1
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Pruning Register cycnum(9 downto 0)  
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\adcen_dly\adcen_dly.vhd":8:7:8:15|Synthesizing work.adcen_dly.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":3604:11:3604:16|Synthesizing proasic3.clkdly.syn_black_box 
+Post processing for proasic3.clkdly.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+Post processing for work.adcen_dly.def_arch
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smartgen\sampleEn_dly\sampleEn_dly.vhd":8:7:8:18|Synthesizing work.sampleen_dly.def_arch 
+Post processing for work.sampleen_dly.def_arch
+Post processing for work.y_x_addressing.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\CMOS_Ctl.vhd":6:7:6:14|Synthesizing work.cmos_ctl.behavioral 
+Post processing for work.cmos_ctl.behavioral
+Post processing for work.cmos_drvx.behavioral
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\CMOS_Ctl.vhd":112:2:112:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 9 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":76:2:76:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSinglewithCycNumSel.vhd":51:3:51:11|Input CycNumSel is unused
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\Y_X_Addressing.vhd":150:2:150:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\SPI_Set.vhd":55:2:55:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10

@@ -1,0 +1,265 @@
+%%% protect protected_file
+#
+#
+#
+# Created by Synplify VHDL Compiler version comp520rcp1, Build 028R from Synplicity, Inc.
+# Copyright 1994-2010 Synopsys, Inc. , All rights reserved.
+# Synthesis Netlist written on Thu Jun 19 11:21:24 2014
+#
+#
+#OPTIONS:"|-modgen|-exprgc|-ram"
+#CUR:"F:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\bin\\c_vhdl.exe":1286419880
+#CUR:"F:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vhd\\location.map":1286419906
+#CUR:"F:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vhd\\std.vhd":1286419906
+#CUR:".\\genpkg0a07408":1403148084
+#CUR:"F:\\Actel\\Libero_v9.1\\Synopsys\\synplify_E201009A-1\\lib\\vhd\\std1164.vhd":1286419906
+#CUR:"syng0a07408":1403148084
+#CUR:".\\gentmp0a07408":1403148084
+ftell;
+n @@492:12:492:15 work AND2 syn_black_box;
+av .external 1;
+av .isvhdl 1;
+av .is_vhdl 1;
+av .origName "AND2";
+i A A;
+ai .rtl_origname "A";
+i B B;
+ai .rtl_origname "B";
+o Y Y;
+ai .rtl_origname "Y";
+ai .syn_noassignment 1;
+p @@1:1:1:2 true true true;
+p @@1:1:1:2 false false false;
+p @@494:10:494:10 dc Y Y;
+#----------------------------------
+ftell;
+n @@500:12:500:14 work OR3 syn_black_box;
+av .external 1;
+av .isvhdl 1;
+av .is_vhdl 1;
+av .origName "OR3";
+i A A;
+ai .rtl_origname "A";
+i B B;
+ai .rtl_origname "B";
+i C C;
+ai .rtl_origname "C";
+o Y Y;
+ai .rtl_origname "Y";
+ai .syn_noassignment 1;
+p @@1:1:1:2 true true true;
+p @@1:1:1:2 false false false;
+p @@502:10:502:10 dc Y Y;
+#----------------------------------
+ftell;
+n @@508:12:508:15 work XOR2 syn_black_box;
+av .external 1;
+av .isvhdl 1;
+av .is_vhdl 1;
+av .origName "XOR2";
+i A A;
+ai .rtl_origname "A";
+i B B;
+ai .rtl_origname "B";
+o Y Y;
+ai .rtl_origname "Y";
+ai .syn_noassignment 1;
+p @@1:1:1:2 true true true;
+p @@1:1:1:2 false false false;
+p @@510:10:510:10 dc Y Y;
+#----------------------------------
+ftell;
+n @@515:12:515:14 work AO1 syn_black_box;
+av .external 1;
+av .isvhdl 1;
+av .is_vhdl 1;
+av .origName "AO1";
+i A A;
+ai .rtl_origname "A";
+i B B;
+ai .rtl_origname "B";
+i C C;
+ai .rtl_origname "C";
+o Y Y;
+ai .rtl_origname "Y";
+ai .syn_noassignment 1;
+p @@1:1:1:2 true true true;
+p @@1:1:1:2 false false false;
+p @@517:10:517:10 dc Y Y;
+#----------------------------------
+ftell;
+n @@12:7:12:21 work DWACT_BL_GENADD generic_adder;
+av .isvhdl 1;
+av .is_vhdl 1;
+av .origName "DWACT_BL_GENADD";
+av .langParamNames "n algorithm ciPola coPola debug";
+av debug 0;
+av coPola 1;
+av ciPola 1;
+av algorithm 2;
+av n 3;
+i A[2:0] A[2:0];
+ai .rtl_origname "A";
+i B[2:0] B[2:0];
+ai .rtl_origname "B";
+i CI CI;
+ai .rtl_origname "CI";
+o SUM[2:0] SUM_1[2],SUM_1[1],SUM_1[0];
+ai .rtl_origname "SUM";
+o CO g_array_12[0];
+ai .rtl_origname "CO";
+r @@555:5:555:9 work AND2 syn_black_box TMP_0
+	A=A[0]
+	B=B[0]
+	Y=TMP[0];
+r @@556:5:556:9 work AND2 syn_black_box TMP_1
+	A=A[0]
+	B=CI
+	Y=TMP[1];
+r @@557:5:557:9 work AND2 syn_black_box TMP_2
+	A=B[0]
+	B=CI
+	Y=TMP[2];
+r @@558:5:558:8 work OR3 syn_black_box G0_0
+	A=TMP[0]
+	B=TMP[1]
+	C=TMP[2]
+	Y=g_array_0[0];
+r @@564:8:564:9 work AND2 syn_black_box G0_loop\.1\.G0
+	A=A[1]
+	B=B[1]
+	Y=g_array_0_1[0];
+ai .rtl_origname "G0";
+ai .syn_valias "G0_1";
+r @@564:8:564:9 work AND2 syn_black_box G0_loop\.2\.G0
+	A=A[2]
+	B=B[2]
+	Y=g_array_0_2[0];
+ai .rtl_origname "G0";
+ai .syn_valias "G0_2";
+r @@602:8:602:9 work XOR2 syn_black_box misc_loop\.1\.P0
+	A=A[1]
+	B=B[1]
+	Y=pog_array_0[0];
+ai .rtl_origname "P0";
+ai .syn_valias "P0_1";
+r @@602:8:602:9 work XOR2 syn_black_box misc_loop\.2\.P0
+	A=A[2]
+	B=B[2]
+	Y=pog_array_0_1[0];
+ai .rtl_origname "P0";
+ai .syn_valias "P0_2";
+r @@608:8:608:14 work XOR2 syn_black_box misc_loop\.0\.PARTIAL
+	A=A[0]
+	B=B[0]
+	Y=partial_sum[0];
+ai .rtl_origname "PARTIAL";
+ai .syn_valias "PARTIAL_0";
+r @@608:8:608:14 work XOR2 syn_black_box misc_loop\.1\.PARTIAL
+	A=A[1]
+	B=B[1]
+	Y=partial_sum[1];
+ai .rtl_origname "PARTIAL";
+ai .syn_valias "PARTIAL_1";
+r @@608:8:608:14 work XOR2 syn_black_box misc_loop\.2\.PARTIAL
+	A=A[2]
+	B=B[2]
+	Y=partial_sum[2];
+ai .rtl_origname "PARTIAL";
+ai .syn_valias "PARTIAL_2";
+r @@612:8:612:13 work XOR2 syn_black_box misc_loop\.0\.FINSUM
+	A=partial_sum[0]
+	B=CI
+	Y=SUM_1[0];
+ai .rtl_origname "FINSUM";
+ai .syn_valias "FINSUM_0";
+r @@612:8:612:13 work XOR2 syn_black_box misc_loop\.1\.FINSUM
+	A=partial_sum[1]
+	B=g_array_0[0]
+	Y=SUM_1[1];
+ai .rtl_origname "FINSUM";
+ai .syn_valias "FINSUM_1";
+r @@612:8:612:13 work XOR2 syn_black_box misc_loop\.2\.FINSUM
+	A=partial_sum[2]
+	B=g_array_1[0]
+	Y=SUM_1[2];
+ai .rtl_origname "FINSUM";
+ai .syn_valias "FINSUM_2";
+r @@646:14:646:14 work AO1 syn_black_box level_loop\.0\.bit_loop\.1\.G1_2_4_1\.G
+	A=pog_array_0[0]
+	B=g_array_0[0]
+	C=g_array_0_1[0]
+	Y=g_array_1[0];
+ai .rtl_origname "G";
+ai .syn_valias "G_0_1";
+r @@646:14:646:14 work AO1 syn_black_box level_loop\.11\.bit_loop\.2\.G1_2_4_1\.G
+	A=pog_array_0_1[0]
+	B=g_array_1[0]
+	C=g_array_0_2[0]
+	Y=g_array_12[0];
+ai .rtl_origname "G";
+ai .syn_valias "G_11_2";
+p @@1:1:1:2 true true true;
+p @@1:1:1:2 false false false;
+#----------------------------------
+ftell;
+n @@670:7:670:9 work ADD fbk;
+av .isvhdl 1;
+av .is_vhdl 1;
+av .origName "ADD";
+av .langParamNames "width";
+av width 3;
+i A[2:0] A[2:0];
+ai .rtl_origname "A";
+i B[2:0] B[2:0];
+ai .rtl_origname "B";
+i CIN CIN;
+ai .rtl_origname "CIN";
+o O[2:0] O[2:0];
+ai .rtl_origname "O";
+o COUT COUT;
+ai .rtl_origname "COUT";
+r @@716:2:716:15 work DWACT_BL_GENADD generic_adder DWACT_ADD_CI_0
+	A[2:0]=A[2:0]
+	B[2:0]=B[2:0]
+	CI=CIN
+	SUM[2:0]=O[2:0]
+	CO=COUT;
+ai .syn_user_s_params "debug copola cipola algorithm n ";
+ai n 3;
+ai algorithm 2;
+ai ciPola 1;
+ai coPola 1;
+ai debug 0;
+p @@1:1:1:2 true true true;
+p @@1:1:1:2 false false false;
+#----------------------------------
+ftell;
+n @@4:7:4:9 work top gen;
+av .isvhdl 1;
+av .is_vhdl 1;
+av .syn_fmap "\".\\genpkg0a07408\"
+\"syng0a07408\"
+\".\\gentmp0a07408\"
+";
+o COUT COUT;
+ai .rtl_origname "COUT";
+o O[2:0] O[2:0];
+ai .rtl_origname "O";
+i A[2:0] A[2:0];
+ai .rtl_origname "A";
+i B[2:0] B[2:0];
+ai .rtl_origname "B";
+i CIN CIN;
+ai .rtl_origname "CIN";
+r @@24:0:24:1 work ADD fbk I1
+	A[2:0]=A[2:0]
+	B[2:0]=B[2:0]
+	CIN=CIN
+	O[2:0]=O[2:0]
+	COUT=COUT;
+ai .syn_user_s_params "width ";
+ai width 3;
+p @@1:1:1:2 true true true;
+p @@1:1:1:2 false false false;
+e;

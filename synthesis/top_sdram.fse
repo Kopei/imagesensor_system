@@ -1,0 +1,112 @@
+
+fsm_encoding {1324321} onehot
+
+fsm_state_encoding {1324321} ref_idle {000001}
+
+fsm_state_encoding {1324321} ref_judge {000010}
+
+fsm_state_encoding {1324321} ref_pre {000100}
+
+fsm_state_encoding {1324321} ref_ref {001000}
+
+fsm_state_encoding {1324321} ref_wait {010000}
+
+fsm_state_encoding {1324321} ref_process {100000}
+
+fsm_registers {1324321} {pr_state[0]}  {pr_state[1]}  {pr_state[2]}  {pr_state[3]}  {pr_state[4]}  {pr_state[5]} 
+
+fsm_encoding {6284282} onehot
+
+fsm_state_encoding {6284282} rd_idle {00000001}
+
+fsm_state_encoding {6284282} rd_act {00000010}
+
+fsm_state_encoding {6284282} rd_rd {00000100}
+
+fsm_state_encoding {6284282} rd_wait {00001000}
+
+fsm_state_encoding {6284282} rd_process {00010000}
+
+fsm_state_encoding {6284282} rd_judge {00100000}
+
+fsm_state_encoding {6284282} rd_pre {01000000}
+
+fsm_state_encoding {6284282} rd_wait_act {10000000}
+
+fsm_registers {6284282} {pr_state[0]}  {pr_state[1]}  {pr_state[2]}  {pr_state[3]}  {pr_state[4]}  {pr_state[5]}  {pr_state[6]}  {pr_state[7]} 
+
+fsm_encoding {7742743} onehot
+
+fsm_state_encoding {7742743} wgs_idle {00001}
+
+fsm_state_encoding {7742743} wgs_delay {00010}
+
+fsm_state_encoding {7742743} wgs_phase1 {00100}
+
+fsm_state_encoding {7742743} wgs_phase2 {01000}
+
+fsm_state_encoding {7742743} wgs_ok {10000}
+
+fsm_registers {7742743} {PrState[0]}  {PrState[1]}  {PrState[2]}  {PrState[3]}  {PrState[4]} 
+
+fsm_encoding {8274274} onehot
+
+fsm_state_encoding {8274274} wr_idle {0000001}
+
+fsm_state_encoding {8274274} wr_act {0000010}
+
+fsm_state_encoding {8274274} wr_wr {0000100}
+
+fsm_state_encoding {8274274} wr_wait {0001000}
+
+fsm_state_encoding {8274274} wr_process {0010000}
+
+fsm_state_encoding {8274274} wr_pre {0100000}
+
+fsm_state_encoding {8274274} wr_wait_act {1000000}
+
+fsm_registers {8274274} {pr_state[0]}  {pr_state[1]}  {pr_state[2]}  {pr_state[3]}  {pr_state[4]}  {pr_state[5]}  {pr_state[6]} 
+
+fsm_encoding {93912395} onehot
+
+fsm_state_encoding {93912395} idle {000001}
+
+fsm_state_encoding {93912395} ref {000010}
+
+fsm_state_encoding {93912395} mrs {000100}
+
+fsm_state_encoding {93912395} pall_wait {001000}
+
+fsm_state_encoding {93912395} pall {010000}
+
+fsm_state_encoding {93912395} trc {100000}
+
+fsm_registers {93912395} {pr_state[0]}  {pr_state[1]}  {pr_state[2]}  {pr_state[3]}  {pr_state[4]}  {pr_state[5]} 
+
+fsm_encoding {10561566} onehot
+
+fsm_state_encoding {10561566} sd_prerd {000000000001}
+
+fsm_state_encoding {10561566} sd_rd {000000000010}
+
+fsm_state_encoding {10561566} sd_wr {000000000100}
+
+fsm_state_encoding {10561566} sd_ref {000000001000}
+
+fsm_state_encoding {10561566} sd_idle {000000010000}
+
+fsm_state_encoding {10561566} sd_wait_wr {000000100000}
+
+fsm_state_encoding {10561566} sd_wait_rd {000001000000}
+
+fsm_state_encoding {10561566} sd_wait {000010000000}
+
+fsm_state_encoding {10561566} sd_powerdown {000100000000}
+
+fsm_state_encoding {10561566} sd_wait_1 {001000000000}
+
+fsm_state_encoding {10561566} sd_wait_2 {010000000000}
+
+fsm_state_encoding {10561566} sd_wait_3 {100000000000}
+
+fsm_registers {10561566} {pr_state[0]}  {pr_state[1]}  {pr_state[2]}  {pr_state[3]}  {pr_state[4]}  {pr_state[5]}  {pr_state[6]}  {pr_state[7]}  {pr_state[8]}  {pr_state[9]}  {pr_state[10]}  {pr_state[11]} 

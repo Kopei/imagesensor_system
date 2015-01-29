@@ -1,0 +1,75 @@
+----------------------------------------------------------------------
+Report for cell Sdram_cmd.behavioral
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         2       1.0        2.0
+                               AO1B         3       1.0        3.0
+                               AO1C         3       1.0        3.0
+                               AO1D         2       1.0        2.0
+                               AOI1         2       1.0        2.0
+                              AOI1B         3       1.0        3.0
+                             CLKBUF         2       0.0        0.0
+                             DFN1C0        49       1.0       49.0
+                           DFN1E0C0         1       1.0        1.0
+                             DFN1E1         1       1.0        1.0
+                           DFN1E1C0        17       1.0       17.0
+                             DFN1P0         6       1.0        6.0
+                                GND         1       0.0        0.0
+                              INBUF        16       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2         1       1.0        1.0
+                               MX2A         1       1.0        1.0
+                               MX2B         2       1.0        2.0
+                               MX2C         1       1.0        1.0
+                               NOR2        15       1.0       15.0
+                              NOR2A        10       1.0       10.0
+                              NOR2B        20       1.0       20.0
+                               NOR3         7       1.0        7.0
+                              NOR3A        14       1.0       14.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C        32       1.0       32.0
+                                OA1         9       1.0        9.0
+                               OA1A         4       1.0        4.0
+                               OA1B         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                               OAI1         3       1.0        3.0
+                                OR2        15       1.0       15.0
+                               OR2A        18       1.0       18.0
+                               OR2B        17       1.0       17.0
+                                OR3         3       1.0        3.0
+                               OR3A        22       1.0       22.0
+                               OR3B        11       1.0       11.0
+                               OR3C         8       1.0        8.0
+                             OUTBUF        37       0.0        0.0
+                                VCC         1       0.0        0.0
+                      WaveGenSingle         1      28.0       28.0
+                                XA1         2       1.0        2.0
+                               XA1A         1       1.0        1.0
+                               XA1B        25       1.0       25.0
+                               XA1C        13       1.0       13.0
+                              XNOR2         4       1.0        4.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL            413                383.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingle.netlist
+     Instance path:  UU
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                             DFN1C0        10       1.0       10.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         3       1.0        3.0
+                                OA1         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             30                 28.0

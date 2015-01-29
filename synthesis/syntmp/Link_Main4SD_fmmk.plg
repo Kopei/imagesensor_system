@@ -1,0 +1,30 @@
+@P:  Worst Slack : 488.216
+@P:  Link_Main4SD_fmmk|Sysclk - Estimated Frequency : 42.4 MHz
+@P:  Link_Main4SD_fmmk|Sysclk - Requested Frequency : 1.0 MHz
+@P:  Link_Main4SD_fmmk|Sysclk - Estimated Period : 23.568
+@P:  Link_Main4SD_fmmk|Sysclk - Requested Period : 1000.000
+@P:  Link_Main4SD_fmmk|Sysclk - Slack : 488.216
+@P:  Worst Slack(min analysis) : NA
+@P:  Link_Main4SD_fmmk|Sysclk - Estimated Frequency(min analysis) : 42.4 MHz
+@P:  Link_Main4SD_fmmk|Sysclk - Requested Frequency(min analysis) : 1.0 MHz
+@P:  Link_Main4SD_fmmk|Sysclk - Estimated Period(min analysis) : 23.568
+@P:  Link_Main4SD_fmmk|Sysclk - Requested Period(min analysis) : 1000.000
+@P:  Link_Main4SD_fmmk|Sysclk - Slack(min analysis) : 488.216
+@P:  Total Area : 2678.0
+@P:  Total Area : 1484.0
+@P:  Total Area : 78.0
+@P:  Total Area : 85.0
+@P:  Total Area : 83.0
+@P:  Total Area : 179.0
+@P:  Total Area : 67.0
+@P:  Total Area : 78.0
+@P:  Total Area : 58.0
+@P:  Total Area : 69.0
+@P:  Total Area : 53.0
+@P:  Total Area : 135.0
+@P:  Total Area : 1194.0
+@P:  Total Area : 81.0
+@P:  Total Area : 99.0
+@P:  Total Area : 230.0
+@P:  Total Area : 2678.0
+@P:  CPU Time : 0h:00m:02s

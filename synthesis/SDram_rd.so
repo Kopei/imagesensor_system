@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>SDram_rd</design>
+	<target_edif>E:\Actelprj\smart_top\synthesis\SDram_rd.edn</target_edif>
+</SynplifyOutput>

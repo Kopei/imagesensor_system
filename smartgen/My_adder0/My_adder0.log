@@ -1,0 +1,48 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Fri Jan 31 13:25:02 2014
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : My_adder0
+Family                          : ProASIC3
+Output Format                   : VHDL
+Type                            : Adder
+Variation                       : Ripple
+Width                           : 18
+Algorithm                       : Ripple
+Insert Pad                      : No
+Insert I/O Reg                  : No
+Generate GCF                    : No
+Debug Level                     : 0
+Carry In                        : None
+Carry Out                       : None
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:     35  Total:  24576   (0.14%)
+    IO (W/ clocks)             Used:      0  Total:    300   (0.00%)
+    Differential IO            Used:      0  Total:     74   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      0  Total:     32   (0.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to D:/Actelprj/smart_top/smartgen\My_adder0\My_adder0.vhd.
+
+Wrote Behavioral VHDL model to
+D:/Actelprj/smart_top/smartgen\My_adder0\My_adder0_behave.vhd.
+
+ ** Log Ended:   Fri Jan 31 13:25:02 2014
+

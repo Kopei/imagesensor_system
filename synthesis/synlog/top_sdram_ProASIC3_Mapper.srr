@@ -1,0 +1,376 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Encoding state machine work.SDRAM_Ref(behavioral)-pr_state[0:5]
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N:"e:\actelprj\smart_top\hdl\sdram_rd.vhd":71:1:71:2|Found counter in view:work.SDram_rd(behavioral) inst temp[2:0]
+Encoding state machine work.SDram_rd(behavioral)-pr_state[0:7]
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+@N:"e:\actelprj\smart_top\hdl\sdram_cmd.vhd":77:1:77:2|Found counter in view:work.Sdram_cmd(behavioral) inst SD_rdAddr_col[10:3]
+@N:"e:\actelprj\smart_top\hdl\sdram_cmd.vhd":77:1:77:2|Found counter in view:work.Sdram_cmd(behavioral) inst SD_WrAddr_col[10:3]
+@N:"e:\actelprj\smart_top\hdl\sdram_cmd.vhd":77:1:77:2|Found counter in view:work.Sdram_cmd(behavioral) inst temp_w[3:0]
+@N: MF176 |Default generator successful 
+@N: MF176 |Default generator successful 
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingle(behavioral) inst Phase1Cnt[2:0]
+Encoding state machine work.WaveGenSingle(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\sdram_wr.vhd":65:1:65:2|Found counter in view:work.SDRAM_wr(behavioral) inst temp[2:0]
+Encoding state machine work.SDRAM_wr(behavioral)-pr_state[0:6]
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+@N:"e:\actelprj\smart_top\hdl\sdram_ini.vhd":79:20:79:21|Found counter in view:work.Sdram_ini(behavioral) inst counter_200[14:0]
+@N:"e:\actelprj\smart_top\hdl\sdram_ini.vhd":79:20:79:21|Found counter in view:work.Sdram_ini(behavioral) inst refresh_timer[3:0]
+@N:"e:\actelprj\smart_top\hdl\sdram_ini.vhd":79:20:79:21|Found counter in view:work.Sdram_ini(behavioral) inst trc_num[3:0]
+Encoding state machine work.Sdram_ini(behavioral)-pr_state[0:5]
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N:"e:\actelprj\smart_top\hdl\sdram_ctl_v2.vhd":177:9:177:10|Found counter in view:work.Sdram_ctl_v2(arch) inst temp[11:0]
+Encoding state machine work.Sdram_ctl_v2(arch)-pr_state[0:11]
+original code -> new code
+   000000000001 -> 000000000001
+   000000000010 -> 000000000010
+   000000000100 -> 000000000100
+   000000001000 -> 000000001000
+   000000010000 -> 000000010000
+   000000100000 -> 000000100000
+   000001000000 -> 000001000000
+   000010000000 -> 000010000000
+   000100000000 -> 000100000000
+   001000000000 -> 001000000000
+   010000000000 -> 010000000000
+   100000000000 -> 100000000000
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Sdram_cmd_0.UU.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Sdram_cmd_0.UU.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 60MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name               Fanout, notes                   
+-------------------------------------------------------------------------
+Sdram_data_0.sys_dataout5 / Y            72                              
+Sdram_cmd_0.dqm_4_iv_i_0_a5_0[0] / Y     73                              
+rst_n_pad / Y                            268 : 267 asynchronous set/reset
+=========================================================================
+
+@N: FP130 |Promoting Net rst_n_c on CLKBUF  rst_n_pad 
+@N: FP130 |Promoting Net Sysclk_c on CLKBUF  Sysclk_pad 
+@N: FP130 |Promoting Net Sdram_cmd_0.N_290 on CLKINT  I_149 
+@N: FP130 |Promoting Net Sdram_data_0.sys_dataout5 on CLKINT  I_150 
+Finished technology mapping (Time elapsed 0h:00m:01s; Memory used current: 62MB peak: 63MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:01s; Memory used current: 62MB peak: 63MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:01s; Memory used current: 62MB peak: 63MB)
+
+Writing Analyst data base E:\Actelprj\smart_top\synthesis\top_sdram.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 63MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 63MB)
+
+@W: MT420 |Found inferred clock top_sdram|Sysclk with period 10.00ns. A user-defined clock should be declared on object "p:Sysclk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Feb 24 20:20:36 2014
+#
+
+
+Top view:               top_sdram
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.097
+
+                     Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+top_sdram|Sysclk     100.0 MHz     101.0 MHz     10.000        9.903         0.097     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------
+top_sdram|Sysclk  top_sdram|Sysclk  |  10.000      0.097  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: top_sdram|Sysclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                  Starting                                                                     Arrival          
+Instance                          Reference            Type         Pin     Net                                Time        Slack
+                                  Clock                                                                                         
+--------------------------------------------------------------------------------------------------------------------------------
+Sdram_cmd_0.SD_wrAddr_row[8]      top_sdram|Sysclk     DFN1C0       Q       SD_wrAddr_row[8]                   0.550       0.097
+Sdram_cmd_0.SD_wrAddr_row[2]      top_sdram|Sysclk     DFN1C0       Q       SD_wrAddr_row[2]                   0.550       0.280
+Sdram_cmd_0.SD_wrAddr_row[7]      top_sdram|Sysclk     DFN1C0       Q       SD_wrAddr_row[7]                   0.550       0.307
+Sdram_cmd_0.SD_wrAddr_row[1]      top_sdram|Sysclk     DFN1C0       Q       SD_wrAddr_row[1]                   0.550       0.384
+Sdram_cmd_0.SD_wrAddr_row[5]      top_sdram|Sysclk     DFN1C0       Q       SD_wrAddr_row[5]                   0.550       0.411
+Sdram_cmd_0.SD_wrAddr_row[11]     top_sdram|Sysclk     DFN1C0       Q       SD_wrAddr_row[11]                  0.550       0.477
+Sdram_cmd_0.SD_wrAddr_row[12]     top_sdram|Sysclk     DFN1C0       Q       SD_wrAddr_row[12]                  0.550       0.646
+Sdram_cmd_0.SD_wrAddr_row[4]      top_sdram|Sysclk     DFN1C0       Q       SD_wrAddr_row[4]                   0.550       0.859
+SDram_rd_0.rd_state[0]            top_sdram|Sysclk     DFN1C0       Q       Z\\SDram_rd_0_rd_state_\[0\]\\     0.550       0.927
+Sdram_cmd_0.SD_WrAddr_col[10]     top_sdram|Sysclk     DFN1E1C0     Q       SD_WrAddr_col[10]                  0.550       0.936
+================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                  Starting                                                        Required          
+Instance                          Reference            Type       Pin     Net                     Time         Slack
+                                  Clock                                                                             
+--------------------------------------------------------------------------------------------------------------------
+Sdram_cmd_0.SD_wrAddr_row[11]     top_sdram|Sysclk     DFN1C0     D       SD_wrAddr_row_6[11]     9.572        0.097
+Sdram_cmd_0.SD_wrAddr_row[12]     top_sdram|Sysclk     DFN1C0     D       SD_wrAddr_row_6[12]     9.572        0.738
+Sdram_cmd_0.addr[5]               top_sdram|Sysclk     DFN1C0     D       N_11_i_0                9.598        0.927
+Sdram_cmd_0.addr[3]               top_sdram|Sysclk     DFN1C0     D       addr_11[3]              9.572        0.963
+Sdram_cmd_0.addr[4]               top_sdram|Sysclk     DFN1C0     D       addr_11[4]              9.572        0.963
+Sdram_cmd_0.addr[6]               top_sdram|Sysclk     DFN1C0     D       addr_11[6]              9.572        0.963
+Sdram_cmd_0.addr[7]               top_sdram|Sysclk     DFN1C0     D       addr_11[7]              9.572        0.963
+Sdram_cmd_0.addr[8]               top_sdram|Sysclk     DFN1C0     D       addr_11[8]              9.572        0.963
+Sdram_cmd_0.addr[9]               top_sdram|Sysclk     DFN1C0     D       addr_11[9]              9.572        0.963
+Sdram_cmd_0.SD_wrAddr_row[10]     top_sdram|Sysclk     DFN1C0     D       SD_wrAddr_row_6[10]     9.572        1.016
+====================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.572
+
+    - Propagation time:                      9.475
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.097
+
+    Number of logic level(s):                8
+    Starting point:                          Sdram_cmd_0.SD_wrAddr_row[8] / Q
+    Ending point:                            Sdram_cmd_0.SD_wrAddr_row[11] / D
+    The start point is clocked by            top_sdram|Sysclk [rising] on pin CLK
+    The end   point is clocked by            top_sdram|Sysclk [rising] on pin CLK
+
+Instance / Net                                                             Pin      Pin               Arrival     No. of    
+Name                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+Sdram_cmd_0.SD_wrAddr_row[8]                                    DFN1C0     Q        Out     0.550     0.550       -         
+SD_wrAddr_row[8]                                                Net        -        -       0.955     -           5         
+Sdram_cmd_0.SD_wrAddr_row_RNITK0K[11]                           NOR3       C        In      -         1.506       -         
+Sdram_cmd_0.SD_wrAddr_row_RNITK0K[11]                           NOR3       Y        Out     0.561     2.066       -         
+r_m1_e_6                                                        Net        -        -       0.240     -           1         
+Sdram_cmd_0.SD_wrAddr_row_RNIFRET[4]                            NOR3A      A        In      -         2.306       -         
+Sdram_cmd_0.SD_wrAddr_row_RNIFRET[4]                            NOR3A      Y        Out     0.496     2.802       -         
+r_m1_e_9                                                        Net        -        -       0.240     -           1         
+Sdram_cmd_0.SD_wrAddr_row_RNIT4462[3]                           NOR3C      C        In      -         3.042       -         
+Sdram_cmd_0.SD_wrAddr_row_RNIT4462[3]                           NOR3C      Y        Out     0.497     3.539       -         
+sd_wraddr_row20                                                 Net        -        -       1.224     -           8         
+Sdram_cmd_0.un1_SD_wrAddr_row.ADD_13x13_medium_area_I14_Y_1     NOR2A      B        In      -         4.763       -         
+Sdram_cmd_0.un1_SD_wrAddr_row.ADD_13x13_medium_area_I14_Y_1     NOR2A      Y        Out     0.288     5.051       -         
+N256                                                            Net        -        -       0.884     -           4         
+Sdram_cmd_0.un1_SD_wrAddr_row.ADD_13x13_medium_area_I15_Y       OR2B       B        In      -         5.935       -         
+Sdram_cmd_0.un1_SD_wrAddr_row.ADD_13x13_medium_area_I15_Y       OR2B       Y        Out     0.469     6.404       -         
+N245                                                            Net        -        -       0.884     -           4         
+Sdram_cmd_0.un1_SD_wrAddr_row.ADD_13x13_medium_area_I27_Y       NOR2       A        In      -         7.288       -         
+Sdram_cmd_0.un1_SD_wrAddr_row.ADD_13x13_medium_area_I27_Y       NOR2       Y        Out     0.271     7.559       -         
+N247                                                            Net        -        -       0.288     -           2         
+Sdram_cmd_0.un1_SD_wrAddr_row.ADD_13x13_medium_area_I33_Y       AOI1       A        In      -         7.847       -         
+Sdram_cmd_0.un1_SD_wrAddr_row.ADD_13x13_medium_area_I33_Y       AOI1       Y        Out     0.680     8.527       -         
+N261_i                                                          Net        -        -       0.240     -           1         
+Sdram_cmd_0.SD_wrAddr_row_RNO[11]                               XA1B       B        In      -         8.767       -         
+Sdram_cmd_0.SD_wrAddr_row_RNO[11]                               XA1B       Y        Out     0.467     9.235       -         
+SD_wrAddr_row_6[11]                                             Net        -        -       0.240     -           1         
+Sdram_cmd_0.SD_wrAddr_row[11]                                   DFN1C0     D        In      -         9.475       -         
+============================================================================================================================
+Total path delay (propagation time + setup) of 9.903 is 4.707(47.5%) logic and 5.196(52.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell top_sdram.def_arch
+  Core Cell usage:
+              cell count     area count*area
+              AND2     1      1.0        1.0
+               AO1     5      1.0        5.0
+              AO1A     1      1.0        1.0
+              AO1B     3      1.0        3.0
+              AO1C     3      1.0        3.0
+              AO1D     4      1.0        4.0
+              AOI1    10      1.0       10.0
+             AOI1B     4      1.0        4.0
+               AX1     4      1.0        4.0
+              AX1A     1      1.0        1.0
+              AX1C     2      1.0        2.0
+              AX1E     1      1.0        1.0
+              AXO5     1      1.0        1.0
+            CLKINT     2      0.0        0.0
+               GND     9      0.0        0.0
+               INV     4      1.0        4.0
+               MX2     5      1.0        5.0
+              NOR2    23      1.0       23.0
+             NOR2A    31      1.0       31.0
+             NOR2B    48      1.0       48.0
+              NOR3    18      1.0       18.0
+             NOR3A    14      1.0       14.0
+             NOR3B    14      1.0       14.0
+             NOR3C    24      1.0       24.0
+               OA1    17      1.0       17.0
+              OA1A    17      1.0       17.0
+              OA1B     3      1.0        3.0
+              OA1C     2      1.0        2.0
+              OAI1     6      1.0        6.0
+               OR2    38      1.0       38.0
+              OR2A    37      1.0       37.0
+              OR2B    31      1.0       31.0
+               OR3    11      1.0       11.0
+              OR3A     7      1.0        7.0
+              OR3B    12      1.0       12.0
+              OR3C    19      1.0       19.0
+               VCC     9      0.0        0.0
+               XA1    13      1.0       13.0
+              XA1A     7      1.0        7.0
+              XA1B    21      1.0       21.0
+              XA1C    15      1.0       15.0
+              XAI1     1      1.0        1.0
+             XNOR2    10      1.0       10.0
+              XO1A     1      1.0        1.0
+              XOR2     9      1.0        9.0
+
+
+            DFN1C0   147      1.0      147.0
+          DFN1E0C0    16      1.0       16.0
+            DFN1E1     1      1.0        1.0
+          DFN1E1C0    92      1.0       92.0
+            DFN1P0    12      1.0       12.0
+                   -----          ----------
+             TOTAL   786               766.0
+
+
+  IO Cell usage:
+              cell count
+             BIBUF    72
+            CLKBUF     2
+             INBUF    78
+            OUTBUF   107
+                   -----
+             TOTAL   259
+
+
+Core Cells         : 766 of 24576 (3%)
+IO Cells           : 259
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Feb 24 20:20:36 2014
+
+###########################################################]

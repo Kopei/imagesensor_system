@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>FK_Test</design>
+	<target_edif>D:\Actelprj\smart_top\synthesis\FK_Test.edn</target_edif>
+</SynplifyOutput>

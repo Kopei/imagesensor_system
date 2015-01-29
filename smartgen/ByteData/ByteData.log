@@ -1,0 +1,95 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Mon Feb 17 17:57:57 2014
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : ByteData
+Family                          : ProASIC3
+Output Format                   : VHDL
+Type                            : SOFTFIFO
+Write Enable                    : Active High
+Read Clock                      : Rising
+Write Clock                     : Rising
+Reset                           : Active Low
+Read Enable                     : Active High
+Write Depth                     : 4096
+Write Width                     : 8
+Read Depth                      : 4096
+Read Width                      : 8
+Almost Full                     : 65536
+Almost Empty                    : 65536
+Clocks                          : Single Read/Write Clock
+AEFlag                          : None
+AFFlag                          : None
+Read Pipe Mode1                 : No Pipe
+Optimized for                   : Speed
+Prevent Read When Empty         : Yes
+Prevent Write When Full         : Yes
+Write Acknowledge               : No
+Data Valid                      : No
+Overflow                        : No
+Underflow                       : No
+Read Data Count                 : No
+Write Data Count                : No
+Standalone Controller           : False
+Initialize RAM                  : False
+Portname DataIn                 : DATA
+Portname DataOut                : Q
+Portname AE Port                : AEVAL
+Portname AF Port                : AFVAL
+Portname Write En               : WE
+Portname Read En                : RE
+Portname WClock                 :
+Portname RClock                 :
+Portname AE Flag                : AEMPTY
+Portname AF Flag                : AFULL
+Portname Full Flag              : FULL
+Portname Empty Flag             : EMPTY
+Portname Reset                  : RESET
+Portname Write Acknowledge      : WACK
+Portname Data Valid             : DVLD
+Portname Overflow               : OVERFLOW
+Portname Underflow              : UNDERFLOW
+Portname Read Count             : RDCNT
+Portname Write Count            : WRCNT
+Portname Memory Write Address   :
+Portname Memory Read Address    :
+Portname Memory Write Enable    :
+Portname Memory Read Enable     :
+Portname Clock                  : CLK
+
+Cascade Configuration:
+     Port A configuration       : 4096x1
+     Port B configuration       : 4096x1
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 8
+
+**************
+Compile Report
+**************
+
+Warning:  CMP503: Remapped 8 enable flip-flop(s) to a 2-tile implementation
+          because the CLR/PRE pin on the enable flip-flop is not being driven
+          by a global net.
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:    223  Total:  24576   (0.91%)
+    IO (W/ clocks)             Used:      0  Total:    300   (0.00%)
+    Differential IO            Used:      0  Total:     74   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      8  Total:     32   (25.00%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to E:/Actelprj/smart_top/smartgen\ByteData\ByteData.vhd.
+
+ ** Log Ended:   Mon Feb 17 17:57:57 2014
+

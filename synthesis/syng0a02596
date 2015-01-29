@@ -1,0 +1,733 @@
+-- $Header: //synplicity/mapact/mappers/proasic/lib/gen_pa3/add.vhd#1 $
+
+-- Generic Adder
+-- The following algorithms are supported:
+--   0 - Compact Brent-Kung
+--   1 - Sklansky
+--   2 - Fast Brent-Kung
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity DWACT_BL_GENADD is
+  generic (
+		n, algorithm : integer;
+		ciPola : integer := 1;
+		coPola : integer := 1;
+		debug : integer := 0
+                );
+  port(
+	A,B : in std_logic_vector(n-1 downto 0);
+      	CI : in std_logic;
+--	DBG_IN_0 : in std_logic_vector(n-1 downto 0);
+--	DBG_IN_1 : in std_logic_vector(n-1 downto 0);
+--	DBG_IN_2 : in std_logic_vector(n-1 downto 0);
+      	SUM : out std_logic_vector(n-1 downto 0);
+--	DBG_OUT_0 : out std_logic_vector(n-1 downto 0);
+--	DBG_OUT_1 : out std_logic_vector(n-1 downto 0);
+--	DBG_OUT_2 : out std_logic_vector(n-1 downto 0);
+
+     	CO : out std_logic
+      );
+
+end DWACT_BL_GENADD;
+
+architecture GENERIC_ADDER of DWACT_BL_GENADD is
+
+  signal ZERO : std_logic;
+
+  function ceil_log2_err (val : natural) return natural is
+    variable ld, val_copy, tmp : natural;
+
+  begin
+
+    ld := 0;
+    val_copy := val;
+
+    ceil_log2_loop: while (val_copy > 1) loop
+      tmp := val_copy / 2;
+      val_copy := tmp;
+      ld := ld + 1;
+    end loop ceil_log2_loop;
+
+    return ld;
+
+  end ceil_log2_err;
+
+  function exp2_orig (val : natural) return natural is
+    variable result, val_copy : natural;
+
+  begin
+
+    result := 2;
+    val_copy := val;
+
+    if (val = 0) then
+      result := 1;
+    else
+      val_loop: while (val_copy > 1) loop
+ 	val_copy := val_copy-1;
+	result :=  2*result;
+      end loop val_loop;
+    end if;
+    return result;
+  end exp2_orig;
+
+  function exp2 (val : natural) return natural is
+    variable result : natural;
+
+  begin
+
+    if (val = 0) then
+      result := 1;
+    elsif (val = 1) then
+      result := 2;
+    elsif (val = 2) then
+      result := 4;
+    elsif (val = 3) then
+      result := 8;
+    elsif (val = 4) then
+      result := 16;
+    elsif (val = 5) then
+      result := 32;
+    elsif (val = 6) then
+      result := 64;
+    elsif (val = 7) then
+      result := 128;
+    elsif (val = 8) then
+      result := 256;
+    else
+      result := 0;
+    end if;
+
+    return result;
+  end exp2;
+
+
+  FUNCTION bit_width (num : integer) RETURN integer IS
+         variable count : integer;
+         Begin
+           count := 1;
+           if (num <= 0) then return 0;
+           elsif (num <= 2**10) then
+            for i in 1 to 10 loop
+             if (2**count >= num)  then
+              return i;
+             end if;
+             count := count + 1;
+            end loop;
+           elsif (num <= 2**20) then
+            for i in 1 to 20 loop
+             if (2**count >= num)  then
+              return i;
+             end if;
+             count := count + 1;
+            end loop;
+           elsif (num <= 2**30) then
+            for i in 1 to 30 loop
+             if (2**count >= num)  then
+              return i;
+             end if;
+             count := count + 1;
+            end loop;
+           else
+            for i in 1 to num loop
+             if (2**i >= num)  then
+              return i;
+             end if;
+            end loop;
+          end if;
+         end bit_width;
+
+
+  FUNCTION ceil_log2 (x : integer) RETURN integer IS
+
+       variable log : integer;
+
+    begin
+
+       if ((x<=1) AND (x>0)) then
+         log := 0;
+       elsif((x>1) AND (x<=2)) then
+         log := 1;
+       elsif((x>2) AND (x<=4)) then
+         log := 2;
+       elsif ((x>4) AND (x<=8)) then
+         log := 3;
+       elsif ((x>8) AND (x<=16)) then
+         log := 4;
+       elsif ((x>16) AND (x<=32)) then
+         log := 5;
+       elsif ((x>32) AND (x<=64)) then
+         log := 6;
+       elsif ((x>64) AND (x<=128)) then
+         log := 7;
+       else
+         log := 0;
+       end if;
+
+       return log;
+
+  end ceil_log2;
+
+
+  -- pg_tree_levels calculates the levels of logic in the P/G-tree:
+  -- 
+  -- if (algorithm = bk)
+  --   levels := 2*ceil(ld(width))-2;
+  -- else
+  --   levels := ceil(ld(width));
+
+  FUNCTION pg_tree_levels (x, algorithm, maxBKLevel : integer) RETURN integer IS
+
+       variable log : integer;
+
+    begin
+
+     if (algorithm = 2) then
+       log := maxBKLevel;
+     else 
+       log := ceil_log2(x);
+     end if;
+
+     return log;
+  end pg_tree_levels;
+
+
+  constant maxWidth : natural := 128;
+  -- maxBKLevel is calculated through: 2*ceil(ld(maxWidth))-2;
+  constant maxBKLevel : natural := 12;
+
+  constant levels : integer := pg_tree_levels(n,algorithm,maxBKLevel);
+  -- constant levels : integer := ceil_log2(n);
+  constant levelsM1 : INTEGER := levels -1;
+  type int_level_type is array ( 0 to n -1) of INTEGER;
+  type int_array_type is array (0 to levels-1) of int_level_type;
+
+
+  function compute_fbk_g_index (width, levels : in integer) return int_array_type is
+
+    variable g_index : int_array_type;
+
+  begin
+       if( width > 1 ) then
+        for level in 1 to levels -1 loop
+           for bit_position in 0 to (2**(level-1)) -1 loop
+            g_index(level)(bit_position) := 0;
+           end loop;
+
+          for bit_position in (2**(level -1)) to width -1 loop
+           if(( bit_position -2 ** level) >= -1) then
+              g_index(level)(bit_position) := 2** level;
+            end if;
+
+           if(( bit_position -2 ** level) < -1) then
+              g_index(level)(bit_position) := bit_position + 1;
+           end if;
+         end loop;
+      end loop;
+     end if;
+
+     for bit_position in 0 to width -1 loop
+       g_index(0)(bit_position) := 1;
+     end loop;
+
+     return (g_index);
+
+  end compute_fbk_g_index;
+
+
+  function compute_fbk_pog_index(width, levels : in integer) return int_array_type is
+
+      variable  pog_index : int_array_type;
+
+   begin
+
+      if(width > 1) then
+        for level in 0 to levels -1 loop
+           for bit_position in 0 to (2**level) -1 loop
+             if(level < levels -2) then
+                -- "0 " means that this current bit will not be combined with any other bit, and will directly promoted to
+                --  next level
+                 pog_index(level)(bit_position) :=0;
+             else
+                -- " -1 " means the current bit position doesn't need to be carried to next level
+                pog_index(level)(bit_position) := -1;
+             end if;
+           end loop;
+           if(width > 2**level) then
+             for bit_position in 2**level to width -1 loop
+                 if(bit_position >= (2**level) -1) then
+                   pog_index(level)(bit_position) := 2**level;
+                 end if;
+                if(bit_position < 2**level -1) then
+                 -- "-1" means the current bit position doesn't need to be carried to next level;
+                   pog_index(level)(bit_position) := -1;
+                end if;
+             end loop;
+           end if;
+       end loop;
+     end if;
+
+    -- at last level, all current bit position doesn't need to be carried to next level( no existing..);
+
+    for bit_position in 0 to width-1 loop
+        pog_index(levels -1) (bit_position) := -1;
+    end loop;
+
+    return pog_index;
+  end compute_fbk_pog_index;
+
+
+  -- Fast BK-Adder (directly translated from C++:
+  function compute_fbk_index (levels, width : in integer) return int_array_type is
+
+     variable g_navigator : int_array_type;
+     variable bit_width : natural;
+
+  begin
+
+     if (width > 1) then
+       
+       -- lv1: for lvl in 1 to levels loop
+       lv1: for lvl in 1 to (levels-1) loop
+
+         -- int bit_width=(1<<lvl);
+         -- bit_width := 2*lvl;
+	 bit_width := 2**lvl;
+
+         for bit_position in 0 to (bit_width-1) loop
+           g_navigator(lvl)(bit_position) := 0;
+         end loop;
+
+         for bit_position in bit_width to (width-1) loop
+	   g_navigator(lvl)(bit_position) := bit_width;
+         end loop;
+       end loop lv1;
+
+       -- now compute the g_navigator[0][] value-- the level 0
+
+       for bit_position in 1 to (width-1) loop
+         g_navigator(0)(bit_position) := 1;
+       end loop;
+
+       g_navigator(0)(0) := 0;
+     end if;
+
+     return g_navigator;
+
+  end compute_fbk_index;
+
+
+  -- compute_bk_index uses the global constats: maxBKLevel, maxWidth
+
+  function compute_bk_index (data_width : in integer) return int_array_type is
+
+    variable g_navigator : int_array_type;
+    variable tmp,colored_dot_position_incr,start_position : natural;
+  
+    -- int levels=maxBKLevel;
+    -- constant maxBKLevel : natural := 12;
+    -- constant maxWidth : natural := 128;
+    constant highestLowerLevel : natural := (maxBKLevel / 2) + (maxBKLevel mod 2) - 1;
+    
+  begin
+
+    -- special case: level = highestLowerLevel+1
+    for bit_position in 0 to (data_width-1) loop	
+      g_navigator(highestLowerLevel+1)(bit_position) := 0;
+    end loop;
+
+    tmp := 2**highestLowerLevel;
+    if (data_width = maxWidth) then
+      g_navigator(highestLowerLevel+1)(maxWidth-1) := 2*tmp;
+    end if;
+    if (data_width >= (maxWidth-tmp)) then
+      g_navigator(highestLowerLevel+1)(maxWidth-tmp-1) := tmp;
+    end if;
+
+    for level in 0 to highestLowerLevel loop
+    
+      colored_dot_position_incr := 2**(level+1);
+
+      for bit_position in 0 to (data_width-1) loop
+
+        -- white dots:
+        if ((bit_position+1) mod colored_dot_position_incr > 0) then
+  	  g_navigator(level)(bit_position) := 0;
+	
+        -- colored dots: ToDo implement grey dots
+        else
+	  g_navigator(level)(bit_position) := colored_dot_position_incr / 2;
+        end if;
+      end loop;
+    end loop;
+
+   for level in (highestLowerLevel+2) to (maxBKLevel-1) loop
+
+     colored_dot_position_incr := colored_dot_position_incr / 2;
+     start_position := colored_dot_position_incr + colored_dot_position_incr / 2 - 1;
+
+     for bit_position in 0 to (data_width-1) loop	
+
+       -- white dots:
+       if (bit_position < start_position) then
+	 g_navigator(level)(bit_position) := 0;
+       elsif (((bit_position-start_position) mod colored_dot_position_incr) > 0) then
+	 g_navigator(level)(bit_position) := 0;
+	
+       -- colored dots: ToDo implement grey dots
+       else 
+	 g_navigator(level)(bit_position) := colored_dot_position_incr / 2;
+       end if;
+    end loop;
+  end loop;
+  return g_navigator;
+end compute_bk_index;
+
+
+  -- For Sklansky only one array is used:
+
+  function compute_sklansky_index (data_width : in integer) return int_array_type is
+
+    variable g_navigator : int_array_type;
+    variable same_dots_in_a_row : natural;
+    variable dotCounter : natural;
+    variable changeColor : natural;
+    variable useWhiteDots : natural;
+
+    -- maxLevel = pndLog2(data_width):
+    constant maxLevel : natural := ceil_log2(data_width);
+
+  begin
+
+    level_loop: for level in 0 to (maxLevel-1) loop
+    -- in C++ (?): level_loop: for level in 0 to maxLevel loop 
+
+      same_dots_in_a_row := exp2(level);
+      dotCounter := 0;
+      changeColor := 0;
+      useWhiteDots := 1;
+
+      width_loop: for bit_position in 0 to (data_width - 1) loop
+
+        if (dotCounter < same_dots_in_a_row) then
+    	  changeColor := 0;
+	  dotCounter := dotCounter + 1;
+        else
+  	  changeColor := 1;
+  	  -- reset to zero and increment:
+	  dotCounter := 1;
+        end if;
+
+        if (changeColor = 1) then
+	  if (useWhiteDots = 1) then
+	    useWhiteDots := 0;
+  	  else 
+	    useWhiteDots := 1;
+          end if;
+        end if;
+      
+        -- white dots:
+        if (useWhiteDots = 1) then
+	  g_navigator(level)(bit_position) := 0;
+        -- colored dots: ToDo implement grey dots
+        else
+  	  g_navigator(level)(bit_position) := dotCounter;
+        end if;
+
+      end loop width_loop;
+    end loop level_loop;
+
+   return g_navigator;
+
+  end compute_sklansky_index;
+
+
+  function compute_pog_index (width, levels, algorithm : in integer) return int_array_type is
+    variable  pog_index : int_array_type;
+
+  begin
+    if (algorithm = 0) then
+      -- pog_index := compute_fbk_pog_index(n, levels);
+      pog_index := compute_fbk_index(levels,n);
+    elsif (algorithm = 1) then
+      pog_index := compute_sklansky_index(n);
+    elsif (algorithm = 2) then
+      pog_index := compute_bk_index(n);
+    end if;
+    return pog_index;
+  end compute_pog_index;
+
+
+  function compute_g_index (width, levels, algorithm : in integer) return int_array_type is
+    variable  g_index : int_array_type;
+
+  begin
+    if (algorithm = 0) then
+      -- g_index := compute_fbk_g_index(n, levels);
+      g_index := compute_fbk_index(levels,n);
+    elsif (algorithm = 1) then
+      g_index := compute_sklansky_index(n);
+    elsif (algorithm = 2) then
+      g_index := compute_bk_index(n);
+    end if;
+
+    return g_index;
+  end compute_g_index;
+
+
+    constant g_indexes : int_array_type := compute_g_index(n, levels, algorithm);
+    constant pog_indexes : int_array_type := compute_pog_index(n, levels, algorithm);
+
+    type level_type  is array (n-1 downto -1 ) of std_logic;
+    type level_array_type is array (0 to levels) of level_type;
+
+    signal g_array, pog_array : level_array_type;
+    signal tmp1, partial_sum : std_logic_vector(n downto 0);
+    signal TMP : std_logic_vector(2 downto 0);
+    signal Carry : std_logic_vector(n-1 downto 0);
+    signal CI_int, CO_int :std_logic;
+
+  component AND2 
+     port(
+          A: in  STD_LOGIC;
+          B: in  STD_LOGIC;
+          Y: out STD_LOGIC);
+  end component;
+
+  -- Component OR3
+  component OR3
+     port(
+          A: in  STD_LOGIC;
+          B: in  STD_LOGIC;
+          C: in  STD_LOGIC;
+          Y: out STD_LOGIC);
+  end component;
+
+  component XOR2
+     port(
+          A: in  STD_LOGIC;
+          B: in  STD_LOGIC;
+          Y: out STD_LOGIC);
+  end component;
+
+  component AO1
+     port(
+          A: in  STD_LOGIC;
+          B: in  STD_LOGIC;
+          C: in  STD_LOGIC;
+          Y: out STD_LOGIC);
+  end component;
+
+  -- Component INV
+  component INV
+     port(
+          A: in  STD_LOGIC;
+          Y: out STD_LOGIC);
+  end component;
+
+  -- Component BUFF
+  component BUFF
+     port(
+          A: in  STD_LOGIC;
+          Y: out STD_LOGIC);
+  end component;
+
+ -- begin architecture:
+ begin
+
+     -- take care of carry-in polarity (back-end will bubble-push for ProASIC)
+     -- ToDo: consider ciPola == 2 (see pndgenbkadd.cxx)
+
+     ciPola_0: if (ciPola = 0) generate
+       CI_POLA_INV: INV port map ( A=>CI, Y => CI_int);
+     end generate ciPola_0;
+
+     ciPola_not_0: if (ciPola > 0) generate
+       CI_int <= CI;
+     end generate ciPola_not_0;
+
+
+     -- Generate g_array(0)(n-1:0):	
+     -- a) Special case for Carry(1) = g_array(0)(0):
+
+     TMP_0 : AND2 port map ( A=>A(0), B=>B(0), Y => TMP(0));
+     TMP_1 : AND2 port map ( A=>A(0), B=>CI_int, Y => TMP(1));
+     TMP_2 : AND2 port map ( A=>B(0), B=>CI_int, Y => TMP(2));
+     G0_0 : OR3 port map ( A=>TMP(0), B=>TMP(1), C=>TMP(2), Y => g_array(0)(0));
+
+     -- b)  Rest: generate g_array(0)(n-1:1):
+
+     G0_loop  : for bit_position in 1 to n-1 generate
+
+        G0 : AND2 port map ( A=> A(bit_position), B =>B(bit_position), Y => g_array(0)(bit_position));
+
+     end generate G0_loop;
+
+  -- Generate Carry(n-1:0)
+  Carry(0) <= CI_int;
+  carry_loop: for bit_position in 0 to (n-2) generate
+    Carry(bit_position+1) <= g_array(levels)(bit_position);
+  end generate carry_loop;
+
+  -- CO_int <= Carry(n-1);
+  CO_int <= g_array(levels)(n-1);
+
+  -- take care of carry-out polarity (back-end will bubble-push for ProASIC)
+  -- coPola == 2 doesn't need to be considered, since we always have 
+  -- a carry-out in DWACT
+
+  coPola_0: if (coPola = 0) generate
+    CO_POLA_INV: INV port map ( A=>CO_int, Y => CO);
+  end generate coPola_0;
+
+  coPola_not_0: if (coPola > 0) generate
+   CO <= CO_int;
+  end generate coPola_not_0;
+
+
+  misc_loop  : for bit_position in 0 to n-1 generate
+
+     -- Debug-Code:
+  
+--     DBG_if : if (debug /= 0) generate
+--       DBG00: BUFF port map ( A=>DBG_IN_0(bit_position), Y => DBG_OUT_0(g_indexes(0)(bit_position)));
+--       DBG01: BUFF port map ( A=>DBG_IN_1(bit_position), Y => DBG_OUT_1(g_indexes(1)(bit_position)));
+--       DBG02: BUFF port map ( A=>DBG_IN_2(bit_position), Y => DBG_OUT_2(g_indexes(2)(bit_position)));
+--     end generate DBG_if;
+
+
+      -- Level-0: P-terms:
+        P0 : XOR2 port map (A => A(bit_position), B => B(bit_position), Y => pog_array(0)(bit_position));
+
+--
+--         POSTPROCESSING PART
+--         Final summation
+     
+        PARTIAL : XOR2 port map (A => A(bit_position), B => B(bit_position), Y =>partial_sum(bit_position));
+
+       --  final the summation "S" is " A(bit_position) XOR B(bit_position) XOR g_array(levels)(bit_position -1)
+
+        FINSUM: XOR2 port map(
+                               A => partial_sum(bit_position),
+--                               B => g_array(levels)(bit_position -1),
+			       B => Carry(bit_position),
+                               Y => SUM(bit_position));
+
+  end generate misc_loop;
+
+
+ -- now start to build the P and G trees
+  level_loop : for level in 0 to levelsM1 generate
+
+       bit_loop  : for bit_position in 0 to n - 1 generate
+
+             -- simple promotion to next level:
+
+            JOIN_G : if ((g_indexes(level)(bit_position) = 0) AND (debug = 0)) generate
+                g_array(level + 1)(bit_position) <= g_array(level)(bit_position);
+            end generate JOIN_G;
+
+            JOIN_G_DBG  : if ((g_indexes(level)(bit_position) = 0) AND (debug /= 0)) generate
+                DBG0: BUFF port map ( A=>g_array(level)(bit_position), Y => g_array(level + 1)(bit_position));
+            end generate JOIN_G_DBG;
+
+            JOIN_P : if ((pog_indexes(level)(bit_position) = 0) AND (debug = 0)) generate
+	        pog_array(level + 1)(bit_position) <= pog_array(level)(bit_position);
+            end generate JOIN_P;
+
+            JOIN_P_DBG : if ((pog_indexes(level)(bit_position) = 0) AND (debug /= 0)) generate
+                DBG1: BUFF port map ( A=>pog_array(level)(bit_position), Y =>pog_array(level + 1)(bit_position));
+
+            end generate JOIN_P_DBG;
+
+            G1_2_4_1 : if (g_indexes(level)(bit_position) > 0) generate
+              G : AO1 port map (
+                        A => pog_array(level)(bit_position),
+                        B => g_array(level)(bit_position - g_indexes(level)(bit_position)),
+                        C => g_array(level)(bit_position),
+                        Y => g_array(level + 1)(bit_position)
+                        );
+                end generate G1_2_4_1;
+
+              G1_2_4_2  : if (pog_indexes(level)(bit_position) > 0 ) generate
+                   P : AND2 port map(
+                    A => pog_array(level)(bit_position - pog_indexes(level)(bit_position)),
+                    B => pog_array(level)(bit_position),
+                    Y => pog_array(level + 1)(bit_position)
+                   );
+                end generate G1_2_4_2;
+          end generate bit_loop;
+       end generate level_loop;
+
+ end GENERIC_ADDER;
+
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity ADD is
+
+  generic(width : integer:=8);
+  port(
+      A,B : in std_logic_vector(width-1 downto 0);
+      CIN : in std_logic;
+      O : out std_logic_vector(width-1 downto 0);
+      COUT : out std_logic
+      );
+
+end ADD;
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+architecture FBK of ADD is
+
+  -- attribute implementation : STRING;
+  -- attribute implementation of DWACT_ADD_CI_0 : label is "FBK";
+
+  -- Supported values for algorithm:
+  --   0 - Compact Brent-Kung
+  --   1 - Sklansky
+  --   2 - Fast Brent-Kung
+
+  constant algorithm : integer := 2;
+  constant debug : integer := 0;
+  constant ciPola : integer := 1;
+  constant coPola : integer := 1;
+
+  component DWACT_BL_GENADD
+    generic (
+                n, algorithm : integer;
+                ciPola : integer;
+                coPola : integer;
+                debug : integer
+                );
+    port(
+        A,B : in std_logic_vector(n-1 downto 0);
+        CI : in std_logic;
+        SUM : out std_logic_vector(n-1 downto 0);
+        CO : out std_logic
+      );
+  end component;
+
+begin
+ 
+  DWACT_ADD_CI_0 : DWACT_BL_GENADD 
+    generic map (n => width,
+		 ciPola => ciPola,
+		 coPola => coPola,
+		 algorithm => algorithm,
+		 debug => debug)
+    port map   (A => A,
+		B => B,
+		CI => CIN,
+		SUM => O,
+		CO => COUT
+		);
+
+end FBK;
+
+
+
+

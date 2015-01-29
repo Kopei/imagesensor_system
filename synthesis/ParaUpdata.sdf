@@ -1,0 +1,664 @@
+(DELAYFILE
+(SDFVERSION "OVI 2.1")
+(DESIGN "ParaUpdata")
+(DATE "123")
+(VENDOR "ProASIC3")
+(PROGRAM "Synplify")
+(VERSION "mapact, Build 023R")
+(DIVIDER /)
+(VOLTAGE 2.500000:2.500000:2.500000)
+(PROCESS "TYPICAL")
+(TEMPERATURE 70.000000:70.000000:70.000000)
+(TIMESCALE 1ns)
+(CELL
+  (CELLTYPE "ParaUpdata")
+  (INSTANCE)
+  (TIMINGCHECK
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  DataCtl_RNITV46/B  DataCtl_RNITV46/Y  un1_sel_1_I_1/B  un1_sel_1_I_1/Y  un1_sel_1_I_10/B  un1_sel_1_I_10/Y  sel_RNO\[1\]/C  sel_RNO\[1\]/Y  sel\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_16/B  un4_baudcnt_1_I_16/Y  un4_baudcnt_1_I_48/A  un4_baudcnt_1_I_48/Y  un4_baudcnt_1_I_51/B  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[2\]/CLK  BaudCnt\[2\]/Q  un4_baudcnt_1_I_16/C  un4_baudcnt_1_I_16/Y  un4_baudcnt_1_I_48/A  un4_baudcnt_1_I_48/Y  un4_baudcnt_1_I_51/B  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  DataCtl_RNITV46/A  DataCtl_RNITV46/Y  un1_sel_1_I_1/B  un1_sel_1_I_1/Y  un1_sel_1_I_10/B  un1_sel_1_I_10/Y  sel_RNO\[1\]/C  sel_RNO\[1\]/Y  sel\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  DataCtl_RNITV46/B  DataCtl_RNITV46/Y  AddrB_RNO_0\[1\]/C  AddrB_RNO_0\[1\]/Y  AddrB_RNO\[1\]/C  AddrB_RNO\[1\]/Y  AddrB\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[0\]/CLK  BaudCnt\[0\]/Q  un4_baudcnt_1_I_16/A  un4_baudcnt_1_I_16/Y  un4_baudcnt_1_I_48/A  un4_baudcnt_1_I_48/Y  un4_baudcnt_1_I_51/B  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  un4_baudcnt_1_I_34/A  un4_baudcnt_1_I_34/Y  un4_baudcnt_1_I_48/B  un4_baudcnt_1_I_48/Y  un4_baudcnt_1_I_51/B  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[4\]/CLK  BaudCnt\[4\]/Q  un4_baudcnt_1_I_34/B  un4_baudcnt_1_I_34/Y  un4_baudcnt_1_I_48/B  un4_baudcnt_1_I_48/Y  un4_baudcnt_1_I_51/B  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  BaudCnt_RNIK1KL\[9\]/B  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[5\]/CLK  BaudCnt\[5\]/Q  un4_baudcnt_1_I_34/C  un4_baudcnt_1_I_34/Y  un4_baudcnt_1_I_48/B  un4_baudcnt_1_I_48/Y  un4_baudcnt_1_I_51/B  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  BaudCnt_RNIK1KL\[9\]/B  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[9\]/B  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  BaudCnt_RNIK1KL\[9\]/B  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[2\]/B  BaudCnt_RNO\[2\]/Y  BaudCnt\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  BaudCnt_RNIK1KL\[9\]/B  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[3\]/B  BaudCnt_RNO\[3\]/Y  BaudCnt\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  BaudCnt_RNIK1KL\[9\]/B  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[4\]/B  BaudCnt_RNO\[4\]/Y  BaudCnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  BaudCnt_RNIK1KL\[9\]/B  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[5\]/B  BaudCnt_RNO\[5\]/Y  BaudCnt\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[5\]/CLK  BaudCnt\[5\]/Q  BaudCnt_RNI15DE\[5\]/A  BaudCnt_RNI15DE\[5\]/Y  BaudCnt_RNI16QS\[8\]/B  BaudCnt_RNI16QS\[8\]/Y  BaudCnt_RNIGKQ02\[1\]/B  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  DataCtl_RNITV46/B  DataCtl_RNITV46/Y  un1_sel_1_I_8/A  un1_sel_1_I_8/Y  sel_RNO\[0\]/C  sel_RNO\[0\]/Y  sel\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_16/B  un4_baudcnt_1_I_16/Y  un4_baudcnt_1_I_19/B  un4_baudcnt_1_I_19/Y  un4_baudcnt_1_I_20/A  un4_baudcnt_1_I_20/Y  BaudCnt_RNO\[4\]/A  BaudCnt_RNO\[4\]/Y  BaudCnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_16/B  un4_baudcnt_1_I_16/Y  un4_baudcnt_1_I_23/A  un4_baudcnt_1_I_23/Y  un4_baudcnt_1_I_24/A  un4_baudcnt_1_I_24/Y  BaudCnt_RNO\[5\]/A  BaudCnt_RNO\[5\]/Y  BaudCnt\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  AddrB_RNI0NM6\[0\]/C  AddrB_RNI0NM6\[0\]/Y  AddrB_RNO_1\[2\]/A  AddrB_RNO_1\[2\]/Y  AddrB_RNO\[2\]/C  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[6\]/CLK  BaudCnt\[6\]/Q  BaudCnt_RNI15DE\[5\]/B  BaudCnt_RNI15DE\[5\]/Y  BaudCnt_RNI16QS\[8\]/B  BaudCnt_RNI16QS\[8\]/Y  BaudCnt_RNIGKQ02\[1\]/B  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[6\]/CLK  BaudCnt\[6\]/Q  un4_baudcnt_1_I_41/A  un4_baudcnt_1_I_41/Y  un4_baudcnt_1_I_48/C  un4_baudcnt_1_I_48/Y  un4_baudcnt_1_I_51/B  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  BaudCnt_RNIK1KL\[9\]/B  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudPulse/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  BaudCnt_RNIK1KL\[9\]/B  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudPulse_0/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  Mode\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  Mode\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  BandNum\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  BandNum\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  BandNum\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  BandNum\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  Accnum\[5\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  Accnum\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  Accnum\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  Accnum\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  Accnum\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  Accnum\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  MotorPos\[5\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  MotorPos\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  MotorPos\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  MotorPos\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  MotorPos\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  MotorPos\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  ExposureT\[5\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  ExposureT\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  ExposureT\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  ExposureT\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  ExposureT\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy1_pad_RNI0TE5/B  Rdy1_pad_RNI0TE5/Y  ExposureT\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudCnt\[7\]/CLK  BaudCnt\[7\]/Q  un4_baudcnt_1_I_41/B  un4_baudcnt_1_I_41/Y  un4_baudcnt_1_I_48/C  un4_baudcnt_1_I_48/Y  un4_baudcnt_1_I_51/B  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[7\]/CLK  BaudCnt\[7\]/Q  BaudCnt_RNIK1KL\[9\]/C  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  DataCtl_RNITV46/B  DataCtl_RNITV46/Y  AddrB_RNO\[2\]/A  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[9\]/CLK  BaudCnt\[9\]/Q  BaudCnt_RNIK1KL\[9\]/A  BaudCnt_RNIK1KL\[9\]/Y  BaudCnt_RNIFE041\[1\]/B  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[2\]/CLK  BaudCnt\[2\]/Q  BaudCnt_RNI16QS\[8\]/A  BaudCnt_RNI16QS\[8\]/Y  BaudCnt_RNIGKQ02\[1\]/B  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[4\]/CLK  BaudCnt\[4\]/Q  BaudCnt_RNIFE041\[1\]/A  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[31\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[23\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[30\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[29\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[28\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[27\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[26\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[25\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[24\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[9\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[8\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[7\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[6\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[5\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5/B  Rdy2_pad_RNI1TE5/Y  SPI_Set\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[22\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[21\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[20\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[19\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[18\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[17\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[16\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[15\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[14\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[13\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[12\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[11\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[10\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Rdy2_pad_RNI1TE5_0/B  Rdy2_pad_RNI1TE5_0/Y  SPI_Set\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  BaudCnt_RNIFE041\[1\]/C  BaudCnt_RNIFE041\[1\]/Y  BaudCnt_RNIGKQ02\[1\]/A  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_16/B  un4_baudcnt_1_I_16/Y  un4_baudcnt_1_I_30/A  un4_baudcnt_1_I_30/Y  un4_baudcnt_1_I_31/A  un4_baudcnt_1_I_31/Y  BaudCnt\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_16/B  un4_baudcnt_1_I_16/Y  un4_baudcnt_1_I_37/A  un4_baudcnt_1_I_37/Y  un4_baudcnt_1_I_38/A  un4_baudcnt_1_I_38/Y  BaudCnt\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_16/B  un4_baudcnt_1_I_16/Y  un4_baudcnt_1_I_44/A  un4_baudcnt_1_I_44/Y  un4_baudcnt_1_I_45/A  un4_baudcnt_1_I_45/Y  BaudCnt\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  AddrB_RNI0NM6\[0\]/B  AddrB_RNI0NM6\[0\]/Y  AddrB_RNO_1\[2\]/A  AddrB_RNO_1\[2\]/Y  AddrB_RNO\[2\]/C  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  un1_sel_1_I_1/A  un1_sel_1_I_1/Y  un1_sel_1_I_10/B  un1_sel_1_I_10/Y  sel_RNO\[1\]/C  sel_RNO\[1\]/Y  sel\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  DataCtl_RNITV46/B  DataCtl_RNITV46/Y  P_AddrB\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  DataCtl_RNITV46/B  DataCtl_RNITV46/Y  P_AddrB\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  DataCtl_RNITV46/B  DataCtl_RNITV46/Y  P_AddrB\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudCnt\[8\]/CLK  BaudCnt\[8\]/Q  BaudCnt_RNI16QS\[8\]/C  BaudCnt_RNI16QS\[8\]/Y  BaudCnt_RNIGKQ02\[1\]/B  BaudCnt_RNIGKQ02\[1\]/Y  BaudCnt_RNO\[0\]/A  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_2\[1\]/B  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[0\]/S  Data_reg_RNO\[0\]/Y  Data_reg\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_0\[1\]/B  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[16\]/S  Data_reg_RNO\[16\]/Y  Data_reg\[16\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_2\[1\]/B  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[1\]/S  Data_reg_RNO\[1\]/Y  Data_reg\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_2\[1\]/B  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[2\]/S  Data_reg_RNO\[2\]/Y  Data_reg\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_2\[1\]/B  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[3\]/S  Data_reg_RNO\[3\]/Y  Data_reg\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_2\[1\]/B  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[4\]/S  Data_reg_RNO\[4\]/Y  Data_reg\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_2\[1\]/B  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[5\]/S  Data_reg_RNO\[5\]/Y  Data_reg\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_2\[1\]/B  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[6\]/S  Data_reg_RNO\[6\]/Y  Data_reg\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_2\[1\]/B  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[7\]/S  Data_reg_RNO\[7\]/Y  Data_reg\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_0\[1\]/B  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[17\]/S  Data_reg_RNO\[17\]/Y  Data_reg\[17\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_0\[1\]/B  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[18\]/S  Data_reg_RNO\[18\]/Y  Data_reg\[18\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_0\[1\]/B  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[19\]/S  Data_reg_RNO\[19\]/Y  Data_reg\[19\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_0\[1\]/B  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[20\]/S  Data_reg_RNO\[20\]/Y  Data_reg\[20\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_0\[1\]/B  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[21\]/S  Data_reg_RNO\[21\]/Y  Data_reg\[21\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_0\[1\]/B  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[22\]/S  Data_reg_RNO\[22\]/Y  Data_reg\[22\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_0\[1\]/B  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[23\]/S  Data_reg_RNO\[23\]/Y  Data_reg\[23\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  un4_baudcnt_1_I_34/A  un4_baudcnt_1_I_34/Y  un4_baudcnt_1_I_44/B  un4_baudcnt_1_I_44/Y  un4_baudcnt_1_I_45/A  un4_baudcnt_1_I_45/Y  BaudCnt\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  un4_baudcnt_1_I_34/A  un4_baudcnt_1_I_34/Y  un4_baudcnt_1_I_37/B  un4_baudcnt_1_I_37/Y  un4_baudcnt_1_I_38/A  un4_baudcnt_1_I_38/Y  BaudCnt\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF\[1\]/B  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[24\]/S  Data_reg_RNO\[24\]/Y  Data_reg\[24\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF\[1\]/B  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[25\]/S  Data_reg_RNO\[25\]/Y  Data_reg\[25\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF\[1\]/B  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[26\]/S  Data_reg_RNO\[26\]/Y  Data_reg\[26\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF\[1\]/B  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[27\]/S  Data_reg_RNO\[27\]/Y  Data_reg\[27\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF\[1\]/B  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[28\]/S  Data_reg_RNO\[28\]/Y  Data_reg\[28\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF\[1\]/B  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[29\]/S  Data_reg_RNO\[29\]/Y  Data_reg\[29\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF\[1\]/B  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[30\]/S  Data_reg_RNO\[30\]/Y  Data_reg\[30\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF\[1\]/B  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[31\]/S  Data_reg_RNO\[31\]/Y  Data_reg\[31\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_1\[1\]/B  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[8\]/S  Data_reg_RNO\[8\]/Y  Data_reg\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_1\[1\]/B  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[9\]/S  Data_reg_RNO\[9\]/Y  Data_reg\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_1\[1\]/B  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[10\]/S  Data_reg_RNO\[10\]/Y  Data_reg\[10\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_1\[1\]/B  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[11\]/S  Data_reg_RNO\[11\]/Y  Data_reg\[11\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_1\[1\]/B  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[12\]/S  Data_reg_RNO\[12\]/Y  Data_reg\[12\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_1\[1\]/B  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[13\]/S  Data_reg_RNO\[13\]/Y  Data_reg\[13\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_1\[1\]/B  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[14\]/S  Data_reg_RNO\[14\]/Y  Data_reg\[14\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_1\[1\]/B  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[15\]/S  Data_reg_RNO\[15\]/Y  Data_reg\[15\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  sel_RNIP5HF_1\[1\]/A  sel_RNIP5HF_1\[1\]/Y  Data_reg_RNO\[8\]/S  Data_reg_RNO\[8\]/Y  Data_reg\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  AddrB_RNO_2\[2\]/B  AddrB_RNO_2\[2\]/Y  AddrB_RNO_1\[2\]/C  AddrB_RNO_1\[2\]/Y  AddrB_RNO\[2\]/C  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  AddrB_RNI0NM6\[0\]/C  AddrB_RNI0NM6\[0\]/Y  AddrB_RNO\[1\]/A  AddrB_RNO\[1\]/Y  AddrB\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF\[1\]/A  sel_RNIP5HF\[1\]/Y  Data_reg_RNO\[24\]/S  Data_reg_RNO\[24\]/Y  Data_reg\[24\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_2\[1\]/A  sel_RNIP5HF_2\[1\]/Y  Data_reg_RNO\[0\]/S  Data_reg_RNO\[0\]/Y  Data_reg\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  sel_RNIP5HF_0\[1\]/A  sel_RNIP5HF_0\[1\]/Y  Data_reg_RNO\[16\]/S  Data_reg_RNO\[16\]/Y  Data_reg\[16\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[0\]/CLK  AddrB\[0\]/Q  AddrB_RNI0NM6\[0\]/A  AddrB_RNI0NM6\[0\]/Y  AddrB_RNO_1\[2\]/A  AddrB_RNO_1\[2\]/Y  AddrB_RNO\[2\]/C  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  un4_baudcnt_1_I_23/B  un4_baudcnt_1_I_23/Y  un4_baudcnt_1_I_24/A  un4_baudcnt_1_I_24/Y  BaudCnt_RNO\[5\]/A  BaudCnt_RNO\[5\]/Y  BaudCnt\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[1\]/CLK  AddrB\[1\]/Q  AddrB_RNO_2\[2\]/C  AddrB_RNO_2\[2\]/Y  AddrB_RNO_1\[2\]/C  AddrB_RNO_1\[2\]/Y  AddrB_RNO\[2\]/C  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  un4_baudcnt_1_I_27/A  un4_baudcnt_1_I_27/Y  un4_baudcnt_1_I_30/B  un4_baudcnt_1_I_30/Y  un4_baudcnt_1_I_31/A  un4_baudcnt_1_I_31/Y  BaudCnt\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  un4_baudcnt_1_I_19/A  un4_baudcnt_1_I_19/Y  un4_baudcnt_1_I_20/A  un4_baudcnt_1_I_20/Y  BaudCnt_RNO\[4\]/A  BaudCnt_RNO\[4\]/Y  BaudCnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[4\]/CLK  BaudCnt\[4\]/Q  un4_baudcnt_1_I_27/B  un4_baudcnt_1_I_27/Y  un4_baudcnt_1_I_30/B  un4_baudcnt_1_I_30/Y  un4_baudcnt_1_I_31/A  un4_baudcnt_1_I_31/Y  BaudCnt\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[4\]/CLK  BaudCnt\[4\]/Q  un4_baudcnt_1_I_23/C  un4_baudcnt_1_I_23/Y  un4_baudcnt_1_I_24/A  un4_baudcnt_1_I_24/Y  BaudCnt_RNO\[5\]/A  BaudCnt_RNO\[5\]/Y  BaudCnt\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[0\]/CLK  BaudCnt\[0\]/Q  un4_baudcnt_1_I_8/B  un4_baudcnt_1_I_8/Y  un4_baudcnt_1_I_9/A  un4_baudcnt_1_I_9/Y  BaudCnt_RNO\[2\]/A  BaudCnt_RNO\[2\]/Y  BaudCnt\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_12/B  un4_baudcnt_1_I_12/Y  un4_baudcnt_1_I_13/A  un4_baudcnt_1_I_13/Y  BaudCnt_RNO\[3\]/A  BaudCnt_RNO\[3\]/Y  BaudCnt\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[2\]/CLK  BaudCnt\[2\]/Q  un4_baudcnt_1_I_12/C  un4_baudcnt_1_I_12/Y  un4_baudcnt_1_I_13/A  un4_baudcnt_1_I_13/Y  BaudCnt_RNO\[3\]/A  BaudCnt_RNO\[3\]/Y  BaudCnt\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_8/A  un4_baudcnt_1_I_8/Y  un4_baudcnt_1_I_9/A  un4_baudcnt_1_I_9/Y  BaudCnt_RNO\[2\]/A  BaudCnt_RNO\[2\]/Y  BaudCnt\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[0\]/CLK  BaudCnt\[0\]/Q  un4_baudcnt_1_I_12/A  un4_baudcnt_1_I_12/Y  un4_baudcnt_1_I_13/A  un4_baudcnt_1_I_13/Y  BaudCnt_RNO\[3\]/A  BaudCnt_RNO\[3\]/Y  BaudCnt\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  AddrB_RNO\[0\]/B  AddrB_RNO\[0\]/Y  AddrB\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  sel_RNO\[0\]/A  sel_RNO\[0\]/Y  sel\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[6\]/CLK  BaudCnt\[6\]/Q  un4_baudcnt_1_I_41/A  un4_baudcnt_1_I_41/Y  un4_baudcnt_1_I_44/C  un4_baudcnt_1_I_44/Y  un4_baudcnt_1_I_45/A  un4_baudcnt_1_I_45/Y  BaudCnt\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[2\]/CLK  AddrB\[2\]/Q  AddrB_RNO_2\[2\]/A  AddrB_RNO_2\[2\]/Y  AddrB_RNO_1\[2\]/C  AddrB_RNO_1\[2\]/Y  AddrB_RNO\[2\]/C  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[3\]/CLK  BaudCnt\[3\]/Q  un4_baudcnt_1_I_13/B  un4_baudcnt_1_I_13/Y  BaudCnt_RNO\[3\]/A  BaudCnt_RNO\[3\]/Y  BaudCnt\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[2\]/CLK  AddrB\[2\]/Q  AddrB_RNO_1\[2\]/B  AddrB_RNO_1\[2\]/Y  AddrB_RNO\[2\]/C  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  sel_RNO\[1\]/B  sel_RNO\[1\]/Y  sel\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[0\]/CLK  sel\[0\]/Q  un1_sel_1_I_8/B  un1_sel_1_I_8/Y  sel_RNO\[0\]/C  sel_RNO\[0\]/Y  sel\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[4\]/CLK  BaudCnt\[4\]/Q  un4_baudcnt_1_I_20/B  un4_baudcnt_1_I_20/Y  BaudCnt_RNO\[4\]/A  BaudCnt_RNO\[4\]/Y  BaudCnt\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[8\]/CLK  BaudCnt\[8\]/Q  un4_baudcnt_1_I_51/A  un4_baudcnt_1_I_51/Y  un4_baudcnt_1_I_52/A  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[2\]/CLK  BaudCnt\[2\]/Q  un4_baudcnt_1_I_9/B  un4_baudcnt_1_I_9/Y  BaudCnt_RNO\[2\]/A  BaudCnt_RNO\[2\]/Y  BaudCnt\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[5\]/CLK  BaudCnt\[5\]/Q  un4_baudcnt_1_I_24/B  un4_baudcnt_1_I_24/Y  BaudCnt_RNO\[5\]/A  BaudCnt_RNO\[5\]/Y  BaudCnt\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[1\]/CLK  AddrB\[1\]/Q  AddrB_RNO_0\[1\]/B  AddrB_RNO_0\[1\]/Y  AddrB_RNO\[1\]/C  AddrB_RNO\[1\]/Y  AddrB\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[2\]/CLK  AddrB\[2\]/Q  AddrB_RNO_0\[2\]/C  AddrB_RNO_0\[2\]/Y  AddrB_RNO\[2\]/B  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT sel\[1\]/CLK  sel\[1\]/Q  un1_sel_1_I_10/A  un1_sel_1_I_10/Y  sel_RNO\[1\]/C  sel_RNO\[1\]/Y  sel\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[1\]/CLK  AddrB\[1\]/Q  AddrB_RNO_0\[2\]/A  AddrB_RNO_0\[2\]/Y  AddrB_RNO\[2\]/B  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[0\]/CLK  AddrB\[0\]/Q  AddrB_RNO_0\[2\]/B  AddrB_RNO_0\[2\]/Y  AddrB_RNO\[2\]/B  AddrB_RNO\[2\]/Y  AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[5\]/CLK  BaudCnt\[5\]/Q  un4_baudcnt_1_I_30/C  un4_baudcnt_1_I_30/Y  un4_baudcnt_1_I_31/A  un4_baudcnt_1_I_31/Y  BaudCnt\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  AddrB_RNO\[0\]/A  AddrB_RNO\[0\]/Y  AddrB\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[0\]/CLK  AddrB\[0\]/Q  AddrB_RNO_0\[1\]/A  AddrB_RNO_0\[1\]/Y  AddrB_RNO\[1\]/C  AddrB_RNO\[1\]/Y  AddrB\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  sel_RNO\[0\]/B  sel_RNO\[0\]/Y  sel\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  DataCtl_RNO/B  DataCtl_RNO/Y  DataCtl/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[6\]/CLK  BaudCnt\[6\]/Q  un4_baudcnt_1_I_37/C  un4_baudcnt_1_I_37/Y  un4_baudcnt_1_I_38/A  un4_baudcnt_1_I_38/Y  BaudCnt\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT CtlCnt\[1\]/CLK  CtlCnt\[1\]/Q  load_sig_RNO_0/B  load_sig_RNO_0/Y  load_sig_RNO/A  load_sig_RNO/Y  load_sig/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT CtlCnt\[0\]/CLK  CtlCnt\[0\]/Q  load_sig_RNO_0/A  load_sig_RNO_0/Y  load_sig_RNO/A  load_sig_RNO/Y  load_sig/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[1\]/CLK  BaudCnt\[1\]/Q  un4_baudcnt_1_I_5/B  un4_baudcnt_1_I_5/Y  BaudCnt\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[19\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[18\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[17\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[16\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[15\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[14\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[13\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[12\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[11\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[10\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  CtlCnt\[1\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  CtlCnt\[0\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  DataCtl/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse_0/CLK  BaudPulse_0/Q  Data_reg\[20\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[31\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[30\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[29\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[28\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[27\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[26\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[25\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[24\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[23\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[22\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[21\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[9\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[8\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[7\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[6\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[5\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[4\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[3\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  Data_reg\[2\]/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  ParaLoad/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  load_sig/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  P_RdB/E  	(9.7:9.7:9.7) )
+
+    (PATHCONSTRAINT BaudCnt\[9\]/CLK  BaudCnt\[9\]/Q  un4_baudcnt_1_I_52/B  un4_baudcnt_1_I_52/Y  BaudCnt_RNO\[9\]/A  BaudCnt_RNO\[9\]/Y  BaudCnt\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  sel_RNO\[1\]/A  sel_RNO\[1\]/Y  sel\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  ParaLoad_RNO/B  ParaLoad_RNO/Y  ParaLoad/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT load_sig/CLK  load_sig/Q  load_sig_RNO_0/C  load_sig_RNO_0/Y  load_sig_RNO/A  load_sig_RNO/Y  load_sig/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[6\]/CLK  BaudCnt\[6\]/Q  un4_baudcnt_1_I_31/B  un4_baudcnt_1_I_31/Y  BaudCnt\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[0\]/CLK  BaudCnt\[0\]/Q  BaudCnt_RNO\[0\]/B  BaudCnt_RNO\[0\]/Y  BaudCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[1\]/CLK  AddrB\[1\]/Q  AddrB_RNO\[1\]/B  AddrB_RNO\[1\]/Y  AddrB\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT CtlCnt\[0\]/CLK  CtlCnt\[0\]/Q  CtlCnt_RNO\[1\]/B  CtlCnt_RNO\[1\]/Y  CtlCnt\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[0\]/CLK  BaudCnt\[0\]/Q  un4_baudcnt_1_I_5/A  un4_baudcnt_1_I_5/Y  BaudCnt\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[7\]/CLK  BaudCnt\[7\]/Q  un4_baudcnt_1_I_38/B  un4_baudcnt_1_I_38/Y  BaudCnt\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudCnt\[8\]/CLK  BaudCnt\[8\]/Q  un4_baudcnt_1_I_45/B  un4_baudcnt_1_I_45/Y  BaudCnt\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT CtlCnt\[0\]/CLK  CtlCnt\[0\]/Q  CtlCnt_RNO\[0\]/A  CtlCnt_RNO\[0\]/Y  CtlCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT CtlCnt\[1\]/CLK  CtlCnt\[1\]/Q  CtlCnt_RNO\[1\]/A  CtlCnt_RNO\[1\]/Y  CtlCnt\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT CtlCnt\[1\]/CLK  CtlCnt\[1\]/Q  CtlCnt_RNO\[0\]/B  CtlCnt_RNO\[0\]/Y  CtlCnt\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[0\]/CLK  AddrB\[0\]/Q  AddrB_RNO\[0\]/C  AddrB_RNO\[0\]/Y  AddrB\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT load_sig/CLK  load_sig/Q  ParaLoad_RNO/A  ParaLoad_RNO/Y  ParaLoad/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[0\]/CLK  Data_reg\[0\]/Q  Data_reg_RNO\[0\]/B  Data_reg_RNO\[0\]/Y  Data_reg\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[1\]/CLK  Data_reg\[1\]/Q  Data_reg_RNO\[1\]/B  Data_reg_RNO\[1\]/Y  Data_reg\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[2\]/CLK  Data_reg\[2\]/Q  Data_reg_RNO\[2\]/B  Data_reg_RNO\[2\]/Y  Data_reg\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[3\]/CLK  Data_reg\[3\]/Q  Data_reg_RNO\[3\]/B  Data_reg_RNO\[3\]/Y  Data_reg\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[4\]/CLK  Data_reg\[4\]/Q  Data_reg_RNO\[4\]/B  Data_reg_RNO\[4\]/Y  Data_reg\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[5\]/CLK  Data_reg\[5\]/Q  Data_reg_RNO\[5\]/B  Data_reg_RNO\[5\]/Y  Data_reg\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[6\]/CLK  Data_reg\[6\]/Q  Data_reg_RNO\[6\]/B  Data_reg_RNO\[6\]/Y  Data_reg\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[7\]/CLK  Data_reg\[7\]/Q  Data_reg_RNO\[7\]/B  Data_reg_RNO\[7\]/Y  Data_reg\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[8\]/CLK  Data_reg\[8\]/Q  Data_reg_RNO\[8\]/B  Data_reg_RNO\[8\]/Y  Data_reg\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[9\]/CLK  Data_reg\[9\]/Q  Data_reg_RNO\[9\]/B  Data_reg_RNO\[9\]/Y  Data_reg\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[10\]/CLK  Data_reg\[10\]/Q  Data_reg_RNO\[10\]/B  Data_reg_RNO\[10\]/Y  Data_reg\[10\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[11\]/CLK  Data_reg\[11\]/Q  Data_reg_RNO\[11\]/B  Data_reg_RNO\[11\]/Y  Data_reg\[11\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[12\]/CLK  Data_reg\[12\]/Q  Data_reg_RNO\[12\]/B  Data_reg_RNO\[12\]/Y  Data_reg\[12\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[13\]/CLK  Data_reg\[13\]/Q  Data_reg_RNO\[13\]/B  Data_reg_RNO\[13\]/Y  Data_reg\[13\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[14\]/CLK  Data_reg\[14\]/Q  Data_reg_RNO\[14\]/B  Data_reg_RNO\[14\]/Y  Data_reg\[14\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[15\]/CLK  Data_reg\[15\]/Q  Data_reg_RNO\[15\]/B  Data_reg_RNO\[15\]/Y  Data_reg\[15\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[16\]/CLK  Data_reg\[16\]/Q  Data_reg_RNO\[16\]/B  Data_reg_RNO\[16\]/Y  Data_reg\[16\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[17\]/CLK  Data_reg\[17\]/Q  Data_reg_RNO\[17\]/B  Data_reg_RNO\[17\]/Y  Data_reg\[17\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[18\]/CLK  Data_reg\[18\]/Q  Data_reg_RNO\[18\]/B  Data_reg_RNO\[18\]/Y  Data_reg\[18\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[19\]/CLK  Data_reg\[19\]/Q  Data_reg_RNO\[19\]/B  Data_reg_RNO\[19\]/Y  Data_reg\[19\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[20\]/CLK  Data_reg\[20\]/Q  Data_reg_RNO\[20\]/B  Data_reg_RNO\[20\]/Y  Data_reg\[20\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[21\]/CLK  Data_reg\[21\]/Q  Data_reg_RNO\[21\]/B  Data_reg_RNO\[21\]/Y  Data_reg\[21\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[22\]/CLK  Data_reg\[22\]/Q  Data_reg_RNO\[22\]/B  Data_reg_RNO\[22\]/Y  Data_reg\[22\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[23\]/CLK  Data_reg\[23\]/Q  Data_reg_RNO\[23\]/B  Data_reg_RNO\[23\]/Y  Data_reg\[23\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT load_sig/CLK  load_sig/Q  DataCtl_RNO/C  DataCtl_RNO/Y  DataCtl/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT DataCtl/CLK  DataCtl/Q  P_RdB/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[1\]/CLK  AddrB\[1\]/Q  P_AddrB\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[24\]/CLK  Data_reg\[24\]/Q  Data_reg_RNO\[24\]/B  Data_reg_RNO\[24\]/Y  Data_reg\[24\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[25\]/CLK  Data_reg\[25\]/Q  Data_reg_RNO\[25\]/B  Data_reg_RNO\[25\]/Y  Data_reg\[25\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[26\]/CLK  Data_reg\[26\]/Q  Data_reg_RNO\[26\]/B  Data_reg_RNO\[26\]/Y  Data_reg\[26\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[27\]/CLK  Data_reg\[27\]/Q  Data_reg_RNO\[27\]/B  Data_reg_RNO\[27\]/Y  Data_reg\[27\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[28\]/CLK  Data_reg\[28\]/Q  Data_reg_RNO\[28\]/B  Data_reg_RNO\[28\]/Y  Data_reg\[28\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[29\]/CLK  Data_reg\[29\]/Q  Data_reg_RNO\[29\]/B  Data_reg_RNO\[29\]/Y  Data_reg\[29\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[30\]/CLK  Data_reg\[30\]/Q  Data_reg_RNO\[30\]/B  Data_reg_RNO\[30\]/Y  Data_reg\[30\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[31\]/CLK  Data_reg\[31\]/Q  Data_reg_RNO\[31\]/B  Data_reg_RNO\[31\]/Y  Data_reg\[31\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[2\]/CLK  AddrB\[2\]/Q  P_AddrB\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT AddrB\[0\]/CLK  AddrB\[0\]/Q  P_AddrB\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[0\]/CLK  Data_reg\[0\]/Q  SPI_Set\[24\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[0\]/CLK  Data_reg\[0\]/Q  MotorPos\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[1\]/CLK  Data_reg\[1\]/Q  SPI_Set\[25\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[1\]/CLK  Data_reg\[1\]/Q  MotorPos\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[2\]/CLK  Data_reg\[2\]/Q  SPI_Set\[26\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[2\]/CLK  Data_reg\[2\]/Q  MotorPos\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[3\]/CLK  Data_reg\[3\]/Q  SPI_Set\[27\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[3\]/CLK  Data_reg\[3\]/Q  MotorPos\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[4\]/CLK  Data_reg\[4\]/Q  SPI_Set\[28\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[4\]/CLK  Data_reg\[4\]/Q  MotorPos\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[5\]/CLK  Data_reg\[5\]/Q  SPI_Set\[29\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[5\]/CLK  Data_reg\[5\]/Q  MotorPos\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[6\]/CLK  Data_reg\[6\]/Q  SPI_Set\[30\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[6\]/CLK  Data_reg\[6\]/Q  Mode\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[7\]/CLK  Data_reg\[7\]/Q  SPI_Set\[31\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[7\]/CLK  Data_reg\[7\]/Q  Mode\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[8\]/CLK  Data_reg\[8\]/Q  SPI_Set\[16\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[8\]/CLK  Data_reg\[8\]/Q  ExposureT\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[9\]/CLK  Data_reg\[9\]/Q  SPI_Set\[17\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[9\]/CLK  Data_reg\[9\]/Q  ExposureT\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[10\]/CLK  Data_reg\[10\]/Q  SPI_Set\[18\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[10\]/CLK  Data_reg\[10\]/Q  ExposureT\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[11\]/CLK  Data_reg\[11\]/Q  SPI_Set\[19\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[11\]/CLK  Data_reg\[11\]/Q  ExposureT\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[12\]/CLK  Data_reg\[12\]/Q  SPI_Set\[20\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[12\]/CLK  Data_reg\[12\]/Q  BandNum\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[13\]/CLK  Data_reg\[13\]/Q  SPI_Set\[21\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[13\]/CLK  Data_reg\[13\]/Q  BandNum\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[14\]/CLK  Data_reg\[14\]/Q  SPI_Set\[22\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[14\]/CLK  Data_reg\[14\]/Q  BandNum\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[15\]/CLK  Data_reg\[15\]/Q  SPI_Set\[23\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[15\]/CLK  Data_reg\[15\]/Q  BandNum\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[16\]/CLK  Data_reg\[16\]/Q  SPI_Set\[8\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[16\]/CLK  Data_reg\[16\]/Q  Accnum\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[17\]/CLK  Data_reg\[17\]/Q  SPI_Set\[9\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[17\]/CLK  Data_reg\[17\]/Q  Accnum\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[18\]/CLK  Data_reg\[18\]/Q  SPI_Set\[10\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[18\]/CLK  Data_reg\[18\]/Q  Accnum\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[19\]/CLK  Data_reg\[19\]/Q  SPI_Set\[11\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[19\]/CLK  Data_reg\[19\]/Q  Accnum\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[20\]/CLK  Data_reg\[20\]/Q  SPI_Set\[12\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[20\]/CLK  Data_reg\[20\]/Q  Accnum\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[21\]/CLK  Data_reg\[21\]/Q  SPI_Set\[13\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[21\]/CLK  Data_reg\[21\]/Q  Accnum\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[22\]/CLK  Data_reg\[22\]/Q  SPI_Set\[14\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[22\]/CLK  Data_reg\[22\]/Q  ExposureT\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[23\]/CLK  Data_reg\[23\]/Q  SPI_Set\[15\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[23\]/CLK  Data_reg\[23\]/Q  ExposureT\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[24\]/CLK  Data_reg\[24\]/Q  SPI_Set\[0\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[25\]/CLK  Data_reg\[25\]/Q  SPI_Set\[1\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[26\]/CLK  Data_reg\[26\]/Q  SPI_Set\[2\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[27\]/CLK  Data_reg\[27\]/Q  SPI_Set\[3\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[28\]/CLK  Data_reg\[28\]/Q  SPI_Set\[4\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[29\]/CLK  Data_reg\[29\]/Q  SPI_Set\[5\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[30\]/CLK  Data_reg\[30\]/Q  SPI_Set\[6\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT Data_reg\[31\]/CLK  Data_reg\[31\]/Q  SPI_Set\[7\]/D  	(9.6:9.6:9.6) )
+
+    (PATHCONSTRAINT BaudPulse/CLK  BaudPulse/Q  P_CLkB_pad/D  P_CLkB_pad/PAD  	(10.0:10.0:10.0) )
+
+  )
+)
+)

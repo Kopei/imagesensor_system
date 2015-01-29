@@ -1,0 +1,21 @@
+@N: CD630 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":8:7:8:15|Synthesizing work.sdram_top.behavioral 
+@W: CD276 :"E:\Actelprj\smart_top\hdl\SDRAM_Ref.vhd":15:3:15:7|Map for port refen of component sdram_ref not found
+@W: CD730 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":204:0:204:1|Component declaration has 7 ports but entity declares 8 ports
+@E: CD326 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":204:0:204:1|Port refen of entity work.sdram_ref is unconnected
+@W: CD276 :"E:\Actelprj\smart_top\hdl\SDRAM_wr.vhd":14:3:14:11|Map for port wrrow_end of component sdram_wr not found
+@W: CD730 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":214:0:214:1|Component declaration has 5 ports but entity declares 6 ports
+@E: CD326 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":214:0:214:1|Port wrrow_end of entity work.sdram_wr is unconnected
+@W: CD276 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":18:3:18:11|Map for port rdrow_end of component sdram_cmd not found
+@W: CD276 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":19:3:19:11|Map for port wrrow_end of component sdram_cmd not found
+@W: CD279 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":125:3:125:9|Port row_end of component sdram_cmd not found on corresponding entity
+@W: CD730 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":232:0:232:1|Component declaration has 23 ports but entity declares 24 ports
+@W: CD326 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":232:0:232:1|Port wrrow_end of entity work.sdram_cmd is unconnected
+@W: CD326 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":232:0:232:1|Port rdrow_end of entity work.sdram_cmd is unconnected
+@W: CD638 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":158:7:158:13|Signal sd_wrok is undriven 
+@W: CD638 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":160:7:160:14|Signal sd_refok is undriven 
+@W: CD638 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":167:7:167:13|Signal row_end is undriven 
+@W: CD638 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":170:7:170:15|Signal ref_state is undriven 
+@W: CD638 :"E:\Actelprj\smart_top\hdl\Sdram_top.vhd":171:7:171:14|Signal wr_state is undriven 
+Synthesis failed
+2 errors during synthesis
+@END

@@ -1,0 +1,1422 @@
+-----------$Header: //synplicity/mapact/mappers/proasic/lib/gen_pa3/inc.vhd#1 $
+
+---Proasic incrementor
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+
+-------------------------Incrementor------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+------------------DWACT_TL_GND-----------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity DWACT_TL_GND is
+
+  port(
+      Y : out std_logic
+      );
+
+end DWACT_TL_GND;
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+architecture impl1 of DWACT_TL_GND is
+  -- pragma dc_script_begin
+  -- set_local_link_library  {dwact.sldb + target_library}
+  -- set_map_only find(cell,*ACT_*) > /dev/null
+  -- set_ungroup current_design
+  -- pragma dc_script_end
+
+  
+----- Component GND -----
+component GND
+   port(
+      Y                              :	out   STD_LOGIC := '0');
+end component;
+
+begin
+
+  DWACT_TL_GND_0 : GND port map (Y => Y);
+
+end impl1;
+
+
+------------------DWACT_TL_VCC-----------------
+library IEEE;
+
+use IEEE.std_logic_1164.all;
+
+entity DWACT_TL_VCC is
+
+   port( Y : out std_logic);
+
+end DWACT_TL_VCC;
+
+architecture impl1 of DWACT_TL_VCC is
+  -- pragma dc_script_begin
+  -- set_local_link_library  {dwact.sldb + target_library}
+  -- set_map_only find(cell, U*) > /dev/null
+  -- set_ungroup current_design
+  -- pragma dc_script_end
+
+   component VCC
+      port( Y : out std_logic);
+   end component;
+
+begin
+   
+   U1 : VCC port map( Y => Y);
+
+end impl1;
+------------------ DWACT_TL_OR2.vhd----------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity DWACT_TL_OR2 is
+
+  port(
+      A : in std_logic;
+      B : in std_logic;
+      Y : out std_logic
+      );
+
+end DWACT_TL_OR2;
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+architecture impl1 of DWACT_TL_OR2 is
+  -- pragma dc_script_begin
+  -- set_local_link_library  {dwact.sldb + target_library}
+  -- set_map_only find(cell,*ACT_*) > /dev/null
+  -- set_ungroup current_design
+  -- pragma dc_script_end
+
+  
+----- Component OR2 -----
+component OR2
+   port(
+      A                              :	in    STD_LOGIC;
+      B                              :	in    STD_LOGIC;
+      Y                              :	out   STD_LOGIC);
+end component;
+
+begin
+
+  DWACT_TL_OR2_0 : OR2 port map (A => A,B => B,Y => Y);
+
+end impl1;
+
+------------------DWACT_TL_AND2.vhd-------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity DWACT_TL_AND2 is
+
+  port(
+      A : in std_logic;
+      B : in std_logic;
+      Y : out std_logic
+      );
+
+end DWACT_TL_AND2;
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+architecture impl1 of DWACT_TL_AND2 is
+
+  
+----- Component AND2 -----
+component AND2
+   port(
+      A                              :	in    STD_LOGIC;
+      B                              :	in    STD_LOGIC;
+      Y                              :	out   STD_LOGIC);
+end component;
+
+
+begin
+
+  DWACT_TL_AND2_0 : AND2 port map (A => A,B => B,Y => Y);
+
+end impl1;
+
+---------------DWACT_TL_OR3.vhd----------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity DWACT_TL_OR3 is
+
+  port(
+      A : in std_logic;
+      B : in std_logic;
+      C : in std_logic;
+      Y : out std_logic
+      );
+
+end DWACT_TL_OR3;
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+architecture impl1 of DWACT_TL_OR3 is
+ 
+----- Component OR3 -----
+component OR3
+   port(
+      A                              :	in    STD_LOGIC;
+      B                              :	in    STD_LOGIC;
+      C                              :	in    STD_LOGIC;
+      Y                              :	out   STD_LOGIC);
+end component;
+
+begin
+
+  DWACT_TL_OR3_0 : OR3 port map (A => A,B => B,C => C,Y => Y);
+
+end impl1;
+
+
+-------------------DWACT_TL_L2XOR.vhd---------
+library IEEE;
+use IEEE.std_logic_1164.all;
+ 
+entity DWACT_TL_L2XOR is
+ 
+  generic (inc : integer);
+  port (
+        A : in std_logic;
+        B : in std_logic;
+        C : in std_logic;
+        D : in std_logic;
+        Y : out std_logic
+       );
+ 
+end DWACT_TL_L2XOR;
+
+architecture impl1 of DWACT_TL_L2XOR is
+ 
+  -- Component AND3
+  component AND3
+      port(A  : in STD_LOGIC;
+           B  : in STD_LOGIC;
+           C  : in STD_LOGIC;
+           Y   : out STD_LOGIC);
+  end component;
+ 
+  -- Component OR3
+  component OR3
+      port(A  : in STD_LOGIC;
+           B  : in STD_LOGIC;
+           C  : in STD_LOGIC;
+           Y   : out STD_LOGIC);
+  end component;
+
+  -- Component XNOR2
+  component XNOR2
+      port(A  : in STD_LOGIC;
+           B  : in STD_LOGIC;
+           Y   : out STD_LOGIC);
+  end component;
+ 
+  -- Component XOR2
+  component XOR2
+      port(A  : in STD_LOGIC;
+           B  : in STD_LOGIC;
+           Y   : out STD_LOGIC);
+  end component;
+
+   signal AD1 : std_logic;
+
+begin
+  
+  IFincdec_1 : if (inc = 1) generate
+     DWACT_TL_L2XOR_1_0: AND3  port map (A  => A,
+                                         B  => B,
+                                         C  => C,
+                                         Y   => AD1 );
+
+     DWACT_TL_L2XOR_1_1: XOR2  port map (A  => AD1,
+                                         B  => D,
+                                         Y   => Y );   
+  end generate IFincdec_1;
+
+  IFincdec_0 : if (inc = 0) generate
+     DWACT_TL_L2XOR_1_0: OR3  port map (A  => A,
+                                         B  => B,
+                                         C  => C,
+                                         Y   => AD1 );
+ 
+     DWACT_TL_L2XOR_1_1: XNOR2  port map (A  => AD1,
+                                          B  => D,
+                                          Y   => Y );
+  end generate IFincdec_0;
+
+end impl1;
+
+----------------------DWACT_TL_AND3--------
+library IEEE;
+use IEEE.std_logic_1164.all;
+entity DWACT_TL_AND3 is
+
+  port(
+      A : in std_logic;
+      B : in std_logic;
+      C : in std_logic;
+      Y : out std_logic
+      );
+
+end DWACT_TL_AND3;
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+architecture impl1 of DWACT_TL_AND3 is
+ 
+----- Component AND3 -----
+component AND3
+   port(
+      A                              :	in    STD_LOGIC;
+      B                              :	in    STD_LOGIC;
+      C                              :	in    STD_LOGIC;
+      Y                              :	out   STD_LOGIC);
+end component;
+
+
+
+begin
+
+  DWACT_TL_AND3_0 : AND3 port map (A => A,B => B,C => C,Y => Y);
+
+end impl1;
+
+
+-------------- DWACT_BL_XOR2.vhd-------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity DWACT_BL_XOR2 is
+
+  port(
+      A,B : in std_logic;
+      Y : out std_logic
+      );
+
+end DWACT_BL_XOR2;
+
+
+architecture impl1 of DWACT_BL_XOR2 is
+ 
+
+  component XOR2
+       port( A, B : in std_logic; Y : out std_logic);  
+  end component;
+
+begin
+
+  DWACT_BL_XOR2_0 : XOR2 port map (A,B,Y);
+
+end impl1;
+
+----------------DWACT_BL_XNOR2.vhd--------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity DWACT_BL_XNOR2 is
+
+  port(
+      A,B : in std_logic;
+      Y : out std_logic
+      );
+
+end DWACT_BL_XNOR2;
+
+architecture impl1 of DWACT_BL_XNOR2 is
+  component XNOR2
+       port( Y : out std_logic;  A, B : in std_logic);
+  end component;
+
+
+begin
+
+  DWACT_BL_XNOR2_0 : XNOR2 port map (Y,A,B);
+
+end impl1;
+
+--------------------------DWACT_BL_FINCDEC.vhd-------------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity DWACT_BL_FINCDEC is
+    generic(n,inc : integer);
+    port(
+	A : in std_logic_vector(n-1 downto 0);
+	S : out std_logic_vector(n-1 downto 0)
+	);
+
+end DWACT_BL_FINCDEC;
+
+architecture impl1 of DWACT_BL_FINCDEC is
+ 
+  -- Component INV
+  component INV
+     port(A : in STD_LOGIC;
+          Y : out STD_LOGIC);
+  end component;
+
+component DWACT_BL_XOR2 is
+
+  port(
+      A,B : in std_logic;
+      Y : out std_logic
+      );
+
+end component;
+
+component DWACT_BL_XNOR2 is
+
+  port(
+      A,B : in std_logic;
+      Y : out std_logic
+      );
+
+end component ;
+
+component DWACT_TL_L2XOR is
+ 
+  generic (inc : integer);
+  port (
+        A : in std_logic;
+        B : in std_logic;
+        C : in std_logic;
+        D : in std_logic;
+        Y : out std_logic
+       );
+ 
+end component;
+
+component DWACT_TL_AND3 is
+
+  port(
+      A : in std_logic;
+      B : in std_logic;
+      C : in std_logic;
+      Y : out std_logic
+      );
+
+end component;
+
+component DWACT_TL_L2XOR is
+ 
+  generic (inc : integer);
+  port (
+        A : in std_logic;
+        B : in std_logic;
+        C : in std_logic;
+        D : in std_logic;
+        Y : out std_logic
+       );
+ 
+end component;
+component DWACT_TL_OR3 is
+
+  port(
+      A : in std_logic;
+      B : in std_logic;
+      C : in std_logic;
+      Y : out std_logic
+      );
+
+end component ;
+
+component  DWACT_TL_AND2 is
+
+  port(
+      A : in std_logic;
+      B : in std_logic;
+      Y : out std_logic
+      );
+
+end component;
+
+component DWACT_TL_OR2 is
+
+  port(
+      A : in std_logic;
+      B : in std_logic;
+      Y : out std_logic
+      );
+
+end component;
+
+component DWACT_TL_VCC is
+
+   port( Y : out std_logic);
+
+end component ;
+
+component DWACT_TL_GND is
+
+  port(
+      Y : out std_logic
+      );
+
+end component;
+
+
+  signal E   : std_logic_vector(34 downto 0);
+  signal ONE_ZERO : std_logic;
+
+begin
+
+  IF_signal_1: if (inc = 1) generate
+     ACT_VCC0 : DWACT_TL_VCC port map (ONE_ZERO);
+  end generate IF_signal_1;
+
+  IF_signal_0: if (inc = 0) generate
+     ACT_GND0 : DWACT_TL_GND port map (ONE_ZERO);
+  end generate IF_signal_0;
+     
+  ACT_INV : INV port map ( A(0), S(0) ); 
+
+  IF1_1: if ( (n > 1) and (inc = 1) ) generate
+     ACT_XOR : DWACT_BL_XOR2 port map ( A => A(0),
+                                        B => A(1),
+                                        Y => S(1) );
+  end generate IF1_1;
+
+  IF1_0: if ( (n > 1) and (inc = 0) ) generate
+     ACT_XNOR : DWACT_BL_XNOR2 port map ( A => A(0),
+                                          B => A(1),
+                                          Y => S(1) );
+  end generate IF1_0;
+
+  IF2: if  (n > 2) generate
+     ACT_AX1C: DWACT_TL_L2XOR generic map (inc)
+                              port map (A => A(0),
+                                        B => A(1),
+                                        C => ONE_ZERO, 
+                                        D => A(2),
+                                        Y => S(2) );
+  end generate IF2;
+
+  IF3: if (n > 3) generate
+     ACT_A2X1C: DWACT_TL_L2XOR generic map (inc)
+  	       	               port map (A => A(0),
+                                         B => A(1),
+                                         C => A(2),
+                                         D => A(3),
+                                         Y => S(3) );
+  end generate IF3;
+
+  IF4_1: if ( (n > 4) and (inc = 1) ) generate
+    
+     ACT_AND : DWACT_TL_AND3 port map ( A => A(0),
+                                        B => A(1),
+                                        C => A(2),
+                                        Y => E(0) );
+
+     ACT_XOR : DWACT_TL_L2XOR generic map (inc) 
+                             port map ( A => E(0),
+                                        B => A(3),
+                                        C => ONE_ZERO,
+                                        D => A(4),
+                                        Y => S(4) );
+  end generate IF4_1;
+
+  IF4_0: if ( (n > 4) and (inc = 0) ) generate
+     ACT_OR : DWACT_TL_OR3 port map ( A => A(0),
+                                      B => A(1),
+                                      C => A(2),
+                                      Y => E(0) );
+ 
+     ACT_XOR : DWACT_TL_L2XOR generic map (inc) 
+                             port map ( A => E(0),
+                                        B => A(3),
+                                        C => ONE_ZERO,
+                                        D => A(4),
+                                        Y => S(4) );
+  end generate IF4_0;
+
+  IF5: if ( n > 5 ) generate
+     ACT_AX1C_2: DWACT_TL_L2XOR generic map (inc)
+                                port map (A => E(0),
+                                          B => A(3),
+                                          C => A(4), 
+                                          D => A(5),
+                                          Y => S(5) );
+  end generate IF5;
+
+  IF6_1: if (( n > 6 ) and (inc = 1)) generate
+
+     ACT_OR : DWACT_TL_AND2 port map ( A => A(3),
+                                       B => A(4),
+                                       Y => E(1) );
+ 
+     ACT_A2X1C_2: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(0),
+                                           B => E(1),
+                                           C => A(5),
+                                           D => A(6),
+                                           Y => S(6) );
+  end generate IF6_1;
+
+  IF6_0: if (( n > 6 ) and (inc = 0)) generate
+
+     ACT_OR : DWACT_TL_OR2 port map ( A => A(3),
+                                      B => A(4),
+                                      Y => E(1) );
+    
+     ACT_A2X1C_2: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(0),
+                                           B => E(1),
+                                           C => A(5),
+                                           D => A(6),
+                                           Y => S(6) );
+  end generate IF6_0;
+
+  IF7_1: if (( n > 7 ) and (inc = 1)) generate
+ 
+     ACT_AND3 : DWACT_TL_AND3 port map ( A => A(3), 
+                                         B => A(4),
+                                         C => A(5),
+                                         Y => E(2) );
+ 
+     ACT_A2X1C_2: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(0),
+                                           B => E(2),
+                                           C => A(6),
+                                           D => A(7),
+                                           Y => S(7) );
+  end generate IF7_1;
+ 
+  IF7_0: if (( n > 7 ) and (inc = 0)) generate
+ 
+     ACT_OR : DWACT_TL_OR3 port map ( A => A(3),    
+                                      B => A(4),
+                                      C => A(5),
+                                      Y => E(2) );
+   
+     ACT_A2X1C_2: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(0),
+                                           B => E(2),
+                                           C => A(6),
+                                           D => A(7),
+                                           Y => S(7) );
+  end generate IF7_0;
+
+  IF8_1: if ((n > 8) and (inc = 1))  generate
+
+     ACT_AND : DWACT_TL_AND2 port map ( A => A(6), 
+                                        B => A(7),
+                                        Y => E(3) );
+
+     ACT_A2X1C_3: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(0),
+                                           B => E(2),
+                                           C => E(3),
+                                           D => A(8),
+                                           Y => S(8) );
+  end generate IF8_1;
+
+  IF8_0: if ((n > 8) and (inc = 0))  generate
+ 
+     ACT_OR2 : DWACT_TL_OR2 port map ( A => A(6), 
+                                       B => A(7),
+                                       Y => E(3) );
+ 
+     ACT_A2X1C_3: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(0),
+                                           B => E(2),
+                                           C => E(3),
+                                           D => A(8),
+                                           Y => S(8) );
+  end generate IF8_0;
+
+  IF9_1: if ((n > 9) and (inc = 1)) generate
+
+     ACT_AND3_E3: DWACT_TL_AND3 port map ( A => E(0),
+                                           B => E(2),
+                                           C => E(3),
+                                           Y => E(4) );
+
+     ACT_A2X1C_4: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(4),
+                                           B => A(8), 
+                                           C => ONE_ZERO, 
+                                           D => A(9),
+                                           Y => S(9) );
+  end generate IF9_1;
+
+  IF9_0: if ((n > 9) and (inc = 0)) generate
+ 
+     ACT_OR3_E3: DWACT_TL_OR3 port map ( A => E(0),
+                                         B => E(2),
+                                         C => E(3),
+                                         Y => E(4) );
+ 
+     ACT_A2X1C_4: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(4),
+                                           B => A(8),
+                                           C => ONE_ZERO,
+                                           D => A(9),
+                                           Y => S(9) );
+  end generate IF9_0;
+
+  IF10: if (n > 10) generate
+
+     ACT_A2X1C_5: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(4),
+                                           B => A(8), 
+                                           C => A(9), 
+                                           D => A(10),
+                                           Y => S(10) );
+  end generate IF10;
+
+  IF11_1: if (( n > 11 ) and ( inc = 1 )) generate
+
+     ACT_AND_E5: DWACT_TL_AND3 port map ( A => A(6),
+                                          B => A(7),
+                                          C => A(8),
+                                          Y => E(5) );
+
+     ACT_AND_E52: DWACT_TL_AND3 port map ( A => E(0),
+                                           B => E(2),
+                                           C => E(5),
+                                           Y => E(6) );
+
+     ACT_A2X1C_6: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(6),
+                                           B => A(9), 
+                                           C => A(10),
+                                           D => A(11),
+                                           Y => S(11) );
+  end generate IF11_1;
+
+  IF11_0: if (( n > 11 ) and ( inc = 0 )) generate
+ 
+     ACT_AND_E5: DWACT_TL_OR3 port map ( A => A(6),
+                                         B => A(7),
+                                         C => A(8),
+                                         Y => E(5) );
+ 
+     ACT_AND_E53: DWACT_TL_OR3 port map ( A => E(0),
+                                          B => E(2),
+                                          C => E(5),
+                                          Y => E(6) );
+ 
+     ACT_A2X1C_6: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(6),
+                                           B => A(9),
+                                           C => A(10),
+                                           D => A(11),
+                                           Y => S(11) );
+  end generate IF11_0;
+
+  IF12_1: if (( n > 12 ) and (inc = 1)) generate
+
+     ACT_AND_E5: DWACT_TL_AND3 port map ( A => A(9),
+                                          B => A(10),
+                                          C => A(11),
+                                          Y => E(7) );
+
+     ACT_A2X1C_7: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(6),
+                                           B => E(7), 
+                                           C => ONE_ZERO, 
+                                           D => A(12),
+                                           Y => S(12) );
+
+  end generate IF12_1;
+
+  IF12_0: if (( n > 12 ) and (inc = 0)) generate
+ 
+     ACT_AND_E5: DWACT_TL_OR3 port map ( A => A(9),
+                                         B => A(10),
+                                         C => A(11),
+                                         Y => E(7) );
+ 
+     ACT_A2X1C_7: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(6),
+                                           B => E(7),
+                                           C => ONE_ZERO,
+                                           D => A(12),
+                                           Y => S(12) );
+ 
+  end generate IF12_0;
+
+  IF13: if (n > 13) generate
+
+     ACT_AX1C_4: DWACT_TL_L2XOR generic map (inc)
+                                port map ( A => E(6),
+                                           B => E(7), 
+                                           C => A(12),
+                                           D => A(13), 
+                                           Y => S(13) );
+  end generate IF13;
+
+  IF14_1: if (( n > 14 ) and (inc = 1)) generate
+
+     ACT_AND_E8: DWACT_TL_AND2 port map ( A => A(12),
+                                          B => A(13),
+                                          Y => E(8) );
+
+     ACT_A2X1C_8: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(6),
+                                           B => E(7), 
+                                           C => E(8), 
+                                           D => A(14), 
+                                           Y => S(14) );
+  end generate IF14_1;
+
+  IF14_0: if (( n > 14 ) and (inc = 0)) generate
+ 
+     ACT_OR3_E8: DWACT_TL_OR2 port map ( A => A(12),
+                                         B => A(13),
+                                         Y => E(8) );
+ 
+     ACT_A2X1C_8: DWACT_TL_L2XOR generic map (inc)
+                                 port map (A => E(6),
+                                           B => E(7),
+                                           C => E(8),
+                                           D => A(14),
+                                           Y => S(14) );
+  end generate IF14_0;
+
+  IF15_1: if ((n > 15) and (inc = 1)) generate
+
+    ACT_AND_E2_2: DWACT_TL_AND3 port map ( A => A(12), 
+                                           B => A(13), 
+                                           C => A(14), 
+                                           Y => E(9) );
+
+    ACT_AX1C_L3_4: DWACT_TL_L2XOR generic map (inc)
+                                  port map ( A => E(6),
+                                             B => E(7), 
+                                             C => E(9), 
+                                             D => A(15), 
+                                             Y => S(15) );
+  end generate IF15_1;
+
+  IF15_0: if ((n > 15) and (inc = 0)) generate
+ 
+    ACT_AND_E2_2: DWACT_TL_OR3 port map ( A => A(12),
+                                          B => A(13),
+                                          C => A(14), 
+                                          Y => E(9) );
+ 
+    ACT_AX1C_L3_4: DWACT_TL_L2XOR generic map (inc)
+                                  port map ( A => E(6),
+                                             B => E(7),
+                                             C => E(9),
+                                             D => A(15),
+                                             Y => S(15) );
+  end generate IF15_0;
+
+  IF16_1: if (( n > 16 ) and (inc = 1)) generate
+
+     ACT_AND_E2_2: DWACT_TL_AND2 port map ( A => E(7),
+                                            B => E(9),
+                                            Y => E(10) );
+
+     ACT_A2X1C_L3_8: DWACT_TL_L2XOR generic map (inc)
+                                    port map (A => E(6),
+                                              B => E(10), 
+                                              C => A(15), 
+                                              D => A(16), 
+                                              Y => S(16) );
+  end generate IF16_1;
+
+  IF16_0: if (( n > 16 ) and (inc = 0)) generate
+ 
+     ACT_AND_E2_2: DWACT_TL_OR2 port map ( A => E(7),
+                                           B => E(9),
+                                           Y => E(10) );
+ 
+     ACT_A2X1C_L3_8: DWACT_TL_L2XOR generic map (inc)
+                                    port map (A => E(6),
+                                              B => E(10),
+                                              C => A(15),
+                                              D => A(16),
+                                              Y => S(16) );
+  end generate IF16_0;
+
+  IF17_1: if ((n > 17) and (inc =1)) generate
+
+     ACT_AND_E17: DWACT_TL_AND2 port map ( A => A(15),
+                                           B => A(16),
+                                           Y => E(11) );
+
+     ACT_A2X1C_L3_9: DWACT_TL_L2XOR generic map (inc)
+                                    port map (A => E(6),
+                                              B => E(10), 
+                                              C => E(11), 
+                                              D => A(17), 
+                                              Y => S(17) );
+  end generate IF17_1;
+
+  IF17_0: if ((n > 17) and (inc = 0)) generate
+ 
+     ACT_AND_E17: DWACT_TL_OR2 port map ( A => A(15),
+                                          B => A(16),
+                                          Y => E(11) );
+ 
+     ACT_A2X1C_L3_9: DWACT_TL_L2XOR generic map (inc)
+                                    port map (A => E(6),
+                                              B => E(10),
+                                              C => E(11),
+                                              D => A(17), 
+                                              Y => S(17) );
+  end generate IF17_0;
+
+  IF18_1: if (( n > 18 ) and (inc = 1)) generate
+
+     ACT_AND_E17: DWACT_TL_AND3 port map ( A => A(15),
+                                           B => A(16),
+                                           C => A(17),
+                                           Y => E(12) );
+
+      ACT_AND4_E43: DWACT_TL_AND3 port map ( A => E(0),
+                                             B => E(2),
+                                             C => E(5),
+                                             Y => E(28) );
+
+     ACT_A2X1C_L3_10: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(28),
+                                               B => E(10), 
+                                               C => E(12), 
+                                               D => A(18), 
+                                               Y => S(18) );
+  end generate IF18_1;
+
+  IF18_0: if (( n > 18 ) and (inc = 0)) generate
+ 
+     ACT_AND_E17: DWACT_TL_OR3 port map ( A => A(15),
+                                          B => A(16),
+                                          C => A(17),
+                                          Y => E(12) );
+ 
+      ACT_AND4_E43: DWACT_TL_OR3 port map ( A => E(0),
+                                            B => E(2),
+                                            C => E(5),
+                                            Y => E(28) );
+
+     ACT_A2X1C_L3_10: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(28),
+                                               B => E(10),
+                                               C => E(12),
+                                               D => A(18),
+                                               Y => S(18) );
+  end generate IF18_0;
+
+
+  IF19_1: if (( n > 19 ) and (inc = 1)) generate
+
+      ACT_AND4_E3: DWACT_TL_AND3 port map ( A => E(7),
+                                            B => E(9),
+                                            C => E(12),
+                                            Y => E(13) );
+
+      ACT_AND_En: DWACT_TL_L2XOR generic map (inc) 
+                                 port map ( A => E(28), 
+                                            B => E(13), 
+                                            C => A(18), 
+                                            D => A(19), 
+                                            Y => S(19) );
+
+  end generate IF19_1;
+
+  IF19_0: if (( n > 19 ) and (inc = 0)) generate
+ 
+      ACT_AND4_E3: DWACT_TL_OR3 port map ( A => E(7),
+                                           B => E(9),
+                                           C => E(12),
+                                           Y => E(13) );
+
+      ACT_AND_En: DWACT_TL_L2XOR generic map (inc)
+                                 port map ( A => E(28),
+                                            B => E(13),
+                                            C => A(18),
+                                            D => A(19), 
+                                            Y => S(19) );
+ 
+  end generate IF19_0;
+
+  IF20_1: if ((n > 20) and (inc = 1)) generate
+
+     ACT_AND_E20: DWACT_TL_AND2 port map ( A => A(18),
+                                           B => A(19),
+                                           Y => E(14) );
+
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(28),
+                                               B => E(13), 
+                                               C => E(14), 
+                                               D => A(20), 
+                                               Y => S(20) );
+  end generate IF20_1;
+
+  IF20_0: if ((n > 20) and (inc = 0)) generate
+ 
+     ACT_AND_E20: DWACT_TL_OR2 port map ( A => A(18),
+                                          B => A(19),
+                                          Y => E(14) );
+ 
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(28),
+                                               B => E(13),
+                                               C => E(14),
+                                               D => A(20),
+                                               Y => S(20) );
+  end generate IF20_0;
+
+  IF21_1: if ((n > 21) and (inc = 1)) generate
+ 
+     ACT_AND_E20: DWACT_TL_AND3 port map ( A => A(18),
+                                           B => A(19),
+                                           C => A(20),
+                                           Y => E(15) );
+ 
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(28),
+                                               B => E(13),
+                                               C => E(15),
+                                               D => A(21),
+                                               Y => S(21) );
+  end generate IF21_1;
+
+  IF21_0: if ((n > 21) and (inc = 0)) generate
+ 
+     ACT_AND_E30: DWACT_TL_OR3 port map ( A => A(18),
+                                          B => A(19),
+                                          C => A(20),
+                                          Y => E(15) );
+ 
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(28),
+                                               B => E(13),
+                                               C => E(15),
+                                               D => A(21),
+                                               Y => S(21) );
+  end generate IF21_0;
+
+  IF22_1: if (( n > 22 ) and (inc = 1)) generate
+     ACT_AND_E20: DWACT_TL_AND2 port map ( A => E(15),
+                                           B => A(21),
+                                           Y => E(16) );
+ 
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(28),
+                                               B => E(13),
+                                               C => E(16),
+                                               D => A(22),
+                                               Y => S(22) );
+  end generate IF22_1;
+ 
+  IF22_0: if ((n > 22) and (inc = 0)) generate
+ 
+     ACT_AND_E20: DWACT_TL_OR2 port map ( A => E(15),
+                                          B => A(21),
+                                          Y => E(16) );
+ 
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(28),
+                                               B => E(13),
+                                               C => E(16),
+                                               D => A(22),
+                                               Y => S(22) );
+  end generate IF22_0;
+
+  IF23_1: if (( n > 23 ) and (inc = 1)) generate
+
+     ACT_AND_E22:    DWACT_TL_AND3 port map ( A => E(15),
+                                              B => A(21),
+                                              C => A(22),
+                                              Y => E(33) );
+
+     ACT_AND_E46:    DWACT_TL_AND3 port map ( A => A(0),
+                                              B => A(1),
+                                              C => A(2),
+                                              Y => E(34) );
+ 
+     ACT_AND_E42:    DWACT_TL_AND3 port map ( A => E(34),
+                                              B => E(2),
+                                              C => E(5),
+                                              Y => E(29) );
+ 
+     ACT_A2X1C_L3_11: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(13), 
+                                               C => E(33), 
+                                               D => A(23), 
+                                               Y => S(23) );
+  end generate IF23_1;
+
+  IF23_0: if (( n > 23 ) and (inc = 0)) generate
+ 
+     ACT_AND_E22:    DWACT_TL_OR3 port map ( A => E(15),
+                                             B => A(21),
+                                             C => A(22),
+                                             Y => E(33) );
+ 
+     ACT_AND_E46:    DWACT_TL_OR3 port map ( A => A(0),
+                                              B => A(1),
+                                              C => A(2),
+                                              Y => E(34) );
+ 
+     ACT_AND_E42:    DWACT_TL_OR3 port map ( A => E(34),
+                                             B => E(2),
+                                             C => E(5),
+                                             Y => E(29) );
+ 
+     ACT_A2X1C_L3_11: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(13),
+                                               C => E(33),
+                                               D => A(23),
+                                               Y => S(23) );
+  end generate IF23_0;
+
+  IF24_1: if ((n > 24 ) and (inc = 1)) generate
+
+     ACT_AND_E34:    DWACT_TL_AND3 port map ( A => A(21),
+                                              B => A(22),
+                                              C => A(23),
+                                              Y => E(17) );
+
+     ACT_AND_E24:    DWACT_TL_AND2 port map ( A => E(15),
+                                              B => E(17),
+                                              Y => E(18) );
+
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(13), 
+                                               C => E(18), 
+                                               D => A(24), 
+                                               Y => S(24) );
+  end generate IF24_1;
+
+  IF24_0: if ((n > 24 ) and (inc = 0)) generate
+ 
+     ACT_AND_E34:    DWACT_TL_OR3 port map ( A => A(21),
+                                             B => A(22),
+                                             C => A(23),
+                                             Y => E(17) );
+ 
+
+     ACT_AND_E24:    DWACT_TL_OR2 port map ( A => E(15),
+                                             B => E(17),
+                                             Y => E(18) );
+ 
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(13),
+                                               C => E(18),
+                                               D => A(24),
+                                               Y => S(24) );
+  end generate IF24_0;
+
+  IF25_1: if ((n > 25 ) and (inc = 1)) generate
+ 
+     ACT_AND_E24:    DWACT_TL_AND3 port map ( A => E(15),
+                                              B => E(17),
+                                              C => A(24),
+                                              Y => E(19) );
+
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(13),
+                                               C => E(19),
+                                               D => A(25),
+                                               Y => S(25) );
+  end generate IF25_1;
+ 
+  IF25_0: if ((n > 25 ) and (inc = 0)) generate
+ 
+     ACT_AND_E24:    DWACT_TL_OR3 port map ( A => E(15),
+                                             B => E(17),
+                                             C => A(24),
+                                             Y => E(19) );
+ 
+     ACT_A2X1C_L3_12: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(13),
+                                               C => E(19),
+                                               D => A(25),
+                                               Y => S(25) );
+  end generate IF25_0;
+
+  IF26_1: if ((n > 26) and (inc = 1)) generate
+
+     ACT_AND_E26: DWACT_TL_AND2 port map ( A => A(24),
+                                           B => A(25),
+                                           Y => E(20) );
+
+     ACT_AND_E24:    DWACT_TL_AND3 port map ( A => E(15),
+                                              B => E(17),
+                                              C => E(20),
+                                              Y => E(21) );
+
+     ACT_AND_E28:    DWACT_TL_AND3 port map ( A => E(7),
+                                              B => E(9),
+                                              C => E(12),
+                                              Y => E(30) );
+
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(30), 
+                                               C => E(21), 
+                                               D => A(26), 
+                                               Y => S(26) );
+  end generate IF26_1;
+
+  IF26_0: if ((n > 26) and (inc = 0)) generate
+ 
+     ACT_AND_E26: DWACT_TL_OR2 port map ( A => A(24),
+                                          B => A(25),
+                                          Y => E(20) );
+
+     ACT_AND_E46: DWACT_TL_OR3 port map ( A => E(15),
+                                          B => E(17),
+                                          C => E(20),
+                                          Y => E(21) );
+ 
+     ACT_AND_E28:    DWACT_TL_OR3 port map ( A => E(7),
+                                             B => E(9),
+                                             C => E(12),
+                                             Y => E(30) );
+
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(30),
+                                               C => E(21),
+                                               D => A(26),
+                                               Y => S(26) );
+  end generate IF26_0;
+
+  IF27_1: if ((n > 27) and (inc = 1)) generate
+ 
+     ACT_AND_E26: DWACT_TL_AND3 port map ( A => A(24),
+                                           B => A(25),
+                                           C => A(26),
+                                           Y => E(22) );
+
+     ACT_AND_E27: DWACT_TL_AND3 port map ( A => E(15),
+                                           B => E(17),
+                                           C => E(22),
+                                           Y => E(23) );
+ 
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(30),
+                                               C => E(23),
+                                               D => A(27),
+                                               Y => S(27) );
+  end generate IF27_1;
+ 
+  IF27_0: if ((n > 27) and (inc = 0)) generate
+ 
+     ACT_AND_E26: DWACT_TL_OR3 port map ( A => A(24),
+                                          B => A(25),
+                                          C => A(26),
+                                          Y => E(22) );
+
+     ACT_AND_E36: DWACT_TL_OR3 port map ( A => E(15),
+                                          B => E(17),
+                                          C => E(22),
+                                          Y => E(23) );
+ 
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(29),
+                                               B => E(30),
+                                               C => E(23),
+                                               D => A(27),
+                                               Y => S(27) );
+  end generate IF27_0;
+
+  IF28_1: if ((n > 28) and (inc = 1)) generate
+ 
+     ACT_AND_E27: DWACT_TL_AND2 port map ( A => E(29),
+                                           B => E(30),
+                                           Y => E(24) );
+
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(24),
+                                               B => E(23),
+                                               C => A(27),
+                                               D => A(28),
+                                               Y => S(28) );
+  end generate IF28_1;
+ 
+  IF28_0: if ((n > 28) and (inc = 0)) generate
+ 
+     ACT_AND_E28: DWACT_TL_OR2 port map ( A => E(29),
+                                          B => E(30),
+                                          Y => E(24) );
+ 
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(24),
+                                               B => E(23),
+                                               C => A(27),
+                                               D => A(28),
+                                               Y => S(28) );
+  end generate IF28_0;
+
+  IF29_1: if ((n > 29) and (inc = 1)) generate
+ 
+     ACT_AND_E28: DWACT_TL_AND2 port map ( A => A(27),
+                                           B => A(28),
+                                           Y => E(25) );
+ 
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(24),
+                                               B => E(23),
+                                               C => E(25),
+                                               D => A(29),
+                                               Y => S(29) );
+  end generate IF29_1;
+
+  IF29_0: if ((n > 29) and (inc = 0)) generate
+ 
+     ACT_AND_E28: DWACT_TL_OR2 port map ( A => A(27),
+                                          B => A(28),
+                                          Y => E(25) );
+ 
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(24),
+                                               B => E(23),
+                                               C => E(25),
+                                               D => A(29),
+                                               Y => S(29) );
+  end generate IF29_0;
+
+  IF30_1: if ((n > 30) and (inc = 1)) generate
+ 
+     ACT_AND_E28: DWACT_TL_AND3 port map ( A => A(27),
+                                           B => A(28),
+                                           C => A(29),
+                                           Y => E(26) );
+
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(24),
+                                               B => E(23),
+                                               C => E(26),
+                                               D => A(30),
+                                               Y => S(30) );
+  end generate IF30_1;
+ 
+  IF30_0: if ((n > 30) and (inc = 0)) generate
+ 
+     ACT_AND_E33: DWACT_TL_OR3 port map ( A => A(27),
+                                          B => A(28),
+                                          C => A(29),
+                                          Y => E(26) );
+ 
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(24),
+                                               B => E(23),
+                                               C => E(26),
+                                               D => A(30),
+                                               Y => S(30) );
+  end generate IF30_0;
+
+  IF31_1: if ((n > 31) and (inc = 1)) generate
+ 
+     ACT_AND_E28: DWACT_TL_AND2 port map ( A => E(26),
+                                           B => A(30),
+                                           Y => E(27) );
+ 
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(24),
+                                               B => E(23),
+                                               C => E(27),
+                                               D => A(31),
+                                               Y => S(31) );
+  end generate IF31_1;
+ 
+  IF31_0: if ((n > 31) and (inc = 0)) generate
+ 
+     ACT_AND_E28: DWACT_TL_OR2 port map ( A => E(26),
+                                          B => A(30),
+                                          Y => E(27) );
+ 
+     ACT_A2X1C_L3_13: DWACT_TL_L2XOR generic map (inc)
+                                     port map (A => E(24),
+                                               B => E(23),
+                                               C => E(27),
+                                               D => A(31),
+                                               Y => S(31) );
+  end generate IF31_0;
+
+
+end impl1; 
+
+
+--------------------------------TOP INC --------------------------------
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+entity INC is
+
+  generic(n : integer:=154); --- jag works for n > 0 and < 33  -- 32 bit adder
+  port(
+      A : in std_logic_vector(n-1 downto 0);
+      S : out std_logic_vector(n-1 downto 0)
+      );
+
+end INC;
+
+architecture FINC of INC is
+
+component  DWACT_BL_FINCDEC is
+    generic(n,inc : integer);
+    port(
+	A : in std_logic_vector(n-1 downto 0);
+	S : out std_logic_vector(n-1 downto 0)
+	);
+
+end component;
+
+  signal Carry : std_logic_vector (n/30 downto 0);
+  signal Asup, Ssup : std_logic_vector (n + 2*(n/30) downto 0); 
+begin
+
+U1: if (n  >= 1 and n  <= 32) generate
+  DWACT_FINC : DWACT_BL_FINCDEC
+                         generic map (n,1)
+                         port map (
+                                   A => A( n - 1 downto 0 ),
+                                   S => S( n - 1 downto 0 ) );
+end generate U1;
+ 
+U2: if (n  > 32) generate
+  Carry(0) <= '1';
+  for_1: for i in 1 to n/30 generate
+     Asup(32*i-1 downto 32*(i-1)) <= '0' & A(30*i-1 downto 30*(i-1)) & Carry(i-1);
+     DWACT_FINC : DWACT_BL_FINCDEC
+                         generic map (32,1)
+                         port map (
+                                   A => Asup( 32*i - 1 downto 32*(i-1) ),
+                                   S => Ssup( 32*i - 1 downto 32*(i-1) ) );
+     S(30*i-1 downto 30*(i-1)) <= Ssup(32*i-2 downto 32*(i-1)+1);
+     Carry(i) <= Ssup(32*i-1);
+  end generate for_1;
+  U3: if ((n/30)*30 < n) generate
+     Asup(2*(n/30)+ n  downto 32*(n/30)) <= A(n - 1 downto 30*(n/30)) & Carry(n/30);
+     DWACT_FINC : DWACT_BL_FINCDEC
+                         generic map (n-(n/30)*30+1,1)
+                         port map (
+                                   A => Asup( 2*(n/30) + n downto 32*(n/30) ),
+                                   S => Ssup( 2*(n/30) + n downto 32*(n/30) ) );
+	S(n -1 downto 30*(n/30)) <= Ssup( 2*(n/30)+ n downto 32*(n/30)+1 );
+  end generate U3;
+end generate U2;
+end FINC;
+

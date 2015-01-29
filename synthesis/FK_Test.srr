@@ -1,0 +1,698 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: NCP-PC
+
+#Implementation: synthesis
+
+#Fri Jan 31 16:43:11 2014
+
+$ Start of Compile
+#Fri Jan 31 16:43:11 2014
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"D:\Actelprj\smart_top\hdl\FK_Test.vhd":8:7:8:13|Top entity is set to FK_Test.
+VHDL syntax check successful!
+@N: CD630 :"D:\Actelprj\smart_top\hdl\FK_Test.vhd":8:7:8:13|Synthesizing work.fk_test.behav 
+@N: CD231 :"D:\Actelprj\smart_top\hdl\FK_Test.vhd":31:11:31:12|Using onehot encoding for type state (fk_idle="10000000")
+@W: CD604 :"D:\Actelprj\smart_top\hdl\FK_Test.vhd":363:3:363:16|OTHERS clause is not synthesized 
+@W: CD609 :"D:\Actelprj\smart_top\hdl\FK_Test.vhd":400:17:400:35|Index value 0 to 10 could be out of prefix range 0 to 9 
+@W: CD604 :"D:\Actelprj\smart_top\hdl\FK_Test.vhd":431:4:431:17|OTHERS clause is not synthesized 
+@N: CD630 :"D:\Actelprj\smart_top\hdl\8b10_enc.vhd":51:7:51:15|Synthesizing work.enc_8b10b.behavioral 
+Post processing for work.enc_8b10b.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":8:7:8:14|Synthesizing work.bytedata.def_arch 
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2884:10:2884:15|Synthesizing proasic3.ram4k9.syn_black_box 
+Post processing for proasic3.ram4k9.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1383:10:1383:15|Synthesizing proasic3.dfn1c0.syn_black_box 
+Post processing for proasic3.dfn1c0.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":14:10:14:13|Synthesizing proasic3.and2.syn_black_box 
+Post processing for proasic3.and2.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2817:10:2817:13|Synthesizing proasic3.xor2.syn_black_box 
+Post processing for proasic3.xor2.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2782:10:2782:14|Synthesizing proasic3.xnor2.syn_black_box 
+Post processing for proasic3.xnor2.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":137:10:137:12|Synthesizing proasic3.ao1.syn_black_box 
+Post processing for proasic3.ao1.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2032:10:2032:14|Synthesizing proasic3.nand2.syn_black_box 
+Post processing for proasic3.nand2.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":38:10:38:13|Synthesizing proasic3.and3.syn_black_box 
+Post processing for proasic3.and3.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1467:10:1467:17|Synthesizing proasic3.dfn1e1c0.syn_black_box 
+Post processing for proasic3.dfn1e1c0.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1511:10:1511:15|Synthesizing proasic3.dfn1p0.syn_black_box 
+Post processing for proasic3.dfn1p0.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":22:10:22:14|Synthesizing proasic3.and2a.syn_black_box 
+Post processing for proasic3.and2a.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1929:10:1929:12|Synthesizing proasic3.inv.syn_black_box 
+Post processing for proasic3.inv.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+@N: CD630 :"D:\Microsemi\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+Post processing for work.bytedata.def_arch
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1317:4:1317:10|Pruning instance AND2_28 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1314:4:1314:10|Pruning instance XOR2_71 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1293:4:1293:10|Pruning instance XOR2_42 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1288:4:1288:10|Pruning instance AND2_37 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1277:4:1277:10|Pruning instance XOR2_70 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1271:4:1271:21|Pruning instance DFN1C0_WGRY_4_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1266:4:1266:10|Pruning instance AND2_21 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1260:4:1260:21|Pruning instance DFN1C0_RGRY_0_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1207:4:1207:10|Pruning instance XOR2_15 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1201:4:1201:10|Pruning instance XOR2_28 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1190:4:1190:10|Pruning instance XOR2_17 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1167:4:1167:10|Pruning instance XOR2_54 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1159:4:1159:10|Pruning instance XOR2_39 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1156:4:1156:21|Pruning instance DFN1C0_RGRY_3_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1144:4:1144:21|Pruning instance DFN1C0_WGRY_8_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1139:4:1139:10|Pruning instance AND2_42 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1134:4:1134:10|Pruning instance AND2_40 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1126:4:1126:22|Pruning instance DFN1C0_RGRY_10_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1121:4:1121:10|Pruning instance XOR2_26 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1037:4:1037:22|Pruning instance DFN1C0_WGRY_12_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1023:4:1023:22|Pruning instance DFN1C0_RGRY_12_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1018:4:1018:9|Pruning instance AND2_0 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":1001:4:1001:21|Pruning instance DFN1C0_WGRY_1_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":992:4:992:10|Pruning instance XOR2_35 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":983:4:983:10|Pruning instance XOR2_44 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":968:4:968:21|Pruning instance DFN1C0_RGRY_7_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":965:4:965:22|Pruning instance DFN1C0_WGRY_10_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":957:4:957:10|Pruning instance XOR2_37 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":955:4:955:10|Pruning instance AND2_36 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":952:4:952:21|Pruning instance DFN1C0_RGRY_5_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":949:4:949:9|Pruning instance XOR2_2 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":937:4:937:21|Pruning instance DFN1C0_WGRY_2_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":917:4:917:21|Pruning instance DFN1C0_RGRY_6_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":913:4:913:10|Pruning instance AND2_39 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":911:4:911:15|Pruning instance DFN1C0_DVLDX - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":905:4:905:10|Pruning instance XOR2_43 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":887:4:887:10|Pruning instance XOR2_32 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":879:4:879:10|Pruning instance AND2_63 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":876:4:876:10|Pruning instance XOR2_67 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":868:4:868:10|Pruning instance AND2_34 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":865:4:865:9|Pruning instance AO1_22 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":859:4:859:10|Pruning instance XOR2_25 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":838:4:838:10|Pruning instance XOR2_56 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":786:4:786:21|Pruning instance DFN1C0_RGRY_4_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":752:4:752:10|Pruning instance AND2_55 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":734:4:734:21|Pruning instance DFN1C0_WGRY_9_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":732:4:732:10|Pruning instance AND2_16 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":718:4:718:10|Pruning instance AND2_47 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":716:4:716:10|Pruning instance AND2_64 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":711:4:711:10|Pruning instance AND2_51 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":705:4:705:10|Pruning instance XOR2_13 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":682:4:682:9|Pruning instance XOR2_5 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":679:4:679:21|Pruning instance DFN1C0_RGRY_8_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":670:4:670:10|Pruning instance AND2_23 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":620:4:620:21|Pruning instance DFN1C0_WGRY_0_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":608:4:608:10|Pruning instance XOR2_46 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":576:4:576:10|Pruning instance XOR2_31 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":565:4:565:10|Pruning instance AND2_29 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":559:4:559:22|Pruning instance DFN1C0_WGRY_11_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":552:4:552:10|Pruning instance AND2_38 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":537:4:537:21|Pruning instance DFN1C0_WGRY_3_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":534:4:534:21|Pruning instance DFN1C0_RGRY_1_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":525:4:525:22|Pruning instance DFN1C0_RGRY_11_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":522:4:522:10|Pruning instance XOR2_18 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":499:4:499:10|Pruning instance XOR2_55 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":475:4:475:10|Pruning instance XOR2_33 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":473:4:473:10|Pruning instance AND2_62 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":470:4:470:21|Pruning instance DFN1C0_RGRY_2_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":467:4:467:10|Pruning instance XOR2_57 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":462:4:462:10|Pruning instance AND2_60 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":421:4:421:10|Pruning instance XOR2_64 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":385:4:385:10|Pruning instance XOR2_21 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":382:4:382:10|Pruning instance AND2_57 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":371:4:371:21|Pruning instance DFN1C0_WGRY_7_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":356:4:356:10|Pruning instance XOR2_52 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":353:4:353:21|Pruning instance DFN1C0_WGRY_5_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":311:4:311:9|Pruning instance AND2_7 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":281:4:281:10|Pruning instance XOR2_45 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":273:4:273:10|Pruning instance AND2_18 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":270:4:270:21|Pruning instance DFN1C0_WGRY_6_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":240:4:240:9|Pruning instance AO1_31 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":194:4:194:21|Pruning instance DFN1C0_RGRY_9_inst - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":192:4:192:10|Pruning instance AND2_22 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":187:4:187:10|Pruning instance AND2_11 - not in use ... 
+@W: CL168 :"D:\Actelprj\smart_top\smartgen\ByteData\ByteData.vhd":179:4:179:10|Pruning instance AND2_20 - not in use ... 
+Post processing for work.fk_test.behav
+@N: CL201 :"D:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"D:\Actelprj\smart_top\hdl\FK_Test.vhd":316:2:316:3|Trying to extract state machine for register Prstate
+Extracted state machine for register Prstate
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Jan 31 16:43:12 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+@N:"d:\actelprj\smart_top\hdl\fk_test.vhd":263:2:263:3|Found counter in view:work.FK_Test(behav) inst ByteSel[2:0]
+@N:"d:\actelprj\smart_top\hdl\fk_test.vhd":371:2:371:3|Found counter in view:work.FK_Test(behav) inst DelayCnt[3:0]
+@N:"d:\actelprj\smart_top\hdl\fk_test.vhd":371:2:371:3|Found counter in view:work.FK_Test(behav) inst DataClkCnt[11:0]
+@N:"d:\actelprj\smart_top\hdl\fk_test.vhd":441:2:441:3|Found counter in view:work.FK_Test(behav) inst StepCnt[3:0]
+Encoding state machine work.FK_Test(behav)-Prstate[0:7]
+original code -> new code
+   00000001 -> 00000001
+   00000010 -> 00000010
+   00000100 -> 00000100
+   00001000 -> 00001000
+   00010000 -> 00010000
+   00100000 -> 00100000
+   01000000 -> 01000000
+   10000000 -> 10000000
+@N: MF238 :"d:\actelprj\smart_top\hdl\fk_test.vhd":293:17:293:29|Found 4 bit incrementor, 'un2_clkdivcnt[3:0]'
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingle(behavioral) inst CycCnt[11:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingle(behavioral) inst Phase2Cnt[3:0]
+@N:"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingle(behavioral) inst DelayCnt[6:0]
+Encoding state machine work.WaveGenSingle(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 65MB peak: 66MB)
+
+@N: BN116 :"d:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance REGEN.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:01s; Memory used current: 61MB peak: 66MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:01s; Memory used current: 60MB peak: 66MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 60MB peak: 66MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:01s; Memory used current: 60MB peak: 66MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:01s; Memory used current: 60MB peak: 66MB)
+
+Finished preparing to map (Time elapsed 0h:00m:02s; Memory used current: 64MB peak: 66MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name        Fanout, notes                   
+------------------------------------------------------------------
+ByteSel[2] / Q                    28                              
+ClkEn / Q                         81                              
+DelayCnt[0] / Q                   34                              
+CRC_Reg_14_i_0_0_a2_2[22] / Y     72                              
+CRC_Reg_14_2_i_0_a2_1[9] / Y      65                              
+SysRst_n_pad / Y                  178 : 177 asynchronous set/reset
+LVDS_en_pad / Y                   91                              
+==================================================================
+
+@N: FP130 |Promoting Net SysClk_c on CLKBUF  SysClk_pad 
+@N: FP130 |Promoting Net SysRst_n_c on CLKBUF  SysRst_n_pad 
+@N: FP130 |Promoting Net LVDS_en_c on CLKINT  I_292 
+@N: FP130 |Promoting Net ClkEn on CLKINT  I_293 
+@N: FP130 |Promoting Net N_1112 on CLKINT  I_294 
+@N: FP130 |Promoting Net N_1124 on CLKINT  I_295 
+Replicating Sequential Instance DelayCnt[0], fanout 34 segments 2
+Replicating Sequential Instance ByteSel[2], fanout 28 segments 2
+Finished technology mapping (Time elapsed 0h:00m:02s; Memory used current: 69MB peak: 70MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:02s; Memory used current: 70MB peak: 71MB)
+
+
+Added 0 Buffers
+Added 2 Cells via replication
+	Added 2 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:02s; Memory used current: 70MB peak: 71MB)
+
+Writing Analyst data base D:\Actelprj\smart_top\synthesis\FK_Test.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:02s; Memory used current: 68MB peak: 71MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:02s; Memory used current: 69MB peak: 71MB)
+
+@W: MT420 |Found inferred clock FK_Test|SysClk with period 10.00ns. A user-defined clock should be declared on object "p:SysClk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Fri Jan 31 16:43:15 2014
+#
+
+
+Top view:               FK_Test
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -5.077
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group              
+----------------------------------------------------------------------------------------------------------------------
+FK_Test|SysClk     100.0 MHz     49.6 MHz      10.000        20.154        -5.077     inferred     Inferred_clkgroup_0
+======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                          |    rise  to  rise    |    fall  to  fall   |    rise  to  fall    |    fall  to  rise  
+-------------------------------------------------------------------------------------------------------------------------
+Starting        Ending          |  constraint  slack   |  constraint  slack  |  constraint  slack   |  constraint  slack 
+-------------------------------------------------------------------------------------------------------------------------
+FK_Test|SysClk  FK_Test|SysClk  |  10.000      -3.413  |  10.000      2.695  |  5.000       -5.077  |  5.000       -3.209
+=========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: FK_Test|SysClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                  Starting                                                  Arrival           
+Instance          Reference          Type         Pin     Net               Time        Slack 
+                  Clock                                                                       
+----------------------------------------------------------------------------------------------
+CRC_ResultAva     FK_Test|SysClk     DFN1E1C0     Q       CRC_ResultAva     0.550       -5.077
+CRC_Reg[35]       FK_Test|SysClk     DFN1C0       Q       CRC_Reg[35]       0.550       -4.272
+CRC_Reg[32]       FK_Test|SysClk     DFN1C0       Q       CRC_Reg[32]       0.550       -4.146
+CRC_Reg[36]       FK_Test|SysClk     DFN1C0       Q       CRC_Reg[36]       0.550       -4.092
+CRC_Reg[33]       FK_Test|SysClk     DFN1C0       Q       CRC_Reg[33]       0.550       -4.052
+Din_Delay4[0]     FK_Test|SysClk     DFN1E1C0     Q       Din_Delay4[0]     0.550       -3.967
+Din_Delay4[1]     FK_Test|SysClk     DFN1E1C0     Q       Din_Delay4[1]     0.550       -3.873
+CRC_Reg[34]       FK_Test|SysClk     DFN1C0       Q       CRC_Reg[34]       0.550       -3.818
+Din_Delay4[4]     FK_Test|SysClk     DFN1E1P0     Q       Din_Delay4[4]     0.550       -3.735
+Din_Delay4[3]     FK_Test|SysClk     DFN1E1P0     Q       Din_Delay4[3]     0.550       -3.682
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                   Required           
+Instance           Reference          Type         Pin     Net                Time         Slack 
+                   Clock                                                                         
+-------------------------------------------------------------------------------------------------
+Com_8b10b.AO       FK_Test|SysClk     DFN0E1C0     D       AO_1               4.468        -5.077
+Com_8b10b.IO       FK_Test|SysClk     DFN0E1C0     D       IO_1               4.468        -4.494
+Com_8b10b.BO       FK_Test|SysClk     DFN0E1C0     D       BO_1               4.468        -4.126
+Com_8b10b.CO       FK_Test|SysClk     DFN0E1C0     D       CO_1               4.468        -4.126
+Com_8b10b.DO       FK_Test|SysClk     DFN0E1C0     D       DO_1               4.468        -4.126
+Com_8b10b.EO       FK_Test|SysClk     DFN0E1C0     D       EO_1               4.468        -4.126
+DataClkCnt[11]     FK_Test|SysClk     DFN1C0       D       DataClkCnt_e11     9.572        -3.413
+DataClkCnt[9]      FK_Test|SysClk     DFN1C0       D       DataClkCnt_e9      9.598        -3.303
+DataClkCnt[10]     FK_Test|SysClk     DFN1C0       D       DataClkCnt_e10     9.598        -3.296
+DataClkCnt[8]      FK_Test|SysClk     DFN1C0       D       DataClkCnt_e8      9.598        -3.225
+=================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.532
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.468
+
+    - Propagation time:                      9.545
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -5.077
+
+    Number of logic level(s):                7
+    Starting point:                          CRC_ResultAva / Q
+    Ending point:                            Com_8b10b.AO / D
+    The start point is clocked by            FK_Test|SysClk [rising] on pin CLK
+    The end   point is clocked by            FK_Test|SysClk [falling] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+CRC_ResultAva                DFN1E1C0     Q        Out     0.550     0.550       -         
+CRC_ResultAva                Net          -        -       1.690     -           18        
+Din_Delay4_RNI51E8[4]        MX2          S        In      -         2.240       -         
+Din_Delay4_RNI51E8[4]        MX2          Y        Out     0.358     2.599       -         
+N_618                        Net          -        -       1.589     -           15        
+Com_8b10b.LPDL4_RNIT21I      NOR3A        C        In      -         4.187       -         
+Com_8b10b.LPDL4_RNIT21I      NOR3A        Y        Out     0.479     4.666       -         
+compls6_a0_1                 Net          -        -       0.240     -           1         
+Com_8b10b.LPDL4_RNI06BB1     OR3C         C        In      -         4.906       -         
+Com_8b10b.LPDL4_RNI06BB1     OR3C         Y        Out     0.479     5.385       -         
+N_1_i                        Net          -        -       0.240     -           1         
+Com_8b10b.LPDL4_RNIRA8E2     AOI1B        C        In      -         5.625       -         
+Com_8b10b.LPDL4_RNIRA8E2     AOI1B        Y        Out     0.297     5.923       -         
+compls6_0_0                  Net          -        -       0.240     -           1         
+Com_8b10b.LPDL4_RNION365     OR3C         A        In      -         6.163       -         
+Com_8b10b.LPDL4_RNION365     OR3C         Y        Out     0.392     6.555       -         
+compls6                      Net          -        -       1.063     -           6         
+Com_8b10b.LPDL4_RNIGSD2A     XNOR2        B        In      -         7.618       -         
+Com_8b10b.LPDL4_RNIGSD2A     XNOR2        Y        Out     0.700     8.317       -         
+COMPLS6                      Net          -        -       0.288     -           2         
+Com_8b10b.AO_RNO             XOR2         B        In      -         8.605       -         
+Com_8b10b.AO_RNO             XOR2         Y        Out     0.700     9.305       -         
+AO_1                         Net          -        -       0.240     -           1         
+Com_8b10b.AO                 DFN0E1C0     D        In      -         9.545       -         
+===========================================================================================
+Total path delay (propagation time + setup) of 10.077 is 4.487(44.5%) logic and 5.590(55.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      5.000
+    - Setup time:                            0.532
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.468
+
+    - Propagation time:                      9.415
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.947
+
+    Number of logic level(s):                7
+    Starting point:                          CRC_ResultAva / Q
+    Ending point:                            Com_8b10b.AO / D
+    The start point is clocked by            FK_Test|SysClk [rising] on pin CLK
+    The end   point is clocked by            FK_Test|SysClk [falling] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+CRC_ResultAva                DFN1E1C0     Q        Out     0.550     0.550       -         
+CRC_ResultAva                Net          -        -       1.690     -           18        
+Com_8b10b.NIO_1_m15_i_m4     MX2          S        In      -         2.240       -         
+Com_8b10b.NIO_1_m15_i_m4     MX2          Y        Out     0.296     2.536       -         
+N_617                        Net          -        -       1.799     -           22        
+Com_8b10b.ND1S6_a0_2         NOR3         C        In      -         4.335       -         
+Com_8b10b.ND1S6_a0_2         NOR3         Y        Out     0.561     4.896       -         
+ND1S6_a0_2                   Net          -        -       0.240     -           1         
+Com_8b10b.ND1S6_a0           OR3B         B        In      -         5.136       -         
+Com_8b10b.ND1S6_a0           OR3B         Y        Out     0.466     5.602       -         
+N_1_0_i                      Net          -        -       0.240     -           1         
+Com_8b10b.ND1S6_0_2          AOI1B        C        In      -         5.842       -         
+Com_8b10b.ND1S6_0_2          AOI1B        Y        Out     0.302     6.144       -         
+ND1S6_0_2                    Net          -        -       0.240     -           1         
+Com_8b10b.LPDL4_RNIO4AS4     AO1B         A        In      -         6.385       -         
+Com_8b10b.LPDL4_RNIO4AS4     AO1B         Y        Out     0.375     6.760       -         
+un3_compls6                  Net          -        -       1.063     -           6         
+Com_8b10b.LPDL4_RNIGSD2A     XNOR2        A        In      -         7.823       -         
+Com_8b10b.LPDL4_RNIGSD2A     XNOR2        Y        Out     0.365     8.187       -         
+COMPLS6                      Net          -        -       0.288     -           2         
+Com_8b10b.AO_RNO             XOR2         B        In      -         8.476       -         
+Com_8b10b.AO_RNO             XOR2         Y        Out     0.700     9.175       -         
+AO_1                         Net          -        -       0.240     -           1         
+Com_8b10b.AO                 DFN0E1C0     D        In      -         9.415       -         
+===========================================================================================
+Total path delay (propagation time + setup) of 9.947 is 4.147(41.7%) logic and 5.801(58.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      5.000
+    - Setup time:                            0.532
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.468
+
+    - Propagation time:                      9.374
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.906
+
+    Number of logic level(s):                6
+    Starting point:                          CRC_ResultAva / Q
+    Ending point:                            Com_8b10b.AO / D
+    The start point is clocked by            FK_Test|SysClk [rising] on pin CLK
+    The end   point is clocked by            FK_Test|SysClk [falling] on pin CLK
+
+Instance / Net                            Pin      Pin               Arrival     No. of    
+Name                         Type         Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------
+CRC_ResultAva                DFN1E1C0     Q        Out     0.550     0.550       -         
+CRC_ResultAva                Net          -        -       1.690     -           18        
+Com_8b10b.NIO_1_m15_i_m4     MX2          S        In      -         2.240       -         
+Com_8b10b.NIO_1_m15_i_m4     MX2          Y        Out     0.296     2.536       -         
+N_617                        Net          -        -       1.799     -           22        
+Com_8b10b.LPDL4_RNIR21I      NOR3A        A        In      -         4.335       -         
+Com_8b10b.LPDL4_RNIR21I      NOR3A        Y        Out     0.479     4.814       -         
+compls6_a4_1                 Net          -        -       0.240     -           1         
+Com_8b10b.LPDL4_RNIRA8E2     AOI1B        A        In      -         5.054       -         
+Com_8b10b.LPDL4_RNIRA8E2     AOI1B        Y        Out     0.697     5.751       -         
+compls6_0_0                  Net          -        -       0.240     -           1         
+Com_8b10b.LPDL4_RNION365     OR3C         A        In      -         5.991       -         
+Com_8b10b.LPDL4_RNION365     OR3C         Y        Out     0.392     6.383       -         
+compls6                      Net          -        -       1.063     -           6         
+Com_8b10b.LPDL4_RNIGSD2A     XNOR2        B        In      -         7.446       -         
+Com_8b10b.LPDL4_RNIGSD2A     XNOR2        Y        Out     0.700     8.146       -         
+COMPLS6                      Net          -        -       0.288     -           2         
+Com_8b10b.AO_RNO             XOR2         B        In      -         8.434       -         
+Com_8b10b.AO_RNO             XOR2         Y        Out     0.700     9.134       -         
+AO_1                         Net          -        -       0.240     -           1         
+Com_8b10b.AO                 DFN0E1C0     D        In      -         9.374       -         
+===========================================================================================
+Total path delay (propagation time + setup) of 9.906 is 4.345(43.9%) logic and 5.561(56.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      5.000
+    - Setup time:                            0.532
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.468
+
+    - Propagation time:                      9.348
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.880
+
+    Number of logic level(s):                6
+    Starting point:                          CRC_ResultAva / Q
+    Ending point:                            Com_8b10b.AO / D
+    The start point is clocked by            FK_Test|SysClk [rising] on pin CLK
+    The end   point is clocked by            FK_Test|SysClk [falling] on pin CLK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+CRC_ResultAva                 DFN1E1C0     Q        Out     0.550     0.550       -         
+CRC_ResultAva                 Net          -        -       1.690     -           18        
+Com_8b10b.NIO_1_m15_i_m4      MX2          S        In      -         2.240       -         
+Com_8b10b.NIO_1_m15_i_m4      MX2          Y        Out     0.296     2.536       -         
+N_617                         Net          -        -       1.799     -           22        
+Com_8b10b.LPDL4_RNIR21I_0     NOR3         C        In      -         4.335       -         
+Com_8b10b.LPDL4_RNIR21I_0     NOR3         Y        Out     0.561     4.896       -         
+compls6_a3_2                  Net          -        -       0.288     -           2         
+Com_8b10b.LPDL4_RNIU7UK1      OAI1         B        In      -         5.184       -         
+Com_8b10b.LPDL4_RNIU7UK1      OAI1         Y        Out     0.454     5.638       -         
+compls6_0_1                   Net          -        -       0.240     -           1         
+Com_8b10b.LPDL4_RNION365      OR3C         C        In      -         5.878       -         
+Com_8b10b.LPDL4_RNION365      OR3C         Y        Out     0.479     6.357       -         
+compls6                       Net          -        -       1.063     -           6         
+Com_8b10b.LPDL4_RNIGSD2A      XNOR2        B        In      -         7.420       -         
+Com_8b10b.LPDL4_RNIGSD2A      XNOR2        Y        Out     0.700     8.120       -         
+COMPLS6                       Net          -        -       0.288     -           2         
+Com_8b10b.AO_RNO              XOR2         B        In      -         8.408       -         
+Com_8b10b.AO_RNO              XOR2         Y        Out     0.700     9.108       -         
+AO_1                          Net          -        -       0.240     -           1         
+Com_8b10b.AO                  DFN0E1C0     D        In      -         9.348       -         
+============================================================================================
+Total path delay (propagation time + setup) of 9.880 is 4.271(43.2%) logic and 5.609(56.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      5.000
+    - Setup time:                            0.532
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.468
+
+    - Propagation time:                      9.260
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -4.792
+
+    Number of logic level(s):                6
+    Starting point:                          CRC_ResultAva / Q
+    Ending point:                            Com_8b10b.AO / D
+    The start point is clocked by            FK_Test|SysClk [rising] on pin CLK
+    The end   point is clocked by            FK_Test|SysClk [falling] on pin CLK
+
+Instance / Net                             Pin      Pin               Arrival     No. of    
+Name                          Type         Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------
+CRC_ResultAva                 DFN1E1C0     Q        Out     0.550     0.550       -         
+CRC_ResultAva                 Net          -        -       1.690     -           18        
+Com_8b10b.NIO_1_m15_i_m4      MX2          S        In      -         2.240       -         
+Com_8b10b.NIO_1_m15_i_m4      MX2          Y        Out     0.296     2.536       -         
+N_617                         Net          -        -       1.799     -           22        
+Com_8b10b.LPDL4_RNIR21I_0     NOR3         C        In      -         4.335       -         
+Com_8b10b.LPDL4_RNIR21I_0     NOR3         Y        Out     0.561     4.896       -         
+compls6_a3_2                  Net          -        -       0.288     -           2         
+Com_8b10b.LPDL4_RNIV4T21      OR3A         A        In      -         5.184       -         
+Com_8b10b.LPDL4_RNIV4T21      OR3A         Y        Out     0.392     5.576       -         
+LPDL4_RNIV4T21                Net          -        -       0.240     -           1         
+Com_8b10b.LPDL4_RNION365      OR3C         B        In      -         5.816       -         
+Com_8b10b.LPDL4_RNION365      OR3C         Y        Out     0.453     6.269       -         
+compls6                       Net          -        -       1.063     -           6         
+Com_8b10b.LPDL4_RNIGSD2A      XNOR2        B        In      -         7.332       -         
+Com_8b10b.LPDL4_RNIGSD2A      XNOR2        Y        Out     0.700     8.032       -         
+COMPLS6                       Net          -        -       0.288     -           2         
+Com_8b10b.AO_RNO              XOR2         B        In      -         8.320       -         
+Com_8b10b.AO_RNO              XOR2         Y        Out     0.700     9.020       -         
+AO_1                          Net          -        -       0.240     -           1         
+Com_8b10b.AO                  DFN0E1C0     D        In      -         9.260       -         
+============================================================================================
+Total path delay (propagation time + setup) of 9.792 is 4.183(42.7%) logic and 5.609(57.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell FK_Test.behav
+  Core Cell usage:
+              cell count     area count*area
+              AND2    49      1.0       49.0
+             AND2A     1      1.0        1.0
+              AND3    11      1.0       11.0
+               AO1    45      1.0       45.0
+              AO13     1      1.0        1.0
+              AO1A     2      1.0        2.0
+              AO1B    14      1.0       14.0
+              AO1C     4      1.0        4.0
+              AO1D    12      1.0       12.0
+              AOI1    13      1.0       13.0
+             AOI1B    17      1.0       17.0
+              AX1C     3      1.0        3.0
+              AX1D     1      1.0        1.0
+              AX1E     5      1.0        5.0
+             AXOI3     1      1.0        1.0
+             AXOI5     2      1.0        2.0
+            CLKINT     4      0.0        0.0
+               GND     4      0.0        0.0
+               INV     3      1.0        3.0
+               MX2    46      1.0       46.0
+              MX2A     3      1.0        3.0
+              MX2B     1      1.0        1.0
+              MX2C    34      1.0       34.0
+             NAND2     4      1.0        4.0
+              NOR2    56      1.0       56.0
+             NOR2A    23      1.0       23.0
+             NOR2B    51      1.0       51.0
+              NOR3    47      1.0       47.0
+             NOR3A    15      1.0       15.0
+             NOR3B    41      1.0       41.0
+             NOR3C    49      1.0       49.0
+               OA1    25      1.0       25.0
+              OA1A    29      1.0       29.0
+              OA1B     1      1.0        1.0
+              OA1C     4      1.0        4.0
+              OAI1    35      1.0       35.0
+               OR2    66      1.0       66.0
+              OR2A    67      1.0       67.0
+              OR2B    33      1.0       33.0
+               OR3    17      1.0       17.0
+              OR3A    31      1.0       31.0
+              OR3B    25      1.0       25.0
+              OR3C    21      1.0       21.0
+               VCC     4      0.0        0.0
+               XA1     9      1.0        9.0
+              XA1B     7      1.0        7.0
+              XA1C    18      1.0       18.0
+             XNOR2    27      1.0       27.0
+             XNOR3     3      1.0        3.0
+              XO1A     1      1.0        1.0
+              XOR2    78      1.0       78.0
+              XOR3     2      1.0        2.0
+
+
+              DFN0     5      1.0        5.0
+            DFN0C0     1      1.0        1.0
+          DFN0E1C0     6      1.0        6.0
+              DFN1     1      1.0        1.0
+            DFN1C0   144      1.0      144.0
+          DFN1E1C0    44      1.0       44.0
+          DFN1E1P0    30      1.0       30.0
+            DFN1P0     4      1.0        4.0
+            RAM4K9     8      0.0        0.0
+                   -----          ----------
+             TOTAL  1308              1288.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF   154
+            OUTBUF     2
+                   -----
+             TOTAL   158
+
+
+Core Cells         : 1288 of 24576 (5%)
+IO Cells           : 158
+
+  RAM/ROM Usage Summary
+Block Rams : 8 of 32 (25%)
+
+Mapper successful!
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Fri Jan 31 16:43:15 2014
+
+###########################################################]

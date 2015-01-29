@@ -1,0 +1,3 @@
+@N: CD630 :".\gentmp0a09008":4:7:4:9|Synthesizing work.top.gen 
+@E: CD737 :".\gentmp0a09008":24:11:24:31|Could not find deferred binding for architecture medium_area of entity add
+@END

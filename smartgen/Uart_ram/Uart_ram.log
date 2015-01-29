@@ -1,0 +1,86 @@
+ ** Message System Log
+ ** Database: 
+ ** Date:   Thu Apr 10 13:51:33 2014
+
+
+****************
+Macro Parameters
+****************
+
+Name                            : Uart_ram
+Family                          : ProASIC3
+Output Format                   : VHDL
+Type                            : RAM
+Write Enable                    : Active High
+Read Enable                     : Active High
+Reset                           : Active Low
+LP                              : None
+FF                              : None
+Read Clock                      : Rising
+Write Clock                     : Rising
+Write Depth                     : 8
+Write Width                     : 8
+Read Depth                      : 8
+Read Width                      : 8
+RAM Type                        : Two Port
+Clocks                          : Independent Read and Write Clocks
+Write Mode A                    : Hold Data
+Write Mode B                    : Hold Data
+Read Pipeline A                 : No
+Read Pipeline B                 : No
+Optimized for                   : Speed
+Portname DataIn                 : WD
+Portname DataOut                : RD
+Portname Write En               : WE
+Portname Read En                : RE
+Portname WClock                 : WCLK
+Portname RClock                 : RCLK
+Portname WAddress               : WADDR
+Portname RAddress               : RADDR
+Portname Reset                  : RESETN
+Portname Clock                  :
+Portname DataAIn                :
+Portname DataBIn                :
+Portname DataAOut               :
+Portname DataBOut               :
+Portname AddressA               :
+Portname AddressB               :
+Portname CLKA                   :
+Portname CLKB                   :
+Portname RWA                    :
+Portname RWB                    :
+Portname BLKA                   :
+Portname BLKB                   :
+Portname LP                     :
+Portname FF                     :
+Initialize RAM                  : False
+
+Cascade Configuration:
+     Write Port configuration   : 512x8
+     Read Port configuration    : 512x8
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 1
+
+**************
+Compile Report
+**************
+
+
+Netlist Resource Report
+=======================
+
+    CORE                       Used:      2  Total:  24576   (0.01%)
+    IO (W/ clocks)             Used:      0  Total:    300   (0.00%)
+    Differential IO            Used:      0  Total:     74   (0.00%)
+    GLOBAL (Chip+Quadrant)     Used:      0  Total:     18   (0.00%)
+    PLL                        Used:      0  Total:      1   (0.00%)
+    RAM/FIFO                   Used:      1  Total:     32   (3.13%)
+    Low Static ICC             Used:      0  Total:      1   (0.00%)
+    FlashROM                   Used:      0  Total:      1   (0.00%)
+    User JTAG                  Used:      0  Total:      1   (0.00%)
+
+Wrote VHDL netlist to
+E:/Actelprj/backup/smart_top20140227_1058_1/smartgen\Uart_ram\Uart_ram.vhd.
+
+ ** Log Ended:   Thu Apr 10 13:51:33 2014
+

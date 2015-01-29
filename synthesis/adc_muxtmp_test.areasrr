@@ -1,0 +1,20 @@
+----------------------------------------------------------------------
+Report for cell adc_muxtmp_test.behavioral
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                             CLKBUF         1       0.0        0.0
+                             DFN1C0         4       1.0        4.0
+                           DFN1E0C0         2       1.0        2.0
+                           DFN1E1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                             OUTBUF        56       0.0        0.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL             76                 15.0

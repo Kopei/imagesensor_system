@@ -1,0 +1,11 @@
+#-- Synopsys, Inc.
+#-- Version E-2010.09A-1
+#-- Project file E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\synthesis\Uart_ctl_syn.prd
+#
+### Watch Implementation type ###
+#
+watch_impl -all
+#
+### Watch Implementation properties ###
+#
+watch_prop -clear

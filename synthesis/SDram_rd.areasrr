@@ -1,0 +1,23 @@
+----------------------------------------------------------------------
+Report for cell SDram_rd.behavioral
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         1       0.0        0.0
+                             DFN1C0        14       1.0       14.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              INBUF         4       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         5       1.0        5.0
+                              NOR3A         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         4       1.0        4.0
+                               OR2B         2       1.0        2.0
+                                OR3         3       1.0        3.0
+                             OUTBUF         4       0.0        0.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                            
+                         TOTAL             48                 37.0

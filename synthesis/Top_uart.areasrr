@@ -1,0 +1,168 @@
+----------------------------------------------------------------------
+Report for cell Top_uart.def_arch
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKBUF         2       0.0        0.0
+                                GND         1       0.0        0.0
+                              INBUF         2       0.0        0.0
+                             OUTBUF        16       0.0        0.0
+          Top_uart_COREUART_0_COREUART         1     186.0      186.0
+                           Uart_ctl         1     388.0      388.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             24                574.0
+----------------------------------------------------------------------
+Report for cell Top_uart_COREUART_0_COREUART.netlist
+     Instance path:  COREUART_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E0C0         8       1.0        8.0
+                           DFN1E1C0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               OR2A         1       1.0        1.0
+          Top_uart_COREUART_0_Clock_GEN         1      55.0       55.0
+          Top_uart_COREUART_0_Rx_ASYNC         1      73.0       73.0
+          Top_uart_COREUART_0_TX_ASync         1      48.0       48.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             15                186.0
+----------------------------------------------------------------------
+Report for cell Top_uart_COREUART_0_Rx_ASYNC.netlist
+     Instance path:  COREUART_0.CUARTo0ol
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         2       1.0        2.0
+                               AO1C         1       1.0        1.0
+                               AX1E         2       1.0        2.0
+                              AXOI5         1       1.0        1.0
+                             DFN1C0         4       1.0        4.0
+                           DFN1E1C0        27       1.0       27.0
+                                GND         1       0.0        0.0
+                               MIN3         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B        12       1.0       12.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         3       1.0        3.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                              XNOR2         1       1.0        1.0
+                            
+                         TOTAL             75                 73.0
+----------------------------------------------------------------------
+Report for cell Top_uart_COREUART_0_TX_ASync.netlist
+     Instance path:  COREUART_0.CUARTIIOL
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         3       1.0        3.0
+                               AO1B         1       1.0        1.0
+                             DFN1C0         8       1.0        8.0
+                           DFN1E0C0         8       1.0        8.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1P0         1       1.0        1.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2         6       1.0        6.0
+                               MX2B         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         2       1.0        2.0
+                            
+                         TOTAL             50                 48.0
+----------------------------------------------------------------------
+Report for cell Top_uart_COREUART_0_Clock_GEN.netlist
+     Instance path:  COREUART_0.CUARTliOL
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1B         9       1.0        9.0
+                               AX1C         1       1.0        1.0
+                             DFN1C0        15       1.0       15.0
+                           DFN1E1C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OR2         9       1.0        9.0
+                               OR2B         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XO1A         2       1.0        2.0
+                               XOR2         4       1.0        4.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell Uart_ctl.netlist
+     Instance path:  Uart_ctl_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3         9       1.0        9.0
+                                AO1         1       1.0        1.0
+                               AO1A         3       1.0        3.0
+                               AO1B         9       1.0        9.0
+                               AO1C         5       1.0        5.0
+                               AO1D         8       1.0        8.0
+                               AOI1         5       1.0        5.0
+                              AOI1B         3       1.0        3.0
+                               AX1C         2       1.0        2.0
+                               AX1E         2       1.0        2.0
+                              AXOI5         1       1.0        1.0
+                             DFN1C0        31       1.0       31.0
+                           DFN1E0C0        35       1.0       35.0
+                             DFN1E1         1       1.0        1.0
+                           DFN1E1C0        31       1.0       31.0
+                           DFN1E1P0         4       1.0        4.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2         5       1.0        5.0
+                               MX2C         1       1.0        1.0
+                               NOR2        22       1.0       22.0
+                              NOR2A        36       1.0       36.0
+                              NOR2B        28       1.0       28.0
+                               NOR3        12       1.0       12.0
+                              NOR3A         9       1.0        9.0
+                              NOR3B        10       1.0       10.0
+                              NOR3C        22       1.0       22.0
+                                OA1         2       1.0        2.0
+                               OA1B         2       1.0        2.0
+                               OA1C         3       1.0        3.0
+                               OAI1         3       1.0        3.0
+                                OR2         7       1.0        7.0
+                               OR2A         6       1.0        6.0
+                               OR2B        10       1.0       10.0
+                               OR3A         5       1.0        5.0
+                               OR3B         4       1.0        4.0
+                               OR3C        14       1.0       14.0
+                                VCC         1       0.0        0.0
+                                XA1         5       1.0        5.0
+                               XA1A         5       1.0        5.0
+                               XA1B         4       1.0        4.0
+                              XNOR2         6       1.0        6.0
+                               XOR2        14       1.0       14.0
+                            
+                         TOTAL            390                388.0

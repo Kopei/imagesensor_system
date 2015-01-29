@@ -1,0 +1,100 @@
+@P:  Worst Slack : -5.769
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Estimated Frequency : NA
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Estimated Period : NA
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Requested Period : 10.000
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Slack : NA
+@P:  ParaUpdata|BaudPulse_inferred_clock - Estimated Frequency : NA
+@P:  ParaUpdata|BaudPulse_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  ParaUpdata|BaudPulse_inferred_clock - Estimated Period : NA
+@P:  ParaUpdata|BaudPulse_inferred_clock - Requested Period : 10.000
+@P:  ParaUpdata|BaudPulse_inferred_clock - Slack : NA
+@P:  Uart_ctl|BaudPulse_inferred_clock - Estimated Frequency : NA
+@P:  Uart_ctl|BaudPulse_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  Uart_ctl|BaudPulse_inferred_clock - Estimated Period : NA
+@P:  Uart_ctl|BaudPulse_inferred_clock - Requested Period : 10.000
+@P:  Uart_ctl|BaudPulse_inferred_clock - Slack : NA
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Estimated Frequency : 46.4 MHz
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Estimated Period : 21.538
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Requested Period : 10.000
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Slack : -5.769
+@P:  Worst Slack(min analysis) : NA
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Estimated Frequency(min analysis) : NA
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Estimated Period(min analysis) : NA
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  CMOS_Ctl|ParaUpdt_inferred_clock - Slack(min analysis) : NA
+@P:  ParaUpdata|BaudPulse_inferred_clock - Estimated Frequency(min analysis) : NA
+@P:  ParaUpdata|BaudPulse_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  ParaUpdata|BaudPulse_inferred_clock - Estimated Period(min analysis) : NA
+@P:  ParaUpdata|BaudPulse_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  ParaUpdata|BaudPulse_inferred_clock - Slack(min analysis) : NA
+@P:  Uart_ctl|BaudPulse_inferred_clock - Estimated Frequency(min analysis) : NA
+@P:  Uart_ctl|BaudPulse_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  Uart_ctl|BaudPulse_inferred_clock - Estimated Period(min analysis) : NA
+@P:  Uart_ctl|BaudPulse_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  Uart_ctl|BaudPulse_inferred_clock - Slack(min analysis) : NA
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Estimated Frequency(min analysis) : 46.4 MHz
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Estimated Period(min analysis) : 21.538
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  my_pll|PLL_Test1_0_Sys_66M_Clk_inferred_clock - Slack(min analysis) : -5.769
+@P:  Total Area : 5914.0
+@P:  Total Area : 35.0
+@P:  Total Area : 29.0
+@P:  Total Area : 41.0
+@P:  Total Area : 0.0
+@P:  Total Area : 1394.0
+@P:  Total Area : 92.0
+@P:  Total Area : 106.0
+@P:  Total Area : 230.0
+@P:  Total Area : 387.0
+@P:  Total Area : 28.0
+@P:  Total Area : 75.0
+@P:  Total Area : 48.0
+@P:  Total Area : 186.0
+@P:  Total Area : 73.0
+@P:  Total Area : 48.0
+@P:  Total Area : 55.0
+@P:  Total Area : 94.0
+@P:  Total Area : 185.0
+@P:  Total Area : 1479.0
+@P:  Total Area : 76.0
+@P:  Total Area : 85.0
+@P:  Total Area : 82.0
+@P:  Total Area : 175.0
+@P:  Total Area : 67.0
+@P:  Total Area : 58.0
+@P:  Total Area : 75.0
+@P:  Total Area : 53.0
+@P:  Total Area : 138.0
+@P:  Total Area : 887.0
+@P:  Total Area : 173.0
+@P:  Total Area : 128.0
+@P:  Total Area : 370.0
+@P:  Total Area : 78.0
+@P:  Total Area : 69.0
+@P:  Total Area : 35.0
+@P:  Total Area : 36.0
+@P:  Total Area : 23.0
+@P:  Total Area : 23.0
+@P:  Total Area : 20.0
+@P:  Total Area : 34.0
+@P:  Total Area : 1.0
+@P:  Total Area : 216.0
+@P:  Total Area : 206.0
+@P:  Total Area : 20.0
+@P:  Total Area : 18.0
+@P:  Total Area : 0.0
+@P:  Total Area : 35.0
+@P:  Total Area : 2.0
+@P:  Total Area : 0.0
+@P:  Total Area : 35.0
+@P:  Total Area : 100.0
+@P:  Total Area : 64.0
+@P:  Total Area : 184.0
+@P:  Total Area : 35.0
+@P:  Total Area : 380.0
+@P:  Total Area : 5914.0
+@P:  CPU Time : 0h:00m:06s

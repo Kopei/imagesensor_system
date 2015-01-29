@@ -1,0 +1,513 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: LENOVO-PC
+
+#Implementation: synthesis
+
+#Wed Jun 18 14:51:24 2014
+
+$ Start of Compile
+#Wed Jun 18 14:51:24 2014
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\Top_uart.vhd":10:7:10:14|Top entity is set to Top_uart.
+VHDL syntax check successful!
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\Top_uart.vhd":10:7:10:14|Synthesizing work.top_uart.def_arch 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":16:7:16:34|Synthesizing coreuart_lib.top_uart_coreuart_0_coreuart.cuarti1 
+@W: CD434 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:18:245:25|Signal cuartl1i in the sensitivity list is not used in the process
+@W: CD434 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:27:245:34|Signal cuartii1 in the sensitivity list is not used in the process
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":357:0:357:13|OTHERS clause is not synthesized 
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":395:0:395:7|Removed redundant assignment
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Signal cuartl1l is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Signal cuarto1i is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|Signal cuartoo0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|Signal cuartlo0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|Signal cuartll0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|Signal cuartil0 is undriven 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":16:7:16:34|Synthesizing coreuart_lib.top_uart_coreuart_0_rx_async.cuarti1 
+@N: CD233 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":41:15:41:16|Using sequential encoding for type cuartoiii
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":182:0:182:8|Removed redundant assignment
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":235:0:235:13|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":313:0:313:13|OTHERS clause is not synthesized 
+Post processing for coreuart_lib.top_uart_coreuart_0_rx_async.cuarti1
+@N: CL177 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":325:0:325:1|Sharing sequential element CUARTL10I.
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":16:7:16:34|Synthesizing coreuart_lib.top_uart_coreuart_0_tx_async.cuarti1 
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":228:0:228:8|Removed redundant assignment
+Post processing for coreuart_lib.top_uart_coreuart_0_tx_async.cuarti1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Optimizing register bit CUARTIIO0 to a constant 1
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Pruning Register CUARTIIO0  
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":16:7:16:35|Synthesizing coreuart_lib.top_uart_coreuart_0_clock_gen.cuarti 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":35:7:35:13|Signal cuartli is undriven 
+Post processing for coreuart_lib.top_uart_coreuart_0_clock_gen.cuarti
+Post processing for coreuart_lib.top_uart_coreuart_0_coreuart.cuarti1
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|CUARTIL0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|CUARTLL0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|CUARTlo0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|CUARToo0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 0 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 1 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 2 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 3 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 4 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 5 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 6 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 7 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 0 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 1 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 2 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 3 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 4 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 5 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 6 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 7 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":387:0:387:1|Pruning Register CUARTl10  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":373:0:373:1|Pruning Register CUARTI11  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":363:0:363:1|Pruning Register CUARTL1I(7 downto 0)  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":333:0:333:1|Pruning Register CUARToool(1 downto 0)  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning Register CUARTO00  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning Register CUARTL00  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning Register CUARToi0  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning Register CUARTLI0  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":231:0:231:1|Pruning Register CUARTol0  
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 0 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 1 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 2 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 3 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 4 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 5 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 6 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 7 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL167 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuarti1l of instance CUARTIIOL is floating
+@W: CL167 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuartooi of instance CUARTIIOL is floating
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":7:7:7:14|Synthesizing work.uart_ctl.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":51:14:51:15|Using onehot encoding for type rx_state (rx_idle="100000")
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":53:14:53:15|Using onehot encoding for type tx_state (tx_idle="1000000")
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":153:3:153:16|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":242:5:242:18|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":330:3:330:16|OTHERS clause is not synthesized 
+Post processing for work.uart_ctl.behavioral
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":272:2:272:5|Latch generated from process for signal TxData(7 downto 0), probably caused by a missing assignment in an if or case stmt
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":272:2:272:5|Latch generated from process for signal Answer_ok, probably caused by a missing assignment in an if or case stmt
+@W: CL117 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":272:2:272:5|Latch generated from process for signal WEn, probably caused by a missing assignment in an if or case stmt
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+Post processing for work.top_uart.def_arch
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":258:2:258:3|Trying to extract state machine for register Pr_State
+Extracted state machine for register Pr_State
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":97:2:97:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":20:0:20:16|Input bAUD_VAL_FRACtion is unused
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Trying to extract state machine for register CUARTolo0
+Extracted state machine for register CUARTolo0
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":22:0:22:7|Input CUARTL1L is unused
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":23:0:23:7|Input CUARTI1L is unused
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":24:0:24:7|Input CUARTooi is unused
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":196:0:196:1|Trying to extract state machine for register CUARToool
+Extracted state machine for register CUARToool
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 18 14:51:24 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+@W: MO161 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":275:0:275:1|Register bit CUARTO1II is always 0, optimizing ...
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":161:2:161:3|Found counter in view:work.Uart_ctl(behavioral) inst ParaCnt[7:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":79:2:79:3|Found counter in view:work.Uart_ctl(behavioral) inst OvertimeCnt[9:0]
+Encoding state machine work.Uart_ctl(behavioral)-PrState[0:5]
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine work.Uart_ctl(behavioral)-Pr_State[0:6]
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+@N: MF238 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":69:15:69:25|Found 10 bit incrementor, 'un4_baudcnt_1[9:0]'
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\clock_gen.vhd":179:0:179:1|Found counter in view:coreuart_lib.Top_uart_COREUART_0_Clock_GEN(cuarti) inst CUARTol[12:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\clock_gen.vhd":196:0:196:1|Found counter in view:coreuart_lib.Top_uart_COREUART_0_Clock_GEN(cuarti) inst CUARToi[3:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\tx_async.vhd":178:0:178:1|Found counter in view:coreuart_lib.Top_uart_COREUART_0_TX_ASync(cuarti1) inst CUARToio0[3:0]
+Encoding state machine coreuart_lib.Top_uart_COREUART_0_TX_ASync(cuarti1)-CUARTolo0[0:5]
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+@W: MO161 :|Register bit CUARTolo0[1] is always 0, optimizing ...
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\tx_async.vhd":221:0:221:1|Removing sequential instance CUARTlio0 of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":245:0:245:1|Found counter in view:coreuart_lib.Top_uart_COREUART_0_Rx_ASYNC(cuarti1) inst CUARTL1II[3:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":141:0:141:1|Found counter in view:coreuart_lib.Top_uart_COREUART_0_Rx_ASYNC(cuarti1) inst CUARTo0ii[3:0]
+Encoding state machine coreuart_lib.Top_uart_COREUART_0_Rx_ASYNC(cuarti1)-CUARToool[0:2]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":245:0:245:1|Removing sequential instance CUARTi0ii[8] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":272:2:272:5|Removing sequential instance Uart_ctl_0.TxData[6],  because it is equivalent to instance Uart_ctl_0.TxData[5]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":272:2:272:5|Removing sequential instance Uart_ctl_0.TxData[5],  because it is equivalent to instance Uart_ctl_0.TxData[3]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":272:2:272:5|Removing sequential instance Uart_ctl_0.TxData[3],  because it is equivalent to instance Uart_ctl_0.TxData[2]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\hdl\uart_ctl.vhd":272:2:272:5|Removing sequential instance Uart_ctl_0.TxData[2],  because it is equivalent to instance Uart_ctl_0.TxData[1]
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":156:0:156:1|Removing sequential instance COREUART_0.CUARTo0ol.CUARTli0i of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":172:0:172:1|Removing sequential instance COREUART_0.CUARTo0ol.CUARTO00i of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":196:0:196:1|Removing sequential instance COREUART_0.CUARTo0ol.CUARTL00I of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":196:0:196:1|Removing sequential instance COREUART_0.CUARTo0ol.CUARTlo0i of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":292:0:292:1|Removing sequential instance COREUART_0.CUARTo0ol.CUARTii0i of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":325:0:325:1|Removing sequential instance COREUART_0.CUARTo0ol.CUARTLO1I of view:PrimLib.dffs(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeshcol\component\work\top_uart\coreuart_0\rtl\vhdl\core_obfuscated\rx_async.vhd":325:0:325:1|Removing sequential instance COREUART_0.CUARTo0ol.CUARTo10I of view:PrimLib.dffr(prim) because there are no references to its outputs 
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 57MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 57MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                   
+---------------------------------------------------------------
+Uart_ctl_0.PrState[5] / Q      33                              
+RESET_N_pad / Y                164 : 164 asynchronous set/reset
+Uart_ctl_0.BaudPulse / Q       37                              
+===============================================================
+
+@N: FP130 |Promoting Net RESET_N_c on CLKBUF  RESET_N_pad 
+@N: FP130 |Promoting Net CLK_c on CLKBUF  CLK_pad 
+@N: FP130 |Promoting Net Uart_ctl_0.Pr_State[0] on CLKINT  Uart_ctl_0.Pr_State_inferred_clock[0] 
+Replicating Sequential Instance Uart_ctl_0.BaudPulse, fanout 37 segments 2
+Replicating Sequential Instance Uart_ctl_0.PrState[5], fanout 33 segments 2
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+
+Added 0 Buffers
+Added 2 Cells via replication
+	Added 2 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Writing Analyst data base E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\synthesis\Top_uart.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+@W: MT420 |Found inferred clock Top_uart|CLK with period 10.00ns. A user-defined clock should be declared on object "p:CLK"
+
+@W: MT420 |Found inferred clock Uart_ctl|Pr_State_inferred_clock[0] with period 10.00ns. A user-defined clock should be declared on object "n:Uart_ctl_0.Pr_State[0]"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Jun 18 14:51:25 2014
+#
+
+
+Top view:               Top_uart
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.695
+
+                                        Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                          Frequency     Frequency     Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------------------------
+Top_uart|CLK                            100.0 MHz     107.5 MHz     10.000        9.305         0.695     inferred     Inferred_clkgroup_0
+Uart_ctl|Pr_State_inferred_clock[0]     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+==========================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                    |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                             Ending                               |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Top_uart|CLK                         Top_uart|CLK                         |  10.000      0.695  |  No paths    -      |  No paths    -      |  No paths    -    
+Top_uart|CLK                         Uart_ctl|Pr_State_inferred_clock[0]  |  No paths    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+Uart_ctl|Pr_State_inferred_clock[0]  Top_uart|CLK                         |  No paths    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
+================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: Top_uart|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                    Starting                                                   Arrival          
+Instance                            Reference        Type         Pin     Net                  Time        Slack
+                                    Clock                                                                       
+----------------------------------------------------------------------------------------------------------------
+Uart_ctl_0.OvertimeCnt[0]           Top_uart|CLK     DFN1C0       Q       OvertimeCnt[0]       0.550       0.695
+Uart_ctl_0.OvertimeCnt[1]           Top_uart|CLK     DFN1C0       Q       OvertimeCnt[1]       0.550       1.094
+COREUART_0.CUARTliOL.CUARTol[0]     Top_uart|CLK     DFN1C0       Q       CUARTol[0]           0.550       1.780
+Uart_ctl_0.OvertimeCnt[2]           Top_uart|CLK     DFN1C0       Q       OvertimeCnt[2]       0.434       1.810
+COREUART_0.CUARTliOL.CUARTLL        Top_uart|CLK     DFN1C0       Q       CUARTO               0.550       1.866
+Uart_ctl_0.OvertimeCnt[3]           Top_uart|CLK     DFN1C0       Q       OvertimeCnt[3]       0.550       1.941
+COREUART_0.CUARTi01                 Top_uart|CLK     DFN1E1C0     Q       COREUART_0_RXRDY     0.550       2.005
+Uart_ctl_0.BaudPulse_0              Top_uart|CLK     DFN1C0       Q       P_CLkA_c_0           0.550       2.164
+COREUART_0.CUARTliOL.CUARTol[1]     Top_uart|CLK     DFN1C0       Q       CUARTol[1]           0.550       2.198
+Uart_ctl_0.OvertimeCnt[4]           Top_uart|CLK     DFN1C0       Q       OvertimeCnt[4]       0.434       2.332
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                      Starting                                                  Required          
+Instance                              Reference        Type         Pin     Net                 Time         Slack
+                                      Clock                                                                       
+------------------------------------------------------------------------------------------------------------------
+Uart_ctl_0.PrState[0]                 Top_uart|CLK     DFN1E1C0     D       PrState_RNO[0]      9.598        0.695
+Uart_ctl_0.PrState[2]                 Top_uart|CLK     DFN1E1C0     D       PrState_RNO[2]      9.598        0.773
+Uart_ctl_0.PrState[3]                 Top_uart|CLK     DFN1E1C0     D       PrState_RNO[3]      9.598        0.773
+Uart_ctl_0.PrState[4]                 Top_uart|CLK     DFN1E1C0     D       N_620_i_0           9.598        0.952
+Uart_ctl_0.PrState[1]                 Top_uart|CLK     DFN1E1C0     D       N_623               9.598        0.971
+COREUART_0.CUARTliOL.CUARTol[12]      Top_uart|CLK     DFN1C0       D       CUARTol_n12         9.572        1.780
+Uart_ctl_0.PrState[5]                 Top_uart|CLK     DFN1E1P0     D       N_619_i_0           9.650        1.855
+Uart_ctl_0.PrState_0[5]               Top_uart|CLK     DFN1E1P0     D       N_619_i_0           9.650        1.855
+COREUART_0.CUARTIIOL.CUARTolo0[0]     Top_uart|CLK     DFN1C0       D       CUARTolo0_ns[5]     9.572        1.866
+Uart_ctl_0.OEn                        Top_uart|CLK     DFN1E1P0     D       OEn_1               9.650        1.905
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      8.902
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.695
+
+    Number of logic level(s):                7
+    Starting point:                          Uart_ctl_0.OvertimeCnt[0] / Q
+    Ending point:                            Uart_ctl_0.PrState[0] / D
+    The start point is clocked by            Top_uart|CLK [rising] on pin CLK
+    The end   point is clocked by            Top_uart|CLK [rising] on pin CLK
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                   Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+Uart_ctl_0.OvertimeCnt[0]              DFN1C0       Q        Out     0.550     0.550       -         
+OvertimeCnt[0]                         Net          -        -       0.602     -           3         
+Uart_ctl_0.OvertimeCnt_RNIVCSB[1]      NOR2B        B        In      -         1.153       -         
+Uart_ctl_0.OvertimeCnt_RNIVCSB[1]      NOR2B        Y        Out     0.469     1.621       -         
+N_163                                  Net          -        -       0.288     -           2         
+Uart_ctl_0.OvertimeCnt_RNIGJQH[2]      NOR2B        B        In      -         1.909       -         
+Uart_ctl_0.OvertimeCnt_RNIGJQH[2]      NOR2B        Y        Out     0.469     2.378       -         
+N_164                                  Net          -        -       0.884     -           4         
+Uart_ctl_0.OvertimeCnt_RNI97L31[5]     NOR3C        A        In      -         3.262       -         
+Uart_ctl_0.OvertimeCnt_RNI97L31[5]     NOR3C        Y        Out     0.346     3.608       -         
+N_167                                  Net          -        -       0.602     -           3         
+Uart_ctl_0.OvertimeCnt_RNIKKHF1[7]     OR3C         A        In      -         4.210       -         
+Uart_ctl_0.OvertimeCnt_RNIKKHF1[7]     OR3C         Y        Out     0.346     4.557       -         
+N_169                                  Net          -        -       0.955     -           5         
+Uart_ctl_0.OvertimeCnt_RNI32ER1[9]     OR3A         B        In      -         5.512       -         
+Uart_ctl_0.OvertimeCnt_RNI32ER1[9]     OR3A         Y        Out     0.479     5.991       -         
+N_185                                  Net          -        -       0.955     -           5         
+Uart_ctl_0.OvertimeCnt_RNI8UA02[9]     NOR2         A        In      -         6.947       -         
+Uart_ctl_0.OvertimeCnt_RNI8UA02[9]     NOR2         Y        Out     0.271     7.218       -         
+N_304                                  Net          -        -       0.884     -           4         
+Uart_ctl_0.PrState_RNO[0]              NOR3         C        In      -         8.102       -         
+Uart_ctl_0.PrState_RNO[0]              NOR3         Y        Out     0.561     8.662       -         
+PrState_RNO[0]                         Net          -        -       0.240     -           1         
+Uart_ctl_0.PrState[0]                  DFN1E1C0     D        In      -         8.902       -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 9.305 is 3.893(41.8%) logic and 5.411(58.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell Top_uart.def_arch
+  Core Cell usage:
+              cell count     area count*area
+              AND2     2      1.0        2.0
+              AND3     8      1.0        8.0
+               AO1     4      1.0        4.0
+              AO1A     3      1.0        3.0
+              AO1B     4      1.0        4.0
+              AO1C     7      1.0        7.0
+              AO1D    14      1.0       14.0
+              AOI1     5      1.0        5.0
+             AOI1B     3      1.0        3.0
+               AX1     1      1.0        1.0
+              AX1A     1      1.0        1.0
+              AX1B     9      1.0        9.0
+              AX1C     1      1.0        1.0
+              AX1E     3      1.0        3.0
+             AXOI4     2      1.0        2.0
+            CLKINT     1      0.0        0.0
+               GND     6      0.0        0.0
+               INV     1      1.0        1.0
+              MIN3     1      1.0        1.0
+               MX2     6      1.0        6.0
+              MX2A     1      1.0        1.0
+              MX2B     1      1.0        1.0
+              MX2C     1      1.0        1.0
+              NOR2    29      1.0       29.0
+             NOR2A    34      1.0       34.0
+             NOR2B    40      1.0       40.0
+              NOR3    16      1.0       16.0
+             NOR3A    12      1.0       12.0
+             NOR3B    12      1.0       12.0
+             NOR3C    20      1.0       20.0
+               OA1     2      1.0        2.0
+              OA1A     3      1.0        3.0
+              OA1B     1      1.0        1.0
+              OA1C     3      1.0        3.0
+              OAI1     3      1.0        3.0
+               OR2    18      1.0       18.0
+              OR2A     8      1.0        8.0
+              OR2B     8      1.0        8.0
+               OR3     5      1.0        5.0
+              OR3A     5      1.0        5.0
+              OR3B     5      1.0        5.0
+              OR3C     8      1.0        8.0
+               VCC     6      0.0        0.0
+               XA1     4      1.0        4.0
+              XA1A     4      1.0        4.0
+              XA1B     5      1.0        5.0
+              XA1C     1      1.0        1.0
+             XNOR2     9      1.0        9.0
+              XO1A     2      1.0        2.0
+              XOR2    16      1.0       16.0
+
+
+            DFN1C0    58      1.0       58.0
+          DFN1E0C0    59      1.0       59.0
+          DFN1E0P0     1      1.0        1.0
+          DFN1E1C0    42      1.0       42.0
+          DFN1E1P0     4      1.0        4.0
+            DFN1P0     2      1.0        2.0
+              DLN0     5      1.0        5.0
+          DLN1P1C1     1      2.0        2.0
+                   -----          ----------
+             TOTAL   536               524.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     2
+            OUTBUF    16
+                   -----
+             TOTAL    20
+
+
+Core Cells         : 524 of 24576 (2%)
+IO Cells           : 20
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jun 18 14:51:25 2014
+
+###########################################################]

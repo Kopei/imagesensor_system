@@ -1,0 +1,20 @@
+
+fsm_encoding {1284281} onehot
+
+fsm_state_encoding {1284281} rd_idle {00000001}
+
+fsm_state_encoding {1284281} rd_act {00000010}
+
+fsm_state_encoding {1284281} rd_rd {00000100}
+
+fsm_state_encoding {1284281} rd_wait {00001000}
+
+fsm_state_encoding {1284281} rd_process {00010000}
+
+fsm_state_encoding {1284281} rd_judge {00100000}
+
+fsm_state_encoding {1284281} rd_pre {01000000}
+
+fsm_state_encoding {1284281} rd_wait_act {10000000}
+
+fsm_registers {1284281} {pr_state[0]}  {pr_state[1]}  {pr_state[2]}  {pr_state[3]}  {pr_state[4]}  {pr_state[5]}  {pr_state[6]}  {pr_state[7]} 

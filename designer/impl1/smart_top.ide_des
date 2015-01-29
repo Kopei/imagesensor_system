@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "I:\Proj_GEO\designer\impl1\smart_top.adb"
+LIST SOURCE_FILES
+VALUE "I:\Proj_GEO\synthesis\smart_top.edn;edn"
+VALUE "I:\Proj_GEO\synthesis\smart_top_sdc.sdc;sdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "I:\Proj_GEO\synthesis\smart_top_sdc.sdc;Used"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

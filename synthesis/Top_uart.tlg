@@ -1,0 +1,128 @@
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\Top_uart.vhd":10:7:10:14|Synthesizing work.top_uart.def_arch 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":16:7:16:34|Synthesizing coreuart_lib.top_uart_coreuart_0_coreuart.cuarti1 
+@W: CD434 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:18:245:25|Signal cuartl1i in the sensitivity list is not used in the process
+@W: CD434 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:27:245:34|Signal cuartii1 in the sensitivity list is not used in the process
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":357:0:357:13|OTHERS clause is not synthesized 
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":395:0:395:7|Removed redundant assignment
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Signal cuartl1l is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Signal cuarto1i is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|Signal cuartoo0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|Signal cuartlo0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|Signal cuartll0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|Signal cuartil0 is undriven 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":16:7:16:34|Synthesizing coreuart_lib.top_uart_coreuart_0_rx_async.cuarti1 
+@N: CD233 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":41:15:41:16|Using sequential encoding for type cuartoiii
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":182:0:182:8|Removed redundant assignment
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":235:0:235:13|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":313:0:313:13|OTHERS clause is not synthesized 
+Post processing for coreuart_lib.top_uart_coreuart_0_rx_async.cuarti1
+@N: CL177 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":325:0:325:1|Sharing sequential element CUARTL10I.
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":16:7:16:34|Synthesizing coreuart_lib.top_uart_coreuart_0_tx_async.cuarti1 
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":228:0:228:8|Removed redundant assignment
+Post processing for coreuart_lib.top_uart_coreuart_0_tx_async.cuarti1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Optimizing register bit CUARTIIO0 to a constant 1
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Pruning Register CUARTIIO0  
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":16:7:16:35|Synthesizing coreuart_lib.top_uart_coreuart_0_clock_gen.cuarti 
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":73:0:73:6|Removed redundant assignment
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":86:0:86:6|Removed redundant assignment
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":99:0:99:6|Removed redundant assignment
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":112:0:112:6|Removed redundant assignment
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":125:0:125:6|Removed redundant assignment
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":138:0:138:6|Removed redundant assignment
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":151:0:151:6|Removed redundant assignment
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":161:0:161:13|OTHERS clause is not synthesized 
+Post processing for coreuart_lib.top_uart_coreuart_0_clock_gen.cuarti
+Post processing for coreuart_lib.top_uart_coreuart_0_coreuart.cuarti1
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|CUARTIL0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|CUARTLL0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|CUARTlo0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|CUARToo0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 0 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 1 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 2 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 3 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 4 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 5 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 6 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 7 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 0 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 1 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 2 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 3 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 4 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 5 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 6 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 7 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":387:0:387:1|Pruning Register CUARTl10  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":373:0:373:1|Pruning Register CUARTI11  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":363:0:363:1|Pruning Register CUARTL1I(7 downto 0)  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":333:0:333:1|Pruning Register CUARToool(1 downto 0)  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning Register CUARTO00  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning Register CUARTL00  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning Register CUARToi0  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning Register CUARTLI0  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":231:0:231:1|Pruning Register CUARTol0  
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 0 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 1 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 2 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 3 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 4 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 5 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 6 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 7 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL167 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuarti1l of instance CUARTIIOL is floating
+@W: CL167 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuartooi of instance CUARTIIOL is floating
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":7:7:7:14|Synthesizing work.uart_ctl.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":53:14:53:15|Using onehot encoding for type rx_state (rx_idle="100000")
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":55:14:55:15|Using onehot encoding for type tx_state (tx_idle="1000000")
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":153:3:153:16|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":242:5:242:18|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":321:3:321:16|OTHERS clause is not synthesized 
+Post processing for work.uart_ctl.behavioral
+@A:"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":258:2:258:3|Feedback mux created for signal Tx_ten. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+Post processing for work.top_uart.def_arch
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":258:2:258:3|Trying to extract state machine for register Pr_State
+Extracted state machine for register Pr_State
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":99:2:99:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:4|Pruning Register bit 6 of TxData(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:4|Pruning Register bit 5 of TxData(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:4|Pruning Register bit 3 of TxData(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:4|Pruning Register bit 2 of TxData(7 downto 0)  
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Trying to extract state machine for register CUARTolo0
+Extracted state machine for register CUARTolo0
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":22:0:22:7|Input CUARTL1L is unused
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":23:0:23:7|Input CUARTI1L is unused
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":24:0:24:7|Input CUARTooi is unused
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL\component\work\Top_uart\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":196:0:196:1|Trying to extract state machine for register CUARToool
+Extracted state machine for register CUARToool
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10

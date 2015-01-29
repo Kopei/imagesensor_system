@@ -1,0 +1,604 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: LENOVO-PC
+
+#Implementation: synthesis
+
+#Sat Feb 15 17:39:21 2014
+
+$ Start of Compile
+#Sat Feb 15 17:39:21 2014
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\Actelprj\smart_top\hdl\CMOS_DrvX.vhd":30:7:30:15|Top entity is set to CMOS_DrvX.
+VHDL syntax check successful!
+@N: CD630 :"E:\Actelprj\smart_top\hdl\CMOS_DrvX.vhd":30:7:30:15|Synthesizing work.cmos_drvx.behavioral 
+@N: CD630 :"E:\Actelprj\smart_top\hdl\PixelArrayTiming.vhd":30:7:30:22|Synthesizing work.pixelarraytiming.behavioral 
+Post processing for work.pixelarraytiming.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\SPI_Set.vhd":6:7:6:13|Synthesizing work.spi_set.behavioral 
+Post processing for work.spi_set.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\Y_X_Addressing.vhd":30:7:30:20|Synthesizing work.y_x_addressing.behavioral 
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":30:7:30:32|Synthesizing work.wavegensinglewithcycnumsel.behavioral 
+Post processing for work.wavegensinglewithcycnumsel.behavioral
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(0) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(1) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(2) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(3) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(4) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(5) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(6) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(7) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(8) to a constant 1
+@W: CL190 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(9) to a constant 1
+@W: CL169 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Pruning Register cycnum(9 downto 0)  
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\smartgen\adcen_dly\adcen_dly.vhd":8:7:8:15|Synthesizing work.adcen_dly.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":3604:11:3604:16|Synthesizing proasic3.clkdly.syn_black_box 
+Post processing for proasic3.clkdly.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+Post processing for work.adcen_dly.def_arch
+@N: CD630 :"E:\Actelprj\smart_top\smartgen\sampleEn_dly\sampleEn_dly.vhd":8:7:8:18|Synthesizing work.sampleen_dly.def_arch 
+Post processing for work.sampleen_dly.def_arch
+Post processing for work.y_x_addressing.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\CMOS_Ctl.vhd":6:7:6:14|Synthesizing work.cmos_ctl.behavioral 
+@W: CD604 :"E:\Actelprj\smart_top\hdl\CMOS_Ctl.vhd":105:3:105:16|OTHERS clause is not synthesized 
+Post processing for work.cmos_ctl.behavioral
+Post processing for work.cmos_drvx.behavioral
+@N: CL201 :"E:\Actelprj\smart_top\hdl\CMOS_Ctl.vhd":50:2:50:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 8 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+   111
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":76:2:76:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL159 :"E:\Actelprj\smart_top\hdl\WaveGenSinglewithCycNumSel.vhd":51:3:51:11|Input CycNumSel is unused
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\Y_X_Addressing.vhd":150:2:150:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\smart_top\hdl\SPI_Set.vhd":55:2:55:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Feb 15 17:39:21 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\actelprj\smart_top\hdl\cmos_ctl.vhd":113:2:113:3|Found counter in view:work.CMOS_Ctl(behavioral) inst ACCcnt[5:0]
+Encoding state machine work.CMOS_Ctl(behavioral)-PrState[0:7]
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+@N:"e:\actelprj\smart_top\hdl\y_x_addressing.vhd":195:2:195:3|Found counter in view:work.Y_X_Addressing(behavioral) inst RowCnt[10:0]
+Encoding state machine work.Y_X_Addressing(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ7(behavioral) inst Phase1Cnt[3:0]
+Encoding state machine work.WaveGenSingleZ7(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine work.WaveGenSingleZ6(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine work.WaveGenSingleZ5(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine work.WaveGenSingleZ4(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ3(behavioral) inst Phase1Cnt[3:0]
+Encoding state machine work.WaveGenSingleZ3(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ2(behavioral) inst DelayCnt[3:0]
+Encoding state machine work.WaveGenSingleZ2(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensinglewithcycnumsel.vhd":126:2:126:3|Found counter in view:work.WaveGenSinglewithCycNumSel(behavioral) inst CycCnt[9:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensinglewithcycnumsel.vhd":126:2:126:3|Found counter in view:work.WaveGenSinglewithCycNumSel(behavioral) inst DelayCnt[3:0]
+Encoding state machine work.WaveGenSinglewithCycNumSel(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst DelayCnt[3:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ1(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst DelayCnt[4:0]
+@N:"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ0(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\smart_top\hdl\spi_set.vhd":110:2:110:3|Found counter in view:work.SPI_Set(behavioral) inst NumCnt[5:0]
+@N:"e:\actelprj\smart_top\hdl\spi_set.vhd":110:2:110:3|Found counter in view:work.SPI_Set(behavioral) inst DivCnt[6:0]
+Encoding state machine work.SPI_Set(behavioral)-PrState[0:2]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@W: MO161 :"e:\actelprj\smart_top\hdl\spi_set.vhd":158:2:158:3|Register bit SPI_Shifter[31] is always 0, optimizing ...
+@W: MO161 :"e:\actelprj\smart_top\hdl\spi_set.vhd":158:2:158:3|Register bit SPI_Shifter[30] is always 0, optimizing ...
+@N:"e:\actelprj\smart_top\hdl\pixelarraytiming.vhd":66:2:66:3|Found counter in view:work.PixelArrayTiming(behavioral) inst DivCnt[6:0]
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.ADC_RdENGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.ADC_Clock_EN.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_X.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_X.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Sh_co.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Sh_co.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Pre_co.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Pre_co.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_NoRowSel.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_NoRowSel.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Clock_Y.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Clock_Y.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_Y.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_Y.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_Y.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.PrState[4]
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.ADC_Clock_EN.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensinglewithcycnumsel.vhd":91:3:91:18|Removing sequential instance Module_Y_X_Addressing.Wave_Clock_X.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_X.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Sh_co.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Pre_co.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_NoRowSel.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\smart_top\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Clock_Y.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 57MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 57MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 57MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 58MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                           Fanout, notes                   
+-------------------------------------------------------------------------------------
+Module_CMOS_Ctl.SPI_En / Q                           38                              
+Module_PixelArrayTiming.ClkEn / Q                    57                              
+Module_SPI_Set.un19_clken_0 / Y                      31                              
+Module_Y_X_Addressing.RowReadOutEn / Q               34                              
+Module_Y_X_Addressing.ADC_RdENGen.PrState[4] / Q     29                              
+SysRst_n_pad / Y                                     250 : 250 asynchronous set/reset
+=====================================================================================
+
+@N: FP130 |Promoting Net SysRst_n_c on CLKBUF  SysRst_n_pad 
+@N: FP130 |Promoting Net SysClk_c on CLKBUF  SysClk_pad 
+@N: FP130 |Promoting Net Module_PixelArrayTiming.ClkEn on CLKINT  I_128 
+Replicating Sequential Instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4], fanout 29 segments 2
+Replicating Sequential Instance Module_Y_X_Addressing.RowReadOutEn, fanout 34 segments 2
+Replicating Combinational Instance Module_SPI_Set.un19_clken_0, fanout 31 segments 2
+Replicating Sequential Instance Module_CMOS_Ctl.SPI_En, fanout 39 segments 2
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 58MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 58MB)
+
+
+Added 0 Buffers
+Added 4 Cells via replication
+	Added 3 Sequential Cells via replication
+	Added 1 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 58MB peak: 58MB)
+
+Writing Analyst data base E:\Actelprj\smart_top\synthesis\CMOS_DrvX.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 57MB peak: 58MB)
+
+@W: MT420 |Found inferred clock CMOS_DrvX|SysClk with period 10.00ns. A user-defined clock should be declared on object "p:SysClk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sat Feb 15 17:39:22 2014
+#
+
+
+Top view:               CMOS_DrvX
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.876
+
+                     Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------
+CMOS_DrvX|SysClk     100.0 MHz     109.6 MHz     10.000        9.124         0.876     inferred     Inferred_clkgroup_0
+=======================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------
+CMOS_DrvX|SysClk  CMOS_DrvX|SysClk  |  10.000      0.876  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: CMOS_DrvX|SysClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                    Starting                                                   Arrival          
+Instance                                            Reference            Type         Pin     Net              Time        Slack
+                                                    Clock                                                                       
+--------------------------------------------------------------------------------------------------------------------------------
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt[0]      CMOS_DrvX|SysClk     DFN1C0       Q       Phase1Cnt[0]     0.434       0.876
+Module_Y_X_Addressing.ADC_Clock_EN.Phase1Cnt[1]     CMOS_DrvX|SysClk     DFN1C0       Q       Phase1Cnt[1]     0.434       0.976
+Module_Y_X_Addressing.ADC_Clock_EN.Phase1Cnt[0]     CMOS_DrvX|SysClk     DFN1C0       Q       Phase1Cnt[0]     0.434       0.978
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt[1]      CMOS_DrvX|SysClk     DFN1C0       Q       Phase1Cnt[1]     0.434       1.083
+Module_Y_X_Addressing.ADC_Clock_EN.Phase1Cnt[2]     CMOS_DrvX|SysClk     DFN1C0       Q       Phase1Cnt[2]     0.434       1.226
+Module_Y_X_Addressing.Wave_Clock_X.CycCnt[0]        CMOS_DrvX|SysClk     DFN1E1C0     Q       CycCnt[0]        0.434       1.347
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt[2]      CMOS_DrvX|SysClk     DFN1C0       Q       Phase1Cnt[2]     0.434       1.366
+Module_Y_X_Addressing.RowCnt[0]                     CMOS_DrvX|SysClk     DFN1E1C0     Q       RowCnt_c0        0.434       1.452
+Module_Y_X_Addressing.Wave_Clock_X.CycCnt[1]        CMOS_DrvX|SysClk     DFN1E1C0     Q       CycCnt[1]        0.550       1.537
+Module_Y_X_Addressing.RowCnt[1]                     CMOS_DrvX|SysClk     DFN1E1C0     Q       RowCnt[1]        0.550       1.637
+================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                     Starting                                                       Required          
+Instance                                             Reference            Type         Pin     Net                  Time         Slack
+                                                     Clock                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------
+Module_Y_X_Addressing.ADC_RdENGen.PrState[1]         CMOS_DrvX|SysClk     DFN1C0       D       PrState_ns[3]        9.598        0.876
+Module_Y_X_Addressing.ADC_RdENGen.PrState[2]         CMOS_DrvX|SysClk     DFN1C0       D       PrState_ns[2]        9.572        0.913
+Module_Y_X_Addressing.ADC_Clock_EN.Phase1Cnt[11]     CMOS_DrvX|SysClk     DFN1C0       D       Phase1Cnt_n11        9.598        0.976
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt[11]      CMOS_DrvX|SysClk     DFN1C0       D       Phase1Cnt_n11        9.598        1.283
+Module_Y_X_Addressing.Wave_Clock_X.PrState[0]        CMOS_DrvX|SysClk     DFN1C0       D       PrState_ns[4]        9.598        1.347
+Module_Y_X_Addressing.PrState[3]                     CMOS_DrvX|SysClk     DFN1C0       D       PrState_RNO_5[3]     9.572        1.452
+Module_Y_X_Addressing.Wave_Clock_X.PrState[2]        CMOS_DrvX|SysClk     DFN1C0       D       PrState_ns[2]        9.572        1.569
+Module_Y_X_Addressing.RowCnt[10]                     CMOS_DrvX|SysClk     DFN1E1C0     D       RowCnt_n10           9.598        1.607
+Module_Y_X_Addressing.PrState[0]                     CMOS_DrvX|SysClk     DFN1C0       D       PrState_ns[4]        9.598        1.677
+Module_Y_X_Addressing.ADC_Clock_EN.Phase1Cnt[10]     CMOS_DrvX|SysClk     DFN1C0       D       Phase1Cnt_n10        9.598        1.699
+======================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      8.722
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     0.876
+
+    Number of logic level(s):                8
+    Starting point:                          Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt[0] / Q
+    Ending point:                            Module_Y_X_Addressing.ADC_RdENGen.PrState[1] / D
+    The start point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+    The end   point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+
+Instance / Net                                                          Pin      Pin               Arrival     No. of    
+Name                                                         Type       Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt[0]               DFN1C0     Q        Out     0.434     0.434       -         
+Phase1Cnt[0]                                                 Net        -        -       0.884     -           4         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNI2VKC[2]       NOR3C      A        In      -         1.317       -         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNI2VKC[2]       NOR3C      Y        Out     0.392     1.709       -         
+Phase1Cnt_RNI2VKC[2]                                         Net        -        -       0.602     -           3         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNIJI3L[4]       OR3C       A        In      -         2.312       -         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNIJI3L[4]       OR3C       Y        Out     0.392     2.704       -         
+N_45                                                         Net        -        -       0.884     -           4         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNI8MIT[6]       NOR3B      C        In      -         3.587       -         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNI8MIT[6]       NOR3B      Y        Out     0.365     3.952       -         
+N_47                                                         Net        -        -       0.884     -           4         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNI1A261[8]      OR3C       A        In      -         4.836       -         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNI1A261[8]      OR3C       Y        Out     0.392     5.228       -         
+N_49                                                         Net        -        -       0.602     -           3         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNIV9AA1[9]      OR2A       B        In      -         5.830       -         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNIV9AA1[9]      OR2A       Y        Out     0.483     6.313       -         
+N_51                                                         Net        -        -       0.288     -           2         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNINV3F1[10]     OR2A       B        In      -         6.601       -         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNINV3F1[10]     OR2A       Y        Out     0.483     7.084       -         
+N_53                                                         Net        -        -       0.288     -           2         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNIGLTJ1[11]     NOR2       B        In      -         7.372       -         
+Module_Y_X_Addressing.ADC_RdENGen.Phase1Cnt_RNIGLTJ1[11]     NOR2       Y        Out     0.483     7.855       -         
+N_115                                                        Net        -        -       0.288     -           2         
+Module_Y_X_Addressing.ADC_RdENGen.PrState_RNO[1]             AO1B       B        In      -         8.143       -         
+Module_Y_X_Addressing.ADC_RdENGen.PrState_RNO[1]             AO1B       Y        Out     0.339     8.482       -         
+PrState_ns[3]                                                Net        -        -       0.240     -           1         
+Module_Y_X_Addressing.ADC_RdENGen.PrState[1]                 DFN1C0     D        In      -         8.722       -         
+=========================================================================================================================
+Total path delay (propagation time + setup) of 9.124 is 4.163(45.6%) logic and 4.961(54.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell CMOS_DrvX.behavioral
+  Core Cell usage:
+              cell count     area count*area
+              AND2    16      1.0       16.0
+               AO1    22      1.0       22.0
+              AO16     1      1.0        1.0
+              AO1A     7      1.0        7.0
+              AO1B    12      1.0       12.0
+              AO1C    10      1.0       10.0
+              AO1D     2      1.0        2.0
+              AOI1    16      1.0       16.0
+             AOI1B     2      1.0        2.0
+              AX1C     1      1.0        1.0
+              AX1E     2      1.0        2.0
+            CLKDLY     2      0.0        0.0
+            CLKINT     1      0.0        0.0
+               GND    16      0.0        0.0
+               INV     5      1.0        5.0
+               MX2     1      1.0        1.0
+              NOR2    20      1.0       20.0
+             NOR2A    52      1.0       52.0
+             NOR2B    83      1.0       83.0
+              NOR3    13      1.0       13.0
+             NOR3A    23      1.0       23.0
+             NOR3B    12      1.0       12.0
+             NOR3C    21      1.0       21.0
+               OA1    15      1.0       15.0
+              OA1A     6      1.0        6.0
+              OA1C     6      1.0        6.0
+              OAI1     9      1.0        9.0
+               OR2    15      1.0       15.0
+              OR2A    15      1.0       15.0
+              OR2B    18      1.0       18.0
+               OR3     3      1.0        3.0
+              OR3A     1      1.0        1.0
+              OR3B     6      1.0        6.0
+              OR3C    17      1.0       17.0
+               VCC    16      0.0        0.0
+               XA1    34      1.0       34.0
+              XA1A     9      1.0        9.0
+              XA1B    24      1.0       24.0
+              XA1C     4      1.0        4.0
+              XAI1     1      1.0        1.0
+             XNOR2     1      1.0        1.0
+              XOR2    42      1.0       42.0
+
+
+            DFN1C0   171      1.0      171.0
+          DFN1E0C0     7      1.0        7.0
+          DFN1E0P0     2      1.0        2.0
+          DFN1E1C0    60      1.0       60.0
+          DFN1E1P0     3      1.0        3.0
+            DFN1P0    10      1.0       10.0
+                   -----          ----------
+             TOTAL   835               800.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF     3
+            OUTBUF    22
+                   -----
+             TOTAL    27
+
+
+Core Cells         : 800 of 24576 (3%)
+IO Cells           : 27
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Feb 15 17:39:22 2014
+
+###########################################################]

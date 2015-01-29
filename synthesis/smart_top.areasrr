@@ -1,0 +1,1571 @@
+----------------------------------------------------------------------
+Report for cell smart_top.def_arch
+                                          Cell usage:
+                               cell       count     area    count*area
+                              BIBUF        72       0.0        0.0
+                          CMOS_DrvX         1     887.0      887.0
+                        Counter_ref         1      20.0       20.0
+                            Fifo_rd         1     184.0      184.0
+                          Fifo_rd_1         1     185.0      185.0
+                            FrameMk         1    1394.0     1394.0
+                                GND         1       0.0        0.0
+                              INBUF        17       0.0        0.0
+                                INV        13       1.0       13.0
+                        Main_ctl4SD         1    1479.0     1479.0
+                          My_adder0         1      35.0       35.0
+                        My_adder0_1         1      35.0       35.0
+                        My_adder0_2         1      35.0       35.0
+                        My_adder0_3         1      35.0       35.0
+                             OUTBUF        53       0.0        0.0
+                          PLL_Test1         1       2.0        2.0
+                         ParaUpdata         1     206.0      206.0
+                          SDRAM_Ref         1      48.0       48.0
+                           SDRAM_wr         1      29.0       29.0
+                           SDram_rd         1      41.0       41.0
+                          Sdram_cmd         1     387.0      387.0
+                       Sdram_ctl_v2         1      94.0       94.0
+                         Sdram_data         1      75.0       75.0
+                          Sdram_ini         1     100.0      100.0
+                           Uart_ctl         1     380.0      380.0
+                           Uart_ram         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                    adc_muxtmp_test         1      64.0       64.0
+                         adcclk_3P9         1       0.0        0.0
+          smart_top_COREUART_0_COREUART         1     186.0      186.0
+                            
+                         TOTAL            181               5914.0
+----------------------------------------------------------------------
+Report for cell My_adder0_3.netlist
+  Original Cell name My_adder0
+     Instance path:  My_adder0_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               MAJ3        16       1.0       16.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                               XOR3        17       1.0       17.0
+                            
+                         TOTAL             37                 35.0
+----------------------------------------------------------------------
+Report for cell SDRAM_wr.netlist
+     Instance path:  SDRAM_wr_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                             DFN1C0        13       1.0       13.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         4       1.0        4.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                                OR3         3       1.0        3.0
+                               OR3B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             31                 29.0
+----------------------------------------------------------------------
+Report for cell SDram_rd.netlist
+     Instance path:  SDram_rd_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         3       1.0        3.0
+                             DFN1C0        14       1.0       14.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         7       1.0        7.0
+                              NOR3B         2       1.0        2.0
+                                OR2         2       1.0        2.0
+                               OR2B         2       1.0        2.0
+                                OR3         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             43                 41.0
+----------------------------------------------------------------------
+Report for cell adcclk_3P9.netlist
+     Instance path:  adcclk_3P9_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKDLY         1       0.0        0.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  0.0
+----------------------------------------------------------------------
+Report for cell FrameMk.netlist
+     Instance path:  FrameMk_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND3         1       1.0        1.0
+                                AO1         3       1.0        3.0
+                               AO1A         9       1.0        9.0
+                               AO1B        11       1.0       11.0
+                               AO1C        21       1.0       21.0
+                               AO1D         3       1.0        3.0
+                               AOI1         3       1.0        3.0
+                              AOI1B        13       1.0       13.0
+                                AX1         9       1.0        9.0
+                               AX1A         1       1.0        1.0
+                               AX1C         8       1.0        8.0
+                               AX1E         4       1.0        4.0
+                              AXOI5         2       1.0        2.0
+                           ByteData         1     230.0      230.0
+                             DFN1C0        97       1.0       97.0
+                           DFN1E0C0        34       1.0       34.0
+                           DFN1E1C0        23       1.0       23.0
+                           DFN1E1P0        31       1.0       31.0
+                             DFN1P0         2       1.0        2.0
+                               DLN1        24       1.0       24.0
+                                GND         1       0.0        0.0
+                                INV         3       1.0        3.0
+                                MX2        26       1.0       26.0
+                               MX2B         2       1.0        2.0
+                               MX2C        13       1.0       13.0
+                               NOR2        79       1.0       79.0
+                              NOR2A        31       1.0       31.0
+                              NOR2B        17       1.0       17.0
+                               NOR3        41       1.0       41.0
+                              NOR3A        20       1.0       20.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C        69       1.0       69.0
+                                OA1         7       1.0        7.0
+                               OA1A        15       1.0       15.0
+                               OA1B         4       1.0        4.0
+                               OA1C         3       1.0        3.0
+                               OAI1        15       1.0       15.0
+                                OR2        26       1.0       26.0
+                               OR2A        70       1.0       70.0
+                               OR2B        63       1.0       63.0
+                                OR3        22       1.0       22.0
+                               OR3A        29       1.0       29.0
+                               OR3B        33       1.0       33.0
+                               OR3C        33       1.0       33.0
+                                VCC         1       0.0        0.0
+                   WaveGenSingleZ18         1     106.0      106.0
+                               XA1A        14       1.0       14.0
+                               XA1B         2       1.0        2.0
+                               XA1C         1       1.0        1.0
+                              XNOR2        12       1.0       12.0
+                               XOR2        12       1.0       12.0
+                          enc_8b10b         1      92.0       92.0
+                            
+                         TOTAL            971               1394.0
+----------------------------------------------------------------------
+Report for cell enc_8b10b.netlist
+     Instance path:  FrameMk_0.Com_8b10b
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO13         1       1.0        1.0
+                               AO1A         1       1.0        1.0
+                               AO1B         2       1.0        2.0
+                               AO1C         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                               AX1B         2       1.0        2.0
+                               AX1C         2       1.0        2.0
+                               AX1D         5       1.0        5.0
+                               AX1E         7       1.0        7.0
+                               DFN0         5       1.0        5.0
+                             DFN0C0         1       1.0        1.0
+                           DFN0E1C0         6       1.0        6.0
+                               DFN1         1       1.0        1.0
+                             DFN1C0         2       1.0        2.0
+                           DFN1E1C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                              MAJ3X         1       1.0        1.0
+                                MX2         5       1.0        5.0
+                               MX2A         5       1.0        5.0
+                               MX2C         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         4       1.0        4.0
+                               OR2A         3       1.0        3.0
+                               OR2B         7       1.0        7.0
+                                OR3         1       1.0        1.0
+                               OR3A         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1B         1       1.0        1.0
+                               XAI1         1       1.0        1.0
+                               XO1A         1       1.0        1.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             94                 92.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ18.netlist
+     Instance path:  FrameMk_0.REGEN
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         2       1.0        2.0
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        17       1.0       17.0
+                           DFN1E1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         4       1.0        4.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B        15       1.0       15.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         3       1.0        3.0
+                                OA1         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2B         6       1.0        6.0
+                                OR3         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         6       1.0        6.0
+                               XA1A         1       1.0        1.0
+                               XA1B         7       1.0        7.0
+                               XA1C         3       1.0        3.0
+                            
+                         TOTAL            108                106.0
+----------------------------------------------------------------------
+Report for cell ByteData.netlist
+     Instance path:  FrameMk_0.GenFIFO_Byte
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        44       1.0       44.0
+                              AND2A         1       1.0        1.0
+                               AND3        10       1.0       10.0
+                                AO1        36       1.0       36.0
+                             DFN1C0        28       1.0       28.0
+                           DFN1E1C0         8       1.0        8.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                              NAND2         2       1.0        2.0
+                             RAM4K9         8       0.0        0.0
+                                VCC         1       0.0        0.0
+                              XNOR2        25       1.0       25.0
+                               XOR2        73       1.0       73.0
+                            
+                         TOTAL            240                230.0
+----------------------------------------------------------------------
+Report for cell Sdram_cmd.netlist
+     Instance path:  Sdram_cmd_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         2       1.0        2.0
+                               AO1A         1       1.0        1.0
+                               AO1B         2       1.0        2.0
+                               AO1C         4       1.0        4.0
+                               AO1D         2       1.0        2.0
+                               AOI1         5       1.0        5.0
+                              AOI1B         3       1.0        3.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        50       1.0       50.0
+                           DFN1E0C0         1       1.0        1.0
+                             DFN1E1         1       1.0        1.0
+                           DFN1E1C0        17       1.0       17.0
+                             DFN1P0         5       1.0        5.0
+                                GND         1       0.0        0.0
+                               MX2A         1       1.0        1.0
+                               NOR2        14       1.0       14.0
+                              NOR2A         8       1.0        8.0
+                              NOR2B        31       1.0       31.0
+                               NOR3         6       1.0        6.0
+                              NOR3A        14       1.0       14.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C        19       1.0       19.0
+                                OA1         4       1.0        4.0
+                               OA1A         5       1.0        5.0
+                               OAI1         2       1.0        2.0
+                                OR2        13       1.0       13.0
+                               OR2A        33       1.0       33.0
+                               OR2B        17       1.0       17.0
+                                OR3         1       1.0        1.0
+                               OR3A        12       1.0       12.0
+                               OR3B        22       1.0       22.0
+                               OR3C        14       1.0       14.0
+                                VCC         1       0.0        0.0
+                   WaveGenSingleZ17         1      28.0       28.0
+                                XA1         9       1.0        9.0
+                               XA1A         7       1.0        7.0
+                               XA1B        18       1.0       18.0
+                               XA1C         6       1.0        6.0
+                              XNOR2         1       1.0        1.0
+                               XO1A         1       1.0        1.0
+                               XOR2         5       1.0        5.0
+                            
+                         TOTAL            362                387.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ17.netlist
+     Instance path:  Sdram_cmd_0.UU
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                             DFN1C0        10       1.0       10.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         3       1.0        3.0
+                                OA1         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             30                 28.0
+----------------------------------------------------------------------
+Report for cell Sdram_data.netlist
+     Instance path:  Sdram_data_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E1C0        72       1.0       72.0
+                                GND         1       0.0        0.0
+                              NOR3B         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             77                 75.0
+----------------------------------------------------------------------
+Report for cell SDRAM_Ref.netlist
+     Instance path:  SDRAM_Ref_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                               AX1A         1       1.0        1.0
+                               AX1C         1       1.0        1.0
+                             DFN1C0        11       1.0       11.0
+                           DFN1E0C0         3       1.0        3.0
+                           DFN1E1C0         1       1.0        1.0
+                             DFN1P0         3       1.0        3.0
+                                GND         1       0.0        0.0
+                               MX2A         2       1.0        2.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         4       1.0        4.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         5       1.0        5.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL             50                 48.0
+----------------------------------------------------------------------
+Report for cell smart_top_COREUART_0_COREUART.netlist
+     Instance path:  COREUART_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           DFN1E0C0         8       1.0        8.0
+                           DFN1E1C0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+          smart_top_COREUART_0_Clock_GEN         1      55.0       55.0
+          smart_top_COREUART_0_Rx_ASYNC         1      73.0       73.0
+          smart_top_COREUART_0_TX_ASync         1      48.0       48.0
+                            
+                         TOTAL             15                186.0
+----------------------------------------------------------------------
+Report for cell smart_top_COREUART_0_Rx_ASYNC.netlist
+     Instance path:  COREUART_0.CUARTo0ol
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1C         2       1.0        2.0
+                               AO1D         1       1.0        1.0
+                               AX1A         1       1.0        1.0
+                               AX1D         1       1.0        1.0
+                              AXOI5         1       1.0        1.0
+                             DFN1C0         2       1.0        2.0
+                           DFN1E1C0        27       1.0       27.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               MAJ3         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B        11       1.0       11.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         5       1.0        5.0
+                               OR2B         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XAI1         1       1.0        1.0
+                            
+                         TOTAL             75                 73.0
+----------------------------------------------------------------------
+Report for cell smart_top_COREUART_0_TX_ASync.netlist
+     Instance path:  COREUART_0.CUARTIIOL
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         3       1.0        3.0
+                               AO1B         1       1.0        1.0
+                             DFN1C0         8       1.0        8.0
+                           DFN1E0C0         8       1.0        8.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1P0         1       1.0        1.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2         6       1.0        6.0
+                               MX2B         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         2       1.0        2.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         2       1.0        2.0
+                            
+                         TOTAL             50                 48.0
+----------------------------------------------------------------------
+Report for cell smart_top_COREUART_0_Clock_GEN.netlist
+     Instance path:  COREUART_0.CUARTliOL
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AX1B         9       1.0        9.0
+                               AX1C         1       1.0        1.0
+                             DFN1C0        15       1.0       15.0
+                           DFN1E1C0         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         1       1.0        1.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OR2         9       1.0        9.0
+                               OR2B         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XO1A         2       1.0        2.0
+                               XOR2         4       1.0        4.0
+                            
+                         TOTAL             57                 55.0
+----------------------------------------------------------------------
+Report for cell Sdram_ctl_v2.netlist
+     Instance path:  Sdram_ctl_v2_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                                AX1         3       1.0        3.0
+                               AX1C         2       1.0        2.0
+                             DFN1C0        19       1.0       19.0
+                           DFN1E0C0        11       1.0       11.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2         1       1.0        1.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         4       1.0        4.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         7       1.0        7.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                                OA1         4       1.0        4.0
+                               OA1C         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                                OR2         8       1.0        8.0
+                               OR2A         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                               OR3B         3       1.0        3.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL             96                 94.0
+----------------------------------------------------------------------
+Report for cell Fifo_rd_1.netlist
+  Original Cell name Fifo_rd
+     Instance path:  Fifo_rd_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        14       1.0       14.0
+                              AND2A         2       1.0        2.0
+                               AND3         2       1.0        2.0
+                                AO1         5       1.0        5.0
+                               AO13         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                               AX1C         2       1.0        2.0
+                               AX1D         3       1.0        3.0
+                               BUFF         3       1.0        3.0
+                             DFN1C0        13       1.0       13.0
+                           DFN1E1C0        72       1.0       72.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         7       1.0        7.0
+                               MAJ3         2       1.0        2.0
+                              NAND2         2       1.0        2.0
+                             NAND3A         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         2       1.0        2.0
+                               OA1A         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                          RAM512X18         4       0.0        0.0
+                                VCC         1       0.0        0.0
+                              XNOR2        12       1.0       12.0
+                               XOR2        22       1.0       22.0
+                               XOR3         3       1.0        3.0
+                            
+                         TOTAL            191                185.0
+----------------------------------------------------------------------
+Report for cell Main_ctl4SD.netlist
+     Instance path:  Main_ctl4SD_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B        36       1.0       36.0
+                               AO1C        18       1.0       18.0
+                               AOI1        18       1.0       18.0
+                             DFN1C0        14       1.0       14.0
+                           DFN1E0C0         1       1.0        1.0
+                           DFN1E1C0       342       1.0      342.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                                MX2       126       1.0      126.0
+                               NOR2         4       1.0        4.0
+                              NOR2A         4       1.0        4.0
+                               NOR3        18       1.0       18.0
+                              NOR3B        18       1.0       18.0
+                               OA1C         2       1.0        2.0
+                                OR2         2       1.0        2.0
+                               OR2A        41       1.0       41.0
+                               OR2B         5       1.0        5.0
+                               OR3B        18       1.0       18.0
+                                VCC         1       0.0        0.0
+                   WaveGenSingleZ10         1      82.0       82.0
+                   WaveGenSingleZ11         1     175.0      175.0
+                   WaveGenSingleZ12         1      67.0       67.0
+                   WaveGenSingleZ13         1      58.0       58.0
+                   WaveGenSingleZ14         1      75.0       75.0
+                   WaveGenSingleZ15         1      53.0       53.0
+                   WaveGenSingleZ16         1     138.0      138.0
+                    WaveGenSingleZ8         1      76.0       76.0
+                    WaveGenSingleZ9         1      85.0       85.0
+                                XA1         1       1.0        1.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL            681               1479.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ8.netlist
+     Instance path:  Main_ctl4SD_0.byteRdEnGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                             DFN1C0        24       1.0       24.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B         7       1.0        7.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR2B         3       1.0        3.0
+                               OR3C         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1        10       1.0       10.0
+                               XA1A         4       1.0        4.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             78                 76.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ9.netlist
+     Instance path:  Main_ctl4SD_0.data2lvdsENGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AO1B         3       1.0        3.0
+                               AOI1         3       1.0        3.0
+                              AOI1B         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        14       1.0       14.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B        13       1.0       13.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                               OR2A         4       1.0        4.0
+                               OR2B         3       1.0        3.0
+                               OR3A         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         4       1.0        4.0
+                               XA1B         6       1.0        6.0
+                               XA1C         3       1.0        3.0
+                            
+                         TOTAL             87                 85.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ10.netlist
+     Instance path:  Main_ctl4SD_0.lvds_fifoRdGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1A         1       1.0        1.0
+                               AO1B         3       1.0        3.0
+                               AOI1         3       1.0        3.0
+                              AOI1B         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        13       1.0       13.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B         5       1.0        5.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         3       1.0        3.0
+                              NOR3C         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         4       1.0        4.0
+                               OR2B         4       1.0        4.0
+                                OR3         1       1.0        1.0
+                               OR3A         2       1.0        2.0
+                               OR3B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XA1B         5       1.0        5.0
+                               XA1C         3       1.0        3.0
+                               XAI1         1       1.0        1.0
+                            
+                         TOTAL             84                 82.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ11.netlist
+     Instance path:  Main_ctl4SD_0.lvdsFifoRowRdOutEnGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1A         1       1.0        1.0
+                               AO1B         2       1.0        2.0
+                               AO1C         7       1.0        7.0
+                               AO1D         1       1.0        1.0
+                             DFN1C0        34       1.0       34.0
+                           DFN1E1C0        12       1.0       12.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         6       1.0        6.0
+                              NOR2A         8       1.0        8.0
+                              NOR2B        23       1.0       23.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OA1B         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OAI1         5       1.0        5.0
+                                OR2         5       1.0        5.0
+                               OR2A         9       1.0        9.0
+                               OR2B         9       1.0        9.0
+                                OR3         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         3       1.0        3.0
+                                VCC         1       0.0        0.0
+                                XA1        11       1.0       11.0
+                               XA1A         6       1.0        6.0
+                               XA1B         6       1.0        6.0
+                               XA1C         4       1.0        4.0
+                            
+                         TOTAL            177                175.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ12.netlist
+     Instance path:  Main_ctl4SD_0.latchGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         2       1.0        2.0
+                               AO1C         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        22       1.0       22.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         6       1.0        6.0
+                              NOR2B         3       1.0        3.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                               OR2B         3       1.0        3.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                                XA1         6       1.0        6.0
+                               XA1A         5       1.0        5.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             69                 67.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ13.netlist
+     Instance path:  Main_ctl4SD_0.Data2accEnGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1C0         6       1.0        6.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         3       1.0        3.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2B         8       1.0        8.0
+                              NOR3A         2       1.0        2.0
+                              NOR3C         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                               OR2B         2       1.0        2.0
+                               OR3A         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XA1B         7       1.0        7.0
+                               XA1C         3       1.0        3.0
+                            
+                         TOTAL             60                 58.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ14.netlist
+     Instance path:  Main_ctl4SD_0.fifo_wrGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                              AOI1B         2       1.0        2.0
+                             DFN1C0        11       1.0       11.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         9       1.0        9.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         1       1.0        1.0
+                                OA1         2       1.0        2.0
+                               OA1B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         3       1.0        3.0
+                                OR3         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XA1B         5       1.0        5.0
+                               XA1C         3       1.0        3.0
+                              XAI1A         1       1.0        1.0
+                            
+                         TOTAL             77                 75.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ15.netlist
+     Instance path:  Main_ctl4SD_0.fifo_rdGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C0         6       1.0        6.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         5       1.0        5.0
+                              NOR3A         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         2       1.0        2.0
+                               OR2B         4       1.0        4.0
+                               OR3A         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         7       1.0        7.0
+                               XA1C         3       1.0        3.0
+                            
+                         TOTAL             55                 53.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ16.netlist
+     Instance path:  Main_ctl4SD_0.FifoRowRdOutGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1A         1       1.0        1.0
+                               AO1B         4       1.0        4.0
+                               AO1D         1       1.0        1.0
+                               AOI1         3       1.0        3.0
+                              AOI1B         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        26       1.0       26.0
+                           DFN1E1C0        12       1.0       12.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               MX2A         1       1.0        1.0
+                               NOR2         5       1.0        5.0
+                              NOR2A         9       1.0        9.0
+                              NOR2B         7       1.0        7.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         5       1.0        5.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         7       1.0        7.0
+                               OA1A         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         3       1.0        3.0
+                               OR2A         4       1.0        4.0
+                               OR2B         3       1.0        3.0
+                                OR3         3       1.0        3.0
+                               OR3A         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                               OR3C         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1         7       1.0        7.0
+                               XA1A         6       1.0        6.0
+                               XA1B         3       1.0        3.0
+                               XA1C         3       1.0        3.0
+                              XAI1A         1       1.0        1.0
+                            
+                         TOTAL            140                138.0
+----------------------------------------------------------------------
+Report for cell CMOS_DrvX.netlist
+     Instance path:  CMOS_DrvX_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                           CMOS_Ctl         1     216.0      216.0
+                                GND         1       0.0        0.0
+                   PixelArrayTiming         1     173.0      173.0
+                            SPI_Set         1     128.0      128.0
+                                VCC         1       0.0        0.0
+                     Y_X_Addressing         1     370.0      370.0
+                            
+                         TOTAL              6                887.0
+----------------------------------------------------------------------
+Report for cell PixelArrayTiming.netlist
+     Instance path:  CMOS_DrvX_0.Module_PixelArrayTiming
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         6       1.0        6.0
+                               AO16         3       1.0        3.0
+                               AO18         2       1.0        2.0
+                               AO1A         4       1.0        4.0
+                               AO1B         2       1.0        2.0
+                               AO1C         2       1.0        2.0
+                               AO1D        11       1.0       11.0
+                               AOI1         2       1.0        2.0
+                              AOI1B         3       1.0        3.0
+                               AOI5         3       1.0        3.0
+                               AX1A         1       1.0        1.0
+                             DFN1C0        24       1.0       24.0
+                           DFN1E0C0         1       1.0        1.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1P0         3       1.0        3.0
+                             DFN1P0         3       1.0        3.0
+                                GND         1       0.0        0.0
+                               MAJ3         2       1.0        2.0
+                               MIN3         3       1.0        3.0
+                               MX2A         1       1.0        1.0
+                               NOR2         9       1.0        9.0
+                              NOR2A        13       1.0       13.0
+                              NOR2B         9       1.0        9.0
+                               NOR3         8       1.0        8.0
+                              NOR3A         8       1.0        8.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                                OA1         4       1.0        4.0
+                               OA1C         8       1.0        8.0
+                               OAI1         5       1.0        5.0
+                                OR2         2       1.0        2.0
+                               OR2A         1       1.0        1.0
+                                OR3         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XA1B         1       1.0        1.0
+                               XAI1         1       1.0        1.0
+                              XNOR2         1       1.0        1.0
+                              XNOR3         7       1.0        7.0
+                               XOR3         9       1.0        9.0
+                               ZOR3         1       1.0        1.0
+                            
+                         TOTAL            175                173.0
+----------------------------------------------------------------------
+Report for cell SPI_Set.netlist
+     Instance path:  CMOS_DrvX_0.Module_SPI_Set
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AO1C         2       1.0        2.0
+                               AOI1         2       1.0        2.0
+                               AX1C         1       1.0        1.0
+                             DFN1C0        11       1.0       11.0
+                           DFN1E0C0         1       1.0        1.0
+                           DFN1E0P0         1       1.0        1.0
+                           DFN1E1C0        40       1.0       40.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        31       1.0       31.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         9       1.0        9.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         4       1.0        4.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         4       1.0        4.0
+                                OA1         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         7       1.0        7.0
+                              XNOR2         1       1.0        1.0
+                            
+                         TOTAL            130                128.0
+----------------------------------------------------------------------
+Report for cell Y_X_Addressing.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1C         1       1.0        1.0
+                               AOI1         2       1.0        2.0
+                             DFN1C0         7       1.0        7.0
+                           DFN1E1C0        11       1.0       11.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         6       1.0        6.0
+                              NOR3A         3       1.0        3.0
+                              NOR3C         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                               OR2B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                    WaveGenSingleZ0         1      78.0       78.0
+                    WaveGenSingleZ2         1      35.0       35.0
+                    WaveGenSingleZ3         1      36.0       36.0
+                    WaveGenSingleZ4         1      23.0       23.0
+                    WaveGenSingleZ5         1      23.0       23.0
+                    WaveGenSingleZ6         1      20.0       20.0
+                    WaveGenSingleZ7         1      34.0       34.0
+          WaveGenSinglewithCycNumSel         1      69.0       69.0
+                               XA1B         5       1.0        5.0
+                               XA1C         4       1.0        4.0
+                          adcen_dly         1       1.0        1.0
+                            
+                         TOTAL             62                370.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ0.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.ADC_RdENGen
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                               AX1C         1       1.0        1.0
+                             DFN1C0        23       1.0       23.0
+                             DFN1P0         3       1.0        3.0
+                                GND         1       0.0        0.0
+                              NAND2         2       1.0        2.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         7       1.0        7.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                               OR2B         3       1.0        3.0
+                               OR3A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         9       1.0        9.0
+                               XA1A         5       1.0        5.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             80                 78.0
+----------------------------------------------------------------------
+Report for cell WaveGenSinglewithCycNumSel.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.Wave_Clock_X
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        12       1.0       12.0
+                           DFN1E1C0        10       1.0       10.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         5       1.0        5.0
+                              NOR2B         9       1.0        9.0
+                              NOR3A         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         2       1.0        2.0
+                                OR2         2       1.0        2.0
+                               OR2A         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         4       1.0        4.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XA1B         5       1.0        5.0
+                               XA1C         3       1.0        3.0
+                            
+                         TOTAL             71                 69.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ2.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.Wave_Sync_X
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                                AX1         1       1.0        1.0
+                             DFN1C0        12       1.0       12.0
+                                GND         1       0.0        0.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         3       1.0        3.0
+                              NOR3A         2       1.0        2.0
+                              NOR3C         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         1       1.0        1.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             37                 35.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ3.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.Wave_Sh_co
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0        11       1.0       11.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         4       1.0        4.0
+                               NOR3         1       1.0        1.0
+                              NOR3B         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         3       1.0        3.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             38                 36.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ4.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.Wave_Pre_co
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                             DFN1C0         7       1.0        7.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         2       1.0        2.0
+                            
+                         TOTAL             25                 23.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ5.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.Wave_NoRowSel
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         1       1.0        1.0
+                               AO1B         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                             DFN1C0         9       1.0        9.0
+                                GND         1       0.0        0.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         2       1.0        2.0
+                                OA1         1       1.0        1.0
+                               OR2B         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             25                 23.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ6.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.Wave_Clock_Y
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AOI1         1       1.0        1.0
+                             DFN1C0         8       1.0        8.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         3       1.0        3.0
+                              NOR2B         2       1.0        2.0
+                              NOR3A         1       1.0        1.0
+                                OA1         2       1.0        2.0
+                                OR2         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             22                 20.0
+----------------------------------------------------------------------
+Report for cell WaveGenSingleZ7.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.Wave_Sync_Y
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                             DFN1C0        11       1.0       11.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         4       1.0        4.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         2       1.0        2.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             36                 34.0
+----------------------------------------------------------------------
+Report for cell adcen_dly.netlist
+     Instance path:  CMOS_DrvX_0.Module_Y_X_Addressing.ADCrdDlYEn
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKDLY         1       0.0        0.0
+                                GND         1       0.0        0.0
+                               OR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              4                  1.0
+----------------------------------------------------------------------
+Report for cell CMOS_Ctl.netlist
+     Instance path:  CMOS_DrvX_0.Module_CMOS_Ctl
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         2       1.0        2.0
+                               AO1A         5       1.0        5.0
+                               AO1B         5       1.0        5.0
+                               AO1C         4       1.0        4.0
+                               AO1D         1       1.0        1.0
+                               AOI1         3       1.0        3.0
+                              AOI1B         1       1.0        1.0
+                               AX1C         1       1.0        1.0
+                              AXOI1         1       1.0        1.0
+                               BUFF         3       1.0        3.0
+                             DFN1C0        28       1.0       28.0
+                             DFN1E0         4       1.0        4.0
+                           DFN1E0C0         6       1.0        6.0
+                           DFN1E1C0        40       1.0       40.0
+                           DFN1E1P0         8       1.0        8.0
+                             DFN1P0         3       1.0        3.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         7       1.0        7.0
+                              NOR2A        11       1.0       11.0
+                              NOR2B         5       1.0        5.0
+                               NOR3         5       1.0        5.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         5       1.0        5.0
+                                OA1         1       1.0        1.0
+                               OA1A         3       1.0        3.0
+                               OA1C         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                                OR2        10       1.0       10.0
+                               OR2A         4       1.0        4.0
+                               OR2B        12       1.0       12.0
+                                OR3         2       1.0        2.0
+                               OR3A         3       1.0        3.0
+                               OR3B         4       1.0        4.0
+                               OR3C         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XA1A         3       1.0        3.0
+                               XA1B         7       1.0        7.0
+                               XAI1         1       1.0        1.0
+                              XNOR2         5       1.0        5.0
+                               XOR2         1       1.0        1.0
+                            
+                         TOTAL            218                216.0
+----------------------------------------------------------------------
+Report for cell ParaUpdata.netlist
+     Instance path:  ParaUpdata_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         2       1.0        2.0
+                               AND3         8       1.0        8.0
+                               AO1B         1       1.0        1.0
+                               AO1C         2       1.0        2.0
+                              AOI1B         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                              AXOI5         2       1.0        2.0
+                               BUFF         2       1.0        2.0
+                           DFI1E1C0         1       1.0        1.0
+                             DFN1C0        15       1.0       15.0
+                           DFN1E0C0        54       1.0       54.0
+                           DFN1E0P0         5       1.0        5.0
+                           DFN1E1C0        37       1.0       37.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2        32       1.0       32.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         8       1.0        8.0
+                              NOR2B         5       1.0        5.0
+                              NOR3B         3       1.0        3.0
+                               OA1B         2       1.0        2.0
+                               OA1C         2       1.0        2.0
+                               OAI1         1       1.0        1.0
+                               OR2A         1       1.0        1.0
+                               OR2B         5       1.0        5.0
+                               OR3A         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                               XOR2         9       1.0        9.0
+                            
+                         TOTAL            208                206.0
+----------------------------------------------------------------------
+Report for cell Counter_ref.netlist
+     Instance path:  Counter_ref_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                            Cnt4Ref         1      18.0       18.0
+                             DFN1C0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              5                 20.0
+----------------------------------------------------------------------
+Report for cell Cnt4Ref.netlist
+     Instance path:  Counter_ref_0.CntMap
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3         2       1.0        2.0
+                             DFN1C1         2       1.0        2.0
+                           DFN1E1C1         4       1.0        4.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XOR2         4       1.0        4.0
+                            
+                         TOTAL             20                 18.0
+----------------------------------------------------------------------
+Report for cell Uart_ram.netlist
+     Instance path:  Uart_ram_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                             RAM4K9         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  0.0
+----------------------------------------------------------------------
+Report for cell My_adder0_2.netlist
+  Original Cell name My_adder0
+     Instance path:  My_adder0_1
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               MAJ3        16       1.0       16.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                               XOR3        17       1.0       17.0
+                            
+                         TOTAL             37                 35.0
+----------------------------------------------------------------------
+Report for cell PLL_Test1.netlist
+     Instance path:  PLL_Test1_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             CLKINT         1       0.0        0.0
+                             DFN1C0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                             my_pll         1       0.0        0.0
+                            
+                         TOTAL              6                  2.0
+----------------------------------------------------------------------
+Report for cell my_pll.netlist
+     Instance path:  PLL_Test1_0.Module_my_pll
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                                PLL         1       0.0        0.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  0.0
+----------------------------------------------------------------------
+Report for cell My_adder0_1.netlist
+  Original Cell name My_adder0
+     Instance path:  My_adder0_3
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               MAJ3        16       1.0       16.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                               XOR3        17       1.0       17.0
+                            
+                         TOTAL             37                 35.0
+----------------------------------------------------------------------
+Report for cell Sdram_ini.netlist
+     Instance path:  Sdram_ini_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AO1B         1       1.0        1.0
+                               AO1D         1       1.0        1.0
+                              AOI1B         1       1.0        1.0
+                                AX1         1       1.0        1.0
+                             DFN1C0        28       1.0       28.0
+                           DFN1E1C0         3       1.0        3.0
+                             DFN1P0         2       1.0        2.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         4       1.0        4.0
+                              NOR2A         4       1.0        4.0
+                              NOR2B         8       1.0        8.0
+                               NOR3         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OA1         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OAI1         1       1.0        1.0
+                                OR2         7       1.0        7.0
+                               OR2A         4       1.0        4.0
+                               OR2B         6       1.0        6.0
+                                OR3         2       1.0        2.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                                XA1         9       1.0        9.0
+                               XA1A         7       1.0        7.0
+                               XAI1         1       1.0        1.0
+                              XNOR2         1       1.0        1.0
+                               XOR2         2       1.0        2.0
+                            
+                         TOTAL            102                100.0
+----------------------------------------------------------------------
+Report for cell adc_muxtmp_test.netlist
+     Instance path:  adc_muxtmp_test_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                             DFN1C0         2       1.0        2.0
+                           DFN1E0C0        56       1.0       56.0
+                                GND         1       0.0        0.0
+                               NOR2         1       1.0        1.0
+                                OR2         1       1.0        1.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1B         1       1.0        1.0
+                            
+                         TOTAL             66                 64.0
+----------------------------------------------------------------------
+Report for cell Fifo_rd.netlist
+     Instance path:  Fifo_wr_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2        14       1.0       14.0
+                              AND2A         2       1.0        2.0
+                               AND3         2       1.0        2.0
+                                AO1         5       1.0        5.0
+                               AO1A         1       1.0        1.0
+                               AO1C         1       1.0        1.0
+                               AX1C         2       1.0        2.0
+                               AX1D         3       1.0        3.0
+                               BUFF         3       1.0        3.0
+                             DFN1C0        13       1.0       13.0
+                           DFN1E1C0        72       1.0       72.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                INV         7       1.0        7.0
+                               MAJ3         3       1.0        3.0
+                              NAND2         2       1.0        2.0
+                             NAND3A         1       1.0        1.0
+                              NOR2B         3       1.0        3.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         2       1.0        2.0
+                                OA1         2       1.0        2.0
+                               OA1A         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                               OR2A         3       1.0        3.0
+                                OR3         1       1.0        1.0
+                               OR3A         1       1.0        1.0
+                          RAM512X18         4       0.0        0.0
+                                VCC         1       0.0        0.0
+                              XNOR2        12       1.0       12.0
+                               XOR2        22       1.0       22.0
+                               XOR3         3       1.0        3.0
+                            
+                         TOTAL            190                184.0
+----------------------------------------------------------------------
+Report for cell My_adder0.netlist
+     Instance path:  My_adder0_2
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               MAJ3        16       1.0       16.0
+                                VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
+                               XOR3        17       1.0       17.0
+                            
+                         TOTAL             37                 35.0
+----------------------------------------------------------------------
+Report for cell Uart_ctl.netlist
+     Instance path:  Uart_ctl_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         3       1.0        3.0
+                               AND3         9       1.0        9.0
+                                AO1         3       1.0        3.0
+                               AO1A         1       1.0        1.0
+                               AO1B        12       1.0       12.0
+                               AO1C         3       1.0        3.0
+                               AO1D        11       1.0       11.0
+                               AOI1         6       1.0        6.0
+                              AOI1B         2       1.0        2.0
+                               BUFF         1       1.0        1.0
+                           DFI1E1C0         1       1.0        1.0
+                             DFN1C0        30       1.0       30.0
+                           DFN1E0C0        43       1.0       43.0
+                             DFN1E1         1       1.0        1.0
+                           DFN1E1C0        22       1.0       22.0
+                           DFN1E1P0         4       1.0        4.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                                MX2         5       1.0        5.0
+                               MX2B         1       1.0        1.0
+                               MX2C         1       1.0        1.0
+                              NAND2         2       1.0        2.0
+                               NOR2        21       1.0       21.0
+                              NOR2A        31       1.0       31.0
+                              NOR2B        16       1.0       16.0
+                               NOR3        13       1.0       13.0
+                              NOR3A        15       1.0       15.0
+                              NOR3B         9       1.0        9.0
+                              NOR3C        25       1.0       25.0
+                                OA1         2       1.0        2.0
+                               OA1A         1       1.0        1.0
+                               OA1B         6       1.0        6.0
+                               OA1C         3       1.0        3.0
+                               OAI1         3       1.0        3.0
+                                OR2         5       1.0        5.0
+                               OR2A         9       1.0        9.0
+                               OR2B         9       1.0        9.0
+                                OR3         3       1.0        3.0
+                               OR3A         4       1.0        4.0
+                               OR3B         3       1.0        3.0
+                               OR3C         6       1.0        6.0
+                                VCC         1       0.0        0.0
+                                XA1         1       1.0        1.0
+                               XA1A         3       1.0        3.0
+                               XA1B         7       1.0        7.0
+                               XA1C         2       1.0        2.0
+                              XNOR2         6       1.0        6.0
+                               XO1A         1       1.0        1.0
+                               XOR2        14       1.0       14.0
+                            
+                         TOTAL            382                380.0

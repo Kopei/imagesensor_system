@@ -1,0 +1,720 @@
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\smart_top.vhd":10:7:10:15|Synthesizing work.smart_top.def_arch 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\My_adder0\My_adder0.vhd":8:7:8:15|Synthesizing work.my_adder0.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2825:10:2825:13|Synthesizing proasic3.xor3.syn_black_box 
+Post processing for proasic3.xor3.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1942:10:1942:13|Synthesizing proasic3.maj3.syn_black_box 
+Post processing for proasic3.maj3.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2817:10:2817:13|Synthesizing proasic3.xor2.syn_black_box 
+Post processing for proasic3.xor2.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":14:10:14:13|Synthesizing proasic3.and2.syn_black_box 
+Post processing for proasic3.and2.syn_black_box
+Post processing for work.my_adder0.def_arch
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDRAM_wr.vhd":7:7:7:14|Synthesizing work.sdram_wr.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDRAM_wr.vhd":20:11:20:12|Using onehot encoding for type state (wr_idle="1000000")
+Post processing for work.sdram_wr.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_rd.vhd":7:7:7:14|Synthesizing work.sdram_rd.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_rd.vhd":21:11:21:12|Using onehot encoding for type state (rd_idle="10000000")
+Post processing for work.sdram_rd.behavioral
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\adcclk_3P9\adcclk_3P9.vhd":8:7:8:16|Synthesizing work.adcclk_3p9.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":3604:11:3604:16|Synthesizing proasic3.clkdly.syn_black_box 
+Post processing for proasic3.clkdly.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+Post processing for work.adcclk_3p9.def_arch
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\FrameMk.vhd":7:7:7:13|Synthesizing work.framemk.behav 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\FrameMk.vhd":31:11:31:12|Using onehot encoding for type state (fk_idle="10000000")
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\FrameMk.vhd":394:3:394:16|OTHERS clause is not synthesized 
+@W: CD609 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\FrameMk.vhd":435:17:435:35|Index value 0 to 10 could be out of prefix range 0 to 9 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\FrameMk.vhd":482:4:482:17|OTHERS clause is not synthesized 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\8b10_enc.vhd":51:7:51:15|Synthesizing work.enc_8b10b.behavioral 
+Post processing for work.enc_8b10b.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":8:7:8:14|Synthesizing work.bytedata.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2884:10:2884:15|Synthesizing proasic3.ram4k9.syn_black_box 
+Post processing for proasic3.ram4k9.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1383:10:1383:15|Synthesizing proasic3.dfn1c0.syn_black_box 
+Post processing for proasic3.dfn1c0.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2782:10:2782:14|Synthesizing proasic3.xnor2.syn_black_box 
+Post processing for proasic3.xnor2.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":137:10:137:12|Synthesizing proasic3.ao1.syn_black_box 
+Post processing for proasic3.ao1.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2032:10:2032:14|Synthesizing proasic3.nand2.syn_black_box 
+Post processing for proasic3.nand2.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":38:10:38:13|Synthesizing proasic3.and3.syn_black_box 
+Post processing for proasic3.and3.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1467:10:1467:17|Synthesizing proasic3.dfn1e1c0.syn_black_box 
+Post processing for proasic3.dfn1e1c0.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1511:10:1511:15|Synthesizing proasic3.dfn1p0.syn_black_box 
+Post processing for proasic3.dfn1p0.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":22:10:22:14|Synthesizing proasic3.and2a.syn_black_box 
+Post processing for proasic3.and2a.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1929:10:1929:12|Synthesizing proasic3.inv.syn_black_box 
+Post processing for proasic3.inv.syn_black_box
+Post processing for work.bytedata.def_arch
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1317:4:1317:10|Pruning instance AND2_28 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1314:4:1314:10|Pruning instance XOR2_71 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1293:4:1293:10|Pruning instance XOR2_42 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1288:4:1288:10|Pruning instance AND2_37 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1277:4:1277:10|Pruning instance XOR2_70 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1271:4:1271:21|Pruning instance DFN1C0_WGRY_4_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1266:4:1266:10|Pruning instance AND2_21 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1260:4:1260:21|Pruning instance DFN1C0_RGRY_0_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1207:4:1207:10|Pruning instance XOR2_15 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1201:4:1201:10|Pruning instance XOR2_28 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1190:4:1190:10|Pruning instance XOR2_17 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1167:4:1167:10|Pruning instance XOR2_54 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1159:4:1159:10|Pruning instance XOR2_39 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1156:4:1156:21|Pruning instance DFN1C0_RGRY_3_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1144:4:1144:21|Pruning instance DFN1C0_WGRY_8_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1139:4:1139:10|Pruning instance AND2_42 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1134:4:1134:10|Pruning instance AND2_40 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1126:4:1126:22|Pruning instance DFN1C0_RGRY_10_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1121:4:1121:10|Pruning instance XOR2_26 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1037:4:1037:22|Pruning instance DFN1C0_WGRY_12_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1023:4:1023:22|Pruning instance DFN1C0_RGRY_12_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1018:4:1018:9|Pruning instance AND2_0 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":1001:4:1001:21|Pruning instance DFN1C0_WGRY_1_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":992:4:992:10|Pruning instance XOR2_35 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":983:4:983:10|Pruning instance XOR2_44 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":968:4:968:21|Pruning instance DFN1C0_RGRY_7_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":965:4:965:22|Pruning instance DFN1C0_WGRY_10_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":957:4:957:10|Pruning instance XOR2_37 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":955:4:955:10|Pruning instance AND2_36 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":952:4:952:21|Pruning instance DFN1C0_RGRY_5_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":949:4:949:9|Pruning instance XOR2_2 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":937:4:937:21|Pruning instance DFN1C0_WGRY_2_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":917:4:917:21|Pruning instance DFN1C0_RGRY_6_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":913:4:913:10|Pruning instance AND2_39 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":911:4:911:15|Pruning instance DFN1C0_DVLDX - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":905:4:905:10|Pruning instance XOR2_43 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":887:4:887:10|Pruning instance XOR2_32 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":879:4:879:10|Pruning instance AND2_63 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":876:4:876:10|Pruning instance XOR2_67 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":868:4:868:10|Pruning instance AND2_34 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":865:4:865:9|Pruning instance AO1_22 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":859:4:859:10|Pruning instance XOR2_25 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":838:4:838:10|Pruning instance XOR2_56 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":786:4:786:21|Pruning instance DFN1C0_RGRY_4_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":752:4:752:10|Pruning instance AND2_55 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":734:4:734:21|Pruning instance DFN1C0_WGRY_9_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":732:4:732:10|Pruning instance AND2_16 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":718:4:718:10|Pruning instance AND2_47 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":716:4:716:10|Pruning instance AND2_64 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":711:4:711:10|Pruning instance AND2_51 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":705:4:705:10|Pruning instance XOR2_13 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":682:4:682:9|Pruning instance XOR2_5 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":679:4:679:21|Pruning instance DFN1C0_RGRY_8_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":670:4:670:10|Pruning instance AND2_23 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":620:4:620:21|Pruning instance DFN1C0_WGRY_0_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":608:4:608:10|Pruning instance XOR2_46 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":576:4:576:10|Pruning instance XOR2_31 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":565:4:565:10|Pruning instance AND2_29 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":559:4:559:22|Pruning instance DFN1C0_WGRY_11_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":552:4:552:10|Pruning instance AND2_38 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":537:4:537:21|Pruning instance DFN1C0_WGRY_3_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":534:4:534:21|Pruning instance DFN1C0_RGRY_1_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":525:4:525:22|Pruning instance DFN1C0_RGRY_11_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":522:4:522:10|Pruning instance XOR2_18 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":499:4:499:10|Pruning instance XOR2_55 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":475:4:475:10|Pruning instance XOR2_33 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":473:4:473:10|Pruning instance AND2_62 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":470:4:470:21|Pruning instance DFN1C0_RGRY_2_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":467:4:467:10|Pruning instance XOR2_57 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":462:4:462:10|Pruning instance AND2_60 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":421:4:421:10|Pruning instance XOR2_64 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":385:4:385:10|Pruning instance XOR2_21 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":382:4:382:10|Pruning instance AND2_57 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":371:4:371:21|Pruning instance DFN1C0_WGRY_7_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":356:4:356:10|Pruning instance XOR2_52 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":353:4:353:21|Pruning instance DFN1C0_WGRY_5_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":311:4:311:9|Pruning instance AND2_7 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":281:4:281:10|Pruning instance XOR2_45 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":273:4:273:10|Pruning instance AND2_18 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":270:4:270:21|Pruning instance DFN1C0_WGRY_6_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":240:4:240:9|Pruning instance AO1_31 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":194:4:194:21|Pruning instance DFN1C0_RGRY_9_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":192:4:192:10|Pruning instance AND2_22 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":187:4:187:10|Pruning instance AND2_11 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\ByteData\ByteData.vhd":179:4:179:10|Pruning instance AND2_20 - not in use ... 
+Post processing for work.framemk.behav
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":7:7:7:15|Synthesizing work.sdram_cmd.behavioral 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":173:4:173:17|OTHERS clause is not synthesized 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+Post processing for work.sdram_cmd.behavioral
+@A:"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Feedback mux created for signal Rfifo_weEN. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@W: CL111 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|All reachable assignments to SD_BA(0) assign '0', register removed by optimization
+@W: CL111 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|All reachable assignments to SD_BA(1) assign '0', register removed by optimization
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit ba(0) to a constant 0
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit ba(1) to a constant 0
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register ba(1 downto 0)  
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_data.vhd":8:7:8:16|Synthesizing work.sdram_data.behavioral 
+Post processing for work.sdram_data.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDRAM_Ref.vhd":7:7:7:15|Synthesizing work.sdram_ref.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDRAM_Ref.vhd":22:11:22:12|Using onehot encoding for type state (ref_idle="100000")
+Post processing for work.sdram_ref.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":16:7:16:35|Synthesizing coreuart_lib.smart_top_coreuart_0_coreuart.cuarti1 
+@W: CD434 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:18:245:25|Signal cuartl1i in the sensitivity list is not used in the process
+@W: CD434 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":245:27:245:34|Signal cuartii1 in the sensitivity list is not used in the process
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":357:0:357:13|OTHERS clause is not synthesized 
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":395:0:395:7|Removed redundant assignment
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Signal cuartl1l is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Signal cuarto1i is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|Signal cuartoo0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|Signal cuartlo0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|Signal cuartll0 is undriven 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|Signal cuartil0 is undriven 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":16:7:16:35|Synthesizing coreuart_lib.smart_top_coreuart_0_rx_async.cuarti1 
+@N: CD233 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":41:15:41:16|Using sequential encoding for type cuartoiii
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":182:0:182:8|Removed redundant assignment
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":235:0:235:13|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":313:0:313:13|OTHERS clause is not synthesized 
+Post processing for coreuart_lib.smart_top_coreuart_0_rx_async.cuarti1
+@N: CL177 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":325:0:325:1|Sharing sequential element CUARTL10I.
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":16:7:16:35|Synthesizing coreuart_lib.smart_top_coreuart_0_tx_async.cuarti1 
+@N: CD364 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":228:0:228:8|Removed redundant assignment
+Post processing for coreuart_lib.smart_top_coreuart_0_tx_async.cuarti1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Optimizing register bit CUARTIIO0 to a constant 1
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Pruning Register CUARTIIO0  
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":16:7:16:36|Synthesizing coreuart_lib.smart_top_coreuart_0_clock_gen.cuarti 
+@W: CD638 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":35:7:35:13|Signal cuartli is undriven 
+Post processing for coreuart_lib.smart_top_coreuart_0_clock_gen.cuarti
+Post processing for coreuart_lib.smart_top_coreuart_0_coreuart.cuarti1
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":156:7:156:14|CUARTIL0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":154:7:154:14|CUARTLL0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":146:7:146:14|CUARTlo0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL240 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":144:7:144:14|CUARToo0 is not assigned a value (floating) - a simulation mismatch is possible 
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 0 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 1 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 2 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 3 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 4 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 5 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 6 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":134:7:134:14|Bit 7 of signal CUARTO1i is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 0 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 1 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 2 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 3 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 4 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 5 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 6 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL252 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":132:7:132:14|Bit 7 of signal CUARTL1L is floating - a simulation mismatch is possible
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":387:0:387:1|Pruning Register CUARTl10  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":373:0:373:1|Pruning Register CUARTI11  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":363:0:363:1|Pruning Register CUARTL1I(7 downto 0)  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":333:0:333:1|Pruning Register CUARToool(1 downto 0)  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning Register CUARTO00  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":323:0:323:1|Pruning Register CUARTL00  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning Register CUARToi0  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":313:0:313:1|Pruning Register CUARTLI0  
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":231:0:231:1|Pruning Register CUARTol0  
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 0 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 1 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 2 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 3 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 4 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 5 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 6 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL245 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Bit 7 of input cuartl1l of instance CUARTIIOL is floating
+@W: CL167 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuarti1l of instance CUARTIIOL is floating
+@W: CL167 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\CoreUART.vhd":413:0:413:8|Input cuartooi of instance CUARTIIOL is floating
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Sdram_ctl_v2.vhd":8:7:8:18|Synthesizing work.sdram_ctl_v2.arch 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Sdram_ctl_v2.vhd":35:11:35:12|Using onehot encoding for type state (sd_prerd="100000000000")
+Post processing for work.sdram_ctl_v2.arch
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":8:7:8:13|Synthesizing work.fifo_rd.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2967:10:2967:18|Synthesizing proasic3.ram512x18.syn_black_box 
+Post processing for proasic3.ram512x18.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2206:10:2206:13|Synthesizing proasic3.or2a.syn_black_box 
+Post processing for proasic3.or2a.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2101:10:2101:14|Synthesizing proasic3.nor2a.syn_black_box 
+Post processing for proasic3.nor2a.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":191:10:191:13|Synthesizing proasic3.aoi1.syn_black_box 
+Post processing for proasic3.aoi1.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2162:10:2162:13|Synthesizing proasic3.oa1a.syn_black_box 
+Post processing for proasic3.oa1a.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2066:10:2066:15|Synthesizing proasic3.nand3a.syn_black_box 
+Post processing for proasic3.nand3a.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2126:10:2126:14|Synthesizing proasic3.nor3a.syn_black_box 
+Post processing for proasic3.nor3a.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2222:10:2222:12|Synthesizing proasic3.or3.syn_black_box 
+Post processing for proasic3.or3.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":164:10:164:13|Synthesizing proasic3.ao1c.syn_black_box 
+Post processing for proasic3.ao1c.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2180:10:2180:13|Synthesizing proasic3.oa1c.syn_black_box 
+Post processing for proasic3.oa1c.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2198:10:2198:12|Synthesizing proasic3.or2.syn_black_box 
+Post processing for proasic3.or2.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2117:10:2117:13|Synthesizing proasic3.nor3.syn_black_box 
+Post processing for proasic3.nor3.syn_black_box
+Post processing for work.fifo_rd.def_arch
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":906:4:906:21|Pruning instance DFN1C0_WGRY_4_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":897:4:897:21|Pruning instance DFN1C0_RGRY_0_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":860:4:860:10|Pruning instance XOR2_15 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":823:4:823:10|Pruning instance XOR2_17 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":797:4:797:21|Pruning instance DFN1C0_RGRY_3_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":772:4:772:10|Pruning instance XOR2_26 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":766:4:766:10|Pruning instance XOR2_12 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":748:4:748:9|Pruning instance XOR2_6 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":736:4:736:9|Pruning instance AND2_0 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":721:4:721:21|Pruning instance DFN1C0_WGRY_1_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":680:4:680:21|Pruning instance DFN1C0_WGRY_2_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":667:4:667:10|Pruning instance AND2_27 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":654:4:654:15|Pruning instance DFN1C0_DVLDX - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":648:4:648:8|Pruning instance AO1_9 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":611:4:611:9|Pruning instance AO1_12 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":587:4:587:10|Pruning instance XOR2_25 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":570:4:570:9|Pruning instance AND2_5 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":562:4:562:10|Pruning instance XOR2_27 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":556:4:556:21|Pruning instance DFN1C0_RGRY_4_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":543:4:543:10|Pruning instance AND2_16 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":516:4:516:8|Pruning instance AO1_1 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":510:4:510:10|Pruning instance XOR2_22 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":502:4:502:10|Pruning instance AND2_19 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":499:4:499:9|Pruning instance XOR2_5 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":490:4:490:10|Pruning instance AND2_23 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":483:4:483:10|Pruning instance AND2_26 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":480:4:480:21|Pruning instance DFN1C0_WGRY_0_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":477:4:477:8|Pruning instance AO1_2 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":469:4:469:10|Pruning instance AND2_32 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":462:4:462:10|Pruning instance AND2_14 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":454:4:454:10|Pruning instance AND2_30 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":448:4:448:10|Pruning instance XOR2_31 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":445:4:445:10|Pruning instance XOR2_34 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":439:4:439:10|Pruning instance AND2_29 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":431:4:431:10|Pruning instance XOR2_30 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":397:4:397:9|Pruning instance XOR2_8 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":394:4:394:21|Pruning instance DFN1C0_WGRY_3_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":391:4:391:21|Pruning instance DFN1C0_RGRY_1_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":342:4:342:10|Pruning instance XOR2_33 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":339:4:339:21|Pruning instance DFN1C0_RGRY_2_inst - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":303:4:303:10|Pruning instance XOR2_24 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":284:4:284:10|Pruning instance AND2_10 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":264:4:264:10|Pruning instance AND2_15 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":229:4:229:10|Pruning instance XOR2_19 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":215:4:215:10|Pruning instance AND2_11 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Fifo_rd\Fifo_rd.vhd":207:4:207:10|Pruning instance AND2_20 - not in use ... 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Main_ctl4SD.vhd":7:7:7:17|Synthesizing work.main_ctl4sd.behavioral 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Main_ctl4SD.vhd":118:5:118:18|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Main_ctl4SD.vhd":135:4:135:17|OTHERS clause is not synthesized 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+Post processing for work.main_ctl4sd.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\CMOS_DrvX.vhd":30:7:30:15|Synthesizing work.cmos_drvx.behavioral 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\PixelArrayTiming.vhd":30:7:30:22|Synthesizing work.pixelarraytiming.behavioral 
+Post processing for work.pixelarraytiming.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SPI_Set.vhd":6:7:6:13|Synthesizing work.spi_set.behavioral 
+Post processing for work.spi_set.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Y_X_Addressing.vhd":30:7:30:20|Synthesizing work.y_x_addressing.behavioral 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":30:7:30:32|Synthesizing work.wavegensinglewithcycnumsel.behavioral 
+Post processing for work.wavegensinglewithcycnumsel.behavioral
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(0) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(1) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(2) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(3) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(4) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(5) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(6) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(7) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(8) to a constant 1
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Optimizing register bit cycnum(9) to a constant 1
+@W: CL169 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":126:2:126:3|Pruning Register cycnum(9 downto 0)  
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\adcen_dly\adcen_dly.vhd":8:7:8:15|Synthesizing work.adcen_dly.def_arch 
+Post processing for work.adcen_dly.def_arch
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\sampleEn_dly\sampleEn_dly.vhd":8:7:8:18|Synthesizing work.sampleen_dly.def_arch 
+Post processing for work.sampleen_dly.def_arch
+Post processing for work.y_x_addressing.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\CMOS_Ctl.vhd":6:7:6:14|Synthesizing work.cmos_ctl.behavioral 
+Post processing for work.cmos_ctl.behavioral
+@A:"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\CMOS_Ctl.vhd":57:1:57:2|Feedback mux created for signal Cnt_13[3:0]. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+Post processing for work.cmos_drvx.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\ParaUpdata.vhd":6:7:6:16|Synthesizing work.paraupdata.behavioral 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\ParaUpdata.vhd":134:5:134:18|OTHERS clause is not synthesized 
+Post processing for work.paraupdata.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Counter_ref.vhd":5:7:5:17|Synthesizing work.counter_ref.def_arch 
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Cnt4Ref\Cnt4Ref.vhd":8:7:8:13|Synthesizing work.cnt4ref.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1478:10:1478:17|Synthesizing proasic3.dfn1e1c1.syn_black_box 
+Post processing for proasic3.dfn1e1c1.syn_black_box
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1393:10:1393:15|Synthesizing proasic3.dfn1c1.syn_black_box 
+Post processing for proasic3.dfn1c1.syn_black_box
+Post processing for work.cnt4ref.def_arch
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Cnt4Ref\Cnt4Ref.vhd":139:4:139:13|Pruning instance U_AND2_3_4 - not in use ... 
+@W: CL168 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Cnt4Ref\Cnt4Ref.vhd":107:4:107:13|Pruning instance U_AND2_0_1 - not in use ... 
+Post processing for work.counter_ref.def_arch
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\Uart_ram\Uart_ram.vhd":8:7:8:14|Synthesizing work.uart_ram.def_arch 
+Post processing for work.uart_ram.def_arch
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\pll_test1.vhd":10:7:10:15|Synthesizing work.pll_test1.behavioral 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2858:10:2858:15|Synthesizing proasic3.clkint.syn_black_box 
+Post processing for proasic3.clkint.syn_black_box
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\smartgen\my_pll\my_pll.vhd":8:7:8:12|Synthesizing work.my_pll.def_arch 
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":3473:10:3473:12|Synthesizing proasic3.pll.syn_black_box 
+Post processing for proasic3.pll.syn_black_box
+Post processing for work.my_pll.def_arch
+Post processing for work.pll_test1.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Sdram_ini.vhd":8:7:8:15|Synthesizing work.sdram_ini.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Sdram_ini.vhd":32:26:32:27|Using onehot encoding for type state_initialization (idle="100000")
+Post processing for work.sdram_ini.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\adc_muxtmp_test.vhd":9:7:9:21|Synthesizing work.adc_muxtmp_test.behavioral 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\adc_muxtmp_test.vhd":68:16:68:29|OTHERS clause is not synthesized 
+Post processing for work.adc_muxtmp_test.behavioral
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":7:7:7:14|Synthesizing work.uart_ctl.behavioral 
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":53:14:53:15|Using onehot encoding for type rx_state (rx_idle="100000")
+@N: CD231 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":55:14:55:15|Using onehot encoding for type tx_state (tx_idle="1000000")
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":153:3:153:16|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":242:5:242:18|OTHERS clause is not synthesized 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":321:3:321:16|OTHERS clause is not synthesized 
+Post processing for work.uart_ctl.behavioral
+@A:"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":258:2:258:3|Feedback mux created for signal Tx_ten. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+Post processing for work.smart_top.def_arch
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":258:2:258:3|Trying to extract state machine for register Pr_State
+Extracted state machine for register Pr_State
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":99:2:99:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:4|Pruning Register bit 6 of TxData(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:4|Pruning Register bit 5 of TxData(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:4|Pruning Register bit 3 of TxData(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Uart_ctl.vhd":328:3:328:4|Pruning Register bit 2 of TxData(7 downto 0)  
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Sdram_ini.vhd":39:12:39:13|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\CMOS_Ctl.vhd":133:2:133:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 10 reachable states with original encodings of:
+   0000
+   0001
+   0010
+   0011
+   0100
+   0101
+   0110
+   0111
+   1000
+   1001
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":76:2:76:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSinglewithCycNumSel.vhd":51:3:51:11|Input CycNumSel is unused
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Y_X_Addressing.vhd":150:2:150:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SPI_Set.vhd":55:2:55:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\Sdram_ctl_v2.vhd":56:1:56:2|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 12 reachable states with original encodings of:
+   000000000001
+   000000000010
+   000000000100
+   000000001000
+   000000010000
+   000000100000
+   000001000000
+   000010000000
+   000100000000
+   001000000000
+   010000000000
+   100000000000
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Clock_gen.vhd":20:0:20:16|Input bAUD_VAL_FRACtion is unused
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":105:0:105:1|Trying to extract state machine for register CUARTolo0
+Extracted state machine for register CUARTolo0
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":22:0:22:7|Input CUARTL1L is unused
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":23:0:23:7|Input CUARTI1L is unused
+@W: CL159 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Tx_async.vhd":24:0:24:7|Input CUARTooi is unused
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\component\work\smart_top\COREUART_0\rtl\vhdl\core_obfuscated\Rx_async.vhd":196:0:196:1|Trying to extract state machine for register CUARToool
+Extracted state machine for register CUARToool
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDRAM_Ref.vhd":32:4:32:5|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(0) to a constant 0
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(1) to a constant 0
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(2) to a constant 0
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(0) to a constant 0
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(1) to a constant 0
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(2) to a constant 0
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of cs_n(1 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 0 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 0 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 7 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 6 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 5 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 4 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 3 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of dqm(7 downto 0)  
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL190 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\FrameMk.vhd":402:2:402:3|Optimizing register bit rowcnt(11) to a constant 0
+@W: CL260 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\FrameMk.vhd":402:2:402:3|Pruning Register bit 11 of rowcnt(11 downto 0)  
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\FrameMk.vhd":347:2:347:3|Trying to extract state machine for register Prstate
+Extracted state machine for register Prstate
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDram_rd.vhd":28:4:28:5|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+@N: CL201 :"E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\hdl\SDRAM_wr.vhd":27:4:27:5|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000

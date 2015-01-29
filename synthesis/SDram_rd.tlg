@@ -1,0 +1,14 @@
+@N: CD630 :"E:\Actelprj\smart_top\hdl\SDram_rd.vhd":7:7:7:14|Synthesizing work.sdram_rd.behavioral 
+@N: CD231 :"E:\Actelprj\smart_top\hdl\SDram_rd.vhd":21:11:21:12|Using onehot encoding for type state (rd_idle="10000000")
+Post processing for work.sdram_rd.behavioral
+@N: CL201 :"E:\Actelprj\smart_top\hdl\SDram_rd.vhd":28:4:28:5|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000

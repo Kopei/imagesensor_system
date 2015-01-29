@@ -1,0 +1,303 @@
+#Build: Synplify Pro E-2010.09A-1, Build 006R, Oct  6 2010
+#install: F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1
+#OS:  6.1
+#Hostname: LENOVO-PC
+
+#Implementation: synthesis
+
+#Mon Apr 14 15:58:05 2014
+
+$ Start of Compile
+#Mon Apr 14 15:58:05 2014
+
+Synopsys VHDL Compiler, version comp520rcp1, Build 028R, built Sep 23 2010
+@N|Running in 32-bit mode
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+
+@N: CD720 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\ParaUpdata.vhd":6:7:6:16|Top entity is set to ParaUpdata.
+VHDL syntax check successful!
+@N: CD630 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\ParaUpdata.vhd":6:7:6:16|Synthesizing work.paraupdata.behavioral 
+@W: CD604 :"E:\Actelprj\backup\smart_top20140227_1058_1\hdl\ParaUpdata.vhd":134:5:134:18|OTHERS clause is not synthesized 
+Post processing for work.paraupdata.behavioral
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 14 15:58:05 2014
+
+###########################################################]
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\paraupdata.vhd":98:2:98:3|Found counter in view:work.ParaUpdata(behavioral) inst AddrB[2:0]
+@N: MF238 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\paraupdata.vhd":50:15:50:25|Found 10 bit incrementor, 'un4_baudcnt_1[9:0]'
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                   
+---------------------------------------------------------------
+SPI_Set_0_sqmuxa_i / Y         32                              
+SysRst_n_pad / Y               113 : 113 asynchronous set/reset
+BaudPulse / Q                  46                              
+===============================================================
+
+@N: FP130 |Promoting Net SysRst_n_c on CLKBUF  SysRst_n_pad 
+@N: FP130 |Promoting Net SysClk_c on CLKBUF  SysClk_pad 
+Replicating Sequential Instance BaudPulse, fanout 46 segments 2
+Replicating Combinational Instance SPI_Set_0_sqmuxa_i, fanout 32 segments 2
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+
+Added 0 Buffers
+Added 2 Cells via replication
+	Added 1 Sequential Cells via replication
+	Added 1 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+Writing Analyst data base E:\Actelprj\backup\smart_top20140227_1058_1\synthesis\ParaUpdata.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 55MB peak: 56MB)
+
+@W: MT420 |Found inferred clock ParaUpdata|SysClk with period 10.00ns. A user-defined clock should be declared on object "p:SysClk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Apr 14 15:58:06 2014
+#
+
+
+Top view:               ParaUpdata
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 3.400
+
+                      Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock        Frequency     Frequency     Period        Period        Slack     Type         Group              
+------------------------------------------------------------------------------------------------------------------------
+ParaUpdata|SysClk     100.0 MHz     151.5 MHz     10.000        6.600         3.400     inferred     Inferred_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------
+Starting           Ending             |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------
+ParaUpdata|SysClk  ParaUpdata|SysClk  |  10.000      3.400  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: ParaUpdata|SysClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                Starting                                                     Arrival          
+Instance        Reference             Type         Pin     Net               Time        Slack
+                Clock                                                                         
+----------------------------------------------------------------------------------------------
+BaudPulse_0     ParaUpdata|SysClk     DFN1C0       Q       BaudPulse_c_0     0.550       3.400
+BaudCnt[1]      ParaUpdata|SysClk     DFN1C0       Q       BaudCnt[1]        0.550       4.001
+BaudCnt[2]      ParaUpdata|SysClk     DFN1C0       Q       BaudCnt[2]        0.550       4.047
+DataCtl         ParaUpdata|SysClk     DFN1E1C0     Q       DataCtl           0.550       4.080
+BaudCnt[0]      ParaUpdata|SysClk     DFN1C0       Q       BaudCnt[0]        0.550       4.108
+BaudCnt[3]      ParaUpdata|SysClk     DFN1C0       Q       BaudCnt[3]        0.550       4.354
+BaudCnt[4]      ParaUpdata|SysClk     DFN1C0       Q       BaudCnt[4]        0.550       4.355
+BaudCnt[5]      ParaUpdata|SysClk     DFN1C0       Q       BaudCnt[5]        0.550       4.401
+BaudCnt[6]      ParaUpdata|SysClk     DFN1C0       Q       BaudCnt[6]        0.434       4.747
+BaudCnt[7]      ParaUpdata|SysClk     DFN1C0       Q       BaudCnt[7]        0.550       4.981
+==============================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+               Starting                                                  Required          
+Instance       Reference             Type       Pin     Net              Time         Slack
+               Clock                                                                       
+-------------------------------------------------------------------------------------------
+sel[1]         ParaUpdata|SysClk     DFN1P0     D       sel_4[1]         9.598        3.400
+BaudCnt[9]     ParaUpdata|SysClk     DFN1C0     D       BaudCnt_3[9]     9.572        4.001
+AddrB[1]       ParaUpdata|SysClk     DFN1C0     D       AddrB_e1         9.572        4.093
+BaudCnt[0]     ParaUpdata|SysClk     DFN1C0     D       BaudCnt_3[0]     9.598        4.371
+BaudCnt[2]     ParaUpdata|SysClk     DFN1C0     D       BaudCnt_3[2]     9.598        4.446
+BaudCnt[3]     ParaUpdata|SysClk     DFN1C0     D       BaudCnt_3[3]     9.598        4.446
+BaudCnt[4]     ParaUpdata|SysClk     DFN1C0     D       BaudCnt_3[4]     9.598        4.446
+BaudCnt[5]     ParaUpdata|SysClk     DFN1C0     D       BaudCnt_3[5]     9.598        4.446
+sel[0]         ParaUpdata|SysClk     DFN1C0     D       sel_RNO[0]       9.598        4.455
+AddrB[2]       ParaUpdata|SysClk     DFN1C0     D       AddrB_e2         9.572        4.852
+===========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      6.198
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     3.400
+
+    Number of logic level(s):                4
+    Starting point:                          BaudPulse_0 / Q
+    Ending point:                            sel[1] / D
+    The start point is clocked by            ParaUpdata|SysClk [rising] on pin CLK
+    The end   point is clocked by            ParaUpdata|SysClk [rising] on pin CLK
+
+Instance / Net                                 Pin      Pin               Arrival     No. of    
+Name                                Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------
+BaudPulse_0                         DFN1C0     Q        Out     0.550     0.550       -         
+BaudPulse_c_0                       Net        -        -       1.842     -           24        
+DataCtl_RNITV46                     OR2B       B        In      -         2.392       -         
+DataCtl_RNITV46                     OR2B       Y        Out     0.469     2.861       -         
+DataCtl_RNITV46                     Net        -        -       1.140     -           7         
+un1_sel_1.I_1                       NOR2A      B        In      -         4.000       -         
+un1_sel_1.I_1                       NOR2A      Y        Out     0.288     4.288       -         
+un1_sel_1.DWACT_ADD_CI_0_TMP[0]     Net        -        -       0.240     -           1         
+un1_sel_1.I_10                      XOR2       B        In      -         4.529       -         
+un1_sel_1.I_10                      XOR2       Y        Out     0.700     5.228       -         
+I_10                                Net        -        -       0.240     -           1         
+sel_RNO[1]                          AO1A       C        In      -         5.468       -         
+sel_RNO[1]                          AO1A       Y        Out     0.489     5.957       -         
+sel_4[1]                            Net        -        -       0.240     -           1         
+sel[1]                              DFN1P0     D        In      -         6.198       -         
+================================================================================================
+Total path delay (propagation time + setup) of 6.600 is 2.898(43.9%) logic and 3.702(56.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell ParaUpdata.behavioral
+  Core Cell usage:
+              cell count     area count*area
+              AND2     2      1.0        2.0
+              AND3     8      1.0        8.0
+              AO1A     1      1.0        1.0
+              AO1B     1      1.0        1.0
+              AO1C     1      1.0        1.0
+              AOI1     1      1.0        1.0
+             AOI1B     1      1.0        1.0
+             AXOI5     1      1.0        1.0
+               GND     1      0.0        0.0
+               MX2    32      1.0       32.0
+              NOR2     3      1.0        3.0
+             NOR2A     8      1.0        8.0
+             NOR2B     4      1.0        4.0
+             NOR3B     3      1.0        3.0
+              OA1A     1      1.0        1.0
+              OA1B     1      1.0        1.0
+              OA1C     2      1.0        2.0
+              OAI1     1      1.0        1.0
+               OR2     1      1.0        1.0
+              OR2A     2      1.0        2.0
+              OR2B     5      1.0        5.0
+              OR3A     1      1.0        1.0
+              OR3B     2      1.0        2.0
+               VCC     1      0.0        0.0
+             XNOR2     1      1.0        1.0
+              XOR2    10      1.0       10.0
+
+
+            DFN1C0    16      1.0       16.0
+          DFN1E0C0    54      1.0       54.0
+          DFN1E0P0     5      1.0        5.0
+          DFN1E1C0    38      1.0       38.0
+            DFN1P0     1      1.0        1.0
+                   -----          ----------
+             TOTAL   209               207.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    10
+            OUTBUF    62
+                   -----
+             TOTAL    74
+
+
+Core Cells         : 207 of 24576 (1%)
+IO Cells           : 74
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Apr 14 15:58:06 2014
+
+###########################################################]

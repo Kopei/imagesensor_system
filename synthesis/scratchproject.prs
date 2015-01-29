@@ -1,0 +1,95 @@
+#-- Synopsys, Inc.
+#-- Version E-2010.09A-1
+#-- Project file E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\synthesis\scratchproject.prs
+
+#project files
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/Uart_ctl.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/My_adder0/My_adder0.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/Fifo_rd/Fifo_rd.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/adc_muxtmp_test.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/Sdram_ini.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/my_pll/my_pll.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/pll_test1.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/Uart_ram/Uart_ram.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/Cnt4Ref/Cnt4Ref.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/Counter_ref.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/ParaUpdata.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/sampleEn_dly/sampleEn_dly.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/adcen_dly/adcen_dly.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/WaveGenSingle.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/WaveGenSinglewithCycNumSel.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/Y_X_Addressing.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/SPI_Set.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/PixelArrayTiming.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/CMOS_Ctl.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/CMOS_DrvX.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/Main_ctl4SD.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/Sdram_ctl_v2.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/SDRAM_Ref.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/SDram_data.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/SDram_cmd.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/ByteData/ByteData.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/8b10_enc.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/FrameMk.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/smartgen/adcclk_3P9/adcclk_3P9.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/SDram_rd.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/hdl/SDRAM_wr.vhd"
+add_file -vhdl -lib COREUART_LIB "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/component/work/smart_top/COREUART_0/rtl/vhdl/core_obfuscated/Clock_gen.vhd"
+add_file -vhdl -lib COREUART_LIB "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/component/work/smart_top/COREUART_0/rtl/vhdl/core_obfuscated/Tx_async.vhd"
+add_file -vhdl -lib COREUART_LIB "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/component/work/smart_top/COREUART_0/rtl/vhdl/core_obfuscated/Rx_async.vhd"
+add_file -vhdl -lib COREUART_LIB "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/component/work/smart_top/COREUART_0/rtl/vhdl/core_obfuscated/fifo_256x8_pa3.vhd"
+add_file -vhdl -lib COREUART_LIB "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/component/work/smart_top/COREUART_0/rtl/vhdl/core_obfuscated/CoreUART.vhd"
+add_file -vhdl -lib work "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/component/work/smart_top/smart_top.vhd"
+
+
+#implementation: "synthesis"
+impl -add E:\Actelprj\backup\smart_top20140227_1058_1\smart_top20140227_1058_1_changeSHCOL_422ok\smart_top20140227_1058_1_changeSHCOL\synthesis -type fpga
+
+#device options
+set_option -technology ProASIC3
+set_option -part M1A3P1000
+set_option -package FBGA484
+set_option -speed_grade -2
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "work.smart_top"
+
+# mapper_options
+set_option -frequency 100
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Actel 500K
+set_option -run_prop_extract 1
+set_option -maxfan 24
+set_option -maxfan_hard3 0
+set_option -disable_io_insertion 0
+set_option -retiming 0
+set_option -report_path 0
+set_option -opcond COMWC
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# Actel 500K
+set_option -globalthreshold 50
+
+# NFilter
+set_option -popfeed 0
+set_option -constprop 0
+set_option -createhierarchy 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "E:/Actelprj/backup/smart_top20140227_1058_1/smart_top20140227_1058_1_changeSHCOL_422ok/smart_top20140227_1058_1_changeSHCOL/synthesis/smart_top.edn"
+impl -active "synthesis"

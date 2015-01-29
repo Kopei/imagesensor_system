@@ -1,0 +1,118 @@
+@N: CD630 :"E:\Actelprj\smart_top\component\work\top_sdram\top_sdram.vhd":8:7:8:15|Synthesizing work.top_sdram.def_arch 
+@N: CD630 :"E:\Actelprj\smart_top\hdl\Sdram_ctl_v2.vhd":8:7:8:18|Synthesizing work.sdram_ctl_v2.arch 
+@N: CD231 :"E:\Actelprj\smart_top\hdl\Sdram_ctl_v2.vhd":35:11:35:12|Using onehot encoding for type state (sd_prerd="100000000000")
+Post processing for work.sdram_ctl_v2.arch
+@N: CD630 :"E:\Actelprj\smart_top\hdl\Sdram_ini.vhd":8:7:8:15|Synthesizing work.sdram_ini.behavioral 
+@N: CD231 :"E:\Actelprj\smart_top\hdl\Sdram_ini.vhd":32:26:32:27|Using onehot encoding for type state_initialization (idle="100000")
+Post processing for work.sdram_ini.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\SDRAM_wr.vhd":7:7:7:14|Synthesizing work.sdram_wr.behavioral 
+@N: CD231 :"E:\Actelprj\smart_top\hdl\SDRAM_wr.vhd":20:11:20:12|Using onehot encoding for type state (wr_idle="1000000")
+Post processing for work.sdram_wr.behavioral
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":1782:10:1782:12|Synthesizing proasic3.gnd.syn_black_box 
+Post processing for proasic3.gnd.syn_black_box
+@N: CD630 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":7:7:7:15|Synthesizing work.sdram_cmd.behavioral 
+@W: CD604 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":172:3:172:16|OTHERS clause is not synthesized 
+@N: CD630 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":30:7:30:19|Synthesizing work.wavegensingle.behavioral 
+Post processing for work.wavegensingle.behavioral
+Post processing for work.sdram_cmd.behavioral
+@A:"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Feedback mux created for signal Rfifo_weEN. Did you forget the set/reset assignment for this signal? Specifying a reset value will improve timing and area
+@W: CL111 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|All reachable assignments to SD_BA(0) assign '0', register removed by optimization
+@W: CL111 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|All reachable assignments to SD_BA(1) assign '0', register removed by optimization
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit ba(0) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit ba(1) to a constant 0
+@W: CL169 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register ba(1 downto 0)  
+@N: CD630 :"E:\Actelprj\smart_top\hdl\SDram_rd.vhd":7:7:7:14|Synthesizing work.sdram_rd.behavioral 
+@N: CD231 :"E:\Actelprj\smart_top\hdl\SDram_rd.vhd":21:11:21:12|Using onehot encoding for type state (rd_idle="10000000")
+Post processing for work.sdram_rd.behavioral
+@N: CD630 :"E:\Actelprj\smart_top\hdl\SDram_data.vhd":8:7:8:16|Synthesizing work.sdram_data.behavioral 
+Post processing for work.sdram_data.behavioral
+@N: CD630 :"F:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\lib\proasic\proasic3.vhd":2722:10:2722:12|Synthesizing proasic3.vcc.syn_black_box 
+Post processing for proasic3.vcc.syn_black_box
+@N: CD630 :"E:\Actelprj\smart_top\hdl\SDRAM_Ref.vhd":7:7:7:15|Synthesizing work.sdram_ref.behavioral 
+@N: CD231 :"E:\Actelprj\smart_top\hdl\SDRAM_Ref.vhd":22:11:22:12|Using onehot encoding for type state (ref_idle="100000")
+Post processing for work.sdram_ref.behavioral
+Post processing for work.top_sdram.def_arch
+@W: CL168 :"E:\Actelprj\smart_top\component\work\top_sdram\top_sdram.vhd":259:4:259:8|Pruning instance 	GND - not in use ... 
+@W: CL168 :"E:\Actelprj\smart_top\component\work\top_sdram\top_sdram.vhd":75:4:75:8|Pruning instance 	VCC - not in use ... 
+@N: CL201 :"E:\Actelprj\smart_top\hdl\SDRAM_Ref.vhd":32:4:32:5|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"E:\Actelprj\smart_top\hdl\SDram_rd.vhd":28:4:28:5|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 8 reachable states with original encodings of:
+   00000001
+   00000010
+   00000100
+   00001000
+   00010000
+   00100000
+   01000000
+   10000000
+@N: CL201 :"E:\Actelprj\smart_top\hdl\WaveGenSingle.vhd":74:2:74:3|Trying to extract state machine for register PrState
+Extracted state machine for register PrState
+State machine has 5 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(0) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(1) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_WrAddr_col(2) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(0) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(1) to a constant 0
+@W: CL190 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Optimizing register bit SD_rdAddr_col(2) to a constant 0
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of cs_n(1 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 0 of SD_rdAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 0 of SD_WrAddr_col(10 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 7 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 6 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 5 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 4 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 3 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 2 of dqm(7 downto 0)  
+@W: CL260 :"E:\Actelprj\smart_top\hdl\SDram_cmd.vhd":77:1:77:2|Pruning Register bit 1 of dqm(7 downto 0)  
+@N: CL201 :"E:\Actelprj\smart_top\hdl\SDRAM_wr.vhd":27:4:27:5|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@N: CL201 :"E:\Actelprj\smart_top\hdl\Sdram_ini.vhd":39:12:39:13|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"E:\Actelprj\smart_top\hdl\Sdram_ctl_v2.vhd":56:1:56:2|Trying to extract state machine for register pr_state
+Extracted state machine for register pr_state
+State machine has 12 reachable states with original encodings of:
+   000000000001
+   000000000010
+   000000000100
+   000000001000
+   000000010000
+   000000100000
+   000001000000
+   000010000000
+   000100000000
+   001000000000
+   010000000000
+   100000000000

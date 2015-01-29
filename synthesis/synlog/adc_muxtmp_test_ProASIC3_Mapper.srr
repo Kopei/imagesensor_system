@@ -1,0 +1,231 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N: FP130 |Promoting Net Sysclk_c on CLKBUF  Sysclk_pad 
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Writing Analyst data base E:\Actelprj\smart_top\synthesis\adc_muxtmp_test.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@W: MT420 |Found inferred clock adc_muxtmp_test|Sysclk with period 10.00ns. A user-defined clock should be declared on object "p:Sysclk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Sun Feb 23 10:13:21 2014
+#
+
+
+Top view:               adc_muxtmp_test
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 5.841
+
+                           Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock             Frequency     Frequency     Period        Period        Slack     Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------
+adc_muxtmp_test|Sysclk     100.0 MHz     240.5 MHz     10.000        4.159         5.841     inferred     Inferred_clkgroup_0
+=============================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------
+Starting                Ending                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------
+adc_muxtmp_test|Sysclk  adc_muxtmp_test|Sysclk  |  10.000      5.841  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: adc_muxtmp_test|Sysclk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                                       Arrival          
+Instance         Reference                  Type       Pin     Net              Time        Slack
+                 Clock                                                                           
+-------------------------------------------------------------------------------------------------
+ChSel[0]         adc_muxtmp_test|Sysclk     DFN1C0     Q       ChSel[0]         0.550       5.841
+ChSel[1]         adc_muxtmp_test|Sysclk     DFN1C0     Q       ChSel[1]         0.550       6.207
+data_test[0]     adc_muxtmp_test|Sysclk     DFN1C0     Q       data_test[0]     0.550       6.599
+data_test[1]     adc_muxtmp_test|Sysclk     DFN1C0     Q       data_test[1]     0.550       7.840
+=================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                  Starting                                                                                      Required          
+Instance          Reference                  Type         Pin     Net                                           Time         Slack
+                  Clock                                                                                                           
+----------------------------------------------------------------------------------------------------------------------------------
+data_test[1]      adc_muxtmp_test|Sysclk     DFN1C0       D       data_test_2[1]                                9.598        5.841
+data_test[0]      adc_muxtmp_test|Sysclk     DFN1C0       D       data_test_2.DWACT_ADD_CI_0_partial_sum[0]     9.598        6.467
+DataOut_1[0]      adc_muxtmp_test|Sysclk     DFN1E1C0     E       dataout28                                     9.676        6.875
+DataOut_1[1]      adc_muxtmp_test|Sysclk     DFN1E1C0     E       dataout28                                     9.676        6.875
+DataOut_1[14]     adc_muxtmp_test|Sysclk     DFN1E0C0     E       dataout28                                     9.676        6.875
+DataOut_1[15]     adc_muxtmp_test|Sysclk     DFN1E0C0     E       dataout28                                     9.676        6.875
+ChSel[1]          adc_muxtmp_test|Sysclk     DFN1C0       D       ChSel_3[1]                                    9.572        7.442
+ChSel[0]          adc_muxtmp_test|Sysclk     DFN1C0       D       ChSel_3[0]                                    9.598        7.620
+DataOut_1[14]     adc_muxtmp_test|Sysclk     DFN1E0C0     D       data_test[0]                                  9.572        8.137
+DataOut_1[0]      adc_muxtmp_test|Sysclk     DFN1E1C0     D       data_test[0]                                  9.624        8.189
+==================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      3.756
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     5.841
+
+    Number of logic level(s):                3
+    Starting point:                          ChSel[0] / Q
+    Ending point:                            data_test[1] / D
+    The start point is clocked by            adc_muxtmp_test|Sysclk [rising] on pin CLK
+    The end   point is clocked by            adc_muxtmp_test|Sysclk [rising] on pin CLK
+
+Instance / Net                                   Pin      Pin               Arrival     No. of    
+Name                                  Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------
+ChSel[0]                              DFN1C0     Q        Out     0.550     0.550       -         
+ChSel[0]                              Net        -        -       0.884     -           4         
+ChSel_RNIBBA1[1]                      OR2B       B        In      -         1.434       -         
+ChSel_RNIBBA1[1]                      OR2B       Y        Out     0.469     1.903       -         
+dataout31                             Net        -        -       0.288     -           2         
+data_test_2.I_1                       AND2       B        In      -         2.191       -         
+data_test_2.I_1                       AND2       Y        Out     0.386     2.576       -         
+data_test_2.DWACT_ADD_CI_0_TMP[0]     Net        -        -       0.240     -           1         
+data_test_2.I_10                      XOR2       B        In      -         2.817       -         
+data_test_2.I_10                      XOR2       Y        Out     0.700     3.516       -         
+data_test_2[1]                        Net        -        -       0.240     -           1         
+data_test[1]                          DFN1C0     D        In      -         3.756       -         
+==================================================================================================
+Total path delay (propagation time + setup) of 4.159 is 2.506(60.3%) logic and 1.652(39.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA144_-2
+Report for cell adc_muxtmp_test.behavioral
+  Core Cell usage:
+              cell count     area count*area
+              AND2     1      1.0        1.0
+               GND     1      0.0        0.0
+              NOR2     1      1.0        1.0
+             NOR2A     1      1.0        1.0
+              OR2B     1      1.0        1.0
+               VCC     1      0.0        0.0
+               XA1     1      1.0        1.0
+              XOR2     2      1.0        2.0
+
+
+            DFN1C0     4      1.0        4.0
+          DFN1E0C0     2      1.0        2.0
+          DFN1E1C0     2      1.0        2.0
+                   -----          ----------
+             TOTAL    17                15.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     2
+            OUTBUF    56
+                   -----
+             TOTAL    59
+
+
+Core Cells         : 15 of 24576 (0%)
+IO Cells           : 59
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Feb 23 10:13:21 2014
+
+###########################################################]

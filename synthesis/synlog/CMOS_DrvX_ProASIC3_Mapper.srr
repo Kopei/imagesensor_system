@@ -1,0 +1,651 @@
+Synopsys Actel Technology Mapper, Version mapact, Build 023R, Built Sep 29 2010 09:29:00
+Copyright (C) 1994-2010, Synopsys Inc.  All Rights Reserved
+Product Version E-2010.09A-1
+@N: MF249 |Running in 32-bit mode.
+@N: MF258 |Gated clock conversion disabled 
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+Finished RTL optimizations (Time elapsed 0h:00m:00s; Memory used current: 54MB peak: 55MB)
+
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\cmos_ctl.vhd":177:2:177:3|Found counter in view:work.CMOS_Ctl(behavioral) inst ACCcnt[5:0]
+@N: MO106 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\cmos_ctl.vhd":57:3:57:6|Found ROM, 'InitTime_23[17:4]', 22 words by 14 bits 
+Encoding state machine work.CMOS_Ctl(behavioral)-PrState[0:8]
+original code -> new code
+   0000 -> 000000001
+   0001 -> 000000010
+   0010 -> 000000100
+   0011 -> 000001000
+   0100 -> 000010000
+   0101 -> 000100000
+   0110 -> 001000000
+   0111 -> 010000000
+   1000 -> 100000000
+@W: MO161 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\cmos_ctl.vhd":51:1:51:2|Register bit InitTime[1] is always 0, optimizing ...
+@W: MO161 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\cmos_ctl.vhd":51:1:51:2|Register bit InitTime[0] is always 0, optimizing ...
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\y_x_addressing.vhd":195:2:195:3|Found counter in view:work.Y_X_Addressing(behavioral) inst RowCnt[10:0]
+Encoding state machine work.Y_X_Addressing(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ7(behavioral) inst Phase1Cnt[3:0]
+Encoding state machine work.WaveGenSingleZ7(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine work.WaveGenSingleZ6(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine work.WaveGenSingleZ5(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+Encoding state machine work.WaveGenSingleZ4(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ3(behavioral) inst Phase1Cnt[4:0]
+Encoding state machine work.WaveGenSingleZ3(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ2(behavioral) inst DelayCnt[4:0]
+Encoding state machine work.WaveGenSingleZ2(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensinglewithcycnumsel.vhd":126:2:126:3|Found counter in view:work.WaveGenSinglewithCycNumSel(behavioral) inst CycCnt[9:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensinglewithcycnumsel.vhd":126:2:126:3|Found counter in view:work.WaveGenSinglewithCycNumSel(behavioral) inst DelayCnt[4:0]
+Encoding state machine work.WaveGenSinglewithCycNumSel(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst DelayCnt[4:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ1(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ1(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst DelayCnt[4:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Found counter in view:work.WaveGenSingleZ0(behavioral) inst Phase1Cnt[11:0]
+Encoding state machine work.WaveGenSingleZ0(behavioral)-PrState[0:4]
+original code -> new code
+   000 -> 00001
+   001 -> 00010
+   010 -> 00100
+   011 -> 01000
+   100 -> 10000
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\spi_set.vhd":110:2:110:3|Found counter in view:work.SPI_Set(behavioral) inst NumCnt[5:0]
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\spi_set.vhd":110:2:110:3|Found counter in view:work.SPI_Set(behavioral) inst DivCnt[6:0]
+Encoding state machine work.SPI_Set(behavioral)-PrState[0:2]
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N:"e:\actelprj\backup\smart_top20140227_1058_1\hdl\pixelarraytiming.vhd":66:2:66:3|Found counter in view:work.PixelArrayTiming(behavioral) inst DivCnt[6:0]
+Finished factoring (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 57MB)
+
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.ADC_RdENGen.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.ADC_Clock_EN.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_X.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_X.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Sh_co.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Sh_co.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Pre_co.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Pre_co.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_NoRowSel.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_NoRowSel.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Clock_Y.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Clock_Y.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":113:3:113:16|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_Y.PrState[0] of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@N: BN116 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":123:2:123:3|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_Y.WaveRdy of view:PrimLib.dffr(prim) because there are no references to its outputs 
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_Y.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.PrState[4]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.ADC_Clock_EN.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Sync_X.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Sh_co.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Pre_co.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_NoRowSel.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensingle.vhd":89:3:89:18|Removing sequential instance Module_Y_X_Addressing.Wave_Clock_Y.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+Finished gated-clock and generated-clock conversion (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 57MB)
+
+Finished generic timing optimizations - Pass 1 (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 57MB)
+
+Starting Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Finished Early Timing Optimization (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+@W: BN132 :"e:\actelprj\backup\smart_top20140227_1058_1\hdl\wavegensinglewithcycnumsel.vhd":91:3:91:18|Removing sequential instance Module_Y_X_Addressing.Wave_Clock_X.PrState[4],  because it is equivalent to instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4]
+Finished generic timing optimizations - Pass 2 (Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Finished preparing to map (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 59MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                           Fanout, notes                   
+-------------------------------------------------------------------------------------
+Module_CMOS_Ctl.SPI_En / Q                           40                              
+Module_PixelArrayTiming.ClkEn / Q                    56                              
+Module_PixelArrayTiming.un1_initcnt14_0_i_o2 / Y     35                              
+Module_SPI_Set.un19_clken_0 / Y                      33                              
+Module_Y_X_Addressing.RowReadOutEn / Q               36                              
+Module_Y_X_Addressing.ADC_RdENGen.PrState[4] / Q     29                              
+SysRst_n_pad / Y                                     306 : 306 asynchronous set/reset
+Module_CMOS_Ctl.ParaUpdt / Q                         49                              
+=====================================================================================
+
+@N: FP130 |Promoting Net SysRst_n_c on CLKBUF  SysRst_n_pad 
+@N: FP130 |Promoting Net SysClk_c on CLKBUF  SysClk_pad 
+@N: FP130 |Promoting Net Module_PixelArrayTiming.ClkEn on CLKINT  I_164 
+Replicating Sequential Instance Module_CMOS_Ctl.ParaUpdt, fanout 49 segments 3
+Replicating Sequential Instance Module_Y_X_Addressing.ADC_RdENGen.PrState[4], fanout 29 segments 2
+Replicating Sequential Instance Module_Y_X_Addressing.RowReadOutEn, fanout 36 segments 2
+Replicating Combinational Instance Module_SPI_Set.un19_clken_0, fanout 33 segments 2
+Replicating Combinational Instance Module_PixelArrayTiming.un1_initcnt14_0_i_o2, fanout 35 segments 2
+Replicating Sequential Instance Module_CMOS_Ctl.SPI_En, fanout 41 segments 2
+Finished technology mapping (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 60MB)
+
+Finished technology timing optimizations and critical path resynthesis (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 60MB)
+
+
+Added 0 Buffers
+Added 7 Cells via replication
+	Added 5 Sequential Cells via replication
+	Added 2 Combinational Cells via replication
+Finished restoring hierarchy (Time elapsed 0h:00m:00s; Memory used current: 59MB peak: 60MB)
+
+Writing Analyst data base E:\Actelprj\backup\smart_top20140227_1058_1\synthesis\CMOS_DrvX.srm
+Finished Writing Netlist Databases (Time elapsed 0h:00m:01s; Memory used current: 58MB peak: 60MB)
+
+Writing EDIF Netlist and constraint files
+E-2010.09A-1
+Finished Writing EDIF Netlist and constraint files (Time elapsed 0h:00m:01s; Memory used current: 59MB peak: 60MB)
+
+@W: MT420 |Found inferred clock CMOS_DrvX|SysClk with period 10.00ns. A user-defined clock should be declared on object "p:SysClk"
+
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu May 08 16:29:40 2014
+#
+
+
+Top view:               CMOS_DrvX
+Library name:           PA3
+Operating conditions:   COMWC-2 ( T = 70.0, V = 1.42, P = 1.30, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        proasic3
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report estimates place and route data. Please look at the place and route timing report for final timing..
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock..
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -0.065
+
+                     Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack      Type         Group              
+------------------------------------------------------------------------------------------------------------------------
+CMOS_DrvX|SysClk     100.0 MHz     99.4 MHz      10.000        10.065        -0.065     inferred     Inferred_clkgroup_0
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------------------------
+CMOS_DrvX|SysClk  CMOS_DrvX|SysClk  |  10.000      -0.065  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+		No IO constraint found 
+
+
+
+====================================
+Detailed Report for Clock: CMOS_DrvX|SysClk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                        Starting                                                Arrival           
+Instance                                Reference            Type       Pin     Net             Time        Slack 
+                                        Clock                                                                     
+------------------------------------------------------------------------------------------------------------------
+Module_PixelArrayTiming.InitCnt[16]     CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[16]     0.550       -0.065
+Module_PixelArrayTiming.InitCnt[9]      CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[9]      0.550       0.044 
+Module_PixelArrayTiming.InitCnt[5]      CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[5]      0.550       0.059 
+Module_PixelArrayTiming.ClkEn           CMOS_DrvX|SysClk     DFN1C0     Q       ClkEn_0         0.550       0.093 
+Module_PixelArrayTiming.InitCnt[13]     CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[13]     0.550       0.118 
+Module_PixelArrayTiming.InitCnt[8]      CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[8]      0.550       0.147 
+Module_PixelArrayTiming.InitCnt[12]     CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[12]     0.550       0.222 
+Module_PixelArrayTiming.InitCnt[2]      CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[2]      0.550       0.415 
+Module_PixelArrayTiming.InitCnt[4]      CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[4]      0.434       0.511 
+Module_PixelArrayTiming.InitCnt[17]     CMOS_DrvX|SysClk     DFN1C0     Q       InitCnt[17]     0.550       0.558 
+==================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                        Starting                                                    Required           
+Instance                                Reference            Type       Pin     Net                 Time         Slack 
+                                        Clock                                                                          
+-----------------------------------------------------------------------------------------------------------------------
+Module_PixelArrayTiming.InitCnt[15]     CMOS_DrvX|SysClk     DFN1C0     D       N_61_0              9.598        -0.065
+Module_PixelArrayTiming.InitCnt[14]     CMOS_DrvX|SysClk     DFN1C0     D       InitCnt_RNO[14]     9.572        0.093 
+Module_PixelArrayTiming.InitCnt[4]      CMOS_DrvX|SysClk     DFN1C0     D       N_20                9.598        0.628 
+Module_PixelArrayTiming.InitCnt[5]      CMOS_DrvX|SysClk     DFN1C0     D       N_22                9.598        0.628 
+Module_PixelArrayTiming.InitCnt[6]      CMOS_DrvX|SysClk     DFN1C0     D       InitCnt_RNO[6]      9.598        0.628 
+Module_PixelArrayTiming.InitCnt[2]      CMOS_DrvX|SysClk     DFN1C0     D       N_16                9.572        0.651 
+Module_PixelArrayTiming.InitCnt[3]      CMOS_DrvX|SysClk     DFN1C0     D       N_18                9.572        0.651 
+Module_PixelArrayTiming.InitCnt[7]      CMOS_DrvX|SysClk     DFN1C0     D       InitCnt_RNO[7]      9.598        0.695 
+Module_PixelArrayTiming.InitCnt[8]      CMOS_DrvX|SysClk     DFN1C0     D       InitCnt_RNO[8]      9.598        0.695 
+Module_PixelArrayTiming.InitCnt[17]     CMOS_DrvX|SysClk     DFN1C0     D       N_65                9.598        0.697 
+=======================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      9.663
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -0.065
+
+    Number of logic level(s):                8
+    Starting point:                          Module_PixelArrayTiming.InitCnt[16] / Q
+    Ending point:                            Module_PixelArrayTiming.InitCnt[15] / D
+    The start point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+    The end   point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Module_PixelArrayTiming.InitCnt[16]             DFN1C0     Q        Out     0.550     0.550       -         
+InitCnt[16]                                     Net        -        -       0.884     -           4         
+Module_PixelArrayTiming.InitCnt_RNI1IOE[17]     NOR3       C        In      -         1.434       -         
+Module_PixelArrayTiming.InitCnt_RNI1IOE[17]     NOR3       Y        Out     0.561     1.995       -         
+un27_clken_0_a2_1_6                             Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNIUPRR[14]     NOR3A      A        In      -         2.235       -         
+Module_PixelArrayTiming.InitCnt_RNIUPRR[14]     NOR3A      Y        Out     0.496     2.731       -         
+un27_clken_0_a2_1_9                             Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNIMPOS1[7]     OR3C       C        In      -         2.971       -         
+Module_PixelArrayTiming.InitCnt_RNIMPOS1[7]     OR3C       Y        Out     0.497     3.468       -         
+InitCnt_RNIMPOS1[7]                             Net        -        -       1.063     -           6         
+Module_PixelArrayTiming.InitCnt_RNIA3P72[0]     OR3A       B        In      -         4.531       -         
+Module_PixelArrayTiming.InitCnt_RNIA3P72[0]     OR3A       Y        Out     0.533     5.064       -         
+N_93                                            Net        -        -       0.288     -           2         
+Module_PixelArrayTiming.InitCnt_RNIC8U82[0]     OR2B       B        In      -         5.353       -         
+Module_PixelArrayTiming.InitCnt_RNIC8U82[0]     OR2B       Y        Out     0.469     5.821       -         
+N_68_0                                          Net        -        -       1.724     -           19        
+Module_PixelArrayTiming.InitCnt_RNO_5[15]       NOR2       B        In      -         7.545       -         
+Module_PixelArrayTiming.InitCnt_RNO_5[15]       NOR2       Y        Out     0.384     7.929       -         
+G_13_0_a5_0_0                                   Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO_2[15]       NOR3B      B        In      -         8.169       -         
+Module_PixelArrayTiming.InitCnt_RNO_2[15]       NOR3B      Y        Out     0.453     8.622       -         
+N_72                                            Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO[15]         NOR3       C        In      -         8.862       -         
+Module_PixelArrayTiming.InitCnt_RNO[15]         NOR3       Y        Out     0.561     9.423       -         
+N_61_0                                          Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt[15]             DFN1C0     D        In      -         9.663       -         
+============================================================================================================
+Total path delay (propagation time + setup) of 10.065 is 4.906(48.7%) logic and 5.159(51.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      9.554
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.044
+
+    Number of logic level(s):                8
+    Starting point:                          Module_PixelArrayTiming.InitCnt[9] / Q
+    Ending point:                            Module_PixelArrayTiming.InitCnt[15] / D
+    The start point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+    The end   point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Module_PixelArrayTiming.InitCnt[9]              DFN1C0     Q        Out     0.550     0.550       -         
+InitCnt[9]                                      Net        -        -       0.884     -           4         
+Module_PixelArrayTiming.InitCnt_RNI7GB3[8]      NOR2       B        In      -         1.434       -         
+Module_PixelArrayTiming.InitCnt_RNI7GB3[8]      NOR2       Y        Out     0.483     1.917       -         
+un27_clken_0_a2_1_2                             Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNIAGM6[7]      NOR3A      A        In      -         2.157       -         
+Module_PixelArrayTiming.InitCnt_RNIAGM6[7]      NOR3A      Y        Out     0.496     2.653       -         
+un27_clken_0_a2_1_7                             Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNIMPOS1[7]     OR3C       B        In      -         2.893       -         
+Module_PixelArrayTiming.InitCnt_RNIMPOS1[7]     OR3C       Y        Out     0.466     3.359       -         
+InitCnt_RNIMPOS1[7]                             Net        -        -       1.063     -           6         
+Module_PixelArrayTiming.InitCnt_RNIA3P72[0]     OR3A       B        In      -         4.422       -         
+Module_PixelArrayTiming.InitCnt_RNIA3P72[0]     OR3A       Y        Out     0.533     4.955       -         
+N_93                                            Net        -        -       0.288     -           2         
+Module_PixelArrayTiming.InitCnt_RNIC8U82[0]     OR2B       B        In      -         5.244       -         
+Module_PixelArrayTiming.InitCnt_RNIC8U82[0]     OR2B       Y        Out     0.469     5.712       -         
+N_68_0                                          Net        -        -       1.724     -           19        
+Module_PixelArrayTiming.InitCnt_RNO_5[15]       NOR2       B        In      -         7.436       -         
+Module_PixelArrayTiming.InitCnt_RNO_5[15]       NOR2       Y        Out     0.384     7.820       -         
+G_13_0_a5_0_0                                   Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO_2[15]       NOR3B      B        In      -         8.060       -         
+Module_PixelArrayTiming.InitCnt_RNO_2[15]       NOR3B      Y        Out     0.453     8.513       -         
+N_72                                            Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO[15]         NOR3       C        In      -         8.753       -         
+Module_PixelArrayTiming.InitCnt_RNO[15]         NOR3       Y        Out     0.561     9.314       -         
+N_61_0                                          Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt[15]             DFN1C0     D        In      -         9.554       -         
+============================================================================================================
+Total path delay (propagation time + setup) of 9.956 is 4.797(48.2%) logic and 5.159(51.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.572
+
+    - Propagation time:                      9.514
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.058
+
+    Number of logic level(s):                8
+    Starting point:                          Module_PixelArrayTiming.InitCnt[16] / Q
+    Ending point:                            Module_PixelArrayTiming.InitCnt[15] / D
+    The start point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+    The end   point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Module_PixelArrayTiming.InitCnt[16]             DFN1C0     Q        Out     0.550     0.550       -         
+InitCnt[16]                                     Net        -        -       0.884     -           4         
+Module_PixelArrayTiming.InitCnt_RNI1IOE[17]     NOR3       C        In      -         1.434       -         
+Module_PixelArrayTiming.InitCnt_RNI1IOE[17]     NOR3       Y        Out     0.561     1.995       -         
+un27_clken_0_a2_1_6                             Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNIUPRR[14]     NOR3A      A        In      -         2.235       -         
+Module_PixelArrayTiming.InitCnt_RNIUPRR[14]     NOR3A      Y        Out     0.496     2.731       -         
+un27_clken_0_a2_1_9                             Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNIMPOS1[7]     OR3C       C        In      -         2.971       -         
+Module_PixelArrayTiming.InitCnt_RNIMPOS1[7]     OR3C       Y        Out     0.497     3.468       -         
+InitCnt_RNIMPOS1[7]                             Net        -        -       1.063     -           6         
+Module_PixelArrayTiming.InitCnt_RNIA3P72[0]     OR3A       B        In      -         4.531       -         
+Module_PixelArrayTiming.InitCnt_RNIA3P72[0]     OR3A       Y        Out     0.533     5.064       -         
+N_93                                            Net        -        -       0.288     -           2         
+Module_PixelArrayTiming.InitCnt_RNIC8U82[0]     OR2B       B        In      -         5.353       -         
+Module_PixelArrayTiming.InitCnt_RNIC8U82[0]     OR2B       Y        Out     0.469     5.821       -         
+N_68_0                                          Net        -        -       1.724     -           19        
+Module_PixelArrayTiming.InitCnt_RNO_4[15]       NOR2A      A        In      -         7.545       -         
+Module_PixelArrayTiming.InitCnt_RNO_4[15]       NOR2A      Y        Out     0.386     7.930       -         
+N_121                                           Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO_1[15]       OR2        B        In      -         8.171       -         
+Module_PixelArrayTiming.InitCnt_RNO_1[15]       OR2        Y        Out     0.384     8.555       -         
+G_13_0_0                                        Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO[15]         NOR3       B        In      -         8.795       -         
+Module_PixelArrayTiming.InitCnt_RNO[15]         NOR3       Y        Out     0.479     9.274       -         
+N_61_0                                          Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt[15]             DFN1C0     D        In      -         9.514       -         
+============================================================================================================
+Total path delay (propagation time + setup) of 9.942 is 4.783(48.1%) logic and 5.159(51.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.402
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.598
+
+    - Propagation time:                      9.539
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.059
+
+    Number of logic level(s):                8
+    Starting point:                          Module_PixelArrayTiming.InitCnt[5] / Q
+    Ending point:                            Module_PixelArrayTiming.InitCnt[15] / D
+    The start point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+    The end   point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+
+Instance / Net                                             Pin      Pin               Arrival     No. of    
+Name                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------
+Module_PixelArrayTiming.InitCnt[5]              DFN1C0     Q        Out     0.550     0.550       -         
+InitCnt[5]                                      Net        -        -       0.955     -           5         
+Module_PixelArrayTiming.InitCnt_RNI1IOE[17]     NOR3       A        In      -         1.506       -         
+Module_PixelArrayTiming.InitCnt_RNI1IOE[17]     NOR3       Y        Out     0.365     1.870       -         
+un27_clken_0_a2_1_6                             Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNIUPRR[14]     NOR3A      A        In      -         2.110       -         
+Module_PixelArrayTiming.InitCnt_RNIUPRR[14]     NOR3A      Y        Out     0.496     2.606       -         
+un27_clken_0_a2_1_9                             Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNIMPOS1[7]     OR3C       C        In      -         2.846       -         
+Module_PixelArrayTiming.InitCnt_RNIMPOS1[7]     OR3C       Y        Out     0.497     3.343       -         
+InitCnt_RNIMPOS1[7]                             Net        -        -       1.063     -           6         
+Module_PixelArrayTiming.InitCnt_RNIA3P72[0]     OR3A       B        In      -         4.407       -         
+Module_PixelArrayTiming.InitCnt_RNIA3P72[0]     OR3A       Y        Out     0.533     4.940       -         
+N_93                                            Net        -        -       0.288     -           2         
+Module_PixelArrayTiming.InitCnt_RNIC8U82[0]     OR2B       B        In      -         5.228       -         
+Module_PixelArrayTiming.InitCnt_RNIC8U82[0]     OR2B       Y        Out     0.469     5.697       -         
+N_68_0                                          Net        -        -       1.724     -           19        
+Module_PixelArrayTiming.InitCnt_RNO_5[15]       NOR2       B        In      -         7.420       -         
+Module_PixelArrayTiming.InitCnt_RNO_5[15]       NOR2       Y        Out     0.384     7.805       -         
+G_13_0_a5_0_0                                   Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO_2[15]       NOR3B      B        In      -         8.045       -         
+Module_PixelArrayTiming.InitCnt_RNO_2[15]       NOR3B      Y        Out     0.453     8.498       -         
+N_72                                            Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO[15]         NOR3       C        In      -         8.738       -         
+Module_PixelArrayTiming.InitCnt_RNO[15]         NOR3       Y        Out     0.561     9.298       -         
+N_61_0                                          Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt[15]             DFN1C0     D        In      -         9.539       -         
+============================================================================================================
+Total path delay (propagation time + setup) of 9.941 is 4.710(47.4%) logic and 5.231(52.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.428
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.572
+
+    - Propagation time:                      9.479
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 0.093
+
+    Number of logic level(s):                9
+    Starting point:                          Module_PixelArrayTiming.ClkEn / Q
+    Ending point:                            Module_PixelArrayTiming.InitCnt[14] / D
+    The start point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+    The end   point is clocked by            CMOS_DrvX|SysClk [rising] on pin CLK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                          Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+Module_PixelArrayTiming.ClkEn                 DFN1C0     Q        Out     0.550     0.550       -         
+ClkEn_0                                       Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.ClkEn_RNI3KN2         CLKINT     A        In      -         0.790       -         
+Module_PixelArrayTiming.ClkEn_RNI3KN2         CLKINT     Y        Out     0.130     0.920       -         
+ClkEn                                         Net        -        -       1.195     -           57        
+Module_PixelArrayTiming.un1_InitCnt.I_33      XOR2       B        In      -         2.116       -         
+Module_PixelArrayTiming.un1_InitCnt.I_33      XOR2       Y        Out     0.700     2.815       -         
+DWACT_ADD_CI_0_pog_array_0_10[0]              Net        -        -       0.288     -           2         
+Module_PixelArrayTiming.un1_InitCnt.I_109     AND2       B        In      -         3.103       -         
+Module_PixelArrayTiming.un1_InitCnt.I_109     AND2       Y        Out     0.386     3.489       -         
+DWACT_ADD_CI_0_pog_array_1_4[0]               Net        -        -       0.288     -           2         
+Module_PixelArrayTiming.un1_InitCnt.I_113     AND2       B        In      -         3.777       -         
+Module_PixelArrayTiming.un1_InitCnt.I_113     AND2       Y        Out     0.386     4.163       -         
+DWACT_ADD_CI_0_pog_array_2_1[0]               Net        -        -       0.288     -           2         
+Module_PixelArrayTiming.ClkEn_RNIVRDB1        OR3C       C        In      -         4.451       -         
+Module_PixelArrayTiming.ClkEn_RNIVRDB1        OR3C       Y        Out     0.497     4.948       -         
+N_40                                          Net        -        -       0.884     -           4         
+Module_PixelArrayTiming.ClkEn_RNI6QMP3        AO1C       B        In      -         5.832       -         
+Module_PixelArrayTiming.ClkEn_RNI6QMP3        AO1C       Y        Out     0.445     6.277       -         
+N_46                                          Net        -        -       0.602     -           3         
+Module_PixelArrayTiming.InitCnt_RNO_2[14]     OA1A       A        In      -         6.879       -         
+Module_PixelArrayTiming.InitCnt_RNO_2[14]     OA1A       Y        Out     0.697     7.576       -         
+G_8_0_a5_0                                    Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO_1[14]     OA1B       A        In      -         7.816       -         
+Module_PixelArrayTiming.InitCnt_RNO_1[14]     OA1B       Y        Out     0.672     8.489       -         
+G_8_0_1                                       Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt_RNO[14]       NOR3       C        In      -         8.729       -         
+Module_PixelArrayTiming.InitCnt_RNO[14]       NOR3       Y        Out     0.510     9.239       -         
+InitCnt_RNO[14]                               Net        -        -       0.240     -           1         
+Module_PixelArrayTiming.InitCnt[14]           DFN1C0     D        In      -         9.479       -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 9.907 is 5.401(54.5%) logic and 4.507(45.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+--------------------------------------------------------------------------------
+Target Part: M1A3P1000_FBGA484_-2
+Report for cell CMOS_DrvX.behavioral
+  Core Cell usage:
+              cell count     area count*area
+              AND2    18      1.0       18.0
+               AO1    23      1.0       23.0
+              AO16     1      1.0        1.0
+              AO1A    10      1.0       10.0
+              AO1B    11      1.0       11.0
+              AO1C    15      1.0       15.0
+              AO1D     3      1.0        3.0
+              AOI1    17      1.0       17.0
+             AOI1B     5      1.0        5.0
+              AOI5     1      1.0        1.0
+               AX1     1      1.0        1.0
+              AX1C     1      1.0        1.0
+              AX1E     5      1.0        5.0
+            CLKDLY     2      0.0        0.0
+            CLKINT     1      0.0        0.0
+               GND    16      0.0        0.0
+               INV     4      1.0        4.0
+               MX2    31      1.0       31.0
+             NAND2     1      1.0        1.0
+              NOR2    34      1.0       34.0
+             NOR2A    72      1.0       72.0
+             NOR2B    60      1.0       60.0
+              NOR3    32      1.0       32.0
+             NOR3A    27      1.0       27.0
+             NOR3B    13      1.0       13.0
+             NOR3C    25      1.0       25.0
+               OA1    18      1.0       18.0
+              OA1A     8      1.0        8.0
+              OA1B     3      1.0        3.0
+              OA1C     6      1.0        6.0
+              OAI1     7      1.0        7.0
+               OR2    23      1.0       23.0
+              OR2A    24      1.0       24.0
+              OR2B    27      1.0       27.0
+               OR3     4      1.0        4.0
+              OR3A     3      1.0        3.0
+              OR3B     9      1.0        9.0
+              OR3C    18      1.0       18.0
+               VCC    16      0.0        0.0
+               XA1    32      1.0       32.0
+              XA1A    12      1.0       12.0
+              XA1B    20      1.0       20.0
+              XA1C    11      1.0       11.0
+              XAI1     2      1.0        2.0
+             XAI1A     1      1.0        1.0
+             XNOR2     5      1.0        5.0
+              XO1A     1      1.0        1.0
+              XOR2    39      1.0       39.0
+
+
+            DFN1C0   177      1.0      177.0
+          DFN1E0C0     7      1.0        7.0
+          DFN1E0P0     2      1.0        2.0
+          DFN1E1C0   102      1.0      102.0
+          DFN1E1P0    11      1.0       11.0
+            DFN1P0    12      1.0       12.0
+                   -----          ----------
+             TOTAL  1029               994.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     2
+             INBUF    47
+            OUTBUF    23
+                   -----
+             TOTAL    72
+
+
+Core Cells         : 994 of 24576 (4%)
+IO Cells           : 72
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 32 (0%)
+
+Mapper successful!
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May 08 16:29:40 2014
+
+###########################################################]
